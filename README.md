@@ -1,37 +1,37 @@
-# The Hell Library
+# Beyond the Fire
 
-An interactive reader for two books by Eitan Bar:
+A visual, interactive guide to what the Bible says about hell. It is built from two books in this repository:
 
 - *Hell: A Jewish Perspective on a Christian Doctrine* (2024)
 - *Hellfire Deconstructed* (2nd edition, 2026)
 
 ## Open it
 
-`index.html` is a single self-contained file holding the full text of both books. It works on phones, tablets and computers in any modern browser.
+`index.html` is one self-contained file that runs in any modern browser on phones, tablets and computers.
 
-- **Download:** <https://github.com/ebenezar15/Hell/raw/main/index.html> then open the file in a browser.
-- **Host it:** turn on GitHub Pages (Settings → Pages → deploy from `main`, root) and share the resulting link.
+- **Download:** <https://github.com/ebenezar15/Hell/raw/main/index.html>, then open the file.
+- **Host it:** turn on GitHub Pages (Settings → Pages → deploy from `main`, root folder) and share the link.
 
-## Features
+## What's inside
 
-- Full text of both books, chapter by chapter, with original PDF page numbers
-- Endnotes open in place when you tap the small numbers
-- Search across both books, with exact-phrase search
-- Theme map showing where Sheol, Hades, Gehenna, Tartarus and other ideas appear
-- Scripture index of every Bible reference the books cite
-- Highlights, bookmarks and reading progress (saved in your browser)
-- Read-aloud using the device's voice
-- Nine colour schemes, adjustable text size and line spacing
-- Typeset in Avenir Next (Nunito Sans is used on devices without Avenir Next)
+- A 7-stage journey of 52 topics: The Words, How We Got Here, The Theology Behind Hellfire, The Verses One by One, God's Character on Trial, and An Alternative View.
+- Each topic gives:
+  - a 30-second answer and key-idea cards
+  - diagrams: flowcharts, timelines, comparisons, trees, cycles, balance scales, spectrums and annotated verses
+  - a step-by-step walk through every part of the chapter
+  - myth-or-fact flip cards, key terms, quotes and key verses
+  - a 3-question quiz and a reflection prompt
+- Interactive illustrations: the four words translated "hell", maps of Jerusalem's Valley of Hinnom, the early theological schools and the Dead Sea, the refiner's fire, Sheol, the sheep and goats, Lazarus, and the narrow gate.
+- The full original text of every chapter is included in each topic, with page numbers and endnotes, so nothing is lost.
+- Other tools:
+  - **Challenge:** quiz rounds
+  - **Glossary**
+  - **Verse explorer:** every Bible reference, linked to the topics that discuss it
+  - **Search:** across the topics and the full text
+- Points and badges, read-aloud, nine colour schemes and adjustable text, set in Avenir Next.
 
 ## How it was made
 
-The PDFs are scanned images, so the text was produced with OCR (Tesseract). The scripts in `tools/` rebuild `index.html`:
+`tools/` holds the pipeline. The scanned PDFs were OCR'd with Tesseract (`hocr2txt.py`, then `extract.py` → `books.json`). Each topic in `tools/v2/topics/` condenses its source chapters following `tools/v2/SPEC.md` and is checked by `validate.py`. `tools/v2/build.py` assembles `index.html`. Icons are from Lucide (ISC licence).
 
-1. Render pages: `pdftoppm -r 150 -gray <pdf> img/<book>/p`
-2. OCR with word boxes: `tesseract <page> hocr/<book>/<page> hocr`
-3. `python3 tools/hocr2txt.py` → page text with endnote superscripts marked
-4. `TXT=txt2 python3 tools/extract.py` → `books.json` (chapters, headings, quotes, endnotes)
-5. `python3 tools/build.py` → `index.html`
-
-OCR can misread a word or an endnote number here and there; the original PDFs remain the authoritative text.
+Summaries condense the books; the original PDFs remain the authoritative text.

@@ -1,0 +1,74 @@
+{
+  "id": "acts",
+  "title": "Hell in the Book of Acts",
+  "hook": "If hell is central to the gospel, why did the apostles never preach it in Acts?",
+  "tldr": "Acts records the gospel preached about 25 times, to Jews and Gentiles, over some thirty years, and hell is never mentioned once. The apostles preached resurrection, fulfilled prophecy, repentance, forgiveness and eternal life. This suggests hellfire was not part of their gospel and developed later.",
+  "big_idea": "The apostles' gospel was hope and resurrection, never the threat of hellfire.",
+  "points": [
+    {"icon": "cross-x", "title": "Zero mentions in Acts", "text": "Acts tells of the Church's founding and its spread across the Roman Empire. If hellfire were central, Acts should be full of it. Hell is never mentioned, not even once.", "verses": []},
+    {"icon": "speech", "title": "About 25 gospel sermons", "text": "Acts records the gospel preached about 25 times, from Peter at Pentecost to Paul in Rome. None uses hellfire as persuasion or mentions it at all.", "verses": ["Acts 2:14-41", "Acts 28:23-31"]},
+    {"icon": "sun", "title": "What they actually preached", "text": "The resurrection of Jesus, fulfilled Old Testament prophecy, repentance from pagan idols, forgiveness of sins and the promise of eternal life, with the transforming power of God's kingdom on earth.", "verses": ["Acts 10:34-43", "Acts 13:38-39"]},
+    {"icon": "hourglass", "title": "Hell developed later", "text": "Eternal torment evolved over centuries. First-century Jews cared about the Law, the Messiah and resurrection, and the apostles answered those concerns. Augustine, Calvin and others later shaped a different gospel.", "verses": []},
+    {"icon": "question", "title": "Then where did hellfire come from?", "text": "If not from Jesus or the apostles, it likely came from human imagination as a tool of fear and control, or worse, as Satan's deception distorting God's love and mercy.", "verses": []}
+  ],
+  "sections": [
+    {"h": "The silence of Acts", "icon": "cross-x", "summary": "If hellfire were real and central to humanity and Jesus' mission, we would expect Peter and Paul to emphasize it. Acts, which details the Church's founding and the spread of its message through the Roman Empire, would logically be full of hell. Surprisingly, hell is never mentioned in Acts, not even once. The apostles evidently did not see it as a critical part of their gospel.", "verses": [], "src": "jew:31"},
+    {"h": "About 25 gospel sermons", "icon": "speech", "summary": "Each Bible book has a distinct message, and Acts focuses on spreading the gospel, recorded about 25 times: Peter at Pentecost, Solomon's Colonnade, twice before the Sanhedrin, and at Cornelius' house; Stephen before the Sanhedrin; Philip in Samaria and with the Ethiopian eunuch; Paul in Damascus, Pisidian Antioch, Iconium, Lystra, Philippi with Lydia and the jailer, Thessalonica, Berea, Athens, Corinth, Ephesus, to Ephesian elders, in Jerusalem, before Felix and Agrippa, and in Rome.", "verses": ["Acts 2:14-41", "Acts 3:11-26", "Acts 4:8-12", "Acts 5:29-32", "Acts 7:1-53", "Acts 8:26-40", "Acts 10:34-43", "Acts 17:22-31", "Acts 26:1-29", "Acts 28:23-31"], "src": "jew:31"},
+    {"h": "To the Jew first, and to Gentiles", "icon": "people", "summary": "Paul, 'the apostle to the Gentiles' (Romans 11:13), believed the gospel was for 'the Jew first' (Romans 1:16), so he first sought the synagogue in every Gentile city (Acts 9:20; 13:5; 13:14; 14:1; 17:1-2; 18:4). In all these occasions with Jews and Gentiles, the apostles never used hellfire to persuade or mentioned it at all.", "verses": ["Romans 11:13", "Romans 1:16", "Acts 9:20", "Acts 13:5", "Acts 17:1-2", "Acts 18:4"], "src": "jew:31"},
+    {"h": "Pentecost, the synagogue and the Areopagus", "icon": "temple", "summary": "Peter's Pentecost sermon in Acts 2 focuses on Jesus' resurrection and fulfilled prophecy. In Acts 17 Paul reasoned in the synagogue with Jews and God-fearing Greeks and daily in the marketplace. His Areopagus speech stresses the nature of God, repentance from pagan idols and the resurrection of the dead, yet never mentions hellfire.", "verses": ["Acts 2:14-41", "Acts 17:22-31"], "src": "jew:31"},
+    {"h": "Walter Balfour's observation", "icon": "scroll", "summary": "Walter Balfour, described as an 18th-century theologian, wrote that if Gehenna means endless misery, the apostles never preached it to Jews or Gentiles. Acts covers thirty years of their preaching, yet hell or Gehenna torments are never mentioned. Commanded to preach to every creature, they threatened no living being with it, never asking even the worst characters how they could escape the damnation of hell. They sometimes threatened punishment, but never eternal punishment.", "verses": [], "src": "jew:31"},
+    {"h": "The real themes of apostolic preaching", "icon": "sun", "summary": "The apostles preached Jesus' resurrection, fulfilled Old Testament prophecy, repentance from pagan idols, forgiveness of sins and eternal life, stressing the personal and social transforming power of the resurrection and God's kingdom on earth. In Acts 10 Peter tells Cornelius, a nonreligious Roman centurion, and his household of Jesus' life, death, resurrection and lordship, and of forgiveness through faith, with no reference to hell.", "verses": ["Acts 10:34-43"], "src": "jew:31"},
+    {"h": "A gospel different from Augustine's and Calvin's", "icon": "hourglass", "summary": "The absence of hellfire suggests the early Christians preached a gospel different from the one later formed by Augustine, Calvin and others, centered on hope and renewal in Christ for individuals and communities. In Acts 13:38-39 Paul preaches justification through Jesus, which the Law of Moses could not give, with no threats of hellfire. Eternal torment evolved over centuries; first-century Jews cared about the Law, the Messiah and resurrection.", "verses": ["Acts 13:38-39"], "src": "jew:31"},
+    {"h": "A different gospel?", "icon": "question", "summary": "If hellfire were central, why did the apostles who founded the Church never mention it in their foundational preaching? The core gospel is life, renewal and God's promises fulfilled in Christ, not fear of eternal torment. If hellfire is not rooted in Jesus or the apostles, it likely came from human imagination to instill fear and control, or worse, as Satan's deception shifting focus from God's love to a fear-driven view of the Creator.", "verses": [], "src": "jew:31"},
+    {"h": "Conclusion", "icon": "check", "summary": "In Acts the apostles never relied on hellfire to persuade. They preached resurrection, forgiveness of sins, repentance from idol worship and the fulfillment of God's promises. Their message was fundamentally different from some modern versions, centered on hope, transformation and God's kingdom rather than fear of eternal torture. This invites a re-examination of what truly lies at the heart of the gospel and of hellfire's validity as a doctrine.", "verses": [], "src": "hfd:21"}
+  ],
+  "visuals": [
+    {"type": "stats", "title": "Acts by the numbers", "caption": "Decades of preaching recorded in Acts, and hell never appears.", "items": [
+      {"value": "~25", "label": "Times the gospel is preached in Acts"},
+      {"value": "30", "label": "Years of apostolic preaching Acts covers"},
+      {"value": "0", "label": "Times hell is mentioned in Acts"}
+    ]},
+    {"type": "timeline", "title": "Gospel sermons across Acts, none with hell", "events": [
+      {"date": "Acts 2", "label": "Peter at Pentecost", "note": "Resurrection and fulfilled prophecy."},
+      {"date": "Acts 7", "label": "Stephen before the Sanhedrin", "note": "A long speech before the Jewish council."},
+      {"date": "Acts 10", "label": "Peter at Cornelius' house", "note": "Jesus as Lord of all, forgiveness through faith, to a Roman centurion."},
+      {"date": "Acts 13", "label": "Paul in Pisidian Antioch", "note": "Justification through Jesus that the Law of Moses could not give."},
+      {"date": "Acts 16", "label": "Paul with the jailer", "note": "Paul and Silas share the gospel with the Philippian jailer."},
+      {"date": "Acts 17", "label": "Paul at the Areopagus", "note": "Nature of God, repentance from idols, resurrection of the dead."},
+      {"date": "Acts 26", "label": "Paul before King Agrippa", "note": "Paul's defense of his message before the king."},
+      {"date": "Acts 28", "label": "Paul in Rome", "note": "The gospel reaches the empire's capital, still without hell."}
+    ]},
+    {"type": "compare", "title": "Apostolic gospel vs later hellfire gospel", "left": {"label": "Preached in Acts", "items": ["Resurrection of Jesus", "Fulfilled Old Testament prophecy", "Repentance from pagan idols", "Forgiveness and eternal life", "Hope, renewal and God's kingdom"]}, "right": {"label": "Later hellfire gospel", "items": ["Eternal torment at the center", "Shaped by Augustine, Calvin and others", "Threats used to persuade", "Escape from damnation as the goal", "A fear-driven view of the Creator"]}}
+  ],
+  "mythfact": [
+    {"myth": "The apostles warned unbelievers about eternal hellfire in their preaching.", "fact": "Hell is never mentioned in Acts, though the gospel is preached about 25 times to Jews and Gentiles."},
+    {"myth": "Fear of hell has always been the heart of the gospel.", "fact": "The apostles preached resurrection, prophecy fulfilled, repentance, forgiveness and eternal life. Eternal torment evolved much later, over centuries."},
+    {"myth": "Peter warned the Roman Cornelius about hell before he believed.", "fact": "Peter preached Jesus' life, death, resurrection and forgiveness of sins through faith, with no reference to hell."}
+  ],
+  "terms": [
+    {"term": "Areopagus", "meaning": "The place in Athens where Paul spoke on God's nature, repentance from idols and the resurrection, without mentioning hellfire."},
+    {"term": "Sanhedrin", "meaning": "The Jewish council before whom Peter, the apostles and Stephen preached."},
+    {"term": "Gehenna", "meaning": "The word Balfour notes the apostles never preached as a place of endless misery."},
+    {"term": "Apostle to the Gentiles", "meaning": "Paul's title (Romans 11:13), though he preached to the Jew first, starting in synagogues."}
+  ],
+  "quotes": [
+    {"text": "Surprisingly, hell is never mentioned in Acts—not even once.", "who": "The book"},
+    {"text": "They addressed the worst of characters, but to none of them did they ever say, \"How can ye escape the damnation of hell?\"", "who": "Walter Balfour"},
+    {"text": "the core message of the gospel is not centered around the fear of eternal torment but rather on the promise of life, renewal, and the fulfillment of God's promises through Christ.", "who": "The book"}
+  ],
+  "verses": [
+    {"ref": "Acts 2:14-41", "role": "Peter at Pentecost: resurrection and fulfilled prophecy, no hell."},
+    {"ref": "Acts 10:34-43", "role": "Peter to Cornelius: Jesus Lord of all, forgiveness through faith, no hell."},
+    {"ref": "Acts 13:38-39", "role": "Justification through Jesus versus the Law of Moses, with no threats."},
+    {"ref": "Acts 17:22-31", "role": "Areopagus speech: God's nature, repentance, resurrection, no hellfire."},
+    {"ref": "Romans 1:16", "role": "The gospel goes to the Jew first."},
+    {"ref": "Romans 11:13", "role": "Paul as the apostle to the Gentiles."},
+    {"ref": "Acts 28:23-31", "role": "The final recorded sermon, in Rome."}
+  ],
+  "quiz": [
+    {"q": "How many times is hell mentioned in the Book of Acts?", "options": ["Twenty-five", "Seven", "Not once"], "answer": 2, "why": "Despite about 25 gospel presentations, hell is never mentioned in Acts."},
+    {"q": "What did Peter preach to Cornelius?", "options": ["Escape from hell", "Jesus' life, death, resurrection and forgiveness through faith", "Obedience to the Law of Moses"], "answer": 1, "why": "In Acts 10 Peter preached Jesus as Lord of all and forgiveness of sins, without reference to hell."},
+    {"q": "Where did Paul usually start preaching in a new city?", "options": ["The marketplace", "The local synagogue", "The Roman forum"], "answer": 1, "why": "Believing the gospel was for the Jew first, he first sought out the local synagogue."}
+  ],
+  "reflect": "If you preached the gospel the way the apostles did in Acts, what would you emphasize, and what would you leave out?"
+}

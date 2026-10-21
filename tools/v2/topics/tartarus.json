@@ -1,0 +1,71 @@
+{
+  "id": "tartarus",
+  "title": "Tartarus",
+  "hook": "Does Peter's one mention of Tartarus prove humans will burn in hell forever?",
+  "tldr": "No. In 2 Peter 2:4 Tartarus is a borrowed cultural image for the dark place where rebellious angels await judgment. Its chains of darkness are likely symbolic, and whether read literally or symbolically, it concerns angels, never humans, so it cannot be equated with hellfire.",
+  "big_idea": "Tartarus holds rebellious angels for judgment; it is not hellfire for humans.",
+  "points": [
+    {"icon": "scroll", "title": "Used only once in the New Testament", "text": "Tartarus appears only in 2 Peter 2:4, where God casts sinning angels into it and commits them to pits of darkness, held for judgment.", "verses": ["2 Peter 2:4"]},
+    {"icon": "globe", "title": "A borrowed cultural image", "text": "In Greek myth Tartarus was a dungeon for the defeated Titans. Peter uses the familiar concept to make a point, without endorsing the mythology, as Christians today use cultural references.", "verses": []},
+    {"icon": "book", "title": "Known in Jewish literature", "text": "Tartarus appears in the Septuagint of Job and in the Greek Book of Enoch, where the archangel Uriel is in charge of it as the prison of 200 fallen angels.", "verses": ["Job 40:20", "Job 41:24"]},
+    {"icon": "chain", "title": "Chains of darkness are symbolic", "text": "If all sinful angels were bound, how could Jesus meet evil spirits and Satan still prowl? The chains likely picture fear of coming judgment, as Wisdom of Solomon calls Egypt's darkness a chain.", "verses": ["1 Peter 5:8"]},
+    {"icon": "person", "title": "No humans in Tartarus", "text": "Even read literally, Peter never says humans are sent to Tartarus, and Scripture never teaches that humans suffer there. It cannot be a place of eternal torment for people.", "verses": []}
+  ],
+  "sections": [
+    {"h": "A debated passage: 2 Peter 2:4-6", "icon": "question", "summary": "2 Peter 2:4-6 is ambiguous and much debated, and supporters of eternal conscious torment often cite it for hellfire. But context and intertextual allusions point elsewhere. The passage says God did not spare sinning angels but cast them into tartaroō and pits of darkness, held for judgment; did not spare the ancient world but protected Noah and seven others; and reduced Sodom and Gomorrah to ashes as an example for the ungodly.", "verses": ["2 Peter 2:4-6"], "src": "jew:34"},
+    {"h": "Tartarus as metaphor in Jewish texts", "icon": "book", "summary": "Tartarus is used metaphorically for the gloomy, dark place where rebellious angels are held awaiting judgment. It appears in the Septuagint translation of Job 40:20 and 41:24 and in Hellenistic Jewish literature such as the Greek Book of Enoch, where God puts the archangel Uriel 'in charge of the world and of Tartarus' (Enoch 20:2), understood as the prison of 200 fallen angels.", "verses": ["Job 40:20", "Job 41:24"], "src": "jew:34"},
+    {"h": "Does Tartarus refer to hellfire?", "icon": "fire", "summary": "Tartarus appears only once in the New Testament, in 2 Peter 2:4, where God casts sinning angels into it and delivers them in chains of darkness awaiting judgment. To understand Peter, we must identify both the symbolism of Tartarus and the event he refers to.", "verses": ["2 Peter 2:4"], "src": "jew:34"},
+    {"h": "Tartarus in Greek mythology", "icon": "globe", "summary": "In Greek mythology Tartarus is both a primordial deity and a place: a dungeon for the Titans, the second generation of primordial deities defeated by the Olympians. Some humans, such as King Sisyphus and King Tantalus, were said to be sent there for severe crimes. Peter does not endorse the myth; like Christians using cultural references today, he borrows a familiar idea to show the severe consequences of the angels' rebellion.", "verses": [], "src": "jew:34"},
+    {"h": "Which event does Peter mean?", "icon": "puzzle", "summary": "Peter's bound angels could point to two events. Some see the angelic rebellion of Isaiah 14:12-21 and Ezekiel 28:1-19. Others see Genesis 6:1-4, where the sons of God fathered the Nephilim with the daughters of men, supported by 1 Peter 3:19-20 and Jude 6 on spirits in prison and angels bound in Noah's days, whom Peter also mentions. Both face a problem: if all were bound, how did Jesus meet evil spirits, and how is Satan active (1 Peter 5:8)?", "verses": ["Isaiah 14:12-21", "Ezekiel 28:1-19", "Genesis 6:1-4", "1 Peter 3:19-20", "Jude 6", "1 Peter 5:8"], "src": "jew:34"},
+    {"h": "Symbolic chains of darkness", "icon": "chain", "summary": "If symbolic, the chains may be the fear and anticipation of judgment that immobilize the rebellious angels. Wisdom of Solomon 17:17 calls the ninth plague of darkness in Egypt a 'chain of darkness', symbolically. The angels are constrained by knowledge of coming judgment, not physical chains, fitting the biblical theme of judgment bringing chaos back into submission. Even read literally, no humans are sent to Tartarus, so it cannot equal hellfire for humans.", "verses": ["Wisdom of Solomon 17:17"], "src": "jew:34"},
+    {"h": "Conclusion", "icon": "check", "summary": "2 Peter 2:4-6 does not teach hellfire or eternal conscious torment. The dark abyss symbolizes chaos and disorder, not eternal suffering. Literal or symbolic, Tartarus concerns the judgment of rebellious angels, not humans. Context, intertextual allusions and symbolic language show Peter stressing the severe consequences of rebellion against God, in line with the biblical story of judgment and the ultimate restoration of order in creation.", "verses": ["2 Peter 2:4-6"], "src": "jew:34"}
+  ],
+  "visuals": [
+    {"type": "words", "title": "Tartarus across three worlds", "items": [
+      {"word": "Tartarus", "lang": "Greek myth", "literal": "Dungeon of the Titans", "meaning": "A primordial deity and a prison for defeated Titans; humans like Sisyphus and Tantalus were sent there for severe crimes."},
+      {"word": "Tartarus", "lang": "Jewish Greek texts", "literal": "Prison of fallen angels", "meaning": "In the Septuagint of Job and in Enoch, where Uriel oversees Tartarus, the prison for 200 fallen angels."},
+      {"word": "tartaroō", "lang": "Greek (2 Peter 2:4)", "literal": "Cast into Tartarus", "meaning": "Peter's only New Testament use: sinning angels held in darkness awaiting judgment. No humans are mentioned."}
+    ]},
+    {"type": "tree", "title": "Which rebellion does Peter mean?", "root": "Angels in chains", "children": [
+      {"label": "Angelic rebellion", "note": "The fall pictured in Isaiah 14:12-21 and Ezekiel 28:1-19."},
+      {"label": "Sons of God", "note": "Genesis 6:1-4 and the Nephilim, backed by 1 Peter 3:19-20 and Jude 6.", "children": [{"label": "Noah link", "note": "Peter mentions Noah in the same passage."}]},
+      {"label": "Shared problem", "note": "Jesus met evil spirits and Satan is still active (1 Peter 5:8), so maybe symbolic."}
+    ]},
+    {"type": "decision", "title": "Literal or symbolic, same result", "question": "Are the chains of darkness literal?", "yes": {"label": "Literal prison", "note": "Still only angels are there. Scripture never sends humans to Tartarus, so it is not human hellfire."}, "no": {"label": "Symbolic chains", "note": "Fear of coming judgment immobilizes the angels, like Egypt's 'chain of darkness' in Wisdom of Solomon 17:17."}}
+  ],
+  "mythfact": [
+    {"myth": "2 Peter 2:4 shows humans will be tortured in Tartarus forever.", "fact": "Peter speaks only of rebellious angels held for judgment. Scripture does not teach that humans will suffer in Tartarus."},
+    {"myth": "By naming Tartarus, Peter endorsed Greek mythology.", "fact": "He used a familiar cultural concept to show the severe consequences of rebellion, without supporting the mythological details."},
+    {"myth": "The angels are bound in literal iron chains.", "fact": "Since evil spirits and Satan remain active, the chains likely symbolize the paralyzing anticipation of judgment."}
+  ],
+  "terms": [
+    {"term": "Tartarus", "meaning": "In Greek myth, a deity and a dungeon for the Titans; in 2 Peter, the dark place where rebellious angels await judgment."},
+    {"term": "Septuagint", "meaning": "The Greek translation of the Hebrew Scriptures, which uses Tartarus in Job 40:20 and 41:24."},
+    {"term": "Book of Enoch", "meaning": "Ancient Jewish book whose Greek text has Uriel in charge of Tartarus, prison of 200 fallen angels."},
+    {"term": "Nephilim", "meaning": "The offspring of the sons of God and the daughters of men in Genesis 6:1-4."},
+    {"term": "Eternal Conscious Torment (ECT)", "meaning": "The view that the lost suffer conscious torture forever; its supporters often cite 2 Peter 2:4-6."}
+  ],
+  "quotes": [
+    {"text": "Scripture does not teach that humans will suffer in Tartarus.", "who": "The book"},
+    {"text": "The dark abyss symbolizes chaos and disorder, not a place of eternal suffering.", "who": "The book"},
+    {"text": "in charge of the world and of Tartarus", "who": "Book of Enoch"}
+  ],
+  "verses": [
+    {"ref": "2 Peter 2:4-6", "role": "The only New Testament use of Tartarus; about angels held for judgment, not human hellfire."},
+    {"ref": "Job 40:20", "role": "Septuagint uses Tartarus here."},
+    {"ref": "Job 41:24", "role": "Septuagint uses Tartarus here too."},
+    {"ref": "Isaiah 14:12-21", "role": "One possible background: the angelic rebellion."},
+    {"ref": "Ezekiel 28:1-19", "role": "Also cited for the angelic rebellion view."},
+    {"ref": "Genesis 6:1-4", "role": "Alternative background: sons of God and the Nephilim."},
+    {"ref": "1 Peter 3:19-20", "role": "Spirits in prison from Noah's days, supporting the Genesis 6 view."},
+    {"ref": "Jude 6", "role": "Angels bound for their sins, supporting the Genesis 6 view."},
+    {"ref": "1 Peter 5:8", "role": "Satan still active, suggesting the chains are symbolic."},
+    {"ref": "Wisdom of Solomon 17:17", "role": "Egypt's plague of darkness called a symbolic 'chain of darkness'."}
+  ],
+  "quiz": [
+    {"q": "How many times does Tartarus appear in the New Testament?", "options": ["Once", "Seven times", "Never"], "answer": 0, "why": "Only in 2 Peter 2:4, about sinning angels held for judgment."},
+    {"q": "Who does Peter say is sent to Tartarus?", "options": ["Unbelieving humans", "Angels who sinned", "Sisyphus and Tantalus"], "answer": 1, "why": "Peter speaks of rebellious angels; Scripture never teaches that humans suffer in Tartarus."},
+    {"q": "Which text calls Egypt's plague of darkness a 'chain of darkness'?", "options": ["Exodus 10", "Wisdom of Solomon 17:17", "Jude 6"], "answer": 1, "why": "Wisdom of Solomon uses the phrase symbolically, supporting a symbolic reading of Peter's chains."}
+  ],
+  "reflect": "Why might a single borrowed word like Tartarus have been made to carry so much weight in debates about hell?"
+}

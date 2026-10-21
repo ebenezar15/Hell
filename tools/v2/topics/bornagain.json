@@ -1,0 +1,59 @@
+{
+  "id": "bornagain",
+  "title": "Born Again to Escape Hell?",
+  "hook": "When Jesus told Nicodemus to be born again, was he talking about escaping hell?",
+  "tldr": "No. Jesus had not died yet, so born again could not mean accepting his death to dodge hellfire. It means a lifelong remaking by his word and teachings, stepping into God's Kingdom, a present reality of righteousness, peace and joy here and now.",
+  "big_idea": "Born again means living Jesus' teachings now, not dodging hellfire later.",
+  "points": [
+    {"icon": "clock", "title": "An anachronism fallacy", "text": "In John 3:3 Jesus had not died and his death was not foreseen; the disciples expected a revolt against Rome. Reading his death into the phrase backdates a later idea.", "verses": ["John 3:3", "Luke 24:21"]},
+    {"icon": "book", "title": "Born of the living word", "text": "Peter says we are born again through God's living word, logos. With no New Testament yet, and John calling Jesus the Word, this means Jesus' life and teachings.", "verses": ["1 Peter 1:23"]},
+    {"icon": "path", "title": "A lifelong journey", "text": "Not a pamphlet prayer or a one-time emotional moment, but becoming Christ-like: aiding the sick, helping the poor, loving enemies, forgiving, growing in compassion.", "verses": []},
+    {"icon": "crown", "title": "The Kingdom is near, within, upon", "text": "Jesus said the Kingdom has come near, is within you, has come upon you. That is a present reality, not a distant afterlife destination.", "verses": ["Matthew 4:17", "Mark 1:15", "Luke 17:21", "Matthew 12:28", "Luke 11:20"]},
+    {"icon": "globe", "title": "Tikkun Olam: world repair", "text": "The present Kingdom fits the Jewish idea of Tikkun Olam, social action and justice for the poor and needy. The Kingdom is righteousness, peace and joy in the Holy Spirit.", "verses": ["Romans 14:17"]}
+  ],
+  "sections": [
+    {"h": "The Evangelical idea of born again", "icon": "speech", "summary": "Born-again Evangelicals usually mean a specific, memorable, emotional experience of repentance and faith in Jesus' sacrifice, central to their testimony: reciting a salvation prayer from a pamphlet to escape eternal damnation by inviting Jesus into the heart, or, among Pentecostal and charismatic groups, an intense experience like speaking in tongues. A typical definition: starting over as a new creation, sins forgiven, heart transformed by the Holy Spirit, citing John 3:3 to Nicodemus.", "verses": ["John 3:3"], "src": "jew:26"},
+    {"h": "An anachronism fallacy", "icon": "clock", "summary": "When Jesus first said born again in John 3:3, he had not died, and his death was not foreseen. His disciples expected him to lead a revolt against the Romans and reign (Luke 24:21). So the phrase first meant something else entirely. Saying it means avoiding hellfire by accepting Jesus' death backdates a later event and its theology to a time before it happened: an anachronism fallacy.", "verses": ["John 3:3", "Luke 24:21"], "src": "jew:26"},
+    {"h": "To Be Born Again", "icon": "seed", "summary": "Two terms need explaining: born again, and see or enter the Kingdom of God. 1 Peter 1:23 says we are born again of imperishable seed through God's living and enduring word (logos). Only the Old Testament existed then. John's Gospel names Jesus, not the Bible, as the Word, so the word likely means Jesus' life, ministry and oral teachings, especially the parables and Sermon on the Mount.", "verses": ["John 3:3", "1 Peter 1:23"], "src": "jew:26"},
+    {"h": "A lifelong journey, not a pamphlet prayer", "icon": "path", "summary": "Being born again is learning Jesus' teachings, values and instructions and reshaping life, attitude and actions to match. It is not a one-time mystical-emotional experience or a recited line, but a lifelong journey of becoming Christ-like: aiding the sick, helping the poor, embracing outcasts, loving enemies, forgiving trespassers, loving sacrificially, growing in empathy and kindness. It starts by realizing who our loving God is and what he desires through his Word, Jesus.", "verses": [], "src": "jew:26"},
+    {"h": "The Kingdom of God", "icon": "crown", "summary": "Some see the Kingdom as a mystical afterlife paradise, but Jesus said it has come near (Matthew 4:17, Mark 1:15), is within you (Luke 17:21), and has come upon you (Matthew 12:28, Luke 11:20): not a far-off destination. It belongs to the poor in spirit (Matthew 5:3); seek it first (Matthew 6:33); Jesus traveled proclaiming it (Luke 8:1) and sent disciples to proclaim it and heal the sick (Luke 9:2).", "verses": ["Matthew 4:17", "Mark 1:15", "Luke 17:21", "Matthew 12:28", "Luke 11:20", "Matthew 5:3", "Matthew 6:33", "Luke 8:1", "Luke 9:2"], "src": "jew:26"},
+    {"h": "A present reality: Tikkun Olam", "icon": "globe", "summary": "Jesus' Kingdom was a present reality: a spiritual mindset, lifestyle and attitude here and now. This is the very Jewish view of Tikkun Olam, world repair, linked with social action and justice for the poor and needy. Jesus was not a modern Western evangelical preaching an emotional experience to escape Hellfire after death; a Jewish rabbi, his parables dealt with the present. The Kingdom is righteousness, peace and joy in the Holy Spirit (Romans 14:17). A companion book, The Kingdom of Yeshua, explores this further.", "verses": ["John 3:3", "Romans 14:17"], "src": "jew:26"}
+  ],
+  "visuals": [
+    {"type": "compare", "title": "Two meanings of born again", "left": {"label": "Evangelical reading", "items": ["A specific emotional moment", "Recite a salvation prayer from a pamphlet", "Accept Jesus' death to escape damnation", "Kingdom is an afterlife paradise", "Payoff comes after you die"]}, "right": {"label": "Jesus' Jewish meaning", "items": ["A lifelong journey", "Learn and live Jesus' teachings", "Jesus had not yet died when he said it", "Kingdom is near, within, upon you", "Righteousness, peace and joy here and now"]}},
+    {"type": "words", "title": "Key words", "items": [{"word": "Logos", "lang": "Greek", "literal": "word", "meaning": "The living word we are born again through; John calls Jesus the Word, meaning his life and teachings."}, {"word": "Tikkun Olam", "lang": "Hebrew", "literal": "world repair", "meaning": "Social action and pursuit of justice for the poor and needy; the present Kingdom lived out."}]},
+    {"type": "verse", "title": "Where is the Kingdom?", "ref": "Luke 17:21", "text": "The kingdom of God is within you", "notes": [{"phrase": "within you", "note": "Alongside near and upon you, it places the Kingdom in the present, not a far-off afterlife."}]}
+  ],
+  "mythfact": [
+    {"myth": "Born again means accepting Jesus' death to escape hellfire.", "fact": "Jesus said it before his death, which nobody foresaw. Reading his death into it is an anachronism fallacy."},
+    {"myth": "Being born again happens in one emotional moment or prayer.", "fact": "It is a lifelong journey of learning Jesus' teachings and becoming Christ-like in how we live and treat others."},
+    {"myth": "The Kingdom of God is a paradise you enter after death.", "fact": "Jesus said it has come near, is within you, and has come upon you: a present reality here and now."}
+  ],
+  "terms": [
+    {"term": "Anachronism fallacy", "meaning": "Reading a later event or idea, like Jesus' death and its theology, back into a time before it happened."},
+    {"term": "Logos", "meaning": "The Greek for word; John's Gospel uses it of Jesus himself, not the Bible."},
+    {"term": "Tikkun Olam", "meaning": "Hebrew for world repair; social action and justice for the poor and needy."},
+    {"term": "Kingdom of God", "meaning": "A present reality: a spiritual mindset, lifestyle and attitude to life lived by Jesus' teachings."}
+  ],
+  "quotes": [
+    {"text": "This isn’t a one-time mystical-emotional experience or a line one recites from a pamphlet but a lifelong mental journey of becoming Christ-like", "who": "The book"},
+    {"text": "“Near,” “within you,” and “upon you” make the Kingdom of God very different from a heavenly destination far away in the afterlife.", "who": "The book"}
+  ],
+  "verses": [
+    {"ref": "John 3:3", "role": "Jesus to Nicodemus: born again to see the Kingdom, said before his death."},
+    {"ref": "Luke 24:21", "role": "Disciples hoped for a revolt, not foreseeing his atoning death."},
+    {"ref": "1 Peter 1:23", "role": "Born again through the living word, meaning Jesus' teachings."},
+    {"ref": "Luke 17:21", "role": "The Kingdom is within you."},
+    {"ref": "Matthew 4:17", "role": "The Kingdom has come near."},
+    {"ref": "Matthew 12:28", "role": "The Kingdom has come upon you."},
+    {"ref": "Matthew 6:33", "role": "Seek first his kingdom and righteousness."},
+    {"ref": "Luke 9:2", "role": "Disciples sent to proclaim the Kingdom and heal the sick."},
+    {"ref": "Romans 14:17", "role": "The Kingdom is righteousness, peace and joy in the Holy Spirit."}
+  ],
+  "quiz": [
+    {"q": "Why can't born again in John 3:3 originally mean accepting Jesus' death?", "options": ["Nicodemus was Roman", "Jesus had not yet died and it was not foreseen", "The phrase is not in John"], "answer": 1, "why": "Applying his later death to the phrase is an anachronism fallacy; disciples even expected a revolt against Rome."},
+    {"q": "What did the word of God in 1 Peter 1:23 most likely refer to?", "options": ["The New Testament", "Jesus' life and teachings", "The Book of Revelation"], "answer": 1, "why": "No New Testament existed yet, and John's Gospel identifies Jesus as the Word."},
+    {"q": "What does Tikkun Olam mean?", "options": ["World repair", "Eternal fire", "New birth"], "answer": 0, "why": "The Hebrew phrase means world repair, linked to social action and justice for the poor and needy."}
+  ],
+  "reflect": "If being born again is a lifelong journey, what teaching of Jesus is reshaping you right now?"
+}

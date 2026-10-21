@@ -1,0 +1,70 @@
+{
+  "id": "conclusion",
+  "title": "Conclusion and Final Word",
+  "hook": "If hell matters so much, why does the Bible say so little about it?",
+  "tldr": "The Bible offers no single systematic doctrine of hell, and the Torah never warns of eternal hellfire. Jesus came to save, not judge, and forgave his killers from the cross. Hell's fire is best seen as refining and restorative, and the gospel is an invitation to love and transformation, not a formula for escaping torture.",
+  "big_idea": "The gospel is an invitation into love, not a threat of torture.",
+  "points": [
+    {"icon": "question", "title": "A conspicuous silence", "text": "Adam and Eve were warned only of death, the Torah never warns of eternal hellfire, and Israel's pagan neighbors' fiery underworlds left no mark on the Old Testament.", "verses": []},
+    {"icon": "cross", "title": "Forgiveness from the cross", "text": "Jesus begged the Father to forgive the very people killing him. If he could do that, his love reaches every human heart, however resistant.", "verses": ["Luke 23:34"]},
+    {"icon": "fire", "title": "Fire that refines", "text": "Origen, Gregory of Nyssa, Clement of Alexandria and Isaac of Nineveh saw divine judgment as corrective, medicinal and restorative, burning away corruption.", "verses": ["Hebrews 12:10-11"]},
+    {"icon": "path", "title": "Repent now, skip the pain", "text": "Christ's teachings let us repent freely today. Delay may mean needless suffering on the way to the same restoration, as consequences become the teacher.", "verses": []},
+    {"icon": "mask", "title": "Deception inside the church", "text": "Satan twisted Scripture against Jesus and still uses cherry-picked verses, so some most in need of salvation sit inside churches, captive to a wrathful image of God.", "verses": []},
+    {"icon": "hand", "title": "Live out God's love", "text": "Instead of debating the afterlife or judging others' destinies, embody and radiate God's love, joining in healing and restoration through Messiah Yeshua.", "verses": ["John 12:47", "Romans 14:4"]}
+  ],
+  "sections": [
+    {"h": "No systematic doctrine of hell", "icon": "book", "summary": "Likely for a valid reason (Isaiah 55:8), the Bible gives no single explicit doctrine of hell; traditions grow from isolated metaphors and parables read out of genre and context. Jesus came not to judge but to save the world, so by what right do we condemn others for different formulas or imperfection? Scripture's ambiguity suggests we should not obsess over hell or judge destinies, lest we take the Lord's name in vain.", "verses": ["Isaiah 55:8", "John 12:47", "Romans 14:4", "Exodus 20:7"], "src": "jew:46"},
+    {"h": "An action point: the gospel is transformation", "icon": "hand", "summary": "We must not let the gospel shrink to decoding a formula to escape sadistic, never-ending torment in a cosmic inferno. Churches centered on eternal cruel punishment drift from Christ's message: embrace God's love, mercy and grace and pay them forward. God's love is a call to action, to heal and restore a broken world. The gospel transforms hearts, lives and communities through Messiah Yeshua, Hebrew for Jesus, meaning salvation.", "verses": [], "src": "jew:46"},
+    {"h": "Warning a child before the danger", "icon": "alert", "summary": "Parents warn children about hard drugs well in advance. If hellfire were as crucial as believed, Scripture should state it clearly from the start. Instead it is absent where most expected: God warns Adam and Eve only of mortality, toil then death; the whole Torah has no warning of eternal hellfire; and the fiery underworld myths of surrounding pagan cultures appear nowhere in early Jewish theology or the Old Testament.", "verses": [], "src": "hfd:37"},
+    {"h": "Life's Purpose Isn't Escapism", "icon": "cross", "summary": "Forgiving those who mocked, spat on, nailed and crucified Christ seems scandalous, yet from the cross, bleeding and suffocating, Jesus pleaded, Father, forgive them. If he asked forgiveness for his killers, his love atones for every heart. God's love is boundless, relentless and eternal. The gospel was never meant to terrify; it proclaims forgiveness and invites us into love, healing, truth and life. God's desire to save exceeds our resistance.", "verses": ["Luke 23:34"], "src": "hfd:37"},
+    {"h": "Hell's \"Fire\" Meant for Refinement, Cleansing, and Purification", "icon": "flame", "summary": "Metaphorically, hell may be an encounter with God's purifying fire, as Origen, Gregory of Nyssa, Clement of Alexandria and Isaac of Nineveh taught: corrective, medicinal, restorative. It might mean feeling fully the pain we caused others, not as vengeance but transformation, until we repent, leading to every knee bowing. Discipline is painful but yields righteousness and peace. Repentance, a realignment of will and values with God, is best embraced now, sparing needless suffering.", "verses": ["Hebrews 12:10-11"], "src": "hfd:37"},
+    {"h": "Consequences as teacher", "icon": "path", "summary": "A loving parent warns a child about reckless choices; the wise child listens and is spared. Sometimes the child goes their own way, and consequences, like a visit from the authorities or prison, become the teacher. Suffering opens the door to understanding, and repentance flows from it. Christ invites us to skip the needless pain and follow him now, toward freedom, healing and joy.", "verses": [], "src": "hfd:37"},
+    {"h": "A Different Gospel?", "icon": "mask", "summary": "If today's gospel is about escaping endless torment rather than the first two centuries' message of entering God's life, light and love, who altered it? Satan twisted Scripture to tempt Jesus and uses the same tactic on the Church, persuading well-meaning Christians that cherry-picked verses are biblical. So some most needing salvation are inside churches, needing rescue from a wrathful image of God and from anxiety and depression.", "verses": [], "src": "hfd:37"},
+    {"h": "A Final Word", "icon": "dove", "summary": "The action point is repeated: churches presenting the gospel as escape from eternal sadistic punishment shift focus from its original message. Christ's message was to embrace God's love, mercy and grace and pass them on. Rather than debating the afterlife, embody God's love in a broken world, participating in healing and restoration. The book closes asking readers to rate and review it, anticipating low ratings from fervent Calvinists.", "verses": [], "src": "hfd:38"}
+  ],
+  "visuals": [
+    {"type": "flow", "title": "Where hellfire should appear, but doesn't", "caption": "Like warning a child about drugs early, a crucial doctrine should be clear from the start.", "steps": [
+      {"label": "Eden: warning of death", "note": "God warns Adam and Eve only of mortality: a life of toil, then death."},
+      {"label": "The Torah: silence", "note": "Not a single warning of eternal hellfire in the entire Torah."},
+      {"label": "Neighbors: fiery underworlds", "note": "Pagan cultures had rich fiery underworld myths for the wicked."},
+      {"label": "Old Testament: not reflected", "note": "Those pagan ideas appear nowhere in early Jewish theology or the Old Testament."},
+      {"label": "Conclusion: low priority", "note": "The absence questions the clarity and priority Scripture gives hellfire."}
+    ]},
+    {"type": "cycle", "title": "The refining path of repentance", "steps": [
+      {"label": "Loving warning", "note": "A parent, and Christ's teaching, warn of reckless choices in advance."},
+      {"label": "Choice", "note": "The wise listen and are spared; others go their own way."},
+      {"label": "Consequences teach", "note": "Painful consequences, like discipline or prison, open the door to understanding."},
+      {"label": "Repentance", "note": "Realigning will, values and behavior with God's heart and character."},
+      {"label": "Restoration", "note": "A harvest of righteousness and peace; what God made good made whole."}
+    ]},
+    {"type": "compare", "title": "Two gospels", "left": {"label": "Escape-from-hell gospel", "items": ["Decode the right formula to avoid torment", "God as frightening, wrathful, condemning", "Built on cherry-picked isolated verses", "Breeds anxiety and depression", "Obsesses over others' eternal destinies"]}, "right": {"label": "Early gospel of love", "items": ["Embrace God's love, mercy and grace", "God whose mercy outlasts our stubbornness", "Rooted in Jesus' heart and the first centuries", "Brings healing, freedom and joy", "Leaves judgment to God, radiates love"]}}
+  ],
+  "mythfact": [
+    {"myth": "Eternal hellfire is clearly taught from the Bible's first pages.", "fact": "God warns Adam and Eve only of death, and the entire Torah contains not a single warning of eternal hellfire."},
+    {"myth": "Hell's fire exists only for endless revenge.", "fact": "Early Church Fathers like Origen, Gregory of Nyssa, Clement of Alexandria and Isaac of Nineveh saw divine fire as corrective, medicinal and restorative."},
+    {"myth": "The greatest threat to the gospel comes from outside the church.", "fact": "The greatest deception may be inside, dressed in religious language, backed by isolated verses and preached with good intentions."}
+  ],
+  "terms": [
+    {"term": "Yeshua", "meaning": "Hebrew for Jesus, a name which also means salvation."},
+    {"term": "Repentance", "meaning": "Not just words or tears but a realignment of our will, values and moral behavior with God's heart and character."}
+  ],
+  "quotes": [
+    {"text": "God's love is not a formula for escaping torture; it's a call to action, inviting us to participate in healing and restoration.", "who": "The book"},
+    {"text": "His desire and ability to save are far greater than our ability to resist Him.", "who": "The book"},
+    {"text": "Sometimes, the greatest deception isn’t outside the church. It’s inside—dressed in religious language, backed by isolated verses", "who": "The book"}
+  ],
+  "verses": [
+    {"ref": "John 12:47", "role": "Jesus came not to judge but to save the world, so we should not condemn."},
+    {"ref": "Luke 23:34", "role": "Jesus forgives his crucifiers; his love reaches even the most resistant heart."},
+    {"ref": "Hebrews 12:10-11", "role": "Painful discipline yields righteousness and peace: judgment as refining, not revenge."},
+    {"ref": "Romans 14:4", "role": "We are not to judge others' eternal destinies."},
+    {"ref": "Isaiah 55:8", "role": "God's ways differ from ours, perhaps why no systematic hell doctrine is given."},
+    {"ref": "Exodus 20:7", "role": "Obsessive judging of destinies risks taking the Lord's name in vain."}
+  ],
+  "quiz": [
+    {"q": "What did God warn Adam and Eve about?", "options": ["Eternal torment", "Mortality: toil followed by death", "A fiery underworld"], "answer": 1, "why": "The first warning concerns only death; the entire Torah never warns of eternal hellfire."},
+    {"q": "Which early figure is named as teaching that divine fire is restorative?", "options": ["Gregory of Nyssa", "Jonathan Edwards", "John Calvin"], "answer": 0, "why": "Origen, Gregory of Nyssa, Clement of Alexandria and Isaac of Nineveh saw judgment as corrective, medicinal and restorative."},
+    {"q": "Why is repenting now better than later?", "options": ["Later repentance is impossible", "It spares needless suffering on the path to restoration", "Only early repenters are restored"], "answer": 1, "why": "Repentance today is a gift; delay may only mean unnecessary suffering on the way to the same eventual restoration."}
+  ],
+  "reflect": "What would change if you saw the gospel as a call to heal the world rather than escape it?"
+}

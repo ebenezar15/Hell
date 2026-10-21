@@ -1,0 +1,73 @@
+{
+  "id": "gates",
+  "title": "The Gates of Hell",
+  "hook": "When Jesus said the gates of Hades won't prevail, was He talking about hellfire?",
+  "tldr": "In Matthew 16:18 Hades is the Greek equivalent of Sheol, the grave. Gates are defensive structures that confine, so 'the gates of Hades' means the power of death. Jesus promises His church, built on the confession that He is the Messiah, will break death's hold, not survive hellfire.",
+  "big_idea": "The gates of Hades are death's grip, and Jesus breaks them open.",
+  "points": [
+    {"icon": "valley", "title": "Hades means the grave", "text": "Hades is the Greek equivalent of Sheol: the realm of the dead, a temporary holding place awaiting resurrection, not inherently a place of torment or bliss.", "verses": ["Matthew 16:18"]},
+    {"icon": "mountain", "title": "The rock is the confession", "text": "'This rock' points back to Peter's confession that Jesus is the Messiah. Petros means a small stone; petra means bedrock. Peter and Paul both call Christ the rock and cornerstone.", "verses": ["Matthew 16:16", "1 Peter 2:7-8", "1 Corinthians 10:4", "Ephesians 2:20"]},
+    {"icon": "gate", "title": "Gates defend, they don't attack", "text": "Gates fighting a building is absurd. A gate confines, as if keeping the dead from leaving. The Hebrew Scriptures call them 'the gates of death'.", "verses": ["Job 17:16", "Psalm 9:13", "Isaiah 38:10"]},
+    {"icon": "key", "title": "Jesus holds the keys", "text": "Jesus holds the keys of death and Hades, and death is swallowed up in victory. His mission was to defeat death, reversing the Genesis 3 consequence.", "verses": ["Revelation 1:18", "1 Corinthians 15:54-55"]},
+    {"icon": "unlock", "title": "A promise of liberation", "text": "If the gates confine souls, the church overcoming them means freeing captives, like an army breaking through a walled city's gates.", "verses": []}
+  ],
+  "sections": [
+    {"h": "A confusing promise", "icon": "question", "summary": "In Matthew 16 Jesus first introduces His death and resurrection, and declares that the gates of Hades will not overcome His church. Often misread as referring to hellfire, the statement actually speaks of resurrection and the defeat of death. Historical and cultural context and the language used reveal a promise of victory over death, not eternal conscious torment.", "verses": ["Matthew 16:18"], "src": "jew:29"},
+    {"h": "What Hades means", "icon": "valley", "summary": "Hades, confusingly translated 'hell' in English, is the Greek equivalent of Sheol: the underworld, the realm of the dead, the grave. In the New Testament it denotes the unseen place where souls go after death, awaiting resurrection. Like Sheol, it is not inherently a place of torment or bliss but a temporary holding place for the dead.", "verses": [], "src": "jew:29"},
+    {"h": "Rock? Church?", "icon": "mountain", "summary": "Jesus asks who people say He is, then 'Who do you say I am?' Peter answers: the Messiah, the Son of the living God. Some take 'this rock' to mean Peter, but context shows it is that confession. The church is built theologically on acknowledging Jesus as Messiah. Greek Petros (masculine) means a small stone; petra (feminine) means bedrock. Peter gets a nickname; Jesus is the foundation.", "verses": ["Matthew 16:13", "Matthew 16:15", "Matthew 16:16", "Matthew 16:17-18"], "src": "jew:29"},
+    {"h": "Christ the cornerstone", "icon": "temple", "summary": "Peter's own letter calls Jesus, not himself, the stone the builders rejected that became the cornerstone. Paul writes 'The rock was Christ' and calls Christ Jesus the chief cornerstone. So the acknowledgment of the Son of God is the rock. Given these metaphors, reading 'gates of Hades' as a literal fight against hellfire is not feasible; gates fighting a building is nonsensical.", "verses": ["1 Peter 2:7-8", "1 Corinthians 10:4", "Ephesians 2:20"], "src": "jew:29"},
+    {"h": "The power of death will not win", "icon": "shield", "summary": "In ancient Jewish and Old Testament context, the gates of Hades symbolize the power of death, the grave. Jesus proclaims death will not overcome His church: a promise of resurrection and the perseverance of His ministry, not of hellfire. The church, built on recognizing Jesus as Messiah, will triumph and liberate captives, like an army breaking through a walled city's gates.", "verses": [], "src": "jew:29"},
+    {"h": "The Gates of Death", "icon": "gate", "summary": "Literally, gates fighting a building is absurd: a gate is defensive, not an offensive weapon. The gates of Hades confine, as if keeping the dead from leaving, and symbolize death and the grave. The Hebrew Scriptures call them 'the gates of death'. Like a cemetery's gates, they are a metaphor for the grave, not for eternal hellfire torture.", "verses": ["Job 17:16", "Psalm 9:13", "Isaiah 38:10"], "src": "jew:29"},
+    {"h": "Victory over death and liberation", "icon": "key", "summary": "Jesus proclaims impending victory over death: death, perhaps persecution, will not prevail against Him, His ministry and disciples. He holds the keys of death and Hades; death is swallowed up in victory. His mission was to defeat death, not hellfire, inverting the Genesis 3 consequence. If the gates confine souls, overcoming them means liberation: the church breaks the gates and frees the captives.", "verses": ["Revelation 1:18", "1 Corinthians 15:54-55", "Genesis 3"], "src": "jew:29"},
+    {"h": "Conclusion", "icon": "check", "summary": "The 'gates of Hades' is best understood as a metaphor for death and the grave, not eternal fiery punishment. Jesus promised His church would prevail over death, opening a path into eternal life no gate can block. This fits the broader biblical story of redemption and avoids the logical problems of a strictly literal reading. The gates now signify Jesus' triumph, assuring resurrection and victory over evil.", "verses": [], "src": "jew:29"}
+  ],
+  "visuals": [
+    {"type": "words", "title": "The key words in Matthew 16:18", "items": [
+      {"word": "Petros", "lang": "Greek", "literal": "small stone", "meaning": "Masculine. Peter's symbolic nickname, not the foundation of the church."},
+      {"word": "petra", "lang": "Greek", "literal": "large rock, bedrock", "meaning": "Feminine. The foundation: the confession that Jesus is the Messiah, the Son of the living God."},
+      {"word": "Hades", "lang": "Greek", "literal": "the unseen realm", "meaning": "Equivalent of Hebrew Sheol: the realm of the dead, the grave, a temporary holding place."},
+      {"word": "Sheol", "lang": "Hebrew", "literal": "the grave", "meaning": "The underworld or realm of the dead; not inherently torment or bliss."}
+    ]},
+    {"type": "decision", "title": "Can gates attack a church?", "question": "Are the gates of Hades attacking the church?", "yes": {"label": "Literal fight with hellfire", "note": "Absurd: gates are defensive structures, not offensive weapons. Gates fighting a building is nonsensical."}, "no": {"label": "Gates that confine the dead", "note": "Death holds people captive; the church breaks through and frees them, like an army storming a city."}},
+    {"type": "flow", "title": "From confession to victory over death", "steps": [
+      {"label": "Peter's confession", "note": "You are the Messiah, the Son of the living God."},
+      {"label": "Built on this rock", "note": "The church stands on recognizing Jesus as Messiah, the cornerstone."},
+      {"label": "Gates of death confine", "note": "The grave holds the dead, as Job, Psalms and Isaiah describe."},
+      {"label": "Jesus holds the keys", "note": "Alive forever, holding the keys of death and Hades."},
+      {"label": "Captives set free", "note": "Death swallowed up in victory; resurrection for those held by the grave."}
+    ]}
+  ],
+  "mythfact": [
+    {"myth": "The 'gates of hell' refers to a place of fiery torment.", "fact": "Hades is the Greek equivalent of Sheol, the grave. Its gates are 'the gates of death', a metaphor for death's power."},
+    {"myth": "Peter himself is the rock the church is built on.", "fact": "Petros is a small stone; petra is bedrock. The rock is the confession that Jesus is Messiah. Peter and Paul call Christ the rock."},
+    {"myth": "Hell is attacking the church, which must hold out.", "fact": "Gates are defensive. The church goes on the offense against death, breaking its gates and freeing the captives."}
+  ],
+  "terms": [
+    {"term": "Hades", "meaning": "Greek equivalent of Sheol; the realm of the dead where souls await resurrection."},
+    {"term": "Gates of death", "meaning": "Hebrew Scripture image for the grave's confining power, like a cemetery's gates."},
+    {"term": "Petros / petra", "meaning": "Small stone (Peter's nickname) versus bedrock (the confession of Jesus as Messiah)."}
+  ],
+  "quotes": [
+    {"text": "The gates of death—like the gates of a cemetery—are a metaphor for the grave, not for a place of eternal hellfire torture.", "who": "The book"},
+    {"text": "A gate is a defensive structure, not an offensive weapon.", "who": "The book"},
+    {"text": "I am the Living One; I was dead, and now look, I am alive for ever and ever! And I hold the keys of death and Hades.", "who": "Revelation 1:18"}
+  ],
+  "verses": [
+    {"ref": "Matthew 16:18", "role": "The gates of Hades, meaning death's power, will not overcome Jesus' church."},
+    {"ref": "Matthew 16:16", "role": "Peter's confession: the rock on which the church is built."},
+    {"ref": "1 Peter 2:7-8", "role": "Peter himself names Jesus as the cornerstone and the rock."},
+    {"ref": "1 Corinthians 10:4", "role": "Paul: 'The rock was Christ'."},
+    {"ref": "Ephesians 2:20", "role": "Christ Jesus is the chief cornerstone."},
+    {"ref": "Job 17:16", "role": "Hebrew Scriptures speak of 'the gates of death'."},
+    {"ref": "Psalm 9:13", "role": "Another use of 'the gates of death' for the grave."},
+    {"ref": "Isaiah 38:10", "role": "Another use of the gates image for the grave."},
+    {"ref": "Revelation 1:18", "role": "Jesus holds the keys of death and Hades."},
+    {"ref": "1 Corinthians 15:54-55", "role": "Death swallowed up in victory; Jesus' mission was to defeat death."}
+  ],
+  "quiz": [
+    {"q": "What is Hades the Greek equivalent of?", "options": ["Gehenna", "Sheol, the grave", "Tartarus"], "answer": 1, "why": "Hades, like Sheol, is the realm of the dead, a temporary holding place, not inherently torment or bliss."},
+    {"q": "What is 'this rock' in Matthew 16:18?", "options": ["Peter himself", "The temple mount", "The confession that Jesus is the Messiah"], "answer": 2, "why": "Context points back to verse 16; petra (bedrock) differs from Petros (small stone)."},
+    {"q": "Why can't the gates be attacking the church?", "options": ["Gates are defensive structures", "The church has walls", "Hades has no gates"], "answer": 0, "why": "Gates confine and restrain; the image is of the church breaking death's gates to free captives."}
+  ],
+  "reflect": "If the church is on the offense against death, what does that change about how you picture its mission?"
+}

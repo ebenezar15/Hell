@@ -1,0 +1,296 @@
+{
+  "id": "pagan",
+  "title": "Hell Before the Bible: Pagan Views",
+  "hook": "Where did fiery underworlds of punishment come from before Christianity existed?",
+  "tldr": "Long before Christianity, the cultures around Israel imagined underworlds: some bleak and morally neutral, some with judgment, some with temporary purging, some with endless torment. Greek pictures of a fiery Tartarus, absorbed by early Church Fathers, closely resemble later Christian hell.",
+  "big_idea": "Early Christian hell closely echoes the Greek myth of Tartarus.",
+  "points": [
+    {
+      "icon": "valley",
+      "title": "Mesopotamia: a bleak place for all",
+      "text": "Kur or Irkalla, ruled by Ereshkigal, received every soul regardless of deeds. The dead were dim shades eating dust and offerings, with no real judgment or punishment.",
+      "verses": []
+    },
+    {
+      "icon": "scale",
+      "title": "Egypt: the heart against a feather",
+      "text": "Before Osiris the heart was weighed against Ma'at's feather. A heavy heart was devoured by Ammit into oblivion; a light one entered the Field of Reeds.",
+      "verses": []
+    },
+    {
+      "icon": "hourglass",
+      "title": "Dharmic and Persian hells are temporary",
+      "text": "Buddhist and Hindu Naraka last only until bad karma is exhausted. In Zoroastrianism the wicked fall from the Chinvat Bridge, but can later be purified and join the righteous.",
+      "verses": []
+    },
+    {
+      "icon": "chain",
+      "title": "Greece: Tartarus of endless torment",
+      "text": "Hades held the Elysian Fields for the virtuous and Tartarus, a dungeon of endless torment for the wicked and a prison for the Titans, described by Hesiod and Plato.",
+      "verses": []
+    },
+    {
+      "icon": "book",
+      "title": "Church Fathers absorbed Greek ideas",
+      "text": "Clement of Alexandria, Origen and Augustine engaged Neoplatonism and Greek philosophy. Early Christian depictions of hell share striking similarities with Greek ones, often using identical Greek terms.",
+      "verses": []
+    },
+    {
+      "icon": "fire",
+      "title": "Rome and Islam: eternal reward or punishment",
+      "text": "Rome copied Greece's Elysium and Tartarus with eternal reward or punishment. Islam's Jahannam has levels, fire 70 times hotter than earthly fire, and 19 fiery executioners.",
+      "verses": []
+    }
+  ],
+  "sections": [
+    {
+      "h": "Introduction: afterlife beliefs reveal a culture's gods",
+      "icon": "globe",
+      "summary": "Ancient cultures developed distinct pictures of the afterlife, especially realms of punishment. These beliefs mirror each culture's moral and theological values and show how societies understood their gods' characters and the soul's fate. This part surveys hell-like ideas in major civilizations before Christianity arrived.",
+      "verses": [],
+      "src": "jew:4"
+    },
+    {
+      "h": "The Mesopotamian Hell",
+      "icon": "valley",
+      "summary": "The underworld, Kur or Irkalla, is a dark, dreary place where all souls go regardless of how they lived, ruled by the goddess Ereshkigal. The dead are shades in limbo with little awareness or activity, living on dust and scant offerings from the living. There is no strong idea of moral judgment or punishment: death is a uniformly bleak, joyless fate for everyone.",
+      "verses": [],
+      "src": "jew:4"
+    },
+    {
+      "h": "The Egyptian Hell",
+      "icon": "scale",
+      "summary": "The soul travels through the Duat, the realm of the dead, full of trials and judgments. At the Weighing of the Heart, overseen by Osiris, the heart is weighed against the feather of Ma'at, symbol of truth and justice. A heavier heart, showing sin and imbalance, is devoured by the monster Ammit and the soul goes to oblivion. A lighter heart reaches the Field of Reeds, a paradise of eternal peace. Egypt believed in moral retribution and eternal reward.",
+      "verses": [],
+      "src": "jew:4"
+    },
+    {
+      "h": "Hell in Dharmic Religions",
+      "icon": "hourglass",
+      "summary": "In Buddhism, Naraka is one of six realms of samsara, the cycle of rebirth: intense suffering for bad karma, but not permanent; once the karma is used up, souls are reborn. Hindu Naraka is likewise temporary, presided over by Yama, purifying souls for a better rebirth. In Zoroastrianism, the righteous cross the Chinvat Bridge into paradise and the wicked fall into an abyss, yet hell is not eternal: souls are purified and finally join the righteous.",
+      "verses": [],
+      "src": "jew:4"
+    },
+    {
+      "h": "Hell in Greek Mythology",
+      "icon": "chain",
+      "summary": "The underworld Hades, ruled by the god Hades, has regions including the Elysian Fields for the virtuous and Tartarus for the wicked, where those guilty of heinous crimes suffer endless torment. Hesiod's Theogony and Plato's Gorgias depict Tartarus as a dungeon of torturous punishment and a prison for the Titans. Evidence suggests a few early Christian theologians borrowed this picture; early Christian depictions of hell are strikingly similar and often use identical Greek terminology.",
+      "verses": [],
+      "src": "jew:4"
+    },
+    {
+      "h": "Greek thought woven into Christian theology",
+      "icon": "book",
+      "summary": "Early Christian writings show a pronounced integration of Greek concepts, including hell, into Christian teaching about the end. Church Fathers such as Clement of Alexandria, Origen and Augustine actively engaged Neoplatonism and other Greek philosophies and wove them into their theology. This reveals a complex dialogue between Greek pagan traditions and developing Christian doctrine.",
+      "verses": [],
+      "src": "jew:4"
+    },
+    {
+      "h": "Etruscan, and Roman Hells",
+      "icon": "door",
+      "summary": "The Etruscan underworld resembles the Greek: demons guide the dead to their destinations in a dark, shadowy realm where souls are judged, the righteous rewarded and the wicked punished. The Roman afterlife, heavily shaped by Greece, has Hades or Inferi, with the Elysian Fields for the blessed and Tartarus for the damned. Romans saw the afterlife as a continuation of one's moral journey, ending in eternal reward or punishment.",
+      "verses": [],
+      "src": "jew:4"
+    },
+    {
+      "h": "Islam",
+      "icon": "flame",
+      "summary": "Islam's hell, Jahannam, punishes those who reject faith or commit grave sins. The Quran describes it vividly, with multiple levels and torments tailored to sins. Like some Christian hellfire traditions, its fire is said to be 70 times hotter than earthly fire. The 19 zabaniyya, created from hell's fires, carry out punishment. The righteous enter Jannah, a verdant garden of eternal bliss, peace, joy and closeness to God.",
+      "verses": [],
+      "src": "jew:4"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "spectrum",
+      "title": "How final is the punishment?",
+      "caption": "Ancient afterlives range from no judgment at all to endless torment.",
+      "left": "No judgment",
+      "right": "Endless torment",
+      "marks": [
+        {
+          "pos": 5,
+          "label": "Mesopotamia: Kur/Irkalla",
+          "note": "All souls share one bleak, joyless fate, whatever they did."
+        },
+        {
+          "pos": 30,
+          "label": "Buddhist and Hindu Naraka",
+          "note": "Suffering lasts until bad karma is exhausted, then rebirth."
+        },
+        {
+          "pos": 40,
+          "label": "Zoroastrian abyss",
+          "note": "The wicked fall from the Chinvat Bridge but are eventually purified."
+        },
+        {
+          "pos": 60,
+          "label": "Egypt: Ammit devours",
+          "note": "A heavy heart is eaten; the soul goes to oblivion."
+        },
+        {
+          "pos": 90,
+          "label": "Greek and Roman Tartarus",
+          "note": "Endless torment for the wicked; eternal reward or punishment."
+        },
+        {
+          "pos": 92,
+          "label": "Islam: Jahannam",
+          "note": "Levels of torment, fire 70 times hotter than earthly fire."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "From Tartarus to Christian hell",
+      "caption": "How Greek myth may have shaped the Christian picture of hell.",
+      "steps": [
+        {
+          "label": "Greek myth pictures Tartarus",
+          "note": "Hesiod's Theogony and Plato's Gorgias: a dungeon of torment and prison for Titans."
+        },
+        {
+          "label": "Fathers study Greek philosophy",
+          "note": "Clement of Alexandria, Origen and Augustine engaged Neoplatonism and Greek frameworks."
+        },
+        {
+          "label": "Ideas woven into theology",
+          "note": "Greek concepts, including hell, are integrated into Christian teaching about the end."
+        },
+        {
+          "label": "Christian hell mirrors Greek hell",
+          "note": "Early depictions show striking similarities, often using identical Greek terminology."
+        }
+      ]
+    },
+    {
+      "type": "tree",
+      "title": "Pre-Christian underworlds by culture",
+      "root": "Ancient afterlife realms",
+      "children": [
+        {
+          "label": "Mesopotamia",
+          "note": "Kur or Irkalla, ruled by Ereshkigal; no moral judgment.",
+          "children": []
+        },
+        {
+          "label": "Egypt",
+          "note": "Duat, Weighing of the Heart, Ammit or the Field of Reeds.",
+          "children": []
+        },
+        {
+          "label": "Dharmic and Persian",
+          "note": "Temporary hells that purify.",
+          "children": [
+            {
+              "label": "Buddhist Naraka",
+              "note": "One of six realms of samsara."
+            },
+            {
+              "label": "Hindu Naraka",
+              "note": "Presided over by Yama."
+            },
+            {
+              "label": "Zoroastrian abyss",
+              "note": "Below the Chinvat Bridge; not eternal."
+            }
+          ]
+        },
+        {
+          "label": "Greco-Roman and Etruscan",
+          "note": "Hades or Inferi with Elysian Fields and Tartarus.",
+          "children": []
+        },
+        {
+          "label": "Islam",
+          "note": "Jahannam for the wicked, Jannah for the righteous.",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "mythfact": [
+    {
+      "myth": "Every ancient culture believed in eternal fiery punishment for the wicked.",
+      "fact": "Mesopotamia had no strong moral judgment at all, and Buddhist, Hindu and Zoroastrian hells were temporary and purifying."
+    },
+    {
+      "myth": "The Christian picture of hell came purely from the Bible.",
+      "fact": "Evidence suggests some early Christian theologians borrowed from Greek myth's Tartarus, and early depictions often use identical Greek terminology."
+    },
+    {
+      "myth": "Egyptian judgment sent sinners to endless torture.",
+      "fact": "A heart heavier than Ma'at's feather was devoured by Ammit, condemning the soul to oblivion, not ongoing torment."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Kur / Irkalla",
+      "meaning": "The Mesopotamian underworld: a dark, dreary realm ruled by Ereshkigal where all souls go regardless of their actions."
+    },
+    {
+      "term": "Weighing of the Heart",
+      "meaning": "Egyptian judgment overseen by Osiris, weighing the dead person's heart against the feather of Ma'at, symbol of truth and justice."
+    },
+    {
+      "term": "Naraka",
+      "meaning": "Buddhist and Hindu hell: a temporary realm of suffering until bad karma is exhausted, followed by rebirth."
+    },
+    {
+      "term": "Chinvat Bridge",
+      "meaning": "Zoroastrian place of judgment after death: the righteous cross into paradise, the wicked fall into a hellish abyss."
+    },
+    {
+      "term": "Tartarus",
+      "meaning": "In Greek and Roman myth, the region of Hades for the wicked: severe, endless punishment and a prison for the Titans."
+    },
+    {
+      "term": "Jahannam",
+      "meaning": "Islam's hell: multiple levels of punishment, fire 70 times hotter than earthly fire, run by 19 zabaniyya."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Some early Christian depictions of hell share striking similarities with these ancient Greek portrayals, often employing identical Greek terminology.",
+      "who": "The book"
+    },
+    {
+      "text": "The afterlife is uniformly bleak and joyless, emphasizing the Mesopotamian view of death as an inevitable, somber fate for all.",
+      "who": "The book"
+    }
+  ],
+  "verses": [],
+  "quiz": [
+    {
+      "q": "In the Egyptian Weighing of the Heart, what happened to a heart heavier than the feather?",
+      "options": [
+        "It was devoured by Ammit, sending the soul to oblivion",
+        "It was sent to burn forever in Tartarus",
+        "It was reborn into another realm"
+      ],
+      "answer": 0,
+      "why": "A heavy heart showed a life of sin and imbalance; the monster Ammit devoured it, condemning the soul to oblivion."
+    },
+    {
+      "q": "Which of these hells is described as NOT eternal?",
+      "options": [
+        "Greek Tartarus",
+        "Zoroastrian hell",
+        "Roman Tartarus"
+      ],
+      "answer": 1,
+      "why": "In Zoroastrianism souls can be purified over time and join the righteous in paradise, reflecting belief in ultimate redemption."
+    },
+    {
+      "q": "Which Church Fathers engaged Neoplatonism and Greek philosophy?",
+      "options": [
+        "Clement of Alexandria, Origen and Augustine",
+        "Hesiod and Plato",
+        "Yama and Osiris"
+      ],
+      "answer": 0,
+      "why": "These Church Fathers wove Greek philosophical ideas into their theology, showing how Greek thought shaped early Christian views."
+    }
+  ],
+  "reflect": "If early Christian hell mirrors Greek Tartarus, even in its vocabulary, what does that suggest about where the idea came from?"
+}

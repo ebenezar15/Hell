@@ -1,0 +1,86 @@
+{
+  "id": "modern",
+  "title": "Hell in Modern Christianity",
+  "hook": "Do all Christians believe hell is endless fiery torture? Not even close.",
+  "tldr": "Christians hold many views of hell: annihilation of the wicked, universal reconciliation after purification, Catholic purgatory, the Orthodox mystery of separation and the River of Fire, eternal conscious torment, and nuanced views like metaphorical fire, emergent rethinking and soul sleep. Judaism's view sits closest to the universalist and purgatorial ones.",
+  "big_idea": "Eternal torment is one Christian view among many, not the only one.",
+  "points": [
+    {"icon": "cross-x", "title": "Annihilationism: the wicked cease to exist", "text": "Only the saved receive immortality; the unsaved are finally destroyed after judgment. Popularized by Edward Fudge's The Fire That Consumes and John Stott, it is popular among Seventh-day Adventists.", "verses": []},
+    {"icon": "globe", "title": "Universalism: all are finally reconciled", "text": "Jesus' blood covers everyone's sins, so all souls are eventually saved, most after purification. Held by Clement, Origen, Gregory of Nyssa, and modern thinkers from Ballou to Hart.", "verses": []},
+    {"icon": "ladder", "title": "Purgatory: purification before heaven", "text": "Roman Catholic doctrine: some souls are purified of residual sin in an intermediate state before the beatific vision. Systematized by Aquinas, popularized by Dante.", "verses": []},
+    {"icon": "wave", "title": "Orthodoxy: the River of Fire", "text": "Hell is less a place of torture than separation from God's love, or God's presence experienced as painful by those not in communion with Him, with hope of reconciliation.", "verses": []},
+    {"icon": "fire", "title": "Eternal conscious torment", "text": "Hell as perpetual physical, mental and emotional torment, justified because sin offends God's infinite dignity. Rooted in Augustine, Aquinas, Calvin and Edwards, and close to the Sunni Islamic view.", "verses": []},
+    {"icon": "puzzle", "title": "Nuanced views multiply", "text": "Some read the fire as metaphor, like C.S. Lewis; emergent voices like Rob Bell rethink hell; mortalists say souls sleep until resurrection.", "verses": []}
+  ],
+  "sections": [
+    {"h": "Annihilationism (Conditionalism)", "icon": "cross-x", "summary": "The wicked are ultimately destroyed and cease to exist rather than suffer eternally; only the saved receive immortality. Punishment is finite, ending in extinction after the final judgment. Proponents: Arnobius (3rd century), John Stott, Edward Fudge and Clark Pinnock (20th century). It gained traction through Fudge's influential book The Fire That Consumes, and Stott's endorsement brought it into mainstream evangelical discussion. It is popular among Seventh-day Adventists and evangelicals seeking a less abusive alternative to hellfire.", "verses": [], "src": "jew:8"},
+    {"h": "Universal Reconciliation (Universalism)", "icon": "globe", "summary": "Jesus' blood covers all people's sins, so all souls are eventually reconciled to God. Some say this happens instantly at death; most hold many first undergo purification in a purgatory- or hell-like realm. It stresses Jesus' victory over sin and death and God's love, grace and mercy. Faith and deeds shape eternal rewards and roles, not salvation. Proponents: Clement of Alexandria, Origen, Gregory of Nyssa, Hosea Ballou, George MacDonald, Karl Barth, David Bentley Hart.", "verses": [], "src": "jew:8"},
+    {"h": "Universalism's development and reach today", "icon": "tree", "summary": "Origen's concept of apokatastasis taught the eventual restoration of all souls, and later Church Fathers like Gregory of Nyssa defended it. Though some of Origen's views were later condemned, universal reconciliation persisted among many theologians and is gaining a new wave of proponents. Today it has supporters across denominations, mainly in the Orthodox Church and non-conservative Protestant churches, emphasizing a more inclusive understanding of salvation.", "verses": [], "src": "jew:8"},
+    {"h": "Purgatorial View", "icon": "ladder", "summary": "This Roman Catholic doctrine holds that some souls pass through an intermediate state of purification before heaven, gaining the holiness needed to enter God's presence. Augustine of Hippo, Thomas Aquinas, Dante Alighieri (in literature) and the Catholic Church see it as a merciful chance for some elected souls to be cleansed of residual sin before the beatific vision. Aquinas's Summa Theologica systematized it; Dante's Divine Comedy popularized the imagery. Some Eastern Orthodox and Anglican traditions also partly recognize it.", "verses": [], "src": "jew:8"},
+    {"h": "The Orthodox View (Mystery of Hell)", "icon": "wave", "summary": "Eastern Orthodoxy sees hell less as a place of ongoing torment and more as separation from God's love, with nuances about eventual reconciliation. Isaac the Syrian (7th century), Gregory Palamas (14th century) and Kallistos Ware (20th century) see hell as the consequence of rejecting God's love, with potential reconciliation for all. Orthodoxy stresses judgment's transformative, purifying side, often seeing hell as a metaphorical state. Isaac's River of Fire: God's presence painful to those not in communion with Him.", "verses": [], "src": "jew:8"},
+    {"h": "Eternal Conscious Torment (ECT) or Hellfire", "icon": "fire", "summary": "Hell is perpetual conscious physical, mental and emotional torment for unbelievers (Calvinism, Evangelicalism, Catholicism) and for believers who forfeit salvation (Arminianism, Pentecostalism, Baptists, Catholicism). Proponents: Augustine, Anselm, Aquinas, Calvin, Jonathan Edwards, and today John MacArthur, John Piper, R.C. Sproul, Wayne Grudem. Augustine's City of God solidified it in the West, Aquinas reinforced it, and Edwards' fiery Great Awakening sermons embedded it in American Evangelicalism.", "verses": [], "src": "jew:8"},
+    {"h": "ECT today, and its likeness to Islam", "icon": "alert", "summary": "Conservative and fundamentalist Protestants and many Catholics hold it as the inevitable result of divine justice: sin offends God's infinite dignity, so it merits perpetual, severe torture, and those dying in disbelief face everlasting separation and unending torment. Ironically, many conservative Protestants say Catholics, though believing in Jesus as Messiah, will be damned over doctrinal differences. ECT largely matches Islam; the Sunni view is almost identical, using the same depictions of perpetual fiery punishment.", "verses": [], "src": "jew:8"},
+    {"h": "Nuanced Views", "icon": "puzzle", "summary": "Metaphorical fire: some Christians, mainly fundamentalist and conservative Protestants, believe in literal flames, while C.S. Lewis and modern theologians across denominations read fire as the anguish of separation from God, a view gaining acceptance. Emergent views: Peter Enns, Andy Stanley, Brian Zahnd, William Paul Young, Brian McLaren and Rob Bell question ECT, seeking readings aligned with justice, compassion, forgiveness and inclusivity. Mortalism or soul sleep: souls are unconscious until resurrection and judgment, so most or all are not yet in heaven or hell.", "verses": [], "src": "jew:8"},
+    {"h": "Conclusion", "icon": "compass", "summary": "These and other lesser-known views show the diversity of Christian thought on the afterlife and the fate of the wicked, ranging from strict eternal punishment to ultimate reconciliation with God. Key theologians and historical contexts shaped them into today's varied landscape of Christian eschatology. By comparison, the Jewish concept of hell is best understood as a nuanced position, somewhat akin to the Universalist and Purgatorial perspectives.", "verses": [], "src": "jew:8"}
+  ],
+  "visuals": [
+    {"type": "spectrum", "title": "From strict punishment to full reconciliation", "caption": "Christian views range across a wide spectrum; Judaism sits near the purgatorial and universalist end.", "left": "Eternal torment", "right": "All reconciled", "marks": [
+      {"pos": 3, "label": "Eternal conscious torment", "note": "Perpetual physical, mental and emotional torment for the lost."},
+      {"pos": 30, "label": "Annihilationism", "note": "The wicked are destroyed and cease to exist; punishment is finite."},
+      {"pos": 55, "label": "Purgatory", "note": "Some elected souls purified of residual sin before heaven."},
+      {"pos": 72, "label": "Orthodox River of Fire", "note": "Separation from God's love, with potential reconciliation for all."},
+      {"pos": 80, "label": "Judaism", "note": "A nuanced position akin to the universalist and purgatorial views."},
+      {"pos": 96, "label": "Universal reconciliation", "note": "All souls eventually reconciled, most after purification."}
+    ]},
+    {"type": "timeline", "title": "Who shaped which view", "caption": "Key figures behind the major positions, in historical order.", "events": [
+      {"date": "2nd-4th century", "label": "Clement, Origen, Gregory of Nyssa", "note": "Origen's apokatastasis: restoration of all souls, defended by Gregory."},
+      {"date": "3rd century", "label": "Arnobius", "note": "Early proponent of annihilationism."},
+      {"date": "5th century", "label": "Augustine's City of God", "note": "Solidified eternal torment in Western Christianity; also held purgatory."},
+      {"date": "7th century", "label": "Isaac the Syrian", "note": "Hell as the River of Fire: God's presence painful without communion."},
+      {"date": "13th-14th century", "label": "Aquinas and Dante", "note": "Summa Theologica systematized purgatory and ECT; Divine Comedy popularized imagery."},
+      {"date": "18th century", "label": "Jonathan Edwards", "note": "Great Awakening sermons embedded hellfire in American Evangelicalism."},
+      {"date": "20th century", "label": "Fudge, Stott, C.S. Lewis", "note": "The Fire That Consumes spreads annihilationism; Lewis reads fire metaphorically."},
+      {"date": "21st century", "label": "Hart, Bell, emergent voices", "note": "Universalism and emergent rethinking gain new proponents."}
+    ]},
+    {"type": "tree", "title": "Map of Christian views on hell", "root": "Christian views of hell", "children": [
+      {"label": "Hell is final", "note": "No return for the lost.", "children": [
+        {"label": "Eternal conscious torment", "note": "Endless torment; sin offends God's infinite dignity."},
+        {"label": "Annihilationism", "note": "The wicked cease to exist after judgment."}
+      ]},
+      {"label": "Hell purifies", "note": "Judgment that cleanses.", "children": [
+        {"label": "Purgatory", "note": "Some souls cleansed before heaven."},
+        {"label": "Universal reconciliation", "note": "All eventually saved, many after purification."},
+        {"label": "Orthodox mystery", "note": "River of Fire; hope of reconciliation."}
+      ]},
+      {"label": "Nuanced views", "note": "Reinterpretations across traditions.", "children": [
+        {"label": "Metaphorical fire", "note": "Fire as anguish of separation from God."},
+        {"label": "Emergent views", "note": "Reinterpretation rooted in justice and compassion."},
+        {"label": "Mortalism", "note": "Souls sleep until resurrection."}
+      ]}
+    ]}
+  ],
+  "mythfact": [
+    {"myth": "Eternal conscious torment is the one historic Christian view of hell.", "fact": "Church Fathers such as Clement, Origen and Gregory of Nyssa taught universal reconciliation, and Arnobius held annihilationism."},
+    {"myth": "Eastern Orthodoxy pictures hell as a torture chamber.", "fact": "Orthodoxy sees hell as separation from God's love; Isaac the Syrian's River of Fire is God's presence painful to those not in communion."},
+    {"myth": "Everyone who believes in hell believes in literal flames.", "fact": "C.S. Lewis and many modern theologians read the fire as a metaphor for the anguish of separation from God."}
+  ],
+  "terms": [
+    {"term": "Annihilationism", "meaning": "Also conditionalism: only the saved receive immortality; the wicked are finally destroyed and cease to exist."},
+    {"term": "Apokatastasis", "meaning": "Origen's concept of the eventual restoration of all souls."},
+    {"term": "Purgatory", "meaning": "Catholic intermediate state where some souls are purified of residual sin before entering God's presence."},
+    {"term": "River of Fire", "meaning": "Isaac the Syrian's picture of hell as God's presence experienced as painful by those not in communion with Him."},
+    {"term": "Mortalism", "meaning": "Soul sleep: the soul is unconscious from death until the resurrection and final judgment."},
+    {"term": "Beatific vision", "meaning": "Seeing and enjoying God in heaven, which purgatory prepares souls for."}
+  ],
+  "quotes": [
+    {"text": "Ironically, a particular theological view held by many conservative Protestants suggests that Catholics, despite accepting and believing in Jesus as the Messiah, will still be condemned to eternal damnation due to differing theological beliefs.", "who": "The book"},
+    {"text": "the concept of hell in Judaism can be best understood as a nuanced position, somewhat akin to the Universalist and Purgatorial perspectives within Christianity.", "who": "The book"}
+  ],
+  "verses": [],
+  "quiz": [
+    {"q": "Which book helped bring annihilationism into the modern mainstream?", "options": ["The City of God", "The Fire That Consumes", "The Divine Comedy"], "answer": 1, "why": "Edward Fudge's The Fire That Consumes argued for annihilationism, and John Stott's endorsement brought it into evangelical discussion."},
+    {"q": "In universalism, what do faith and deeds determine?", "options": ["Whether one is saved", "Eternal rewards and roles", "Nothing at all"], "answer": 1, "why": "Universalists believe all are eventually saved; faith and deeds influence one's eternal rewards and roles rather than salvation."},
+    {"q": "Which Christian view is the Sunni Islamic view of hell almost identical to?", "options": ["Purgatory", "Universalism", "Eternal conscious torment"], "answer": 2, "why": "Sunni theology also pictures hell as perpetual fiery punishment, using the same depictions found in eternal conscious torment."}
+  ],
+  "reflect": "Which view of hell did you grow up with, and did you know how many alternatives Christians hold?"
+}

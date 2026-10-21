@@ -1,0 +1,62 @@
+{
+  "id": "genres",
+  "title": "Reading the Bible by Genre",
+  "hook": "Would you read a coach's trash talk as a literal crime report?",
+  "tldr": "The Bible speaks through metaphors, parables, hyperbole and symbols, as Jewish teachers always did. Reading these literally, especially the hell passages, distorts their meaning. Cutting Christianity off from its Jewish roots made that mistake easier.",
+  "big_idea": "Read each passage by its genre, not as a literal manual.",
+  "points": [
+    {"icon": "speech", "title": "Figures of speech are everywhere", "text": "We say financial meltdown or media circus and nobody pictures melting skyscrapers or journalists in costumes. Mostly illiterate ancient societies leaned even more on pictures, metaphors, stories and parables.", "verses": []},
+    {"icon": "bread", "title": "Jesus and Paul used metaphors", "text": "Jesus is the bread of life, not pastry. Believers are God's field and building, not soil. The armor of God is spiritual readiness, not iron gear.", "verses": ["John 6:35", "Matthew 5:14", "1 Corinthians 3:9", "Ephesians 6:11"]},
+    {"icon": "chain", "title": "Jewish roots were cut away", "text": "Constantine and the Council of Nicaea pushed Christianity away from its Jewish context, which left later readers blind to Jesus and Paul as Jewish teachers.", "verses": []},
+    {"icon": "fire", "title": "Dark and fiery at once?", "text": "Hell is pictured as utter darkness and as a lake of fire. Fire gives light, so the images clash if taken literally. Jesus' Jewish audience heard them as figures of speech.", "verses": ["Matthew 22:13", "Matthew 8:12"]},
+    {"icon": "eye", "title": "Selective literalism", "text": "Hardly anyone gouges out an eye or cuts off a hand, yet the same verses mention Gehenna and those parts get read literally.", "verses": ["Matthew 18:9", "Matthew 5:30"]},
+    {"icon": "book", "title": "Genre drives meaning", "text": "The Augustinian-Calvinist hellfire view reads metaphors, hyperbole, parables and allegories literally. Reading by genre and context gives a clearer picture of what the Bible does and does not say.", "verses": []}
+  ],
+  "sections": [
+    {"h": "Figures of speech we all understand", "icon": "speech", "summary": "Financial meltdown, political battlefield, corporate jungle, media circus: nobody pictures dissolving skyscrapers, armored politicians, managers hunting staff, or journalists dressed as bees and swans. Modern people read these as symbols and analogies. Mostly illiterate ancient societies relied even more on illustrations, metaphors, stories and parables. A coach texting that his team grilled the Yankees until he can still smell the smoke would be badly misread by someone in 4025 taking it literally. Modern Bible readers make that same mistake when they confuse genres.", "verses": [], "src": "hfd:6"},
+    {"h": "Cultural and Theological Context", "icon": "temple", "summary": "Jewish teachers always taught with figurative language, metaphor, symbol and analogy. Jesus and Paul, Jewish rabbis themselves, did the same. Jesus: I am the bread of life (spiritual sustenance, not pastry); you are the light of the world (guidance, truth and influence, not candles). Paul: God's field and building (growth and community, not soil); the full armor of God (spiritual readiness, not iron). Ignoring such devices loses their richness and can produce shallow or even harmful readings.", "verses": ["John 6:35", "Matthew 5:14", "1 Corinthians 3:9", "Ephesians 6:11"], "src": "hfd:6"},
+    {"h": "How Christianity lost its Jewish roots", "icon": "chain", "summary": "This blindness partly comes from a deliberate separation. Emperor Constantine (4th century) sought a Jewish-free identity: removing Jewish priests from the church, promoting new doctrines and inserting pagan practices. The Council of Nicaea (325 AD, in Turkey) barred bishops of Jewish background, moved the Resurrection celebration from First Fruits to Easter, replaced Passover with Easter and the Saturday Sabbath with Sunday. Quartodecimans were persecuted; circumcision was outlawed on pain of death; Jews lost offices and freedoms of residence, business and travel.", "verses": [], "src": "hfd:6"},
+    {"h": "Biblical Context", "icon": "fire", "summary": "Catholics and Protestants usually picture hell as a dark realm (Matthew 22:13) and a lake of fire (Matthew 8:12) where souls are tortured forever, gnashing teeth and crying. But fire gives light, so darkness and fire together clash if read literally. Jesus' Jewish hearers took these as proverbial figures of speech. Jesus said he spoke figuratively and in parables.", "verses": ["Matthew 22:13", "Matthew 8:12", "John 16:25", "Matthew 13:10"], "src": "hfd:6"},
+    {"h": "Blood, eyes and hands: selective literalism", "icon": "eye", "summary": "Taken literally, drinking Jesus' blood for eternal life (John 6:54) would limit life to the few with access and break Jewish Law, which forbids eating any creature's blood (Leviticus 17:14), the Law Jesus came to fulfill, not abolish. It means spiritually accepting his sacrifice. Hardly anyone literally gouges out an eye or cuts off a hand, yet those same verses mention Gehenna. By the first English translations, the hellfire tradition was so ingrained that it shaped how Gehenna was rendered, feeding today's misconceptions.", "verses": ["John 6:54", "Matthew 5:17", "Leviticus 17:14", "Matthew 18:9", "Matthew 5:30"], "src": "hfd:6"},
+    {"h": "Biblical Genres", "icon": "book", "summary": "The Bible is a narrative using metaphors, parables and allegories, seldom meant literally like a textbook or manual, to express deeper spiritual truths. When Jesus speaks of hell in parables he uses familiar concepts and vivid images to teach moral lessons. The Augustinian-Calvinist hellfire view reads metaphor, symbolism, hyperbole, parable and allegory literally. The plan ahead: examine the hell passages by historical and cultural context, literary style and common modern fallacies.", "verses": [], "src": "hfd:6"}
+  ],
+  "visuals": [
+    {"type": "compare", "title": "Literal reading vs intended meaning", "left": {"label": "If read literally", "items": ["Jesus is a piece of pastry", "Followers are candles or light bulbs", "Believers are soil and buildings", "Christians wear iron armor", "Eternal life only for those who drank his blood"]}, "right": {"label": "What it meant", "items": ["Bread: spiritual sustenance", "Light: guidance, truth and influence", "Field and building: growth and community", "Armor: spiritual readiness and virtues", "Accepting his sacrifice spiritually"]}, "caption": "The same reading habit applied to hell passages produces hellfire."},
+    {"type": "timeline", "title": "Cutting the Jewish roots", "events": [{"date": "4th century", "label": "Constantine's Jewish-free church", "note": "Jewish priests removed, new doctrines promoted, pagan practices inserted."}, {"date": "325 AD", "label": "Council of Nicaea", "note": "Bishops of Jewish background barred from attending."}, {"date": "325 AD", "label": "Feasts replaced", "note": "First Fruits and Passover become Easter; Saturday Sabbath becomes Sunday."}, {"date": "Afterwards", "label": "Quartodecimans persecuted", "note": "Those keeping Passover on 14 Nisan persecuted; circumcision punishable by death."}, {"date": "Later", "label": "Jews restricted", "note": "Barred from office and military rank; limits on living, business and travel."}]},
+    {"type": "decision", "title": "How to read a hell passage", "question": "Is this a metaphor, parable, hyperbole or symbol?", "yes": {"label": "Read by genre", "note": "Ask what lesson the familiar image teaches in its Jewish context."}, "no": {"label": "Read plainly", "note": "Only then take the words at face value, still minding historical context."}}
+  ],
+  "mythfact": [
+    {"myth": "Taking Jesus' words literally is the most faithful reading.", "fact": "Jesus said he spoke figuratively and in parables. Literal readings of his blood, eye and hand sayings break Jewish Law or are ignored anyway."},
+    {"myth": "Hell is literally both pitch dark and full of blazing fire.", "fact": "Fire gives light, so the images clash if literal. Jesus' Jewish audience heard them as proverbial figures of speech."},
+    {"myth": "Christianity's reading of Scripture grew naturally from its Jewish origins.", "fact": "Constantine and Nicaea deliberately cut Jewish influence, which left later Christians misunderstanding Jesus and Paul as Jewish teachers."}
+  ],
+  "terms": [
+    {"term": "Genre", "meaning": "The kind of writing a passage is, such as parable, metaphor, allegory or hyperbole, which decides how it should be read."},
+    {"term": "Quartodeciman", "meaning": "Latin for fourteeners: those who celebrated Passover on the 14th of Nisan, later persecuted."},
+    {"term": "Gehenna", "meaning": "The word Jesus used in the eye and hand sayings, which the hellfire tradition shaped into hell in English translations."},
+    {"term": "Selective literalism", "meaning": "Taking some words in a passage literally, like hell, while treating the rest, like cutting off a hand, as figurative."}
+  ],
+  "quotes": [
+    {"text": "Let us then have nothing in common with the detestable Jewish crowd...", "who": "Constantine"},
+    {"text": "For it is unbecoming beyond measure that on this holiest of festivals, we should follow the customs of the Jews. Henceforth, let us have nothing in common with this odious people.", "who": "The Council of Nicaea"},
+    {"text": "These literary devices are seldom meant to be taken literally—contrasting with a textbook or manual—but rather to illustrate deeper spiritual truths and creatively express them.", "who": "The book"}
+  ],
+  "verses": [
+    {"ref": "John 16:25", "role": "Jesus admits he has been speaking figuratively."},
+    {"ref": "Matthew 13:10", "role": "Jesus speaks to the people in parables."},
+    {"ref": "John 6:54", "role": "Drinking his blood: literal reading would contradict the Law."},
+    {"ref": "Leviticus 17:14", "role": "Israelites must not eat the blood of any creature."},
+    {"ref": "Matthew 5:17", "role": "Jesus came to fulfill the Law, not abolish it."},
+    {"ref": "Matthew 18:9", "role": "Gouge out your eye: hyperbole beside Gehenna."},
+    {"ref": "Matthew 5:30", "role": "Cut off your hand: nobody takes it literally, yet Gehenna is read literally."},
+    {"ref": "Matthew 22:13", "role": "Outer darkness, clashing with fire if read literally."},
+    {"ref": "John 6:35", "role": "I am the bread of life: a known symbol of spiritual sustenance."},
+    {"ref": "Ephesians 6:11", "role": "Armor of God: spiritual readiness, not metal gear."}
+  ],
+  "quiz": [
+    {"q": "Why do darkness and a lake of fire clash if hell is read literally?", "options": ["Fire gives off light", "Darkness puts out fire", "They come from different testaments"], "answer": 0, "why": "Fire naturally emits light, so a place cannot literally be pitch dark and ablaze at once."},
+    {"q": "What would a literal reading of drinking Jesus' blood contradict?", "options": ["Roman law", "The Jewish Law forbidding eating blood", "Paul's letters"], "answer": 1, "why": "Leviticus 17:14 forbids eating blood, and Jesus came to fulfill the Law, not abolish it."},
+    {"q": "Who was barred from the Council of Nicaea?", "options": ["Roman senators", "Bishops with Jewish backgrounds", "Greek philosophers"], "answer": 1, "why": "Bishops with Jewish backgrounds were not allowed to join, with long-lasting effects on Christian-Jewish relations."}
+  ],
+  "reflect": "Which Bible images do you read literally, and which figuratively, and what rule are you actually using to decide?"
+}

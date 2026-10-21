@@ -1,0 +1,69 @@
+{
+  "id": "wrath",
+  "title": "God's Wrath and Vengeance",
+  "hook": "If God is not cruel, what are his wrath and vengeance for?",
+  "tldr": "God's wrath is not emotional rage but withdrawn protection, letting people face the consequences of their choices, aimed at repentance. His vengeance purges impurity and restores, as Isaiah 1 shows. Unlike human revenge, divine wrath is measured, temporary, corrective and constructive.",
+  "big_idea": "God's wrath corrects and purifies; it never aims to destroy forever.",
+  "points": [
+    {"icon": "alert", "title": "Not soft on sin", "text": "God is slow to anger yet visits iniquity to the third and fourth generation. This is no hypergrace theory; sin has real consequences.", "verses": ["Exodus 34:6", "Exodus 34:7"]},
+    {"icon": "people", "title": "Egypt's plagues brought converts", "text": "The plagues aimed first at repentance. A mixed multitude of Egyptians left their idols and joined Israel by faith; wrath was a call for change.", "verses": ["Exodus 12:38"]},
+    {"icon": "shield", "title": "Wrath is withdrawn protection", "text": "God's wrath meant letting people face their choices. When Israel trusted other gods, he stopped defending them and pagan nations attacked.", "verses": ["Romans 1:24", "Deuteronomy 28:15-68"]},
+    {"icon": "father", "title": "The Lord disciplines those he loves", "text": "Like the Prodigal's father letting his son learn from his choices, God's discipline is purposeful and redemptive, meant to purify and grow us.", "verses": ["Hebrews 12:6"]},
+    {"icon": "flame", "title": "Vengeance purges dross and restores", "text": "In Isaiah, God vents wrath on his foes to purge their dross, restore their leaders and make Jerusalem the Faithful City.", "verses": ["Isaiah 1:24-26", "Romans 12:19"]}
+  ],
+  "sections": [
+    {"h": "Where is God's wrath poured?", "icon": "question", "summary": "If not on Jesus, where does God's wrath go? We all shout penalty at a foul on TV, wanting fairness, and God is slow to anger yet visits iniquity to the fourth generation. God is not soft on sin, against hypergrace. Yet wrath is not vengeance and hatred. The plagues of Egypt, parallel to Revelation's, aimed at repentance: multitudes of Egyptians abandoned idols to join Israel by faith.", "verses": ["Exodus 34:6", "Exodus 34:7", "Exodus 12:38"], "src": "jew:43"},
+    {"h": "Judgment as a call to harvest", "icon": "wheat", "summary": "We tend to imagine Egypt's plagues as Marvel Studios-style vengeance, but they brought Egyptians into saving faith. God's wrath was a call for change. The great judgment and tribulation should be seen not as mere retribution but as mercy, a call for a harvest of people to believe.", "verses": [], "src": "jew:43"},
+    {"h": "Biblical wrath", "icon": "shield", "summary": "Ancient audiences linked wrath to disasters and upheavals. Wrath means letting people face their sins' consequences. It is not human, immature anger but the natural outcome of leaving God's path, like the Prodigal's father letting his son learn. When Israel worshiped other gods, God did not strike with lightning or lava; he withdrew protection and cruel pagan nations attacked.", "verses": ["Romans 1:24"], "src": "jew:43"},
+    {"h": "You don't want me? Fine", "icon": "door", "summary": "As a rule, Old Testament wrath is God letting wicked pagans overcome Israel without defending them, matching the Law's curses. It is as if God said, let's see how the other gods treat you. Pagans often forced Israel to worship their gods, gods who demanded children be burned. The Lord disciplines those he loves: wrath is purposeful and redemptive, purifying and maturing.", "verses": ["Deuteronomy 28:15-68", "Hebrews 12:6"], "src": "jew:43"},
+    {"h": "Biblical vengeance", "icon": "sword", "summary": "People judge harshly to feel superior or cope with insecurity. Hollywood images of bloody apocalypse suggest revenge is godly, but true divinity lies in empathy and forgiveness. Paul says leave vengeance to God's wrath. Isaiah 1:24-26 shows its purpose: God avenges himself on his foes by purging their dross, restoring their leaders and calling them the City of Righteousness, the Faithful City.", "verses": ["Romans 12:19", "Isaiah 1:24-26"], "src": "jew:43"},
+    {"h": "Why we leave revenge to God", "icon": "dove", "summary": "Divine vengeance aims to discipline and restore the transgressor, not crush or condemn forever, unlike human revenge fueled by rage. God exposes wrongs to inspire healing through grace, not wrathful judgment. If we retaliate, they retaliate in an endless circle; if we don't, God can activate his justice. His judgment exposes truth so the issue can be treated and healed: to correct, not condemn.", "verses": ["Isaiah 1:24-26"], "src": "jew:43"},
+    {"h": "Conclusion", "icon": "scale", "summary": "Human wrath is often cruel, merciless and destructive. God's wrath, the biblical term for disciplining Israel, was always measured, temporary, corrective and constructive. It expresses his deep commitment to justice, righteousness and the welfare of creation, aiming to rectify unjust and oppressive behavior and restore harmony and prosperity.", "verses": [], "src": "jew:43"}
+  ],
+  "visuals": [
+    {"type": "compare", "title": "Human wrath vs. God's wrath", "left": {"label": "Human wrath and revenge", "items": ["Emotional, resentful, immature anger", "Cruel, merciless and destructive", "Fueled by rage and the wish for superiority", "Triggers an endless circle of retaliation"]}, "right": {"label": "God's wrath and vengeance", "items": ["Withdrawn protection; consequences of choices", "Measured, temporary, corrective and constructive", "Aims to purify, restore and heal", "Breaks the cycle as God activates his justice"]}},
+    {"type": "flow", "title": "How God's vengeance works in Isaiah 1:24-26", "steps": [
+      {"label": "Wrath vented on foes", "note": "I will vent my wrath on my foes and avenge myself."},
+      {"label": "Dross purged away", "note": "God thoroughly purges dross and removes all impurities."},
+      {"label": "Leaders restored", "note": "Leaders and rulers restored as in days of old."},
+      {"label": "Faithful City", "note": "Afterward called the City of Righteousness, the Faithful City."}
+    ]},
+    {"type": "cycle", "title": "The circle of revenge", "caption": "If we retaliate, the circle never ends; if we don't, God can activate his justice.", "steps": [
+      {"label": "We are wronged", "note": "Hurt stirs the urge to judge harshly and repay."},
+      {"label": "We retaliate", "note": "Human revenge fueled by emotional rage."},
+      {"label": "They retaliate back", "note": "The offender answers with fresh revenge."},
+      {"label": "Wrongs multiply", "note": "An endless circle of revenge, until someone leaves it to God."}
+    ]}
+  ],
+  "mythfact": [
+    {"myth": "God's wrath is like Marvel-style vengeance raining fire from the sky.", "fact": "In the Old Testament, wrath usually meant God withdrawing protection, letting pagan nations attack when Israel turned to other gods."},
+    {"myth": "Rejecting eternal hell means God is soft on sin.", "fact": "God visits iniquity to the third and fourth generation; his wrath is real but measured, temporary and corrective."},
+    {"myth": "God's vengeance aims to destroy his enemies forever.", "fact": "Isaiah 1:24-26 shows vengeance purging dross and restoring, so the city becomes the Faithful City."}
+  ],
+  "terms": [
+    {"term": "God's wrath", "meaning": "God's measured, temporary discipline, often withdrawing protection so people face the consequences of their choices."},
+    {"term": "Hypergrace", "meaning": "A popular theory treating God as soft on sin, which the source explicitly rejects."},
+    {"term": "Divine vengeance", "meaning": "God's repayment of wrongs, aimed at purifying and restoring the transgressor rather than condemning forever."}
+  ],
+  "quotes": [
+    {"text": "You don’t want Me? Fine, Israel. Let’s see how well the other gods will treat, protect, and care for you.", "who": "The book"},
+    {"text": "If we retaliate, they will retaliate back in an endless circle of revenge. If we don’t, God can activate His justice.", "who": "The book"},
+    {"text": "God’s judgment is not about hurting you but about exposing the truth so the issue can be treated and you can be healed.", "who": "The book"}
+  ],
+  "verses": [
+    {"ref": "Exodus 34:6", "role": "God is slow to anger."},
+    {"ref": "Exodus 34:7", "role": "God visits iniquity to the fourth generation; he is not soft on sin."},
+    {"ref": "Exodus 12:38", "role": "Multitudes of Egyptians joined Israel by faith after the plagues."},
+    {"ref": "Romans 1:24", "role": "Wrath as God giving people over to the consequences of their sins."},
+    {"ref": "Deuteronomy 28:15-68", "role": "The Law's curses: wrath as withdrawn protection against enemies."},
+    {"ref": "Hebrews 12:6", "role": "The Lord disciplines those he loves; wrath is redemptive."},
+    {"ref": "Romans 12:19", "role": "Leave room for God's wrath; vengeance belongs to him."},
+    {"ref": "Isaiah 1:24-26", "role": "God's vengeance purges dross and restores the Faithful City."}
+  ],
+  "quiz": [
+    {"q": "How was God's wrath usually expressed against Israel in the Old Testament?", "options": ["Lightning and lava from the sky", "Withdrawing his protection", "Eternal fire after death"], "answer": 1, "why": "God withdrew protection, letting pagan nations attack when Israel worshiped other gods."},
+    {"q": "What happened to many Egyptians after the plagues?", "options": ["They were annihilated", "They joined Israel by faith", "They were sent to Sheol"], "answer": 1, "why": "Exodus 12:38 says multitudes of Egyptians joined Israel, abandoning their idols; the plagues called for change."},
+    {"q": "In Isaiah 1:24-26, what is the result of God's vengeance?", "options": ["The city burns forever", "Dross purged and leaders restored", "The people are scattered forever"], "answer": 1, "why": "God purges dross, restores leaders, and the city becomes the City of Righteousness, the Faithful City."}
+  ],
+  "reflect": "When you are wronged, do you want the offender destroyed or restored, and which looks more like God?"
+}

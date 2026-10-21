@@ -1,0 +1,68 @@
+{
+  "id": "resurrection",
+  "title": "The Resurrection of Judgment",
+  "hook": "If everyone is raised from the dead, what does the 'resurrection of judgment' actually mean?",
+  "tldr": "Jesus says both the righteous and the unrighteous are raised. The difference is not being alive but the kind of resurrection: honor and reward, or shame, regret and loss. Resurrection is God's free gift to all; reward is earned by how we lived.",
+  "big_idea": "Everyone is raised; judgment means lost reward and shame, not endless torture.",
+  "points": [
+    {"icon": "people", "title": "Both groups are raised", "text": "In John 5:28-29 the righteous and the unrighteous are both resurrected. The difference is not whether they live again but whether it is a resurrection of life or of judgment.", "verses": ["John 5:28-29"]},
+    {"icon": "crown", "title": "Life means reward and honor", "text": "Since both are brought back to life, 'life' is not biology. It means reward, honor and greatness, what Jesus calls being 'great in the kingdom'.", "verses": ["Matthew 5:19"]},
+    {"icon": "mask", "title": "Judgment means shame and loss", "text": "The resurrection of judgment implies shame, regret, chastisement and sanction. Feeling the sting of exposed sin is very different from eternal conscious torment.", "verses": ["Luke 13:28"]},
+    {"icon": "door", "title": "Outer darkness means left outside", "text": "Outer darkness pictures those left outside the walled kingdom after dark, missing its safety, light and feasting. Distanced, not executed or tortured.", "verses": ["Matthew 22:13", "Deuteronomy 28:29"]},
+    {"icon": "fire", "title": "Saved, but as through fire", "text": "Paul says some suffer loss yet are saved, as through fire. They are still alive, but without honor, reward or inheritance.", "verses": ["1 Corinthians 3:15"]}
+  ],
+  "sections": [
+    {"h": "A day of judgment for all", "icon": "people", "summary": "Jesus confirms a day of judgment when each person is rewarded according to what they have done. Both the righteous and the unrighteous are resurrected. The difference lies not in whether a group is made alive again, but in the nature of that resurrection: life or judgment.", "verses": ["John 5:28-29"], "src": "hfd:20"},
+    {"h": "Resurrection of Life", "icon": "crown", "summary": "Life here is not biology, since both groups are brought back to life. It signifies reward, honor and greatness, being 'great in the kingdom'. The New Testament describes life as receiving treasure, winning the race, gaining rewards, inheriting the kingdom, entering the kingdom, or walking the narrow path. These Jewish idioms describe those who not only accepted Christ intellectually but lived out His way faithfully and lovingly.", "verses": ["Matthew 5:19", "Matthew 6:20", "1 Corinthians 9:24", "1 Corinthians 3:14", "Matthew 25:34", "Matthew 7:21", "Matthew 7:14"], "src": "hfd:20"},
+    {"h": "Resurrection of Judgment", "icon": "scale", "summary": "By contrast, the resurrection of judgment implies shame, regret, chastisement and sanction. There is a big difference between feeling the sting of shame and condemnation when your sins come to light and facing eternal conscious torment in hellfire.", "verses": [], "src": "hfd:20"},
+    {"h": "The two siblings home from camp", "icon": "child", "summary": "Two young siblings return from summer camp. One behaved well and is praised; the other behaved terribly and faces correction and discipline. No one imagines the parents throwing the misbehaving child into a fiery pit in the backyard. A punished child may feel 'damned', but is corrected within a relationship of love. Why believe a merciful God would act like only an abusive, psychopathic parent would?", "verses": [], "src": "hfd:20"},
+    {"h": "Weeping, outer darkness, and missing the kingdom", "icon": "eye", "summary": "Judgment is a form of loss for those who failed to live God's way, not unending torture. 'Weeping and gnashing of teeth' is a Jewish idiom for deep remorse or jealousy, like modern FOMO. 'Outer darkness' and 'will not inherit the kingdom' mean missing the honor, reward and joy of being close to God, not annihilation or hellfire.", "verses": ["Luke 13:28", "Psalm 35:16", "Psalm 37:12", "Psalm 112:10", "Matthew 22:13", "1 Corinthians 6:9-10"], "src": "hfd:20"},
+    {"h": "Outside the kingdom walls", "icon": "door", "summary": "In the ancient world, living inside a kingdom's walls was a privilege for the wealthy, the inheritors and those the king honored. Those not let in stayed outside after dark, missing the safety, light and feasting within. Outer darkness was a Jewish metaphor for missing blessings or being left outside the celebration: distanced, not executed or tortured.", "verses": ["Deuteronomy 28:29"], "src": "hfd:20"},
+    {"h": "Saved as through fire", "icon": "fire", "summary": "Paul writes that some will be spared 'but only as through fire'. They suffer loss but are not condemned forever: still alive, yet without honor, reward or inheritance. The final judgment is not a binary verdict of paradise or inferno but a revelation of each life's quality, fruit, faithfulness and alignment with God's love. Resurrection is God's free gift to all; reward is earned.", "verses": ["1 Corinthians 3:15"], "src": "hfd:20"}
+  ],
+  "visuals": [
+    {"type": "compare", "title": "Two resurrections, one gift of life", "caption": "Both groups are raised. What differs is the outcome.", "left": {"label": "Resurrection of life", "items": ["Raised to life again", "Reward, honor and greatness", "Great in the kingdom", "Inherits and enters the kingdom", "Celebrated, like the well-behaved sibling"]}, "right": {"label": "Resurrection of judgment", "items": ["Also raised to life again", "Shame, regret, chastisement and sanction", "Weeping and gnashing of teeth: remorse", "Left in outer darkness, outside the walls", "Corrected, like the misbehaving sibling"]}},
+    {"type": "spectrum", "title": "What 'judgment' means on a range", "left": "Full reward", "right": "Eternal torment", "caption": "The source places judgment as loss, far from torment.", "marks": [
+      {"pos": 5, "label": "Resurrection of life", "note": "Treasure, the race won, inheritance, great in the kingdom."},
+      {"pos": 40, "label": "Saved as through fire", "note": "Alive, but without honor, reward or inheritance."},
+      {"pos": 50, "label": "Outer darkness", "note": "Left outside the celebration after dark; distanced, not executed."},
+      {"pos": 95, "label": "Eternal conscious torment", "note": "What the source rejects; what only an abusive parent would do."}
+    ]},
+    {"type": "words", "title": "Idioms of loss, decoded", "items": [
+      {"word": "Weeping and gnashing of teeth", "lang": "Jewish idiom", "literal": "crying and grinding teeth", "meaning": "Deep remorse or jealousy, much like modern FOMO."},
+      {"word": "Outer darkness", "lang": "Jewish metaphor", "literal": "outside in the dark", "meaning": "Left outside the kingdom's walls after dark, missing blessings, safety, light and feasting."},
+      {"word": "Life", "lang": "New Testament idiom", "literal": "being alive", "meaning": "Reward, honor and greatness in the kingdom, not mere biological life."}
+    ]}
+  ],
+  "mythfact": [
+    {"myth": "Only the righteous are raised; the wicked stay dead or burn.", "fact": "John 5:28-29 has both the righteous and the unrighteous resurrected. The difference is the nature of the resurrection: life or judgment."},
+    {"myth": "Final judgment is a simple binary: paradise or inferno.", "fact": "It reveals the quality of each life, its fruit and faithfulness. Some are saved 'as through fire', alive but without reward."},
+    {"myth": "Outer darkness is a place of torture.", "fact": "It pictures being left outside the kingdom's walls after dark, missing the feast. Distanced, not executed or tortured."}
+  ],
+  "terms": [
+    {"term": "Resurrection of life", "meaning": "Being raised to reward, honor and greatness in the kingdom."},
+    {"term": "Resurrection of judgment", "meaning": "Being raised to shame, regret, chastisement and sanction: a form of loss, not unending torture."},
+    {"term": "Outer darkness", "meaning": "Jewish metaphor for missing out on blessings, left outside the celebration."},
+    {"term": "Weeping and gnashing of teeth", "meaning": "Biblical idiom for deep remorse or jealousy."}
+  ],
+  "quotes": [
+    {"text": "Resurrection is God's free gift to all, but reward is to be earned and based on how we lived.", "who": "The book"},
+    {"text": "Yet no one imagines that the parents would throw the misbehaving child into a fiery pit in the backyard.", "who": "The book"}
+  ],
+  "verses": [
+    {"ref": "John 5:28-29", "role": "Both righteous and unrighteous are raised: one to life, one to judgment."},
+    {"ref": "Matthew 5:19", "role": "Life means being 'great in the kingdom': honor and reward."},
+    {"ref": "Luke 13:28", "role": "Weeping and gnashing of teeth: an idiom of remorse or jealousy."},
+    {"ref": "Psalm 112:10", "role": "Shows gnashing of teeth as a known idiom of envy or regret."},
+    {"ref": "Matthew 22:13", "role": "Outer darkness: left outside the celebration, not tortured."},
+    {"ref": "Deuteronomy 28:29", "role": "Darkness as a metaphor for missing out on blessings."},
+    {"ref": "1 Corinthians 6:9-10", "role": "Not inheriting the kingdom means missing reward, not hellfire."},
+    {"ref": "1 Corinthians 3:15", "role": "Saved as through fire: suffering loss but not condemned forever."}
+  ],
+  "quiz": [
+    {"q": "According to John 5:28-29, who is resurrected?", "options": ["Only the righteous", "Both the righteous and the unrighteous", "No one until the kingdom comes"], "answer": 1, "why": "Both groups are raised; the difference is whether it is a resurrection of life or of judgment."},
+    {"q": "What does 'weeping and gnashing of teeth' express?", "options": ["Physical torture by fire", "Annihilation of the soul", "Deep remorse or jealousy"], "answer": 2, "why": "It is a known Jewish idiom (see Psalm 35:16, 37:12, 112:10), much like modern FOMO."},
+    {"q": "What does the summer camp story illustrate?", "options": ["Judgment is correction within a loving relationship", "Parents should be stricter", "Good children earn their life"], "answer": 0, "why": "The misbehaving child is disciplined, never thrown into a fiery pit; a merciful God would not act like an abusive parent."}
+  ],
+  "reflect": "If resurrection is a free gift but reward is earned, how does that change how you want to live now?"
+}

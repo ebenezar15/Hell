@@ -1,0 +1,366 @@
+{
+  "id": "late",
+  "title": "Augustine and Late Christianity",
+  "hook": "How did Western Christianity end up preaching a hell of endless, graphic torture?",
+  "tldr": "After the 1054 schism, the Augustine-shaped West stressed judgment while the East stressed Christ's victory and hell as self-exclusion. Catholics developed Purgatory; Protestants rejected it and kept eternal torment. Medieval art, Luther, Calvin, Westminster and Jonathan Edwards carried that terrifying vision into modern American Evangelicalism.",
+  "big_idea": "Our picture of hell shapes our picture of God, and our behavior.",
+  "points": [
+    {
+      "icon": "globe",
+      "title": "1054 split East and West",
+      "text": "The Great Schism divided the church: the West, later including Protestantism, shaped by Augustine; the East shaped by theologians like Origen. Hell became pivotal in Western theology.",
+      "verses": []
+    },
+    {
+      "icon": "gate",
+      "title": "Judge versus Liberator",
+      "text": "The West pictured Christ's descent as judgment, casting the damned into hell. The East showed Him breaking hell's gates and rescuing souls, as in Chrysostom's Paschal Homily.",
+      "verses": []
+    },
+    {
+      "icon": "flame",
+      "title": "Purgatory: purifying, temporary",
+      "text": "Catholics developed Purgatory, a temporary cleansing before heaven, from Gregory the Great to the Councils of Lyons, Florence and Trent. Orthodox see hell as self-exclusion from God's love.",
+      "verses": []
+    },
+    {
+      "icon": "skull",
+      "title": "Art built the nightmare",
+      "text": "Gislebertus, Botticelli, the Holkham Bible, the Apocalypse Tapestries and Bosch made Augustine's hellfire graphic and terrifying, shaping Catholic and Protestant theology and later mass media.",
+      "verses": []
+    },
+    {
+      "icon": "sword",
+      "title": "Reformers kept eternal torture",
+      "text": "Luther and Calvin, rooted in Augustine, rejected Purgatory and kept eternal torment. Luther's antisemitism inspired Hitler; Calvin had Servetus burned. Edwards brought this hellfire to America.",
+      "verses": []
+    },
+    {
+      "icon": "wheat",
+      "title": "Theology matters",
+      "text": "Up to 20 million Christians died in the Wars of Religion. Jesus said you will know them by their fruit; beliefs about God's character shape real behavior.",
+      "verses": [
+        "Matthew 7:16-17"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "The Great Schism of 1054",
+      "icon": "globe",
+      "summary": "On July 16, 1054, Patriarch Michael Cerularius of Constantinople was excommunicated by the church in Rome, a turning point in tensions between the Western Roman and Eastern Byzantine churches. This Great Schism split European Christianity into the Roman Catholic Church, later including Protestantism, both largely shaped by Augustine, and the Eastern Orthodox Church, shaped by theologians like Origen. Hell then became pivotal in Western theology.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "The Harrowing of Hell",
+      "icon": "gate",
+      "summary": "The Harrowing of Hell (Descensus Christi ad Inferos) is the time between Jesus' crucifixion and resurrection. The West focused on judgment, Jesus casting the damned into hell, as in the Catholic Catechism and Dante's Divine Comedy. The East stressed victory over death, Christ breaking hell's gates and rescuing the damned, as in Orthodox icons and John Chrysostom's Paschal Homily celebrating universal redemption.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "Orthodox Christianity",
+      "icon": "door",
+      "summary": "The Eastern Orthodox Church, at first similar to Catholicism, sees hell as a state of self-exclusion from God's love and presence, chosen through persistent sin and rejecting grace. Some Orthodox theologians stress the transforming power of God's love even in judgment. Hell is less a place of active torture than a state resulting from refusing divine love, much like the Prodigal Son's life.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "Catholic Christianity and Purgatory",
+      "icon": "flame",
+      "summary": "Catholic theology saw hell as eternal separation from God for those dying in mortal sin, but added Purgatory: a temporary purification for souls assured of heaven who must be cleansed of venial sins or sin's temporal effects. Its suffering is redemptive, preparing them for the beatific vision. Rooted in the Church Fathers, it took shape with Pope Gregory the Great (c. 540-604), whose Dialogues spoke of purgatorial fire.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "Late Medieval Era (10th-15th Centuries)",
+      "icon": "scroll",
+      "summary": "The Second Council of Lyons (1274) gave one of the first official statements of Purgatory and stressed prayers and masses for the dead. The Council of Florence (1438-1445) affirmed it and the value of prayers, masses and almsgiving. The Council of Trent (1545-1563) solidified it against the Protestant Reformation, which rejected Purgatory and held the eternal torture view.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "Hellfire in medieval art",
+      "icon": "skull",
+      "summary": "As Augustine's views prevailed, hellfire art became grotesque, built to terrify. Gislebertus' Last Judgment at Saint-Lazare, Autun, shows demons torturing the damned while Michael weighs souls and demons tip the scales. Botticelli's drawing for Dante's Inferno Canto XVII shows Geryon, human-faced with serpent body and lion paws, above usurers crouching in burning sand with family-crested purses hanging from their necks.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "Holkham, Bondol and Bosch",
+      "icon": "eye",
+      "summary": "The English Holkham Bible shows a crowded fiery hell where demons inflict punishments matching each sin. Jean Bondol's Apocalypse Tapestries, commissioned by the Duke of Berry, show beasts and dragons torturing the damned, reflecting the era's fears. Bosch's Garden of Earthly Delights, at the edge of the Renaissance, fills its right panel with demons, creatures eating sinners and bizarre tortures with medieval instruments.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "From Dante to American Evangelicalism",
+      "icon": "book",
+      "summary": "These Western images shaped Catholic and Protestant theology and, later, mass media, instilling fear and dread mirrored by clergy and theologians. The most vivid descriptions come from early Roman Catholic authors and artists like Dante (1265-1321), then John Milton's Paradise Lost. Luther, Calvin and Jonathan Edwards, 'the Theologian of Fire and Brimstone', carried it into American Evangelicalism, Baptists, Southern Baptists and Calvary Chapel.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "Purgatory versus eternal torture",
+      "icon": "scale",
+      "summary": "Protestant theologians generally rejected Purgatory and kept the Augustinian-Calvinist belief in eternal torture, while Catholics codified Purgatory. As a result, many traditional churches entertain a temporary, corrective hell, a form of post-mortem purification, while conservative Protestant denominations typically hold to eternal hellfire.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "The Protestant Reformation (16th Century)",
+      "icon": "fire",
+      "summary": "Reformed, Arminian, Evangelical, Pentecostal, Baptist and other fundamentalist views differ from Jewish, Catholic and Orthodox views that sometimes see hell as corrective and temporary. Protestant hellfire is eternal conscious torment: unending physical, mental and emotional suffering, built from Augustine and literal, imaginative readings of metaphors. It is revengeful retribution with no rehabilitation, implying a sadistic God who gains gratification from endless suffering.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "Luther and Calvin's Augustinian roots",
+      "icon": "chain",
+      "summary": "The Reformation is not entirely bad; it was through Protestants that the author, a Jew, first met Jesus. But its negative doctrines cannot be overlooked. Luther and Calvin sought to reform Catholicism yet stayed rooted in Augustine. Both promoted a literal hellfire of eternal torture for those rejecting their views, including their soteriology, their doctrine of how to get saved.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "Martin Luther (1483-1546)",
+      "icon": "alert",
+      "summary": "Luther is celebrated for challenging Rome with his Ninety-Five Theses, but his legacy is tarnished by vehement antisemitism. 'On the Jews and Their Lies' urged burning synagogues and Jewish homes and ultimately eliminating the Jewish race. Such writings fed centuries of antisemitism culminating in the Holocaust's six million murdered Jews. Hitler often quoted Luther and called him 'the greatest encouragement of my life'.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "John Calvin (1509-1564)",
+      "icon": "flame",
+      "summary": "Calvin, a lawyer and author of the Institutes of the Christian Religion, was the Reformation's other principal figure. His legacy is marred by the execution of Michael Servetus, a physician and theologian who challenged him; in 1553, after several attempts by Calvin, Servetus was arrested, tortured and burned at the stake in Geneva for alleged heresy. Calvin, devoted to Augustine, described divine vengeance on the reprobate as indescribable.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "The Protestant Confession (1647)",
+      "icon": "scroll",
+      "summary": "The 1647 confession says non-Protestants will be 'punished with unspeakable torments, both of body and soul.' A committee formed in December 1643 wrote the Catechism, completed by the Westminster Assembly in 1647 and adopted by the Church of Scotland in 1648, then, modified, by American Presbyterian bodies. Some later dropped it; conservative Presbyterian, Orthodox Presbyterian and Evangelical Presbyterian churches embraced it.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "The Wars of Religion (16th-18th centuries)",
+      "icon": "sword",
+      "summary": "Theological disputes between Catholics and Reformed Protestants fueled wars that killed up to 20 million Christians. The French Wars of Religion (1562-1598) brought massacres; the Eighty Years' War (1568-1648) pitted Protestant Dutch against the Catholic Habsburgs; the Thirty Years' War (1618-1648) brought famine and disease, killing about 8 million. They show the tragic cost of loveless doctrinal disputes.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "\"What Would Jesus Do\"",
+      "icon": "wheat",
+      "summary": "Jesus sent His disciples not to convince atheists but to show religious fundamentalists that God is love. The persecution He warned of came from religious factions claiming divine sanction for violence. 'By their fruit you will recognize them' warns against such outcomes. Ironically, those teaching that God eternally tortures opponents killed so many to force their theology. Beliefs about God shape behavior: theology matters.",
+      "verses": [
+        "Matthew 7:16-17"
+      ],
+      "src": "jew:7"
+    },
+    {
+      "h": "Jonathan Edwards (1703-1758)",
+      "icon": "fire",
+      "summary": "George Whitefield, John and Charles Wesley, and above all Jonathan Edwards, of the First Great Awakening, brought Protestantism and Calvin's hellfire to America. On July 8, 1741, Edwards preached 'Sinners in the Hands of an Angry God': God holds you over hell like a loathsome spider, abhors you, and you must suffer His wrath for all eternity, in a liquid globe of fire, without end.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "Divine sadism and deconstruction",
+      "icon": "mask",
+      "summary": "This Puritan view is criticized as divine sadism or 'cosmic child abuse', portraying a vindictive despot rather than a loving Father. Catholic and Orthodox views include correction, purification and hope; the Protestant vision of ceaseless torture risks making God malevolent. Our view of hell shapes our view of God and our role, driving many young Protestants to deconstruct, switch denominations or leave the faith, and harming mental health.",
+      "verses": [],
+      "src": "jew:7"
+    },
+    {
+      "h": "Christian Fundamentalism (18th Century-Today)",
+      "icon": "people",
+      "summary": "Evangelical, Baptist, Southern Baptist, Calvary Chapel, Pentecostal, Presbyterian, Methodist, Adventist, Churches of Christ, Plymouth Brethren, Charismatic, Nondenominational, Assemblies of God, Messianic, Nazarene, EFCA and similar groups all derive from conservative Protestantism, shaped by Edwards, Luther, Calvin and ultimately Augustine. There hellfire preaching became central, especially in America. Protestant theology does have reasoned biblical arguments, examined in the book's next part.",
+      "verses": [],
+      "src": "jew:7"
+    }
+  ],
+  "visuals": [
+    {
+      "type": "timeline",
+      "title": "How Western hellfire took shape",
+      "events": [
+        {
+          "date": "c. 540-604",
+          "label": "Gregory the Great",
+          "note": "His Dialogues spoke of purgatorial fire, shaping the idea of Purgatory."
+        },
+        {
+          "date": "1054",
+          "label": "The Great Schism",
+          "note": "Augustinian West splits from the Eastern Orthodox Church shaped by Origen."
+        },
+        {
+          "date": "1265-1321",
+          "label": "Dante's Inferno",
+          "note": "Vivid hellfire later illustrated by Botticelli, alongside medieval art like Bosch."
+        },
+        {
+          "date": "1274-1563",
+          "label": "Lyons, Florence, Trent",
+          "note": "Councils define and solidify Purgatory; Trent responds to the Reformation."
+        },
+        {
+          "date": "1483-1564",
+          "label": "Luther and Calvin",
+          "note": "Reformers reject Purgatory and keep Augustinian eternal torture. Servetus burned in 1553."
+        },
+        {
+          "date": "1618-1648",
+          "label": "Thirty Years' War",
+          "note": "Part of the Wars of Religion that killed up to 20 million Christians."
+        },
+        {
+          "date": "1647",
+          "label": "Westminster Confession",
+          "note": "Non-Protestants 'punished with unspeakable torments, both of body and soul.'"
+        },
+        {
+          "date": "July 8, 1741",
+          "label": "Sinners in an Angry God",
+          "note": "Jonathan Edwards brings Calvin's hellfire into American Protestantism."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "Three Christian views of hell",
+      "caption": "East and West diverged after 1054; Protestants then broke with Rome over Purgatory.",
+      "left": {
+        "label": "Catholic and Orthodox",
+        "items": [
+          "Orthodox: hell is self-exclusion from God's love",
+          "Christ breaks hell's gates and rescues souls (East)",
+          "Catholic Purgatory: temporary, redemptive cleansing",
+          "Includes correction, purification and hope"
+        ]
+      },
+      "right": {
+        "label": "Conservative Protestant",
+        "items": [
+          "Hell is eternal conscious torment",
+          "Christ as judge casting the damned in (West)",
+          "Purgatory rejected, eternal torture kept",
+          "Ceaseless retribution with no rehabilitation"
+        ]
+      }
+    },
+    {
+      "type": "stats",
+      "title": "The human cost of loveless doctrine",
+      "items": [
+        {
+          "value": "20 million",
+          "label": "Christians killed in the Wars of Religion"
+        },
+        {
+          "value": "8 million",
+          "label": "Deaths in the Thirty Years' War alone"
+        },
+        {
+          "value": "6 million",
+          "label": "Jews murdered in the Holocaust"
+        },
+        {
+          "value": "1553",
+          "label": "Servetus burned at the stake in Geneva"
+        }
+      ]
+    }
+  ],
+  "mythfact": [
+    {
+      "myth": "All Christian traditions have always taught eternal conscious torment.",
+      "fact": "Orthodoxy sees hell as self-exclusion, Catholics added a temporary Purgatory; eternal torture is mainly the Augustinian-Calvinist Protestant view."
+    },
+    {
+      "myth": "Our vivid images of hell come straight from the Bible.",
+      "fact": "They come largely from Roman Catholic authors and artists like Dante, Gislebertus, Botticelli and Bosch, then Milton and Edwards."
+    },
+    {
+      "myth": "Beliefs about hell are abstract and don't affect behavior.",
+      "fact": "Those teaching God tortures opponents forever killed millions in the Wars of Religion. Theology matters."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Great Schism",
+      "meaning": "The 1054 split between the Western Roman church and the Eastern Byzantine church."
+    },
+    {
+      "term": "Harrowing of Hell",
+      "meaning": "Descensus Christi ad Inferos: the period between Jesus' crucifixion and resurrection."
+    },
+    {
+      "term": "Purgatory",
+      "meaning": "Catholic temporary state where souls assured of heaven are purified of venial sins before seeing God."
+    },
+    {
+      "term": "Soteriology",
+      "meaning": "Doctrine of how to 'get saved'."
+    },
+    {
+      "term": "Cosmic child abuse",
+      "meaning": "Critics' term for the divine sadism implied by Puritan hellfire."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The God that holds you over the pit of hell, much as one holds a spider or some loathsome insect over the fire, abhors you, and is dreadfully provoked.",
+      "who": "Jonathan Edwards"
+    },
+    {
+      "text": "Language cannot describe the severity of the divine vengeance on the reprobate",
+      "who": "John Calvin"
+    },
+    {
+      "text": "This unfortunate era serves as sad proof that our beliefs about God and His character profoundly influence our behavior in real life—theology matters!",
+      "who": "The book"
+    }
+  ],
+  "verses": [
+    {
+      "ref": "Matthew 7:16-17",
+      "role": "Recognize them by their fruit: a warning against violent, loveless dogma."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which tradition pictured Christ breaking hell's gates and rescuing souls?",
+      "options": [
+        "The Western Catholic",
+        "The Eastern Orthodox",
+        "The Puritan"
+      ],
+      "answer": 1,
+      "why": "Eastern icons and Chrysostom's Paschal Homily stressed victory over death; the West stressed judgment."
+    },
+    {
+      "q": "What did the Protestant Reformers do with Purgatory?",
+      "options": [
+        "Expanded it",
+        "Rejected it and kept eternal torture",
+        "Made it eternal"
+      ],
+      "answer": 1,
+      "why": "Trent solidified Purgatory against the Reformation, which held the Augustinian-Calvinist eternal torture view."
+    },
+    {
+      "q": "Who preached 'Sinners in the Hands of an Angry God' in 1741?",
+      "options": [
+        "John Calvin",
+        "John Wesley",
+        "Jonathan Edwards"
+      ],
+      "answer": 2,
+      "why": "Edwards, 'the Theologian of Fire and Brimstone', brought Calvin's hellfire into American Protestantism."
+    }
+  ],
+  "reflect": "How might the image of hell you were taught have shaped how you treat people who disagree with you?"
+}

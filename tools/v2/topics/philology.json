@@ -1,0 +1,79 @@
+{
+  "id": "philology",
+  "title": "Sheol, Hades, Gehenna, Tartarus",
+  "hook": "Four different words, one English word: did translators invent hell?",
+  "tldr": "English Bibles translate four distinct words, Sheol, Hades, Gehenna and Tartarus, as hell. None of them means a place of eternal fiery torture. The English word itself once meant a hidden place or the grave, and only later took on the sense of afterlife punishment.",
+  "big_idea": "Hell is an interpretation, not a translation, of four distinct words.",
+  "points": [
+    {"icon": "book", "title": "Hell once meant a hidden place", "text": "The word descends from Proto-Germanic haljo, a concealed place or underworld, through Norse Hel and Old English helle, only later meaning a place of punishment.", "verses": []},
+    {"icon": "puzzle", "title": "Four words collapsed into one", "text": "Sheol, Hades, Gehenna and Tartarus are not interchangeable synonyms. Rendering all four as hell loses their distinct meanings.", "verses": ["Psalm 16:10", "Revelation 20:14", "Matthew 5:29", "2 Peter 2:4"]},
+    {"icon": "bones", "title": "Sheol and Hades mean the grave", "text": "Sheol is the Hebrew realm of the dead where all sleep regardless of belief; Hades is its Greek equivalent, a temporary holding place awaiting resurrection, neither torment nor bliss.", "verses": ["Ecclesiastes 9:10"]},
+    {"icon": "valley", "title": "Gehenna was a real valley", "text": "The Valley of Hinnom outside Jerusalem, linked to child sacrifice to Moloch and a burning garbage dump, symbolized shameful death and disgrace, not afterlife torture.", "verses": ["Jeremiah 7:31-33", "Mark 9:47-48"]},
+    {"icon": "lock", "title": "Tartarus is a prison for angels", "text": "Borrowed from Greek myth, where it held the Titans, Tartarus appears once, for rebellious angels held in darkness awaiting judgment.", "verses": ["2 Peter 2:4"]},
+    {"icon": "alert", "title": "Gehenna's warning came true in 70 AD", "text": "Jesus warned his nation of real historical judgment. Within a generation Rome destroyed Jerusalem and burned the Temple: total and irreversible, but not endless.", "verses": []}
+  ],
+  "sections": [
+    {"h": "Words drift over time", "icon": "clock", "summary": "Language evolves: awful once meant full of awe, and gay once meant joyful. Likewise hell once meant the realm of the dead, the grave, not everlasting torture, as Christian and secular academia widely accept. Later developments made it temporary punishment, as in Judaism and some eastern churches, or eternal torment, as in Islam and Augustine-shaped Protestantism and Catholicism. Reading modern meanings back distorts the authors.", "verses": [], "src": "hfd:3"},
+    {"h": "Where the English hell came from", "icon": "tree", "summary": "Hell comes from Old English hel or helle, from Proto-Germanic haljo, an underworld, graveyard or hidden place. It relates to Old Norse Hel, both the realm of the dead and its goddess, where souls not dying in battle went. As Christianity spread through Europe, the word was adapted to mean a place of punishment for the wicked, shifting from cosmic graveyard to place of torment.", "verses": [], "src": "jew:3"},
+    {"h": "Four words translated hell", "icon": "puzzle", "summary": "English Bibles use hell for four distinct words. Sheol: thou wilt not leave my soul in hell (Psalm 16:10). Hades: death and hell were cast into the lake of fire (Revelation 20:14). Gehenna: better to lose an eye than the whole body cast into hell (Matthew 5:29). Tartarus: angels cast down to hell in chains of darkness (2 Peter 2:4). None suggests eternal torture by fire.", "verses": ["Psalm 16:10", "Revelation 20:14", "Matthew 5:29", "2 Peter 2:4"], "src": "jew:3"},
+    {"h": "Sheol and Hades", "icon": "bones", "summary": "Sheol, Hebrew for the realm of the dead, often rendered the grave or the pit, is a shadowy place where all the dead sleep regardless of belief or morals; it carries no punishment or reward. Hades is its Greek equivalent, both a mythic god and his realm. In the New Testament it is the unseen place where souls go awaiting resurrection, a temporary holding place.", "verses": ["Genesis 37:35", "Job 14:13", "Psalm 16:10", "Ecclesiastes 9:10"], "src": "hfd:3"},
+    {"h": "Gehenna and Tartarus", "icon": "valley", "summary": "Gehenna comes from Gehinnom, the Valley of Hinnom outside Jerusalem, tied to Moloch's child sacrifice by fire and a garbage dump burning trash and bodies. It came to mean shameful death, ostracism, or a city's destruction; later rabbis made it afterlife discipline for atonement. Tartarus, in Greek myth the Titans' abyss beneath Hades, appears in the Septuagint of Job and Enoch, where Uriel governs it, holding 200 Watchers.", "verses": ["Job 40:20", "Job 41:24", "2 Peter 2:4"], "src": "jew:3"},
+    {"h": "Interpretation, not translation", "icon": "scroll", "summary": "None of the four words implies eternal torture, so translating them all as hell causes confusion and should be reconsidered. Scholar James Coram explains that Old English hell meant covered or unseen, once fitting Hades, but tradition corrupted it into a place of punishment. Rendering Sheol or Hades as hell is interpretation, and doing so for Tartarus and especially Gehenna is circular reasoning and hoary tradition.", "verses": [], "src": "jew:3"},
+    {"h": "Jesus spoke of Gehenna, not hell", "icon": "speech", "summary": "John MacArthur says Jesus spoke more about hell than anyone. He is wrong: Jesus never described Augustinian-Calvinist eternal torment, but Gehenna, which no first-century Jew understood that way. Gey Ben Hinnom was a real place tied to shame, judgment and death, the city dump where trash burned constantly, bodies of the disgraced were tossed, worms always fed and the poorest scavenged.", "verses": ["Jeremiah 7:31-33", "Jeremiah 19:2-7", "2 Kings 23:10"], "src": "hfd:3"},
+    {"h": "Undying worms, unquenched fire", "icon": "worm", "summary": "Jesus called Gehenna the place where worms do not die and the fire is not quenched, because worms always had food and flames always burned the trash. It symbolized loss, exclusion, destruction and a collapsed life, worse than honorable death: social death as an outcast, or death outright. He used this familiar image for historical judgment, social breakdown and disgrace, not otherworldly torment.", "verses": ["Mark 9:47-48", "Matthew 5:22", "Matthew 5:29-30", "Matthew 10:28", "Mark 9:43-48"], "src": "hfd:3"},
+    {"h": "A prophet's warning fulfilled", "icon": "temple", "summary": "Yeshua was not a Bible Belt preacher but a first-century Jewish prophet and rabbi calling Israel to repentance, justice, mercy and covenant faithfulness. Israel rejected the call, and within a generation, in 70 AD, Rome destroyed Jerusalem, burned the Temple and killed over a million Jews. That was eternal judgment biblically: total, decisive and irreversible, not endless.", "verses": [], "src": "hfd:3"}
+  ],
+  "visuals": [
+    {"type": "words", "title": "Four words behind the English hell", "caption": "Each word carries its own meaning; none describes eternal torture by fire.", "items": [
+      {"word": "Sheol", "lang": "Hebrew", "literal": "the grave, the pit", "meaning": "Shadowy realm where all the dead sleep, regardless of belief; no punishment or reward."},
+      {"word": "Hades", "lang": "Greek", "literal": "imperceptible, unseen", "meaning": "Greek equivalent of Sheol; temporary holding place of the dead awaiting resurrection."},
+      {"word": "Gehenna (Gehinnom)", "lang": "Hebrew via Greek", "literal": "Valley of Hinnom", "meaning": "Real valley outside Jerusalem; burning dump and sacrifice site, symbol of shameful death and disgrace."},
+      {"word": "Tartarus", "lang": "Greek", "literal": "deep abyss below Hades", "meaning": "Mythic prison of the Titans; in 2 Peter, where rebellious angels await judgment."},
+      {"word": "Haljo", "lang": "Proto-Germanic", "literal": "concealed, hidden place", "meaning": "Root of English hell; meant the underworld or graveyard, not a torture chamber."}
+    ]},
+    {"type": "flow", "title": "How hell changed its meaning", "steps": [
+      {"label": "Proto-Germanic haljo", "note": "A concealed or hidden place; the underworld, realm of the dead."},
+      {"label": "Old Norse Hel", "note": "Both the underworld and the goddess presiding over it."},
+      {"label": "Old English hel, helle", "note": "Christianity spreading through Europe adapts it into a place of punishment after death."},
+      {"label": "Modern English hell", "note": "A place of punishment after death, often thought torturous and eternal."}
+    ]},
+    {"type": "verse", "title": "Why the worm does not die", "ref": "Mark 9:47-48", "text": "where the worms that eat them do not die, and the fire is not quenched", "notes": [
+      {"phrase": "the worms that eat them do not die", "note": "In the city dump, bodies and refuse gave worms a steady supply of food that never ended."},
+      {"phrase": "the fire is not quenched", "note": "Trash in the Valley of Hinnom burned constantly; a picture of shameful death, not endless torture."}
+    ]}
+  ],
+  "mythfact": [
+    {"myth": "Hell is one clear concept used throughout the Bible.", "fact": "English hell replaces four distinct words, Sheol, Hades, Gehenna and Tartarus, which are not interchangeable synonyms."},
+    {"myth": "Jesus spoke more about hell than anyone else.", "fact": "Jesus spoke of Gehenna, a real valley symbolizing disgrace and shameful death, not Augustinian-Calvinist eternal conscious torment."},
+    {"myth": "Sheol is where the wicked are punished.", "fact": "Sheol is the grave, where all the dead sleep regardless of belief or morals; it carries no punishment or reward."},
+    {"myth": "The English word hell always meant a place of torment.", "fact": "It once meant a hidden place or underworld; only later, through Christian adaptation, did it mean punishment."}
+  ],
+  "terms": [
+    {"term": "Sheol", "meaning": "Hebrew realm of the dead, often rendered the grave or the pit; the state of being dead and hidden."},
+    {"term": "Hades", "meaning": "Greek equivalent of Sheol meaning unseen; a temporary holding place for the dead."},
+    {"term": "Gehenna", "meaning": "From Gehinnom, Valley of Hinnom outside Jerusalem; a symbol of disgrace, shameful death and destruction."},
+    {"term": "Tartarus", "meaning": "Greek mythic abyss below Hades; in 2 Peter the dark place where rebellious angels await judgment."},
+    {"term": "Watchers", "meaning": "In the Book of Enoch, 200 fallen angels imprisoned in Tartarus."}
+  ],
+  "quotes": [
+    {"text": "Such “translations” are not translations at all; they are but the product of circular reasoning and hoary tradition.", "who": "James Coram"},
+    {"text": "This was eternal judgment in the most biblical sense—not endless, but total, decisive, and irreversible for that generation and system.", "who": "The book"}
+  ],
+  "verses": [
+    {"ref": "Psalm 16:10", "role": "Sheol rendered hell in the KJV; it means the grave."},
+    {"ref": "Revelation 20:14", "role": "Hades rendered hell, cast with death into the lake of fire."},
+    {"ref": "Matthew 5:29", "role": "Gehenna rendered hell; better to lose an eye than be cast there."},
+    {"ref": "2 Peter 2:4", "role": "Tartarus rendered hell; a dark prison for rebellious angels."},
+    {"ref": "Mark 9:47-48", "role": "Undying worms and unquenched fire describe the ever-burning city dump."},
+    {"ref": "Jeremiah 7:31-33", "role": "The Valley of Hinnom as a site of shame, judgment and death."},
+    {"ref": "2 Kings 23:10", "role": "The valley appears in the Hebrew Scriptures linked to shameful practices."},
+    {"ref": "Ecclesiastes 9:10", "role": "Sheol as the realm of the dead."},
+    {"ref": "Matthew 10:28", "role": "One of Jesus's Gehenna sayings, a warning of real judgment and disgrace."}
+  ],
+  "quiz": [
+    {"q": "What did Proto-Germanic haljo originally mean?", "options": ["A place of fire", "A concealed or hidden place", "A judge's court"], "answer": 1, "why": "Haljo first referred to a concealed or hidden place and described the underworld, the realm of the dead."},
+    {"q": "What was Gehenna literally?", "options": ["A mythic abyss", "The Valley of Hinnom outside Jerusalem", "A heavenly prison"], "answer": 1, "why": "Gehenna comes from Gehinnom, a real valley outside Jerusalem tied to Moloch worship and a burning garbage dump."},
+    {"q": "Where does Tartarus appear in the New Testament?", "options": ["2 Peter 2:4", "Mark 9:48", "Psalm 16:10"], "answer": 0, "why": "2 Peter 2:4 uses Tartarus metaphorically for the dark place where rebellious angels are held awaiting judgment."}
+  ],
+  "reflect": "How might your view of hell change if every English hell were replaced with the original word?"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "nde",
+  "title": "Near-Death Experiences",
+  "hook": "If someone glimpsed hell during a near-death experience, does that settle the question?",
+  "tldr": "No. Near-death experiences contradict one another, and brain chemistry at death can shape visions to match what a person already expects. They may be meaningful and sincere, but doctrine must rest on what Scripture actually says, not on private visions.",
+  "big_idea": "Doctrine is built on Scripture, not on visions at the edge of death.",
+  "points": [
+    {"icon": "book", "title": "Scripture is the foundation", "text": "Healthy theology must be grounded in the text: its language, its context and its coherent witness as the biblical authors meant it within their Jewish worldview. Personal experience is not the foundation of doctrine.", "verses": []},
+    {"icon": "cross-x", "title": "NDEs contradict each other", "text": "Some describe a realm where everyone is healed, joyful and at peace. Others describe terror, darkness and torment. They cannot all be correct, so competing visions cancel each other out.", "verses": []},
+    {"icon": "bulb", "title": "The dying brain surges", "text": "Around clinical death the brain releases a massive surge of dopamine, serotonin and norepinephrine, and may stay active at least thirty seconds after the heart stops, producing peace, dread or vivid imagery.", "verses": []},
+    {"icon": "mirror", "title": "Expectations shape the vision", "text": "Someone who expects light and angels, or flames and judgment, may see imagery that fits those expectations. This does not mean they are lying. It means the experience is subjective.", "verses": []},
+    {"icon": "alert", "title": "Jeremiah warned about dreams", "text": "Jeremiah warned against prophets who speak visions from their own minds and cry, I had a dream. Such dreams are not the mouth of the Lord.", "verses": ["Jeremiah 23:16"]}
+  ],
+  "sections": [
+    {"h": "Theology cannot be built on private visions", "icon": "book", "summary": "Healthy theology must be grounded in the text: its language, its context and its coherent witness. The conclusions here come not from what someone claims to have seen in a vision, a coma or a near-death episode, but from what the biblical authors actually wrote and meant within their Jewish worldview. The foundation of doctrine is Scripture, not personal experience.", "verses": [], "src": "hfd:36"},
+    {"h": "The problem with NDEs as authority", "icon": "cross-x", "summary": "Near-death experiences are often offered as evidence of what awaits us after death, but they contradict one another. Some describe a realm where everyone appears healed, joyful and at peace; others describe terror, darkness and torment. They cannot all be right. Competing experiences and visions cancel each other out and cannot be final authority. Scripture does not contradict itself this way; when it speaks, it stands.", "verses": [], "src": "hfd:36"},
+    {"h": "What science actually suggests", "icon": "bulb", "summary": "Before, during and just after clinical death, the brain undergoes a massive surge of neurotransmitters such as dopamine, serotonin and norepinephrine, often part of a terminal spike in activity. This is believed to fuel intense experiences: peace, dread, heightened awareness or vivid imagery. The brain may stay active at least thirty seconds after the heart stops, so prior beliefs about the afterlife plausibly shape the experience. People are not lying, but such experiences are subjective, not doctrinal authority.", "verses": [], "src": "hfd:36"},
+    {"h": "Experience is not revelation", "icon": "speech", "summary": "The task is interpreting Scripture, not dreams, visions or subjective encounters. The Bible, not NDEs, testimonies or emotional stories, is the standard. Experiences may matter to individuals but are not the measuring rod of truth. Vivid afterlife visions recall Jeremiah's warning against prophets who give false hopes, speak visions from their own minds and cry 'I had a dream!' The bottom line: for doctrine, stick with Scripture rather than personal experience.", "verses": ["Jeremiah 23:16"], "src": "hfd:36"}
+  ],
+  "visuals": [
+    {"type": "compare", "title": "Two kinds of near-death reports", "caption": "Because the reports point in opposite directions, they cannot all be correct.", "left": {"label": "Peaceful NDEs", "items": ["Everyone appears healed", "Joy and peace", "Light and angels expected, light and angels seen"]}, "right": {"label": "Terrifying NDEs", "items": ["Scenes of torment", "Terror and darkness", "Flames and judgment expected, flames and judgment seen"]}},
+    {"type": "flow", "title": "How a near-death vision can form", "steps": [
+      {"label": "Clinical death approaches", "note": "The body nears death and the heart stops."},
+      {"label": "Neurotransmitter surge", "note": "Dopamine, serotonin and norepinephrine flood the brain in a terminal spike of activity."},
+      {"label": "Brain stays active", "note": "Activity may continue at least thirty seconds after the cardiovascular system stops."},
+      {"label": "Expectations supply imagery", "note": "Prior beliefs about the afterlife may shape what the mind sees under extreme stress."},
+      {"label": "Subjective experience results", "note": "Sincere and meaningful, but not a source of doctrine."}
+    ]},
+    {"type": "verse", "title": "Jeremiah on dreams and visions", "ref": "Jeremiah 23:16", "text": "Do not listen to what the prophets are prophesying to you; they fill you with false hopes. They speak visions from their own minds, not from the mouth of the Lord.... I have heard what the prophets say who prophesy lies in my name. They say, ‘I had a dream! I had a dream!’", "notes": [
+      {"phrase": "visions from their own minds", "note": "Visions can come from the human mind rather than from God, which is exactly the concern with NDEs."},
+      {"phrase": "not from the mouth of the Lord", "note": "Revelation is what God has spoken, and that now means Scripture."},
+      {"phrase": "I had a dream! I had a dream!", "note": "A vivid personal experience, however sincere, is not proof of truth."}
+    ]}
+  ],
+  "mythfact": [
+    {"myth": "Near-death experiences prove what heaven and hell are like.", "fact": "NDEs contradict each other, some peaceful and some terrifying, so they cancel each other out and cannot serve as final authority."},
+    {"myth": "Doubting someone's NDE means calling them a liar.", "fact": "People are not lying. Consciousness is complex at the edge of death, and the experience is real to them but subjective."},
+    {"myth": "Experience and Scripture carry equal weight in doctrine.", "fact": "Experiences may be meaningful to individuals, but the Bible is the measuring rod of truth."}
+  ],
+  "terms": [
+    {"term": "NDE", "meaning": "Near-death experience: vivid experiences reported around clinical death, such as peace, dread, heightened awareness or imagery."},
+    {"term": "Terminal spike", "meaning": "A burst of brain activity near death, with surging neurotransmitters, believed to contribute to intense experiences."}
+  ],
+  "quotes": [
+    {"text": "When “experiences and “visions” compete with one another, they cancel each other out.", "who": "The book"},
+    {"text": "The foundation of doctrine is not personal experience. It is Scripture.", "who": "The book"},
+    {"text": "They speak visions from their own minds, not from the mouth of the Lord.", "who": "Jeremiah"}
+  ],
+  "verses": [
+    {"ref": "Jeremiah 23:16", "role": "A warning against visions from one's own mind, applied to afterlife visions."}
+  ],
+  "quiz": [
+    {"q": "Why can't NDEs serve as final authority on the afterlife?", "options": ["They contradict one another", "They are always fabricated", "They only happen to unbelievers"], "answer": 0, "why": "Some describe peace for all, others torment. Competing visions cancel each other out."},
+    {"q": "How long may the brain stay active after the heart stops?", "options": ["About three seconds", "At least thirty seconds", "Several hours"], "answer": 1, "why": "Researchers note activity for at least thirty seconds, enough for expectations to shape the experience."},
+    {"q": "Whose warning about dreams is applied to afterlife visions?", "options": ["Daniel", "Jeremiah", "Paul"], "answer": 1, "why": "Jeremiah warned against prophets who speak visions from their own minds and cry 'I had a dream!'"}
+  ],
+  "reflect": "Why might a vivid story about the afterlife feel more convincing than a careful reading of Scripture?"
+}

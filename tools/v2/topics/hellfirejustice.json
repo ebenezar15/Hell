@@ -1,0 +1,66 @@
+{
+  "id": "hellfirejustice",
+  "title": "Is Hellfire Just?",
+  "hook": "Must God punish before he can forgive, or does real forgiveness come free?",
+  "tldr": "The Augustinian-Calvinist claim that God cannot forgive without punishing is philosophy, not Scripture, which presents forgiveness as free. Forgiveness means the forgiver absorbs the cost while the offender goes free. God is not reluctant to save; he wants all saved and delights in mercy.",
+  "big_idea": "Forgiveness costs the forgiver; it never requires hurting the forgiven first.",
+  "points": [
+    {"icon": "scale", "title": "Punish-to-forgive is philosophy, not Scripture", "text": "Claims that God's holiness cannot forgive without punishing echo Augustine, Aquinas, Anselm and Calvin. The New Testament repeatedly presents forgiveness as freely given.", "verses": ["Matthew 6:14", "Ephesians 4:32", "Colossians 3:13"]},
+    {"icon": "alert", "title": "Cosmic suicide breaks the Trinity", "text": "To make three days of death count as punishment, some say the Father poured wrath on the Son and broke their fellowship, turning the Trinity into a Binity, which traditional Christianity would call heresy.", "verses": []},
+    {"icon": "heart", "title": "Forgiveness means absorbing the cost", "text": "To forgive is to recognize the offense yet choose mercy: the forgiver bears the cost while the offender goes free, as the Prodigal's father absorbed loss without punishing.", "verses": ["Matthew 18:21-22"]},
+    {"icon": "sun", "title": "God wants all to be saved", "text": "God's will is not mysterious. He wants all people saved, delights in mercy and is not willing that any perish.", "verses": ["1 Timothy 2:4", "Micah 7:18", "2 Peter 3:9"]},
+    {"icon": "father", "title": "God hates sin, not sinners", "text": "Like a parent who corrects a child temporarily out of love, God hates sin because it harms us. His desire is to eliminate sin, not the sinner.", "verses": ["Matthew 5:45"]}
+  ],
+  "sections": [
+    {"h": "Hellfire's rigid justice", "icon": "fire", "summary": "Biblical justice harmonizes retribution with mercy, but the Augustinian-Calvinist view says justice demands rigid, eternal punishment, melting skin in flames forever, for even the smallest sin. Human wrath is often cruel and destructive; God's wrath, his chastisement of Israel, was measured, temporary, corrective and constructive. Stan Mast, Wayne Grudem and Millard Erickson argue God cannot forgive without punishing.", "verses": [], "src": "jew:42"},
+    {"h": "Philosophy, not Scripture", "icon": "book", "summary": "These are philosophical arguments, not biblical ones. New Testament passages on freely extending forgiveness contradict them. The question is whether the idea that God cannot forgive without punishment comes from the Bible or from philosophers such as Augustine, Aquinas, Anselm and Calvin.", "verses": ["Matthew 6:14", "Matthew 18:21-22", "Luke 6:37", "Luke 7:46-48", "Ephesians 4:32", "Colossians 3:13"], "src": "jew:42"},
+    {"h": "The cosmic suicide theory", "icon": "cross-x", "summary": "If Jesus is fully God and God cannot die, how is three days of death a punishment? So they say the Father killed the Son. Thabiti Anyabwile describes wrath tearing the eternal fellowship like a million Sodoms; James Merritt speaks of total separation; Mark Driscoll of severed communion. This pictures God hating and expelling himself, a Trinity become Binity, which even the Church Fathers would call heresy.", "verses": [], "src": "jew:42"},
+    {"h": "Sola Scriptura as placebo", "icon": "mask", "summary": "Such ideas spread through sermons, books and videos to millions as Fundamentalist Christianity. Much Augustinian-Calvinist theology rests on flawed philosophy and human doctrines shaped by pagan ideas, so Sola Scriptura is mostly a placebo; about 40,000 denominations are steeped in man-made traditions. Justice, of all things, becomes the reason a loving Father must boil us in lava for a billion years.", "verses": [], "src": "jew:42"},
+    {"h": "Dad and the belt", "icon": "father", "summary": "It is like saying Dad cannot forgive us until he whips us with his belt for twelve hours straight. Erickson asks whether sin is serious if God can forgive without penalty. Oy vey! Forgiveness recognizes the gravity of the offense and chooses mercy. Jesus taught forgiving seventy times seven, without prior retaliation. Saying forgiven sins are not serious contradicts the Rabbis.", "verses": ["Matthew 18:21-22"], "src": "jew:42"},
+    {"h": "What forgiveness really costs", "icon": "coin", "summary": "To forgive is not to hurt someone first. Forgiveness costs the forgiver while the other goes free, for free. If I offend you and you forgive, I am free while you absorb the emotional cost. The Prodigal's father lost much of his wealth and bore emotional pain, absorbing the loss without ever punishing his son.", "verses": [], "src": "jew:42"},
+    {"h": "The God who is reluctant to save", "icon": "lock", "summary": "Got Questions, a Calvinist site beside The Gospel Coalition, defends Unconditional Election: God chose a few for heaven by his inscrutable, mysterious will, and the real question is why he would choose any. But God's will is clear: he wants all people saved. Why save any? Because he is mighty to save. Knowing all would sin, he created us anyway, showing love disposed to bless all.", "verses": ["1 Timothy 2:4", "Zephaniah 3:17"], "src": "jew:42"},
+    {"h": "Mercy is God's nature", "icon": "sun", "summary": "Calling grace a wonder implies God's instinct is to punish, a pagan-like god merciful only out of obligation, as if worried about bad publicity. But God delights in mercy and wants none to perish. A parent hates a child's sin, not the child, and corrects temporarily out of love. God aims to eliminate sin, not sinners, blessing good and bad alike; in Jesus we see we are worthy.", "verses": ["Micah 7:18", "2 Peter 3:9", "Matthew 5:45"], "src": "jew:42"}
+  ],
+  "visuals": [
+    {"type": "decision", "title": "Can God forgive without punishing?", "question": "Must sin be punished before it can be forgiven?", "yes": {"label": "Augustinian-Calvinist", "note": "Holiness demands punishment, so the Father pours wrath on the Son, or the sinner burns forever."}, "no": {"label": "Scripture and the Rabbis", "note": "Forgiveness is free: the forgiver absorbs the cost and the offender goes free."}},
+    {"type": "compare", "title": "Two pictures of forgiveness", "left": {"label": "Punish-to-forgive", "items": ["God cannot forgive without punishing", "Dad must whip us twelve hours first", "Forgiven sin seems less serious", "God elects a few by mysterious will", "Grace is a reluctant wonder"]}, "right": {"label": "Free forgiveness", "items": ["Forgive freely, seventy times seven", "The Prodigal's father absorbs the loss", "Forgiveness recognizes sin's gravity yet chooses mercy", "God wants all people to be saved", "God delights in mercy"]}},
+    {"type": "stats", "title": "The scale of the claims", "items": [
+      {"value": "3 days", "label": "Jesus's death, which ECT must make count as punishment"},
+      {"value": "40,000", "label": "Christian denominations steeped in man-made doctrines"},
+      {"value": "70 x 7", "label": "Times Jesus told us to forgive"}
+    ]}
+  ],
+  "mythfact": [
+    {"myth": "God's holiness means he cannot forgive without punishing.", "fact": "That is a philosophical argument from Augustine, Aquinas, Anselm and Calvin; the New Testament presents forgiveness as freely given."},
+    {"myth": "If sin is forgiven without penalty, it was not serious.", "fact": "Forgiveness recognizes the gravity of the offense and chooses mercy anyway, with the forgiver absorbing the cost."},
+    {"myth": "God's will about who is saved is mysterious.", "fact": "His will is clear: he wants all people to be saved and come to a knowledge of the truth."}
+  ],
+  "terms": [
+    {"term": "Unconditional Election", "meaning": "The Calvinist doctrine that God predestined a select few for heaven and the majority for eternal punishment."},
+    {"term": "Cosmic suicide theory", "meaning": "The idea that the Father killed the Son and broke their fellowship, depicting God punishing and expelling himself."},
+    {"term": "Binity", "meaning": "A Trinity reduced to two-in-one, implied when the Son is said to be cut off from the Godhead."},
+    {"term": "Sola Scriptura", "meaning": "Scripture alone; here argued to be mostly a placebo given how much theology rests on extrabiblical philosophy."}
+  ],
+  "quotes": [
+    {"text": "To forgive someone doesn't mean you first have to hurt them. Instead, forgiveness entails a cost to you while the other party is set free —for free.", "who": "The book"},
+    {"text": "His holiness is so pure that he cannot forgive without punishing.", "who": "Stan Mast, Calvinist preacher"},
+    {"text": "Justice, of all things, is their argument for why our loving Father must boil us in lava for a billion years!", "who": "The book"}
+  ],
+  "verses": [
+    {"ref": "Matthew 6:14", "role": "Forgiveness freely extended, contradicting the need for prior punishment."},
+    {"ref": "Matthew 18:21-22", "role": "Forgive seventy times seven, without retaliation first."},
+    {"ref": "Luke 7:46-48", "role": "Jesus freely forgives sins."},
+    {"ref": "Ephesians 4:32", "role": "Forgive as God in Christ forgave you, freely."},
+    {"ref": "1 Timothy 2:4", "role": "God wants all people saved; his will is not mysterious."},
+    {"ref": "Zephaniah 3:17", "role": "Why save anyone? Because he is mighty to save."},
+    {"ref": "Micah 7:18", "role": "God delights in showing mercy."},
+    {"ref": "2 Peter 3:9", "role": "God is not willing that any should perish."},
+    {"ref": "Matthew 5:45", "role": "God blesses good and bad alike."}
+  ],
+  "quiz": [
+    {"q": "According to the source, who bears the cost of forgiveness?", "options": ["The offender", "The forgiver", "No one"], "answer": 1, "why": "Forgiveness costs the forgiver, who absorbs the loss, while the offender is set free for free."},
+    {"q": "What does the cosmic suicide theory imply about the Trinity?", "options": ["It becomes a Binity", "It grows stronger", "It is unaffected"], "answer": 0, "why": "Severing the Son from the Father makes the Trinity a two-in-one Binity, which traditional Christianity calls heresy."},
+    {"q": "Why would God choose to save any at all?", "options": ["For good publicity", "Because he is mighty to save", "By random chance"], "answer": 1, "why": "Zephaniah 3:17: he is mighty to save. God wants all saved and delights in mercy."}
+  ],
+  "reflect": "When you forgive someone, what does it cost you, and does it ever require hurting them first?"
+}

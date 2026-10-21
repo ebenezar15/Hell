@@ -1,0 +1,106 @@
+{
+  "id": "early",
+  "title": "Early Christianity's Views",
+  "hook": "Did the first Christians actually believe in endless torment?",
+  "tldr": "Most Church Fathers and five of six early catechetical schools taught that punishment after death is temporary, corrective or ends in annihilation. Endless conscious torment was a minority view, championed by Augustine of Hippo, that later came to dominate the Western church.",
+  "big_idea": "Endless hell was once the minority view, not the early consensus.",
+  "points": [
+    {"icon": "people", "title": "Most Fathers expected temporary punishment", "text": "Apart from Augustine, the majority of Church Fathers held that judgment after death is temporary, aimed at purifying and restoring souls rather than tormenting them forever.", "verses": []},
+    {"icon": "book", "title": "Aionios means age-long, not eternal", "text": "The Fathers wrote in Koine Greek. Aionios is better rendered age-long or pertaining to an age; aidios, which more definitely means eternal, is used of God's power but never of hell.", "verses": ["Romans 1:20"]},
+    {"icon": "fire", "title": "Fire refines rather than tortures", "text": "In first-century Judaism, fire meant testing, cleansing and purification, like refining silver and gold. Fire destroys the dross, not the gold. God destroys the sin, not the person.", "verses": ["Malachi 3:2-3", "1 Corinthians 3:13-15"]},
+    {"icon": "temple", "title": "Five of six schools rejected endless torment", "text": "Alexandria, Antioch, Caesarea and Eastern Syria taught restoration; Asia Minor taught annihilation. Only Hippo taught eternal conscious torment.", "verses": []},
+    {"icon": "alert", "title": "Augustine knew he was the minority", "text": "Augustine, who championed endless torment, admitted that very many in his day did not believe in it. His view later prevailed because Catholicism and Protestantism embraced his theology.", "verses": []},
+    {"icon": "alert", "title": "Ancient quotes need careful handling", "text": "Modern schools of thought dispute which Father held which view, and the authenticity of some ancient quotes is contested, so they should be approached with healthy skepticism.", "verses": []}
+  ],
+  "sections": [
+    {"h": "Varied and underdeveloped early views", "icon": "question", "summary": "Views of hell varied widely in Christian history, and in the earliest church the afterlife seems to have been underdeveloped. Modern schools of thought dispute which Church Father held which view, reflecting the difficulty of translating ancient texts and the diversity of early theology. The authenticity of some ancient quotes is also contested, so skepticism is wise.", "verses": [], "src": "jew:6"},
+    {"h": "Clement of Rome", "icon": "person", "summary": "Clement (35-99 AD), Pope Clement I and foremost Apostolic Father, wrote a Greek letter to the Corinthians, once lost and later found whole attached to the Alexandrian codex, and read in churches alongside the New Testament. He called God free from wrath towards all creatures, doing good to all. Hosea Ballou thought he probably believed in the salvation of all; Thomas Allin inferred he held the larger hope.", "verses": [], "src": "jew:6"},
+    {"h": "The problem of Second Clement", "icon": "scroll", "summary": "2 Clement 6:7 seems to say otherwise, but Eusebius knew only one genuine epistle of Clement and Jerome shared the doubt. Modern scholars see Second Clement as a much later sermon by an anonymous preacher. Its word aionios is often rendered eternal but means age-long or pertaining to an age. Aidios, which more definitely means eternal, describes God's power in Romans 1:20 but is never applied to hell.", "verses": ["Romans 1:20"], "src": "jew:6"},
+    {"h": "Ignatius of Antioch", "icon": "person", "summary": "Ignatius (died 108 AD), Patriarch of Antioch, possibly a disciple of John or Peter, wrote letters on his way to martyrdom in Rome and ranks with Clement and Polycarp among the key Apostolic Fathers. Different camps quote him. To the Magnesians he called Jesus Christ the Saviour of all men, but specially of them that believe.", "verses": [], "src": "jew:6"},
+    {"h": "Polycarp of Smyrna", "icon": "flame", "summary": "Polycarp (c. 69-155 AD) left no clear statement for temporary hell, eternal hell or annihilation. In the Martyrdom of Polycarp (around 150 AD, chapter 11) he tells his torturers their fire burns for an hour, but they ignore the fire of coming judgment, aionios fire. That shows belief in a far more severe judgment, but aionios means age-long, not necessarily eternal.", "verses": [], "src": "jew:6"},
+    {"h": "Justin Martyr", "icon": "scale", "summary": "Justin (c. 100-165 AD), apologist and philosopher, wrote the First Apology urging Emperor Antoninus Pius to stop persecuting Christians. He said the wicked face age-long punishment, not Plato's fixed thousand years. By rejecting one fixed term for all, he seems to stress justice: undefined periods proportionate to the gravity of each sin. Whether he opposed Plato generally or only the thousand years is unclear.", "verses": [], "src": "jew:6"},
+    {"h": "Theophilus of Antioch", "icon": "hand", "summary": "Theophilus (c. 120-183 AD), Patriarch of Antioch, wrote To Autolycus to a pagan friend. God kindly did not let man stay in sin forever but banished him from paradise so that, punishment expiated within an appointed time and disciplined, he could be recalled. Like a flawed vessel remoulded by a potter, man is broken by death to be made whole, spotless and immortal in the resurrection.", "verses": [], "src": "jew:6"},
+    {"h": "Irenaeus of Lyons", "icon": "question", "summary": "Irenaeus (c. 130-202 AD), Greek bishop whose Against Heresies attacked Gnosticism and shaped orthodoxy, is claimed by more than one camp. He wrote that the judge will send into aionios fire those who alter the truth. The debate turns on whether aionios means an age or eternity, and whether fire is literal or metaphor, given his varied usage elsewhere.", "verses": [], "src": "jew:6"},
+    {"h": "Clement of Alexandria and Origen", "icon": "sun", "summary": "Clement (c. 150-215 AD), founder of Alexandria's Catechetical School, said the Redeemer keeps rescuing and disciplining after this life; all are Christ's, some not yet. Origen (c. 185-254 AD), greatest early Greek biblical scholar, author of the Hexapla and On First Principles, founded a school in Caesarea and taught apokatastasis: all souls, even demons, restored, purified by corrective fire until God is all in all.", "verses": [], "src": "jew:6"},
+    {"h": "Arnobius and Eusebius", "icon": "skull", "summary": "Hints of annihilationism are claimed in Ignatius, Justin and Irenaeus, but Arnobius of Sicca (c. 255-330 AD), a Berber apologist under Diocletian, is usually seen as its first explicit defender: the wicked are annihilated, man's real death leaving nothing behind. Eusebius of Caesarea (c. 260-340 AD), historian and bishop, said the Son breaks enemies in pieces to remold them like a potter, citing Jeremiah 18:6.", "verses": ["Jeremiah 18:6"], "src": "jew:6"},
+    {"h": "Hilary, Athanasius and Basil", "icon": "people", "summary": "Hilary of Poitiers (c. 310-367 AD), the Athanasius of the West, held that Christ assumed all humanity into his body, so atonement was universal. Athanasius (c. 296-373 AD), defender of the Trinity, wrote that the devil lost all those cast out of hades, and that the Logos took flesh to liberate and resurrect all. Basil the Great (c. 330-379 AD) reported that most Christians expected punishment to end.", "verses": [], "src": "jew:6"},
+    {"h": "Macrina and Gregory of Nazianzus", "icon": "flame", "summary": "Macrina the Younger (c. 327-379 AD), sister of Basil and Gregory of Nyssa and influential nun, taught the perfect obliteration of wickedness: if God is in all things, evil must be removed utterly from being. Gregory of Nazianzus (329-390 AD), Archbishop of Constantinople, spoke of a last baptism of fire, painful and enduring, that eats up defiled matter like hay and consumes vice.", "verses": [], "src": "jew:6"},
+    {"h": "Diodore of Tarsus and Gregory of Nyssa", "icon": "hourglass", "summary": "Diodore (c. 320-394 AD), Antiochene exegete and mentor of Chrysostom and Theodore, taught punishments not perpetual but brief, proportioned to the malice of each one's works, far surpassed by mercy, then endless blessedness. Gregory of Nyssa (c. 335-395 AD), Cappadocian Father honored across five traditions, saw hell as a forging that purifies until no evil exists and every tongue confesses Jesus as Lord.", "verses": [], "src": "jew:6"},
+    {"h": "Ambrose, Didymus, Chrysostom and Jerome", "icon": "people", "summary": "Ambrose of Milan (340-397 AD), who helped convert Augustine, said those reserved for the second resurrection are disciplined until their appointed times. Didymus the Blind (313-398 AD), head of Alexandria's school, spoke of salvation of all. Chrysostom (c. 347-407 AD) described various torments yet said the devil lost all he kept. Jerome (347-420 AD), Vulgate translator, expected all restored into one body.", "verses": [], "src": "jew:6"},
+    {"h": "Theodore of Mopsuestia", "icon": "bulb", "summary": "Theodore (350-428 AD), Antiochene bishop stressing literal and historical interpretation, who influenced Nestorianism, taught that the lifelong wicked are punished until they learn that continuing in sin only continues their misery. Once brought to fear God and regard him with good will, they obtain his grace.", "verses": [], "src": "jew:6"},
+    {"h": "Augustine of Hippo", "icon": "alert", "summary": "Augustine (354-430 AD), author of Confessions and City of God, originated Original Sin, Total Depravity, Total Inability and Predestination, shaping Calvin and Luther. He challenged the Fathers and advocated endless torment, yet admitted very many did not believe it. His view is criticized for portraying God as a sadist delighting in pain. Living far from most Fathers, he still came to dominate Western Catholic and Protestant doctrine.", "verses": [], "src": "jew:6"},
+    {"h": "Chrysologus, Theodoret and Olympiodorus", "icon": "coin", "summary": "Peter Chrysologus (c. 380-450 AD), the Golden-Worded bishop of Ravenna, argued Christ's saying about paying the last penny implies cleansing once the debt is paid. Theodoret (387-458 AD) said God, who loves man, punishes medicinally until he is all in all. Olympiodorus (495-550 AD) denied endless eons in Tartarus: the soul is punished for healing, not divine revenge, for an aionios period.", "verses": [], "src": "jew:6"},
+    {"h": "Summary of the Fathers", "icon": "check", "summary": "Aside from Augustine of Hippo, the majority of the Church Fathers believed in a temporary judgment after death rather than an eternal one. Eternal judgment was a concept likely first advocated by Augustine himself.", "verses": [], "src": "jew:6"},
+    {"h": "Hell in first-century Judaism", "icon": "fire", "summary": "Confusion about hell comes from ignoring context, misused metaphors and mistranslated words. Afterlife ideas were primitive in many cultures; Gehinnom developed over time as a temporary place of reckoning. Origen, the greatest genius of the early church, saw punishment as purification, citing the refiner's fire. Scripture uses refining imagery throughout. Basanizo, torment, can mean test, so tormented in fire means refined in fire.", "verses": ["Malachi 3:2-3", "Zechariah 13:9", "Psalm 66:10", "1 Corinthians 3:13-15", "1 Peter 1:7"], "src": "hfd:4"},
+    {"h": "Fire burns the dross, not the gold", "icon": "flame", "summary": "Jesus used this vocabulary for Gehenna, and his Jewish audience heard a painful but purposeful process of refining, reshaping and restoring. People with more impurity, such as hatred, cruelty and violence, may face long, painful refining, but prolonged purification is not everlasting despair. Since God hates sin, not the sinner, he destroys the sin, not the person.", "verses": [], "src": "hfd:4"},
+    {"h": "Hell in early Christian schools", "icon": "temple", "summary": "Six catechetical schools, like modern seminaries, shaped early theology. Alexandria (2nd century, allegorical) taught apokatastasis. Antioch (3rd century, literal) taught temporary, restoring hell. Caesarea (3rd century, Origen's influence) taught purification back to sinlessness. Eastern Syria (4th century) taught temporary, healing punishment. Asia Minor (3rd century) taught annihilation. Hippo (late 4th-early 5th century, North-West Africa) alone taught eternal conscious torment.", "verses": [], "src": "jew:6"},
+    {"h": "From minority to majority", "icon": "arrow", "summary": "Most schools, including the esteemed Alexandria and Antioch, taught total reconciliation, viewing punishment as corrective, temporary and remedial, close to the Jewish view. Hippo stressed the severity of sin over grace and a punitive divine wrath. Ironically, that once-unusual belief became dominant in the West because Catholicism and Protestantism embraced Augustinian theology.", "verses": [], "src": "hfd:4"}
+  ],
+  "visuals": [
+    {"type": "timeline", "title": "Church Fathers on hell", "caption": "Most voices before and after Augustine expected punishment to purify, restore or end.", "events": [
+      {"date": "35-99 AD", "label": "Clement of Rome", "note": "God is free from wrath towards all creatures; later read as holding the larger hope."},
+      {"date": "c. 69-155 AD", "label": "Polycarp of Smyrna", "note": "Warned of aionios, age-long, fire of coming judgment."},
+      {"date": "c. 100-165 AD", "label": "Justin Martyr", "note": "Age-long punishment, not Plato's fixed thousand years."},
+      {"date": "c. 185-254 AD", "label": "Origen of Alexandria", "note": "Apokatastasis: all souls purified and restored, even demons."},
+      {"date": "c. 255-330 AD", "label": "Arnobius of Sicca", "note": "First explicit defender of annihilation of the wicked."},
+      {"date": "c. 335-395 AD", "label": "Gregory of Nyssa", "note": "Hell as a forging that purifies until God is in all."},
+      {"date": "354-430 AD", "label": "Augustine of Hippo", "note": "Champions endless torment, admitting very many disagreed."},
+      {"date": "495-550 AD", "label": "Olympiodorus", "note": "Punishment is for healing, not revenge, for an aionios period."}
+    ]},
+    {"type": "tree", "title": "Six early catechetical schools", "root": "Early schools on hell", "children": [
+      {"label": "Restoration", "note": "Hell is temporary, corrective and purifying.", "children": [
+        {"label": "Alexandria", "note": "2nd century, allegorical; apokatastasis."},
+        {"label": "Antioch", "note": "3rd century, literal; temporary state that restores all."},
+        {"label": "Caesarea", "note": "3rd century, Origen's influence; purified to sinless state."},
+        {"label": "Eastern Syria", "note": "4th century; temporary punishment for repentance and healing."}
+      ]},
+      {"label": "Annihilation", "note": "The wicked cease to exist.", "children": [
+        {"label": "Asia Minor", "note": "3rd century, in modern Turkey."}
+      ]},
+      {"label": "Eternal conscious torment", "note": "Never-ending punishment for the unrepentant.", "children": [
+        {"label": "Hippo", "note": "Late 4th-early 5th century, North-West Africa; Augustine's school."}
+      ]}
+    ]},
+    {"type": "spectrum", "title": "Where the voices fall", "left": "Restoration of all", "right": "Endless torment", "marks": [
+      {"pos": 5, "label": "Origen, Gregory of Nyssa", "note": "All souls purified and restored; God all in all."},
+      {"pos": 15, "label": "Diodore, Theodore, Theodoret", "note": "Brief, proportionate, medicinal punishment ending in grace."},
+      {"pos": 40, "label": "Justin, Polycarp", "note": "Severe age-long punishment, duration matched to sin."},
+      {"pos": 60, "label": "Arnobius", "note": "The wicked are annihilated and pass away."},
+      {"pos": 95, "label": "Augustine", "note": "Endless torment, admitted to be a minority view."}
+    ]}
+  ],
+  "mythfact": [
+    {"myth": "The early church unanimously taught eternal conscious torment.", "fact": "Most Fathers and five of six catechetical schools taught temporary, corrective punishment or annihilation. Only Hippo taught eternal conscious torment."},
+    {"myth": "Aionios in the Fathers means eternal.", "fact": "Aionios more accurately means age-long or pertaining to an age. Aidios, which more definitely means eternal, is never applied to hell or punishment."},
+    {"myth": "Augustine simply restated what everyone already believed.", "fact": "Augustine admitted very many in his day did not believe in endless torments. He was among the first to challenge the Fathers on hell."},
+    {"myth": "Fire imagery in Jewish thought meant endless torture.", "fact": "In first-century Judaism fire meant testing, cleansing and purification, as in refining silver and gold."}
+  ],
+  "terms": [
+    {"term": "Aionios", "meaning": "Greek word often translated eternal, but more accurately age-long, for an age or pertaining to an age."},
+    {"term": "Aidios", "meaning": "Greek word that more definitively means eternal; used of God's power, never of hell or punishment."},
+    {"term": "Apokatastasis", "meaning": "The restoration of all creation to perfection, taught by Origen and Alexandria, with all souls reconciled to God."},
+    {"term": "Annihilationism", "meaning": "The view that the wicked are ultimately eliminated and cease to exist rather than suffering forever."},
+    {"term": "Eternal conscious torment (ECT)", "meaning": "The view, popularized by Augustine, of hell as unending suffering with no possibility of redemption."},
+    {"term": "Basanizo", "meaning": "Greek word often translated torment, which can also mean to test or examine, as in refining."}
+  ],
+  "quotes": [
+    {"text": "There are very many in our day, who though not denying the Holy Scriptures, do not believe in endless torments.", "who": "Augustine of Hippo"},
+    {"text": "The mass of men [Christians] say there is to be an end to punishment and to those who are punished.", "who": "St. Basil the Great"},
+    {"text": "Very properly, the soul is not punished to gratify the revenge of the divinity, but for the sake of healing.", "who": "Olympiodorus"}
+  ],
+  "verses": [
+    {"ref": "Romans 1:20", "role": "Uses aidios, truly eternal, for God's power; that word is never applied to hell."},
+    {"ref": "Jeremiah 18:6", "role": "Cited by Eusebius: God breaks enemies like a potter in order to remold them."},
+    {"ref": "Malachi 3:2-3", "role": "The refiner's fire, cited by Origen as the purpose of punishment: purification."},
+    {"ref": "Zechariah 13:9", "role": "God refines his people like silver and tests them like gold."},
+    {"ref": "Psalm 66:10", "role": "Another instance of God refining and testing people as metal."},
+    {"ref": "1 Corinthians 3:13-15", "role": "Human works are tested as through fire."},
+    {"ref": "1 Peter 1:7", "role": "Trials refine faith like gold; fire as purification."}
+  ],
+  "quiz": [
+    {"q": "Which early catechetical school alone taught eternal conscious torment?", "options": ["Alexandria", "Hippo", "Antioch"], "answer": 1, "why": "Hippo, named after Augustine, was the only one of the six schools to teach eternal conscious torment."},
+    {"q": "What does aionios more accurately mean?", "options": ["Age-long", "Never-ending", "Instant"], "answer": 0, "why": "Aionios is better rendered age-long or pertaining to an age; aidios is the word that more definitely means eternal."},
+    {"q": "What did Justin Martyr reject about Plato's view of punishment?", "options": ["That punishment exists at all", "A fixed thousand years for all", "Any role for fire"], "answer": 1, "why": "He rejected a fixed thousand-year term for all, favoring age-long punishment proportionate to the gravity of sin."}
+  ],
+  "reflect": "If endless torment was a minority view among the earliest Christians, how should that shape how firmly it is held today?"
+}

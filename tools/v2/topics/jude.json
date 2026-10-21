@@ -1,0 +1,62 @@
+{
+  "id": "jude",
+  "title": "Jude: Sodom and Eternal Fire",
+  "hook": "Is Sodom still burning? If not, what does Jude's eternal fire mean?",
+  "tldr": "Jude says Sodom and Gomorrah underwent the punishment of eternal fire, yet they are not burning today. The phrase is figurative: a total, irreversible destruction. Jude warns about the immediate, devastating consequences of following false teachers, not endless torture in hell.",
+  "big_idea": "Eternal fire means permanent destruction, not a fire still burning.",
+  "points": [
+    {"icon": "fire", "title": "Sodom is not still burning", "text": "Sodom and Gomorrah underwent eternal fire, yet no fire burns there now. Eternal describes the totality and finality of the judgment: the results were permanent, the fire was not.", "verses": ["Jude 1:7"]},
+    {"icon": "hand", "title": "Same words Jesus used figuratively", "text": "Jesus used the same Greek words for eternal fire alongside cutting off a hand or foot. Most agree the amputation is figurative, so the eternal fire is too.", "verses": ["Matthew 18:8"]},
+    {"icon": "flame", "title": "Fire refines and judges", "text": "Scripture uses fire as a symbol of God's judgment and purification: a refiner's fire purifying the Levites, and God himself as a consuming fire.", "verses": ["Malachi 3:2-3", "Hebrews 12:29"]},
+    {"icon": "lock", "title": "Strange flesh means angels", "text": "Strange flesh refers to forbidden contact between humans and angels, not homosexuality. Sodom's main sin was intending to interact with visiting angels, mirroring Genesis 6 in reverse.", "verses": ["Genesis 6"]},
+    {"icon": "alert", "title": "The real danger: false teachers", "text": "Jude warns that following false teachers brings immediate, permanent, earthly destruction. Rebellious angels were judged; false teachers who lead others astray will be judged too.", "verses": ["Jude 1:4", "Jude 1:11"]},
+    {"icon": "hand", "title": "Snatching people from the fire", "text": "People cannot save anyone from hellfire; salvation is God's work. Snatching from the fire means rescuing people from false doctrines, like pulling a friend out of a cult.", "verses": ["Jude 1:23"]}
+  ],
+  "sections": [
+    {"h": "Why Jude is cited for hellfire", "icon": "book", "summary": "Jude, a short warning letter against false doctrines, is often cited by Augustinian-Calvinist proponents of eternal conscious torment. John MacArthur's commentary, for instance, calls the fire in Jude the fire of hell. A closer look at text, context and figurative language shows Jude warns against the immediate, destructive consequences of following false teachers, not endless torture. The key passage covers Israel after Egypt, angels kept in eternal restraints, Sodom's eternal fire, and snatching others out of the fire.", "verses": ["Jude 1:5-7", "Jude 1:22-23"], "src": "jew:35"},
+    {"h": "Jude 1:7 - Eternal Fire and Sodom and Gomorrah", "icon": "fire", "summary": "Are Sodom and Gomorrah still burning? No. So their eternal fire is figurative, meaning complete, irreversible destruction; eternal describes the totality and finality of judgment. The consequences were permanent; the fire was not. Jesus used the same Greek words in Matthew 18:8, about cutting off a hand or foot rather than being thrown into eternal fire. Most see the amputation as figurative, so the fire is too. Fire symbolizes judgment and purification: the refiner's fire and the consuming fire.", "verses": ["Jude 1:7", "Matthew 18:8", "Malachi 3:2-3", "Hebrews 12:29"], "src": "jew:35"},
+    {"h": "Strange Flesh", "icon": "lock", "summary": "Strange flesh means a forbidden yearning between angel and human, not sex between humans; Scripture never links the term to homosexuality, which is within the same gender, race and species, not foreign. Idolatry and homosexuality were common in many cities; Sodom's primary sin was intending to interact with visiting angels. In Genesis 6 angels sought human flesh; in Sodom humans sought angels' flesh. Hence the New Testament links Sodom with angels, and the angels' eternal restraints stop them interacting with humans again.", "verses": ["Genesis 6"], "src": "jew:35"},
+    {"h": "Angels, false teachers and figurative fire", "icon": "alert", "summary": "Jude mentions angels alongside false teachers to show how severe rebellion against God is. As rebellious angels were judged, false teachers will be judged for leading others astray. Jude's fire and eternal fire are metaphors for the destructive results of false teaching and immoral behavior: immediate, permanent, earthly destruction, not eternal torture. This fits the wider biblical theme of judgment and purification. Jude teaches the serious, immediate consequences of straying from the truth.", "verses": [], "src": "jew:35"},
+    {"h": "Jude 1:23 - Snatching from the Fire", "icon": "hand", "summary": "If save others by snatching them out of the fire meant rescue from hellfire, it would make people responsible for salvation, contradicting the Bible's message that salvation is solely God's work. Saving here means rescuing people from following false teachers. The fire is the hazard of false doctrine that devastates earthly lives, which is the purpose of the book. Examples: pulling a loved one out of a life-ruining cult, or the prosperity gospel, where charlatans take people's life savings.", "verses": ["Jude 1:23", "Jude 1:4", "Jude 1:11"], "src": "jew:35"}
+  ],
+  "visuals": [
+    {"type": "verse", "title": "Reading Jude 1:7 closely", "ref": "Jude 1:7", "text": "Sodom and Gomorrah...are exhibited as an example in undergoing the punishment of eternal fire.", "caption": "The example only works if the fire refers to a destruction already completed.", "notes": [
+      {"phrase": "Sodom and Gomorrah", "note": "These cities are not still burning today, so the fire cannot be literally endless."},
+      {"phrase": "exhibited as an example", "note": "Their ruin is a visible, finished warning of what rebellion brings."},
+      {"phrase": "eternal fire", "note": "Totality and finality of judgment: permanent consequences, but not a fire that keeps burning."}
+    ]},
+    {"type": "compare", "title": "Genesis 6 and Sodom: a mirror image", "caption": "Strange flesh is about crossing the line between angels and humans.", "left": {"label": "Genesis 6", "items": ["Angels sought human flesh", "Forbidden angel-human contact", "Angels later held in eternal restraints"]}, "right": {"label": "Sodom", "items": ["Humans sought the strange flesh of angels", "Intent to interact with visiting angels", "Punished severely, linked to angels in the New Testament"]}},
+    {"type": "decision", "title": "Who snatches from the fire?", "question": "Does Jude 1:23 mean rescuing people from hellfire?", "yes": {"label": "Humans save from hell", "note": "Then people, not God, would be responsible for salvation, contradicting the Bible's central message."}, "no": {"label": "Rescue from false teaching", "note": "Like pulling a friend from a cult or the prosperity gospel's charlatans before it ruins their life."}}
+  ],
+  "mythfact": [
+    {"myth": "Jude's eternal fire is the fire of hell.", "fact": "Sodom and Gomorrah are not still burning. Eternal fire means complete, irreversible destruction whose consequences are permanent, though the fire itself was not."},
+    {"myth": "Sodom's strange flesh refers to homosexuality.", "fact": "Scripture never links strange flesh to homosexuality. It refers to forbidden contact between humans and angels; Sodom intended to interact with visiting angels."},
+    {"myth": "Snatching others out of the fire means saving them from hell.", "fact": "That would make people responsible for salvation. It means rescuing people from false teachings that devastate their lives now."}
+  ],
+  "terms": [
+    {"term": "Eternal fire", "meaning": "A figurative phrase for complete, final, irreversible destruction, used of Sodom and by Jesus in Matthew 18:8."},
+    {"term": "Strange flesh", "meaning": "Forbidden yearning between angels and humans; in Sodom, humans sought the flesh of visiting angels."},
+    {"term": "Eternal restraints", "meaning": "The bonds holding rebellious angels under darkness, preventing them from interacting with humans again."}
+  ],
+  "quotes": [
+    {"text": "Are Sodom and Gomorrah still burning today? No. How, then, can Jude say they underwent a punishment of eternal fire? Because it's figurative language.", "who": "The book"},
+    {"text": "The consequences of the destruction were permanent, but the fire itself was not.", "who": "The book"},
+    {"text": "This “fire” is not about eternal damnation but false teachings’ immediate, destructive impact.", "who": "The book"}
+  ],
+  "verses": [
+    {"ref": "Jude 1:7", "role": "Sodom's eternal fire: a finished, permanent destruction used as an example."},
+    {"ref": "Jude 1:5-6", "role": "Israel's unbelievers destroyed; rebellious angels kept in eternal restraints for judgment."},
+    {"ref": "Jude 1:23", "role": "Snatching others from the fire of false teaching, not from hell."},
+    {"ref": "Matthew 18:8", "role": "Jesus uses the same Greek words for eternal fire in a figurative saying."},
+    {"ref": "Malachi 3:2-3", "role": "God as refiner's fire purifying the Levites."},
+    {"ref": "Hebrews 12:29", "role": "God is a consuming fire: purifying and judging, not literal flames."},
+    {"ref": "Genesis 6", "role": "Angels sought human flesh, the mirror image of Sodom's sin."},
+    {"ref": "Jude 1:4", "role": "The false teachers whose influence is the real danger."}
+  ],
+  "quiz": [
+    {"q": "Why must Jude's eternal fire on Sodom be figurative?", "options": ["Sodom and Gomorrah are not still burning", "Jude never mentions fire", "Sodom was never destroyed"], "answer": 0, "why": "The cities underwent eternal fire yet are not burning now; eternal describes the totality and finality of their destruction."},
+    {"q": "What was Sodom's primary sin according to this reading?", "options": ["Idolatry", "Intent to interact with visiting angels", "Greed"], "answer": 1, "why": "Idolatry and homosexuality were common in many cities; Sodom sought the strange flesh of angels, mirroring Genesis 6."},
+    {"q": "What does snatching them out of the fire describe?", "options": ["Rescuing souls from hell", "Rescuing people from false teachings", "Escaping Sodom's burning"], "answer": 1, "why": "Salvation from hell is God's work alone; Jude means rescuing people from the life-devastating effects of false teachers."}
+  ],
+  "reflect": "Where today might someone need snatching out of the fire of a harmful teaching?"
+}

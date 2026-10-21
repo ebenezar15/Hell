@@ -1,0 +1,72 @@
+{
+  "id": "bookoflife",
+  "title": "The Book of Life",
+  "hook": "Can Jesus erase your name from the Book of Life and send you to hellfire?",
+  "tldr": "No. In Scripture the Book of Life lists the living, and in Sardis, citizen rosters dropped names at death or disgrace. Revelation 3:5 is a litotes: an understatement promising special honor to overcomers, not a threat of lost salvation or eternal torture.",
+  "big_idea": "Revelation 3:5 promises honor to the faithful, not torment to the rest.",
+  "points": [
+    {"icon": "scroll", "title": "Revelation speaks in symbols", "text": "Revelation is apocalyptic, full of beasts, dragons and flying horses that first-century readers would not take literally. Its vivid images convey spiritual truths rather than literal descriptions.", "verses": ["Revelation 3:5"]},
+    {"icon": "book", "title": "A book of the living", "text": "In the Hebrew Scriptures the Book of the Living lists those presently alive on earth, righteous or wicked. Whatever the book, those written in it are alive.", "verses": ["Exodus 32:32-33", "Psalm 69:28"]},
+    {"icon": "people", "title": "Sardis kept citizen rosters", "text": "Towns like Sardis listed their citizens. A name was removed at death, or when someone committed severe crimes and shamed the town. Jesus used an image the readers knew.", "verses": []},
+    {"icon": "crown", "title": "White garments mean honor", "text": "Sardis was famous for wool and dyed fabrics. White garments signified honor, festivity and victory. The promise to overcomers is special recognition for faithful service.", "verses": ["Revelation 3:5"]},
+    {"icon": "speech", "title": "A litotes, not a threat", "text": "Since Jesus taught eternal life cannot be lost, 'I will not blot out his name' is an understatement that affirms honor by negating its opposite. Failing to overcome means forfeiting the Master's 'Well done.'", "verses": ["John 10:28-29", "Matthew 25:21"]}
+  ],
+  "sections": [
+    {"h": "Revelation is apocalyptic", "icon": "scroll", "summary": "Revelation is steeped in symbolism and metaphor, written in the apocalyptic genre. It describes beasts, dragons, flying horses and other images first-century readers would not have taken literally. The genre uses vivid imagery and symbolic language to convey deeper spiritual truths, not literal descriptions.", "verses": [], "src": "jew:36"},
+    {"h": "The anxious verse: Revelation 3:5", "icon": "alert", "summary": "Revelation 3:5 says the overcomer will be clothed in white garments and his name will not be blotted out of the Book of Life, and Jesus will confess his name before the Father and the angels. Many Christians fear it implies Jesus might erase names already written, meaning loss of eternal life and torture in hellfire. The words were addressed to the church in Sardis.", "verses": ["Revelation 3:5"], "src": "jew:36"},
+    {"h": "What is the Book of Life?", "icon": "book", "summary": "In the Hebrew Scriptures the Book of the Living lists those presently alive on earth, righteous or wicked. It appears three ways: the Book of the Living (Psalm 69:28), the Book of Life (Philippians 4:3; Revelation 3:5; 20:12, 15) and the Lamb's Book of Life (Revelation 13:8; 21:27). Either way, those written are alive. Some see two books, one listing all the living and one listing those receiving great honor; others see one book.", "verses": ["Exodus 32:32-33", "Deuteronomy 29:20", "Psalm 69:28", "Isaiah 4:3", "Philippians 4:3", "Revelation 20:12", "Revelation 20:15", "Revelation 13:8", "Revelation 21:27"], "src": "jew:36"},
+    {"h": "Citizen rosters in Sardis", "icon": "people", "summary": "In John's time, many towns including Sardis kept citizenship rosters. When a person died, the name was removed. A person who committed severe crimes and brought great shame on the town might also be removed. Scripture does speak of names being blotted out, but this does not mean losing eternal life.", "verses": [], "src": "jew:36"},
+    {"h": "Overcomers and white garments", "icon": "crown", "summary": "An overcomer faithfully loves, serves and honors Jesus throughout life. The promise never to remove an overcomer's name is a tribute of great honor and respect, special recognition for faithful service. It does not mean those who fail to overcome are tortured in hellfire or lose eternal life. Sardis boasted of woolen goods and dyed fabrics, and white garments connoted honor, festivity and victory.", "verses": ["Revelation 3:5"], "src": "jew:36"},
+    {"h": "Litotes in Revelation 3:5", "icon": "speech", "summary": "Jesus taught eternal life can never be lost (John 3:15-18; 4:10-14; 5:24; 6:35-40; 10:28-29; 11:25-26), so 'I will not blot out his name' is best read as litotes: an understatement affirming something by negating its opposite. Saying 'I will not stop loving my wife as long as she makes me ice cream' stresses love, not a condition. Jesus uses a familiar image to stress honor for the faithful, not fire for others.", "verses": ["John 3:15-18", "John 4:10-14", "John 5:24", "John 6:35-40", "John 10:28-29", "John 11:25-26"], "src": "hfd:26"},
+    {"h": "Conclusion: forfeiting the Well done", "icon": "hand", "summary": "Not having one's name acknowledged simply means forfeiting the Master's 'Well done,' the commendation given to faithful servants in Jesus' parables. It is a loss of honor and reward, not a sentence of eternal torment.", "verses": ["Matthew 25:21", "Luke 19:17", "Luke 19:19"], "src": "jew:36"}
+  ],
+  "visuals": [
+    {"type": "tree", "title": "The Book of Life in Scripture", "root": "Book of Life/Living", "children": [
+      {"label": "Book of the Living", "note": "Lists those presently alive on earth, righteous or wicked.", "children": [{"label": "Psalm 69:28", "note": "Also Exodus 32:32-33, Deuteronomy 29:20, Isaiah 4:3."}]},
+      {"label": "Book of Life", "note": "Named in Paul and in Revelation.", "children": [{"label": "Philippians 4:3", "note": "Also Revelation 3:5 and 20:12, 15."}]},
+      {"label": "Lamb's Book of Life", "note": "Possibly those receiving great honor, or the same single book.", "children": [{"label": "Revelation 13:8", "note": "Also Revelation 21:27."}]}
+    ]},
+    {"type": "verse", "title": "Reading Revelation 3:5 closely", "ref": "Revelation 3:5", "text": "He who overcomes shall be clothed in white garments, and I will not blot out his name from the Book of Life; but I will confess his name before My Father and before His angels.", "notes": [
+      {"phrase": "He who overcomes", "note": "One who faithfully loves, serves and honors Jesus throughout life."},
+      {"phrase": "clothed in white garments", "note": "Sardis traded in wool and dyed fabrics; white garments meant honor, festivity and victory."},
+      {"phrase": "I will not blot out his name", "note": "A litotes: an understatement affirming special honor, not a threat to erase names."},
+      {"phrase": "Book of Life", "note": "Echoes Sardis's citizen rosters, which dropped names at death or public disgrace."},
+      {"phrase": "I will confess his name", "note": "Public recognition before the Father and angels, a tribute of honor."}
+    ]},
+    {"type": "compare", "title": "Two readings of a blotted-out name", "left": {"label": "Fearful reading", "items": ["Names already written can be erased", "Erasure means losing eternal life", "Losers of the race face hellfire", "Read literally, as a threat"]}, "right": {"label": "The book's reading", "items": ["Image drawn from Sardis citizen rosters", "Eternal life can never be lost", "Non-overcomers forfeit the Master's Well done", "Read as litotes, a promise of honor"]}}
+  ],
+  "mythfact": [
+    {"myth": "Revelation 3:5 warns that believers can lose salvation and end up in hellfire.", "fact": "Jesus taught eternal life can never be lost. The verse is a litotes promising special honor to overcomers, not a threat of torture."},
+    {"myth": "The Book of Life is a list of the saved.", "fact": "In the Hebrew Scriptures the Book of the Living lists those presently alive on earth, whether righteous or wicked."},
+    {"myth": "Revelation's imagery should be read literally.", "fact": "It is apocalyptic, with beasts, dragons and flying horses that first-century readers would not have read literally."}
+  ],
+  "terms": [
+    {"term": "Apocalyptic genre", "meaning": "Writing marked by vivid imagery and symbolic language that conveys spiritual truths rather than literal descriptions."},
+    {"term": "Litotes", "meaning": "An understatement in which a positive affirmation is expressed by negating the opposite."},
+    {"term": "Overcomer", "meaning": "One who faithfully loves, serves and honors Jesus throughout their life."},
+    {"term": "Citizenship roster", "meaning": "A town list of citizens; names were removed at death or after severe crimes that shamed the town."}
+  ],
+  "quotes": [
+    {"text": "Litotes is an understatement in which a positive affirmation is expressed by negating the opposite.", "who": "The book"},
+    {"text": "not having one’s name acknowledged is simply to forfeit the Master's “Well done”", "who": "The book"},
+    {"text": "In ancient times, \"white garments” connoted honor, festivity, and victory.", "who": "The book"}
+  ],
+  "verses": [
+    {"ref": "Revelation 3:5", "role": "The verse that causes anxiety; read as a litotes promising honor to overcomers in Sardis."},
+    {"ref": "Psalm 69:28", "role": "The Book of the Living: a list of those alive on earth."},
+    {"ref": "Exodus 32:32-33", "role": "Hebrew Scripture example of the book listing the living."},
+    {"ref": "Philippians 4:3", "role": "The Book of Life named by Paul."},
+    {"ref": "Revelation 20:12", "role": "The Book of Life at the judgment scene."},
+    {"ref": "Revelation 13:8", "role": "The Lamb's Book of Life, possibly a list of the specially honored."},
+    {"ref": "Revelation 21:27", "role": "Another mention of the Lamb's Book of Life."},
+    {"ref": "John 10:28-29", "role": "Jesus teaches that eternal life can never be lost."},
+    {"ref": "John 5:24", "role": "Part of Jesus' teaching that eternal life cannot be lost."},
+    {"ref": "Matthew 25:21", "role": "The Master's 'Well done', which non-overcomers forfeit."}
+  ],
+  "quiz": [
+    {"q": "In the Hebrew Scriptures, who is listed in the Book of the Living?", "options": ["Only the righteous", "Those presently alive, righteous or wicked", "Only the angels"], "answer": 1, "why": "The Book of the Living lists those presently alive on the earth, whether righteous or wicked."},
+    {"q": "What is a litotes?", "options": ["A literal threat", "An understatement affirming something by negating its opposite", "A prophecy of judgment"], "answer": 1, "why": "Like 'I will not stop loving my wife as long as she makes me ice cream', it stresses the positive."},
+    {"q": "What does the one who fails to overcome lose?", "options": ["Eternal life", "The Master's 'Well done'", "Their resurrection body"], "answer": 1, "why": "Not having one's name acknowledged is simply to forfeit the Master's 'Well done', not eternal life."}
+  ],
+  "reflect": "How would hearing Revelation 3:5 as a promise of honor, not a threat, change how you read Revelation?"
+}

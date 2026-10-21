@@ -1,0 +1,61 @@
+{
+  "id": "augustine",
+  "title": "The Augustinian Fallacy",
+  "hook": "Did Western Christianity's endless hell come from the Bible or from Greek philosophy?",
+  "tldr": "Augustine of Hippo, shaped by Neoplatonism and reading only Latin, reasoned that an infinite, timeless God must punish infinitely. That move confused God's nature with his actions and turned the biblical 'age' into timeless eternity. Calvin, Luther and Edwards inherited it, but Hebrew thought sees eternity as a quality of deathless life, not endless torment.",
+  "big_idea": "Infinite God does not mean infinite punishment; eternal means quality of life.",
+  "points": [
+    {"icon": "lamp", "title": "Neoplatonism shaped Augustine", "text": "Augustine read Plotinus in Latin translation. Scholarship calls Plotinus his most important non-biblical source, and that philosophy, not the Hebrew Scriptures, drove his idea of timeless, endless punishment.", "verses": []},
+    {"icon": "book", "title": "He could not read the originals", "text": "Augustine was functionally illiterate in Hebrew and Greek and relied on Latin translations that flattened Hebrew imagery, so Jewish metaphors and idioms behind olam and aion were lost to him.", "verses": []},
+    {"icon": "puzzle", "title": "Two logical fallacies", "text": "Equivocation: he gave finite sin and judgment God's infinite properties. False analogy: he assumed infinite divine attributes, like love, mean infinite divine actions, like punishment. Attributes and actions are not the same.", "verses": []},
+    {"icon": "chain", "title": "An inherited framework", "text": "His eternal conscious torment shaped Catholic teaching, was kept by Calvin and Luther in the 16th century, and was pushed to its darkest extreme by Jonathan Edwards in America.", "verses": []},
+    {"icon": "sun", "title": "God's life is qualitative", "text": "Before creation there was no time. God is immortal by nature, not because he has piled up endless days. Eternal life likewise means sharing an indestructible, death-proof kind of life.", "verses": ["1 Corinthians 15:54"]},
+    {"icon": "scroll", "title": "Think like a Hebrew", "text": "The Bible's vision of life is about blessedness, wholeness, closeness to God and victory over death. Eternal life is knowing God and living abundantly, now and forever.", "verses": []}
+  ],
+  "sections": [
+    {"h": "Where the confusion began", "icon": "alert", "summary": "Much of the mistranslation of olam and aion as endless time traces to Augustine of Hippo (354-430). Swayed by Neoplatonism, he reasoned that because God is infinite and timeless, all divine actions, including punishment, must be infinite and endless. This assumption came not from the Hebrew Scriptures or the Jewish worldview of Jesus and the apostles; it collapsed the biblical idea of age into Greek timeless eternity and reshaped Western judgment theology.", "verses": [], "src": "hfd:28"},
+    {"h": "Neoplatonism", "icon": "lamp", "summary": "Neoplatonism is a philosophical and mystical development of Plato's thought from the 3rd century CE, chiefly through Plotinus. It teaches the soul can ascend back to divine unity by contemplation and purification, and it systematized Plato into a structured metaphysical hierarchy. Augustine met Plotinus through Latin translations; a Brill monograph calls Plotinus his most important non-biblical source. Neoplatonism profoundly shaped early Western theology through Augustine.", "verses": [], "src": "hfd:28"},
+    {"h": "Augustine of Hippo", "icon": "person", "summary": "The most influential Western theologian was functionally illiterate in Hebrew and Greek, relying on Latin translations that flattened Hebrew imagery. Living in North Africa (today's Algeria and Tunisia), he barely knew the Jewish worldview. Picture a scholar in Ecuador building a philosophy on a Spanish Antigone's mistranslations. His hell as eternal conscious torment, foreign to Second Temple Judaism, shaped Catholic teaching and was kept by Calvin and Luther, both strongly anti-Semitic.", "verses": [], "src": "hfd:28"},
+    {"h": "The New World of Protestant Puritanism", "icon": "fire", "summary": "In 18th-century America, Puritan preacher Jonathan Edwards intensified this framework in Sinners in the Hands of an Angry God, picturing God as a cosmic executioner dangling humanity over flames. Augustine saw hell as a literal fiery place, eternal in the strictest sense: without end, mercy or corrective purpose beyond retribution, punishing again and again forever. That departed from the Jewish view that correction and restoration are integral to judgment, and has haunted Catholic and Protestant theology since.", "verses": [], "src": "hfd:28"},
+    {"h": "Augustine's Logical Fallacies", "icon": "puzzle", "summary": "Two errors underlie the argument. Equivocation: he collapses God's infinite nature into finite creation, treating human sin and historical judgment as sharing God's own properties. False analogy: because God's love, an attribute, is infinite, he assumes God's punishments, actions, must be infinite too; Scripture never equates attributes and actions. Even then the view was not universal: Eastern and Oriental Orthodox traditions kept a more nuanced view of time, judgment and mercy, voiced today by David Bentley Hart.", "verses": [], "src": "hfd:28"},
+    {"h": "What Augustine Got Wrong About God's Nature", "icon": "sun", "summary": "Before God created time and space there was no time, so God's life is qualitative, not quantitative; he does not live an infinite number of days. He cannot die because he is immortal by nature: untouched by sin or death, perfect, self-sufficient and unchanging. In the resurrection we receive imperishable bodies, free of sickness, aging and death. Eternal life is not endless days, that is a byproduct, but sharing God's indestructible kind of life.", "verses": ["1 Corinthians 15:54"], "src": "hfd:28"},
+    {"h": "Conclusion: Think Like a Hebrew, Not a Greek", "icon": "scroll", "summary": "Augustine's Neoplatonic reading of olam and aion brought rigid endless punishment into Western Christianity, departing from the restorative justice of Jewish thought and some Eastern/Orthodox traditions. Equating God's infinite nature with infinite retribution was a logical and linguistic error. Eternity is the quality of incorruptible life in God. Think like a Hebrew prophet, not a Greek philosopher or modern engineer: eternal life is knowing God, living abundantly, inseparable from his love.", "verses": [], "src": "hfd:28"}
+  ],
+  "visuals": [
+    {"type": "timeline", "title": "How endless hell spread West", "caption": "From Plotinus to the Puritans, one philosophical assumption passed down the line.", "events": [
+      {"date": "3rd century CE", "label": "Plotinus develops Neoplatonism", "note": "Plato systematized into a metaphysical hierarchy; the soul ascends to divine unity."},
+      {"date": "354-430", "label": "Augustine of Hippo", "note": "Reads Plotinus in Latin; infinite God must punish infinitely; hell as eternal conscious torment."},
+      {"date": "After Augustine", "label": "Early Catholic teaching", "note": "His view shapes the early Catholic understanding of hell."},
+      {"date": "16th century", "label": "Calvin and Luther", "note": "Reformers keep most of Augustine's theology without returning to the Jewish worldview."},
+      {"date": "18th century", "label": "Jonathan Edwards", "note": "Sinners in the Hands of an Angry God: God dangling humanity over flames."}
+    ]},
+    {"type": "compare", "title": "Two ways to read 'eternal'", "left": {"label": "Greek / Augustinian", "items": ["Eternity means endless, timeless duration", "Infinite God implies infinite punishment", "Punishment is retribution, again and again", "Hell is a literal fiery place forever", "Read through Latin and Neoplatonism"]}, "right": {"label": "Hebrew / biblical", "items": ["Olam and aion speak of an age", "God's attributes differ from his actions", "Correction and restoration belong to judgment", "Hell is a shadow conquered by Easter", "Read through the Jewish worldview of Jesus"]}},
+    {"type": "decision", "title": "Does infinite God demand infinite punishment?", "question": "Are God's infinite attributes the same as his actions?", "yes": {"label": "Augustine's assumption", "note": "Infinite love would require infinite punishment, so finite sins earn endless torment."}, "no": {"label": "The biblical view", "note": "Attributes and actions differ; Scripture never equates them, so judgment need not be endless."}}
+  ],
+  "mythfact": [
+    {"myth": "Endless hell was always the universal teaching of the church.", "fact": "Even in Augustine's day it was not universally accepted; Eastern and Oriental Orthodox traditions kept a more nuanced vision of time, judgment and divine mercy."},
+    {"myth": "Augustine studied the Bible in its original languages.", "fact": "He was functionally illiterate in Hebrew and Greek and relied almost entirely on Latin translations that flattened Hebrew imagery and altered Greek nuance."},
+    {"myth": "Eternal life simply means living an endless number of days.", "fact": "Endless days are a byproduct. Eternal life means sharing God's kind of life: untouchable by death, incorruptible by sin, indestructible."}
+  ],
+  "terms": [
+    {"term": "Neoplatonism", "meaning": "A 3rd-century CE philosophical, mystical development of Plato's thought, mainly by Plotinus, teaching the soul's ascent to divine unity."},
+    {"term": "Fallacy of equivocation", "meaning": "Treating finite sin and historical judgment as sharing God's own infinite properties."},
+    {"term": "Fallacy of false analogy", "meaning": "Assuming that because God's attributes, like love, are infinite, his actions, like punishment, must be infinite too."},
+    {"term": "Olam / aion", "meaning": "Hebrew and Greek words for an age, mistranslated as endless or everlasting time."},
+    {"term": "Eternal conscious torment (ECT)", "meaning": "The view that hell is endless, conscious, retributive suffering, traced here to Augustine."}
+  ],
+  "quotes": [
+    {"text": "Hell exists, so long as it exists, only as the last terrible residue of a fallen creation’s enmity to God", "who": "David Bentley Hart"},
+    {"text": "In his view, punishment wasn't meant to purify or restore, but simply to punish again and again. Forever.", "who": "The book"},
+    {"text": "To understand eternal life is to stop thinking like a Greek philosopher or a modern engineer and start thinking more like a Hebrew prophet and a Jewish rabbi.", "who": "The book"}
+  ],
+  "verses": [
+    {"ref": "1 Corinthians 15:54", "role": "Resurrection brings imperishable life; eternity means victory over death, not endless duration."}
+  ],
+  "quiz": [
+    {"q": "Whom does scholarship call Augustine's most important non-biblical source?", "options": ["Aristotle", "Plotinus", "Gregory of Nyssa"], "answer": 1, "why": "Augustine read Plotinus through Latin translations; a Brill monograph names Plotinus his most important non-biblical source."},
+    {"q": "What is the fallacy of false analogy in Augustine's argument?", "options": ["Assuming infinite divine attributes mean infinite divine actions", "Confusing Hebrew with Greek grammar", "Treating parables as history"], "answer": 0, "why": "Because God's love is infinite, he assumed God's punishments must be infinite too, but attributes and actions are not identical."},
+    {"q": "Why can God not die, according to this chapter?", "options": ["He has accumulated unlimited time", "He is immortal by nature", "Time cannot touch heaven"], "answer": 1, "why": "God's life is qualitative: immortality flows from his very being, not the length of his existence, since time did not exist before creation."}
+  ],
+  "reflect": "If eternal life is a quality of life rather than endless days, how might that change how you read 'eternal punishment'?"
+}

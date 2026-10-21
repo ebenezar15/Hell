@@ -1,0 +1,61 @@
+{
+  "id": "awayfromme",
+  "title": "\"Away From Me, You Evildoers!\"",
+  "hook": "When Jesus says 'I never knew you,' is He sending religious people to hellfire?",
+  "tldr": "In Matthew 7:21-23 Jesus rebukes many who call Him Lord and work miracles in His name but never did the Father's will of love and mercy. Being 'known' and 'entering the kingdom' mean close communion and honor, a reward earned by how we live, not salvation from hellfire, which is a free gift.",
+  "big_idea": "Being known by Jesus is about fruit and reward, not escaping hellfire.",
+  "points": [
+    {"icon": "mask", "title": "Two kinds of Christianity", "text": "One is a religion that ticks the right doctrinal boxes, often chasing political power. The other is a way of life embodying Jesus' values: kindness, empathy, justice, grace, forgiveness, humility, selflessness.", "verses": []},
+    {"icon": "speech", "title": "Saying 'Lord, Lord' is not enough", "text": "Many affirm sound theology, prophesy, cast out demons and do miracles in Jesus' name, yet lack love. Even the KKK used Christian symbols and had preachers among its founders.", "verses": ["Matthew 7:22", "1 Corinthians 13:2"]},
+    {"icon": "wheat", "title": "Known by their fruit", "text": "In Judaism, to 'know' someone means an intimate relationship and supporting what they stand for. Jesus 'knows' those whose lives bear the fruit of love, even toward adversaries.", "verses": ["Matthew 7:16"]},
+    {"icon": "door", "title": "Entering means honor", "text": "In Jesus' day the wealthy lived inside the kingdom walls; others lived outside in poverty. Entering the kingdom means gaining respect and honor for being close to God.", "verses": ["Matthew 7:21"]},
+    {"icon": "coin", "title": "Salvation free, rewards earned", "text": "All are justified freely by grace, not by works. Rewards, treasures, honor and respect are earned by doing the will of the Father.", "verses": ["Romans 3:24", "Ephesians 2:8-9"]}
+  ],
+  "sections": [
+    {"h": "Two kinds of Christianity", "icon": "mask", "summary": "One kind of Christianity intellectually holds all the correct doctrines about Jesus' Lordship and divinity, often driven by political power and theoretical formulas. The other is a way of life, the kingdom of heaven, lived by Christ-like people who embody loving-kindness, empathy, justice, compassion, grace, forgiveness, humility and selflessness, mirroring Jesus in worldview, values, actions and relationships. This frames Matthew 7:21-23.", "verses": ["Matthew 7:21-23"], "src": "jew:27"},
+    {"h": "\"Lord, Lord\"", "icon": "speech", "summary": "Many affirm sound theology and call Jesus Lord, a title of respect signifying deity. An extreme example: the Ku Klux Klan portrayed itself as Christian, and most leaders, including preachers, identified as Christians. Methodist preacher William Joseph Simmons helped found the second Klan in 1915. Such people may attend church, preach, prophesy, cast out demons and show signs, yet without love they are nothing.", "verses": ["Matthew 7:22", "1 Corinthians 13:2"], "src": "jew:27"},
+    {"h": "\"Many Will Say To Me\"", "icon": "people", "summary": "They are 'many', not a handful: religious self-deception is widespread, the wide road of religion. Ironically, televangelists boast of miracles and pastors and theologians pride themselves on prophesying in Jesus' name, yet He calls them evildoers. Their lawlessness is not women in colorful shorts dancing with long-haired men; it is failing to practice the Sermon on the Mount: humility, meekness, mercy, peacemaking, compassion, forgiveness, lovingkindness.", "verses": ["Matthew 7:22"], "src": "jew:27"},
+    {"h": "\"Enter the Kingdom\"", "icon": "door", "summary": "In Jesus' time the wealthy lived inside the safety and prosperity of kingdom walls, while those outside lived in poverty and vulnerability; real estate inside is always sought after. Spiritually, some may end up like those outside, losing privileged status, struggling, perhaps in shame. Entering the kingdom means gaining respect and honor for being close to God, not automatic for every Christian, only those Jesus 'knows'.", "verses": [], "src": "jew:27"},
+    {"h": "\"I Never Knew You!\"", "icon": "eye", "summary": "In Judaism, to know someone is to have an intimate relationship and support what they stand for. Fame, millions of followers, running a Bible college or church, being 'born again' 20 years ago, or ministry numbers guarantee nothing. Intimacy means knowledge of God's will that bears fruit. Are they kind and forgiving to adversaries, or legalistic and condescending? Are their followers thriving or anxious and depressed?", "verses": ["Matthew 7:16"], "src": "jew:27"},
+    {"h": "Heart, not performance", "icon": "heart", "summary": "Spiritual life is not religious piety and outward performance but a heart transformed to align with God's will and grow in its ability to love and bless others. Religious acts or proclaiming Jesus' name do not earn the respect and honor that secure a place in His kingdom. Jesus' warning concerns rewards and responsibilities, not salvation from hellfire, which the context does not imply at all.", "verses": [], "src": "jew:27"},
+    {"h": "Conclusion", "icon": "check", "summary": "If 'many' were rejected from salvation from hellfire, many Christians would risk damnation, which clashes with Paul: all are justified freely by grace, a gift not by works. Being 'known', 'seeing' or 'entering' the kingdom are metaphors for close communion with God, earned by doing the Father's will. Don't be surprised to find many churchgoers, ministers, seminarians, theologians and pastors in that category.", "verses": ["Romans 3:24", "Ephesians 2:8-9", "Matthew 7:21"], "src": "jew:27"}
+  ],
+  "visuals": [
+    {"type": "verse", "title": "Reading Matthew 7:21-23 closely", "ref": "Matthew 7:21-23", "text": "Not everyone who says to me, \"Lord, Lord,\" will enter the kingdom of heaven, but only the one who does the will of my Father who is in heaven. Many will say to me on that day, \"Lord, Lord, did we not prophesy in your name and in your name drive out demons and in your name perform many miracles?\" Then I will tell them plainly, \"I never knew you. Away from me, you evildoers!\"", "notes": [
+      {"phrase": "Lord, Lord", "note": "Intellectual affirmation of Jesus' Lordship and deity, which even KKK preachers claimed."},
+      {"phrase": "enter the kingdom of heaven", "note": "Gaining honor and respect for closeness to God, like living inside a city's walls."},
+      {"phrase": "does the will of my Father", "note": "Practicing the Sermon on the Mount: humility, mercy, peacemaking, compassion, forgiveness, lovingkindness."},
+      {"phrase": "Many will say", "note": "Not a handful: religious self-deception is the widespread 'wide road' of religion."},
+      {"phrase": "I never knew you", "note": "In Judaism, to know is intimate relationship and approval, shown by fruit."}
+    ]},
+    {"type": "compare", "title": "Two kinds of Christianity", "left": {"label": "Religion on paper", "items": ["Correct doctrines about Lordship and divinity", "Says 'Lord, Lord'", "Prophecies, exorcisms and miracles", "Legalism, condescension, an ivory tower", "Followers depressed, stubborn, anxious"]}, "right": {"label": "Kingdom way of life", "items": ["Lives out Jesus' values", "Does the will of the Father", "Kind, compassionate, forgiving to adversaries", "Humility, mercy and selflessness", "Followers spiritually and emotionally thriving"]}}
+  ],
+  "mythfact": [
+    {"myth": "'I never knew you' means these people go to hellfire.", "fact": "Hellfire is not implied in the context. The warning concerns rewards, honor and closeness to God, earned by doing the Father's will."},
+    {"myth": "Correct doctrine and ministry success prove Jesus approves of you.", "fact": "Many who prophesy and work miracles in His name are called evildoers. Jesus knows people by their fruit of love."},
+    {"myth": "The 'evildoers' are those with immodest dress or worldly music.", "fact": "Their lawlessness lies elsewhere: they failed to practice humility, mercy, peacemaking, compassion, forgiveness and lovingkindness."}
+  ],
+  "terms": [
+    {"term": "To know (Jewish sense)", "meaning": "To have a close, intimate relationship with someone and support what they stand for."},
+    {"term": "Entering the kingdom", "meaning": "Symbol of gaining respect and honor for being close to God, like living inside the walls."},
+    {"term": "Wide road of religion", "meaning": "Widespread religious self-deception: claiming Jesus' name without doing the Father's will."}
+  ],
+  "quotes": [
+    {"text": "If I have the gift of prophecy and can fathom all mysteries and all knowledge, and if I have a faith that can move mountains, but do not have love, I am nothing.", "who": "1 Corinthians 13:2"},
+    {"text": "Unlike salvation, the rewards, treasures, honor, and respect are to be earned", "who": "The book"},
+    {"text": "don't be surprised to find many churchgoers, ministers, seminary students, theologians, and pastors in that category.", "who": "The book"}
+  ],
+  "verses": [
+    {"ref": "Matthew 7:21-23", "role": "Many who say 'Lord, Lord' are not known by Jesus and miss the kingdom's honor."},
+    {"ref": "Matthew 7:16", "role": "You will know them by their fruits: the test of genuine intimacy."},
+    {"ref": "1 Corinthians 13:2", "role": "Gifts and faith without love amount to nothing."},
+    {"ref": "Romans 3:24", "role": "All are justified freely by grace, not a select few."},
+    {"ref": "Ephesians 2:8-9", "role": "Salvation is God's gift, not by works, unlike earned rewards."}
+  ],
+  "quiz": [
+    {"q": "In Jewish usage, what does it mean to 'know' someone?", "options": ["To have heard of them", "To have an intimate relationship and support what they stand for", "To have met them once"], "answer": 1, "why": "That is why fame, titles and ministry numbers don't prove Jesus 'knows' or approves of someone."},
+    {"q": "What does 'entering the kingdom' symbolize here?", "options": ["Escaping hellfire", "Gaining honor and respect for being close to God", "Joining a church"], "answer": 1, "why": "Like the privileged inside a city's walls, it is a status of honor, earned by doing the Father's will."},
+    {"q": "Why can't this passage be about salvation from hellfire?", "options": ["Paul says all are justified freely by grace, not by works", "Jesus didn't believe in judgment", "It was added later"], "answer": 0, "why": "Salvation is a free gift (Romans 3:24, Ephesians 2:8-9); rewards and honor are what is earned."}
+  ],
+  "reflect": "If Jesus judged your faith by its fruit rather than your beliefs, what would He find?"
+}
