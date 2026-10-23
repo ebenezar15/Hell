@@ -226,7 +226,7 @@ p { margin: 0; }
 .cycle-wrap li span { display: block; color: var(--muted); font-size: .88rem; }
 .scale-wrap { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
 .scale-wrap svg { width: 100%; max-width: 520px; height: auto; margin: 0 auto; display: block; }
-.scale-lists { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.scale-lists { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px; }
 .scale-lists h4 { font-size: .95rem; margin-bottom: 6px; }
 .scale-lists ul { margin: 0; padding-left: 1.1em; font-size: .9rem; display: flex; flex-direction: column; gap: 4px; }
 .spectrum .bar { height: 14px; border-radius: 99px; background: linear-gradient(90deg, var(--bad), var(--warn), var(--good)); position: relative; margin: 46px 8px 46px; }
@@ -239,14 +239,15 @@ p { margin: 0; }
 .stat { background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
 .stat b { display: block; font-size: 2.2rem; font-weight: 800; color: var(--accent); line-height: 1; font-variant-numeric: tabular-nums; }
 .stat span { font-size: .88rem; color: var(--muted); }
-.decision { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; text-align: center; }
+.decision { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px; text-align: center; }
 .decision .q { grid-column: 1 / -1; justify-self: center; background: var(--accent); color: var(--accent-ink); font-weight: 800; padding: 14px 20px; border-radius: 14px; max-width: 520px; position: relative; }
 .decision .q::after { content: ""; position: absolute; left: 50%; bottom: -10px; width: 20px; height: 20px; background: inherit; transform: translateX(-50%) rotate(45deg); }
 .decision .opt { margin-top: 10px; background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 14px; text-align: left; }
 .decision .opt .y { font-weight: 800; font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; }
 .decision .opt.yes .y { color: var(--good); } .decision .opt.no .y { color: var(--bad); }
 .decision .opt span { display: block; color: var(--muted); font-size: .9rem; margin-top: 4px; }
-@media (max-width: 520px) { .decision { grid-template-columns: 1fr; } }
+@media (max-width: 520px) { .decision { grid-template-columns: minmax(0, 1fr); } }
+.decision > *, .scale-lists > * { min-width: 0; overflow-wrap: anywhere; }
 .words { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 12px; }
 .wordc { background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 4px; }
 .wordc .w { font-size: 1.6rem; font-weight: 800; letter-spacing: -.01em; }
@@ -492,9 +493,11 @@ mark.term { background: var(--hl); outline: 1px solid var(--accent); border-radi
 .speaking { background: var(--accent-soft); border-radius: 10px; }
 html[lang="ta"] { --font: "Noto Sans Tamil", "Avenir Next", "Avenir", "Nunito Sans", system-ui, sans-serif; }
 html[lang="ta"] h1, html[lang="ta"] h2, html[lang="ta"] h3 { line-height: 1.35; letter-spacing: 0; }
+html[lang="ta"] main, html[lang="ta"] .pop { overflow-wrap: anywhere; }
 html[lang="ta"] .eyebrow, html[lang="ta"] .kind, html[lang="ta"] .flip .tag { letter-spacing: .02em; text-transform: none; }
 html[lang="ta"] .hero h1 { font-size: clamp(1.8rem, 5vw, 2.9rem); }
 @media (max-width: 1360px) { html[lang="ta"] .top .wrap { flex-wrap: wrap; row-gap: 6px; } html[lang="ta"] .nav { order: 3; width: 100%; margin-left: 0; } html[lang="ta"] .xp { margin-left: auto; } }
+@media (max-width: 820px) { html[lang="ta"] .nav button { font-size: .6rem; padding: .35em .3em; } html[lang="ta"] .brand { font-size: 1rem; } }
 .langsw { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; background: var(--surface); flex: none; }
 .langsw button { border: 0; background: none; border-radius: 999px; padding: .35em .75em; font-weight: 800; font-size: .82rem; cursor: pointer; color: var(--muted); font-family: "Noto Sans Tamil", var(--font); }
 .langsw button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
