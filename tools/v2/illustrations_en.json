@@ -1,0 +1,297 @@
+{
+ "philology": {
+  "title": "Where each word \"lives\"",
+  "caption": "Three words describe the unseen realm below. Gehenna is different: a real valley you can walk through in Jerusalem today. Tap a layer.",
+  "hotspots": [
+   {
+    "id": "gehenna",
+    "label": "Gehenna",
+    "text": "Greek form of the Hebrew Gey Hinnom, the Valley of Hinnom beside Jerusalem. A real place of shame and burning, used by Jesus as a metaphor."
+   },
+   {
+    "id": "sheol",
+    "label": "Sheol",
+    "text": "Hebrew word for the realm of the dead, often translated \"the grave\" or \"the pit\" (Genesis 37:35; Psalm 16:10). Not associated with punishment or reward."
+   },
+   {
+    "id": "hades",
+    "label": "Hades",
+    "text": "Greek equivalent of Sheol. The Septuagint uses Hades to translate Sheol. A temporary holding place for the dead, not a place of torment or bliss."
+   },
+   {
+    "id": "tartarus",
+    "label": "Tartarus",
+    "text": "Used in 2 Peter 2:4: the angels that sinned were cast into tartarus, \"into chains of darkness, to be reserved unto judgment\"."
+   }
+  ],
+  "svg_labels": {
+   "Gehenna": "Gehenna",
+   "Valley of Hinnom (on earth)": "Valley of Hinnom (on earth)",
+   "Jerusalem": "Jerusalem",
+   "Sheol": "Sheol",
+   "Hebrew · the grave, realm of all the dead": "Hebrew · the grave, realm of all the dead",
+   "Hades": "Hades",
+   "Greek name for the same realm": "Greek name for the same realm",
+   "Tartarus · angels held for judgment": "Tartarus · angels held for judgment"
+  }
+ },
+ "gehenna": {
+  "title": "Jerusalem and the Valley of Hinnom",
+  "caption": "Schematic map, not to scale. Gehenna was a real valley outside the city walls, once a site of child sacrifice. Its later link with a burning city dump is debated by scholars (see Straw Men and Quick Replies).",
+  "hotspots": [
+   {
+    "id": "hinnom",
+    "label": "Valley of Hinnom",
+    "text": "Gey Hinnom, \"Gehenna\". Site of Topheth, where children were sacrificed by fire (2 Kings 23:10; Jeremiah 19:6). A symbol of shame and judgment."
+   },
+   {
+    "id": "kidron",
+    "label": "Kidron Valley",
+    "text": "The Kidron Valley encompasses the Valley of Hinnom. An Early Roman (1st century CE) city dump has been excavated in the Kidron area."
+   },
+   {
+    "id": "temple",
+    "label": "Temple Mount",
+    "text": "The heart of the city. Gehenna lay just outside its walls, within sight of the people Jesus addressed."
+   },
+   {
+    "id": "olives",
+    "label": "Mount of Olives",
+    "text": "Across the Kidron Valley to the east."
+   }
+  ],
+  "svg_labels": {
+   "Valley of Hinnom · Gehenna": "Valley of Hinnom · Gehenna",
+   "Topheth · refuse fires": "Topheth · refuse fires",
+   "Kidron Valley": "Kidron Valley",
+   "Jerusalem": "Jerusalem",
+   "Temple Mount": "Temple Mount",
+   "Mount of Olives": "Mount of Olives",
+   "N": "N"
+  }
+ },
+ "early": {
+  "title": "The six early schools of theology",
+  "caption": "In the first centuries, the major teaching centres disagreed about hell. Only one taught eternal conscious torment. Tap a city.",
+  "hotspots": [
+   {
+    "id": "alex",
+    "label": "Alexandria (2nd c.)",
+    "text": "Taught that punishment is temporary and purifying, ending in restoration."
+   },
+   {
+    "id": "anti",
+    "label": "Antioch (3rd c.)",
+    "text": "Literal, historical reading of Scripture; also taught restoration."
+   },
+   {
+    "id": "caes",
+    "label": "Caesarea (3rd c.)",
+    "text": "Influenced by Origen; taught restoration."
+   },
+   {
+    "id": "edes",
+    "label": "Eastern Syria (4th c.)",
+    "text": "Syriac tradition: divine punishment is temporary and aimed at correction."
+   },
+   {
+    "id": "asia",
+    "label": "Asia Minor (3rd c.)",
+    "text": "Taught annihilationism: the wicked are ultimately destroyed, not tormented forever."
+   },
+   {
+    "id": "hippo",
+    "label": "Hippo (late 4th–5th c.)",
+    "text": "Augustine’s school in North Africa: the only one that taught eternal conscious torment."
+   }
+  ],
+  "svg_labels": {
+   "Mediterranean Sea": "Mediterranean Sea",
+   "Hippo": "Hippo",
+   "Alexandria": "Alexandria",
+   "Caesarea": "Caesarea",
+   "Antioch": "Antioch",
+   "Eastern Syria": "Eastern Syria",
+   "Asia Minor": "Asia Minor",
+   "Restoration (4 schools)": "Restoration (4 schools)",
+   "Annihilation (1)": "Annihilation (1)",
+   "Eternal torment (1)": "Eternal torment (1)"
+  }
+ },
+ "lakeoffire": {
+  "title": "A lake of \"fire and sulfur\" you can visit",
+  "caption": "The Dead Sea: the lowest point on earth, rich in sulfur, visited for healing. Fire and sulfur were also used to refine gold. The book reads the lake of fire as purification.",
+  "hotspots": [
+   {
+    "id": "dead",
+    "label": "Dead Sea",
+    "text": "The lowest point on Earth’s surface. Its mineral-rich waters, with sulfur, are known for healing and purifying; bathing there can feel like dipping in fire."
+   },
+   {
+    "id": "sodom",
+    "label": "Sodom & Gomorrah",
+    "text": "The Lord rained \"sulfur and fire\" on them (Genesis 19:24). Yet Ezekiel 16:53-55 promises God will restore the fortunes of Sodom."
+   },
+   {
+    "id": "jordan",
+    "label": "Jordan River",
+    "text": "Flows south from the Sea of Galilee into the Dead Sea."
+   },
+   {
+    "id": "jer",
+    "label": "Jerusalem",
+    "text": "West of the Dead Sea, in the hills of Judea."
+   }
+  ],
+  "svg_labels": {
+   "Sea of Galilee": "Sea of Galilee",
+   "Jordan River": "Jordan River",
+   "Dead Sea": "Dead Sea",
+   "sulfur, salt, no life": "sulfur, salt, no life",
+   "Sodom &amp; Gomorrah": "Sodom &amp; Gomorrah",
+   "Jerusalem": "Jerusalem"
+  }
+ },
+ "unquenchable": {
+  "title": "The refiner’s fire",
+  "caption": "In Scripture, fire often purifies: metal is heated until the dross rises and is removed. \"He will sit as a refiner and purifier of silver\" (Malachi 3:3).",
+  "hotspots": [
+   {
+    "id": "dross",
+    "label": "Dross",
+    "text": "Impurities rise to the surface and are skimmed away: the sin is destroyed, not the person."
+   },
+   {
+    "id": "silver",
+    "label": "Pure silver",
+    "text": "What remains after refining. Fire tests and cleanses; it does not exist to torture."
+   },
+   {
+    "id": "fire",
+    "label": "The fire",
+    "text": "Unquenchable fire \"will not stop until it fully completes its task\". It burns what it is meant to burn."
+   }
+  ],
+  "svg_labels": {
+   "The fire": "The fire",
+   "pure silver": "pure silver",
+   "Dross rises": "Dross rises"
+  }
+ },
+ "torah": {
+  "title": "What the Torah says happens at death",
+  "caption": "In the Torah, the dead \"go down to Sheol\", the realm of the dead. In Judaism, Sheol is where all souls rest until judgment day, not a place of torment.",
+  "hotspots": [
+   {
+    "id": "grave",
+    "label": "Sheol",
+    "text": "Jacob said, \"I shall go down to Sheol to my son, mourning\" (Genesis 37:34-35). Sheol simply means the realm of the dead, like a grave."
+   },
+   {
+    "id": "life",
+    "label": "Blessings and curses",
+    "text": "The Torah’s blessings are earthly: barns, flocks, the land (Deuteronomy 28). Its penalties, too, concern this life."
+   }
+  ],
+  "svg_labels": {
+   "This life: blessing or curse": "This life: blessing or curse",
+   "Sheol: rest, silence, the grave": "Sheol: rest, silence, the grave"
+  }
+ },
+ "lazarus": {
+  "title": "The great chasm in the parable",
+  "caption": "A parable for a Jewish audience, full of symbolic names and images. It is read as a story with a message, not a literal map of the afterlife.",
+  "hotspots": [
+   {
+    "id": "abraham",
+    "label": "Abraham’s side",
+    "text": "Lazarus, the poor man, is comforted. His Hebrew name, Eleazar, means \"God’s Help\" and recalls Abraham’s steward Eleazar (Genesis 15:2-3)."
+   },
+   {
+    "id": "gulf",
+    "label": "The great chasm",
+    "text": "A fixed gulf separates the two. The parable reverses their fortunes in life."
+   },
+   {
+    "id": "rich",
+    "label": "The rich man in Hades",
+    "text": "He is in BASANOS: usually translated \"torment\", but the word means a touchstone, a test."
+   }
+  ],
+  "svg_labels": {
+   "Abraham’s side": "Abraham’s side",
+   "Lazarus comforted": "Lazarus comforted",
+   "great chasm": "great chasm",
+   "The rich man": "The rich man",
+   "in Hades, thirsting": "in Hades, thirsting"
+  }
+ },
+ "narrow": {
+  "title": "Two roads, two gates",
+  "caption": "The two-paths image is a familiar Jewish theme (Deuteronomy 30:19; Psalm 1:6): God’s way leads to blessing in life, the way of wickedness to destructive consequences.",
+  "hotspots": [
+   {
+    "id": "narrowg",
+    "label": "Narrow gate",
+    "text": "\"Small is the gate and narrow the road that leads to life, and only a few find it\" (Matthew 7:14)."
+   },
+   {
+    "id": "wideg",
+    "label": "Wide gate",
+    "text": "\"Wide is the gate and broad is the road that leads to destruction\" (Matthew 7:13)."
+   }
+  ],
+  "svg_labels": {
+   "wide gate": "wide gate",
+   "destruction": "destruction",
+   "life": "life",
+   "narrow road": "narrow road"
+  }
+ },
+ "sheepgoats": {
+  "title": "Sheep and goats: judging the nations",
+  "caption": "The nations are judged by how they treated \"the least of these\" (Matthew 25:40). The Greek word for punishment, kolasis, carried the sense of correction.",
+  "hotspots": [
+   {
+    "id": "sheep",
+    "label": "Sheep",
+    "text": "Those who fed the hungry, welcomed strangers, clothed the naked and visited the sick and imprisoned."
+   },
+   {
+    "id": "goats",
+    "label": "Goats",
+    "text": "Those who failed to care for the least. Their punishment is kolasis, a word originally used for corrective, remedial punishment."
+   }
+  ],
+  "svg_labels": {
+   "sheep · right": "sheep · right",
+   "goats · left": "goats · left"
+  }
+ },
+ "wheattares": {
+  "title": "Wheat and darnel: hard to tell apart",
+  "caption": "Darnel (Greek zizania) looks almost exactly like wheat while it grows. The difference shows when the ears form, which is why the farmer says to let both grow until the harvest (Matthew 13:29-30).",
+  "hotspots": [
+   {
+    "id": "wheat",
+    "label": "Wheat",
+    "text": "The good seed: the \"children of the kingdom\" (Matthew 13:38). Its full ears appear at harvest."
+   },
+   {
+    "id": "darnel",
+    "label": "Darnel",
+    "text": "A weed that mimics wheat in the field. Its grain is harmful to eat, so it was separated out at harvest and burned."
+   },
+   {
+    "id": "harvest",
+    "label": "The harvest",
+    "text": "Jesus calls it \"the end of the age\" (Matthew 13:39-40). Readers differ on whether this is the close of the old-covenant age or the end of history."
+   }
+  ],
+  "svg_labels": {
+   "wheat · heavy ears bow": "wheat · heavy ears bow",
+   "darnel · thin ears stand up": "darnel · thin ears stand up",
+   "harvest": "harvest"
+  }
+ }
+}

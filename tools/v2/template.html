@@ -3,7 +3,7 @@
 <meta name="description" content="A visual, interactive guide to what the Bible says about hell: words, history, theology and every key verse.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300..900;1,6..12,300..900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300..900;1,6..12,300..900&family=Noto+Sans+Tamil:wght@400..800&display=swap">
 <style>
 /* Layout: app shell with a sticky top bar and six views. Topic pages read top to bottom as a
    visual lesson: question → 30-second answer → key ideas → diagrams → step-by-step → myths → quiz → full text. */
@@ -490,6 +490,14 @@ mark.term { background: var(--hl); outline: 1px solid var(--accent); border-radi
 .foot { border-top: 1px solid var(--line); padding-block: 24px; color: var(--muted); font-size: var(--step--1); }
 .foot .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
 .speaking { background: var(--accent-soft); border-radius: 10px; }
+html[lang="ta"] { --font: "Noto Sans Tamil", "Avenir Next", "Avenir", "Nunito Sans", system-ui, sans-serif; }
+html[lang="ta"] h1, html[lang="ta"] h2, html[lang="ta"] h3 { line-height: 1.35; letter-spacing: 0; }
+html[lang="ta"] .eyebrow, html[lang="ta"] .kind, html[lang="ta"] .flip .tag { letter-spacing: .02em; text-transform: none; }
+html[lang="ta"] .hero h1 { font-size: clamp(1.8rem, 5vw, 2.9rem); }
+@media (max-width: 1360px) { html[lang="ta"] .top .wrap { flex-wrap: wrap; row-gap: 6px; } html[lang="ta"] .nav { order: 3; width: 100%; margin-left: 0; } html[lang="ta"] .xp { margin-left: auto; } }
+.langsw { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; background: var(--surface); flex: none; }
+.langsw button { border: 0; background: none; border-radius: 999px; padding: .35em .75em; font-weight: 800; font-size: .82rem; cursor: pointer; color: var(--muted); font-family: "Noto Sans Tamil", var(--font); }
+.langsw button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
 </style>
 
@@ -497,19 +505,20 @@ __ICONS__
 
 <header class="top">
   <div class="wrap">
-    <button class="brand" id="brand" aria-label="Beyond the Fire home">
+    <button class="brand" id="brand" aria-label="Home">
       <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="var(--accent)"/><path d="M16 6c1 4 6 6.5 6 12a6 6 0 0 1-12 0c0-2.4 1.2-4 2.6-5.2-.1 2 .8 3.3 2 3.6C14 13 15.8 10 16 6z" fill="var(--accent-ink)"/></svg>
-      <span>Beyond the Fire<small>A visual guide to what the Bible says about hell</small></span>
+      <span><span data-i18n="Beyond the Fire">Beyond the Fire</span><small data-i18n="A visual guide to what the Bible says about hell">A visual guide to what the Bible says about hell</small></span>
     </button>
     <nav class="nav" aria-label="Sections">
-      <button data-view="home" aria-current="page"><svg class="ic"><use href="#ic-compass"/></svg>Journey</button>
-      <button data-view="quiz"><svg class="ic"><use href="#ic-puzzle"/></svg>Challenge</button>
-      <button data-view="glossary"><svg class="ic"><use href="#ic-book"/></svg>Glossary</button>
-      <button data-view="verses"><svg class="ic"><use href="#ic-scroll"/></svg>Verses</button>
-      <button data-view="search"><svg class="ic"><use href="#ic-eye"/></svg>Search</button>
+      <button data-view="home" aria-current="page"><svg class="ic"><use href="#ic-compass"/></svg><span data-i18n="Journey">Journey</span></button>
+      <button data-view="quiz"><svg class="ic"><use href="#ic-puzzle"/></svg><span data-i18n="Challenge">Challenge</span></button>
+      <button data-view="glossary"><svg class="ic"><use href="#ic-book"/></svg><span data-i18n="Glossary">Glossary</span></button>
+      <button data-view="verses"><svg class="ic"><use href="#ic-scroll"/></svg><span data-i18n="Verses">Verses</span></button>
+      <button data-view="search"><svg class="ic"><use href="#ic-eye"/></svg><span data-i18n="Search">Search</span></button>
     </nav>
-    <span class="xp" id="xp" title="Points earned by exploring topics and answering questions"><svg class="ic"><use href="#ic-star"/></svg><span>0</span></span>
-    <button class="btn icon" id="schemeBtn" aria-label="Colour scheme and text size" aria-expanded="false"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="8" cy="10" r="1.3" fill="currentColor"/><circle cx="12" cy="7.5" r="1.3" fill="currentColor"/><circle cx="16" cy="10" r="1.3" fill="currentColor"/><path d="M12 21a3 3 0 0 1 0-6h1"/></svg></button>
+    <span class="xp" id="xp" data-i18n-title="Points earned by exploring topics and answering questions" title="Points earned by exploring topics and answering questions"><svg class="ic"><use href="#ic-star"/></svg><span>0</span></span>
+    <button class="btn icon" id="schemeBtn" data-i18n-aria="Colour scheme and text size" aria-label="Colour scheme and text size" aria-expanded="false"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="8" cy="10" r="1.3" fill="currentColor"/><circle cx="12" cy="7.5" r="1.3" fill="currentColor"/><circle cx="16" cy="10" r="1.3" fill="currentColor"/><path d="M12 21a3 3 0 0 1 0-6h1"/></svg></button>
+    <div class="langsw" role="group" aria-label="Language"><button data-lang="en" aria-pressed="true" lang="en">EN</button><button data-lang="ta" aria-pressed="false" lang="ta">தமிழ்</button></div>
   </div>
   <div class="progress-line" id="progressLine"></div>
 </header>
@@ -524,15 +533,15 @@ __ICONS__
 </main>
 
 <footer class="foot"><div class="wrap">
-  <span>Based on <i>Hell: A Jewish Perspective on a Christian Doctrine</i> (2024) and <i>Hellfire Deconstructed</i> (2nd ed., 2026). Summaries and diagrams condense the books; the full text of every chapter is included in each topic. The Parables and Objections stages draw on outside sources, listed in each topic.</span>
+  <span id="footText"></span>
   <span id="pdfLinks"></span>
 </div></footer>
 
 <div class="schemes" id="schemes" hidden role="dialog" aria-label="Appearance">
-  <h4>Colour scheme</h4>
+  <h4 data-i18n="Colour scheme">Colour scheme</h4>
   <div class="grid" id="swatches"></div>
-  <div class="ctrl"><label for="sizeR">Text size</label><input id="sizeR" type="range" min="0.9" max="1.5" step="0.02"><span id="sizeV"></span></div>
-  <div class="ctrl"><label for="lhR">Line spacing</label><input id="lhR" type="range" min="1.4" max="2.2" step="0.05"><span id="lhV"></span></div>
+  <div class="ctrl"><label for="sizeR" data-i18n="Text size">Text size</label><input id="sizeR" type="range" min="0.9" max="1.5" step="0.02"><span id="sizeV"></span></div>
+  <div class="ctrl"><label for="lhR" data-i18n="Line spacing">Line spacing</label><input id="lhR" type="range" min="1.4" max="2.2" step="0.05"><span id="lhV"></span></div>
 </div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
@@ -550,6 +559,13 @@ const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '
 const plain = s => s.replace(/\u0000\d+\u0001/g, '');
 const ic = (n, cls = 'ic') => `<svg class="${cls}" aria-hidden="true"><use href="#ic-${D.iconAlias[n] ? n : 'star'}"/></svg>`;
 const fmt = n => n.toLocaleString('en-US');
+const TA = D.ta || {}, UI_TA = TA.ui || {};
+let LANG = 'en';
+function T(key, ...vals) { let s = (LANG === 'ta' && UI_TA[key]) || key; vals.forEach((v, i) => { s = s.split('{' + i + '}').join(v); }); return s; }
+const BIBLE_TA = TA.bible || {};
+const BIBLE_RE = new RegExp('\\b(' + Object.keys(BIBLE_TA).sort((a, b) => b.length - a.length).map(n => n.replace(/ /g, '\\s')).join('|') + ')\\b', 'g');
+function vr(ref) { return LANG === 'ta' && Object.keys(BIBLE_TA).length ? String(ref).replace(BIBLE_RE, m => BIBLE_TA[m] || m) : ref; }
+const firstLetter = s => { const x = String(s).replace(/^[^\p{L}]+/u, ''); return (x[0] || '#').toUpperCase(); };
 
 // ---------- data ----------
 const TOPICS = [], BYID = {};
@@ -564,7 +580,7 @@ TOPICS.forEach(t => t.srcs.forEach(([b, ci]) => topicOfChapter[b + ':' + ci] = t
 
 // ---------- state ----------
 const KEY = 'beyond-the-fire-v1';
-let S = { scheme: 'auto', size: 1.05, lh: 1.7, seen: {}, done: {}, quiz: {}, reflect: {}, best: 0, xp: 0 };
+let S = { scheme: 'auto', size: 1.05, lh: 1.7, seen: {}, done: {}, quiz: {}, reflect: {}, best: 0, xp: 0, lang: 'en' };
 try { Object.assign(S, JSON.parse(localStorage.getItem(KEY) || '{}')); } catch (e) {}
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
 function addXP(n, el) {
@@ -575,7 +591,7 @@ const toastEl = $('#toast'); let toastT;
 function toast(m) { toastEl.textContent = m; toastEl.classList.add('show'); clearTimeout(toastT); toastT = setTimeout(() => toastEl.classList.remove('show'), 2200); }
 async function copy(text, ok) {
   try { await navigator.clipboard.writeText(text); toast(ok); }
-  catch (e) { const ta = document.createElement('textarea'); ta.value = text; document.body.appendChild(ta); ta.select(); let r = false; try { r = document.execCommand('copy'); } catch (_) {} ta.remove(); toast(r ? ok : 'Copy is blocked here. Select the text to copy it.'); }
+  catch (e) { const ta = document.createElement('textarea'); ta.value = text; document.body.appendChild(ta); ta.select(); let r = false; try { r = document.execCommand('copy'); } catch (_) {} ta.remove(); toast(r ? ok : T('Copy is blocked here. Select the text to copy it.')); }
 }
 
 // ---------- appearance ----------
@@ -595,8 +611,9 @@ function applyLook() {
   $$('.sw').forEach(b => b.setAttribute('aria-pressed', b.dataset.s === S.scheme));
   embers.recolor();
 }
-$('#swatches').innerHTML = SCHEMES.map(([id, n, c]) => `<button class="sw" data-s="${id}"><span class="dots">${c.map(x => `<i style="background:${x}"></i>`).join('')}</span>${n}</button>`).join('');
-$('#swatches').onclick = e => { const b = e.target.closest('.sw'); if (!b) return; S.scheme = b.dataset.s; save(); applyLook(); toast('Colour scheme: ' + b.textContent.trim()); };
+const drawSwatches = () => { $('#swatches').innerHTML = SCHEMES.map(([id, n, c]) => `<button class="sw" data-s="${id}" aria-pressed="${id === S.scheme}"><span class="dots">${c.map(x => `<i style="background:${x}"></i>`).join('')}</span>${T(n)}</button>`).join(''); };
+drawSwatches();
+$('#swatches').onclick = e => { const b = e.target.closest('.sw'); if (!b) return; S.scheme = b.dataset.s; save(); applyLook(); toast(T('Colour scheme: {0}', b.textContent.trim())); };
 $('#sizeR').oninput = e => { S.size = +e.target.value; save(); applyLook(); };
 $('#lhR').oninput = e => { S.lh = +e.target.value; save(); applyLook(); };
 $('#schemeBtn').onclick = e => { e.stopPropagation(); const p = $('#schemes'); p.hidden = !p.hidden; $('#schemeBtn').setAttribute('aria-expanded', !p.hidden); };
@@ -646,7 +663,8 @@ function go(v) {
 }
 
 // ---------- home ----------
-const BADGES = D.stages.map(s => ({ id: s.id, name: { parables: 'Parable Decoder', objections: 'Defender', start: 'First Steps', words: 'Word Detective', history: 'Historian', theology: 'Theologian', verses: 'Bible Explorer', character: 'Advocate', alternative: 'Peacemaker' }[s.id] || s.title, how: `Complete every topic in "${s.title}"`, icon: s.icon }));
+const BADGE_NAMES = { parables: 'Parable Decoder', objections: 'Defender', start: 'First Steps', words: 'Word Detective', history: 'Historian', theology: 'Theologian', verses: 'Bible Explorer', character: 'Advocate', alternative: 'Peacemaker' };
+const badge = s => ({ name: BADGE_NAMES[s.id] ? T(BADGE_NAMES[s.id]) : s.title, how: T('Complete every topic in "{0}"', s.title), icon: s.icon });
 const stageDone = s => s.topics.every(t => S.done[t.id]);
 function renderHome() {
   const done = TOPICS.filter(t => S.done[t.id]).length, pct = done / TOPICS.length;
@@ -654,32 +672,32 @@ function renderHome() {
   const C = 2 * Math.PI * 70;
   $('#v-home').innerHTML = `
   <div class="hero"><canvas aria-hidden="true"></canvas>
-    <div><div class="eyebrow">An interactive journey · ${TOPICS.length} topics · ${D.stages.length} stages</div>
-      <h1>What does the Bible really say about hell?</h1>
-      <p>Follow the words, the history, the theology and every key verse through diagrams, maps, flip cards and quick quizzes. Each idea takes a few minutes.</p>
-      <div class="actions"><button class="btn" id="cta">${ic('arrow')}<span>${done ? 'Continue: ' + esc(next.title) : 'Start the journey'}</span></button><button class="btn ghost" id="mythBtn">${ic('question')}Myth or fact?</button></div></div>
-    <div class="ring" aria-label="${done} of ${TOPICS.length} topics explored"><svg viewBox="0 0 160 160"><circle cx="80" cy="80" r="70" fill="none" stroke="#ffffff22" stroke-width="12"/><circle cx="80" cy="80" r="70" fill="none" stroke="#ffd9bf" stroke-width="12" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${C * (1 - pct)}" style="transition:stroke-dashoffset 1s"/></svg>
-      <div class="lbl"><b>${Math.round(pct * 100)}%</b><span>${done} of ${TOPICS.length} topics</span></div></div>
+    <div><div class="eyebrow">${T('An interactive journey · {0} topics · {1} stages', TOPICS.length, D.stages.length)}</div>
+      <h1>${T('What does the Bible really say about hell?')}</h1>
+      <p>${T('Follow the words, the history, the theology and every key verse through diagrams, maps, flip cards and quick quizzes. Each idea takes a few minutes.')}</p>
+      <div class="actions"><button class="btn" id="cta">${ic('arrow')}<span>${done ? T('Continue: {0}', esc(next.title)) : T('Start the journey')}</span></button><button class="btn ghost" id="mythBtn">${ic('question')}${T('Myth or fact?')}</button></div></div>
+    <div class="ring" aria-label="${T('{0} of {1} topics explored', done, TOPICS.length)}"><svg viewBox="0 0 160 160"><circle cx="80" cy="80" r="70" fill="none" stroke="#ffffff22" stroke-width="12"/><circle cx="80" cy="80" r="70" fill="none" stroke="#ffd9bf" stroke-width="12" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${C * (1 - pct)}" style="transition:stroke-dashoffset 1s"/></svg>
+      <div class="lbl"><b>${Math.round(pct * 100)}%</b><span>${T('{0} of {1} topics', done, TOPICS.length)}</span></div></div>
   </div>
 
-  <div class="section-head"><div><h2>The argument at a glance</h2><p>Seven stages, each building on the last. Tap a stage to jump in.</p></div></div>
+  <div class="section-head"><div><h2>${T('The argument at a glance')}</h2><p>${T('The stages, each building on the last. Tap a stage to jump in.')}</p></div></div>
   <div class="panel"><div class="argflow">${D.stages.map(s => `<button class="node" data-stage="${s.id}"><span class="dot">${ic(s.icon)}</span><b>${esc(s.title)}</b><span>${esc(s.desc)}</span></button>`).join('')}</div></div>
 
-  <div class="section-head"><div><h2>One English word, four originals</h2><p>Much of the confusion starts with translation. Tap each layer.</p></div><button class="btn" data-open="philology">${ic('book')}Open the word study</button></div>
+  <div class="section-head"><div><h2>${T('One English word, four originals')}</h2><p>${T('Much of the confusion starts with translation. Tap each layer.')}</p></div><button class="btn" data-open="philology">${ic('book')}${T('Open the word study')}</button></div>
   <div class="panel">${illus('philology')}</div>
 
-  <div class="section-head"><div><h2>Your journey</h2><p>Every topic condenses one or more chapters into diagrams, key ideas and a short quiz. Completed topics turn green.</p></div></div>
+  <div class="section-head"><div><h2>${T('Your journey')}</h2><p>${T('Every topic condenses one or more chapters into diagrams, key ideas and a short quiz. Completed topics turn green.')}</p></div></div>
   <div class="journey">${D.stages.map((s, i) => `<div class="stage ${stageDone(s) ? 'complete' : ''}"><div class="badge">${ic(s.icon)}<small>${s.topics.filter(t => S.done[t.id]).length}/${s.topics.length}</small></div>
-    <div><div class="eyebrow">Stage ${i + 1}</div><h3>${esc(s.title)}</h3><p>${esc(s.desc)}</p>
-    <div class="stones">${s.topics.map(t => `<button class="stone ${S.done[t.id] ? 'done' : ''}" data-open="${t.id}"><span class="si">${ic(S.done[t.id] ? 'check' : t.icon)}</span>${esc(t.title)}</button>`).join('')}${(s.extras || []).filter(r => BYID[r]).map(r => `<button class="stone extra" data-open="${r}" title="Covered in ${esc(BYID[r].stage.title)}"><span class="si">${ic('chain')}</span>${esc(BYID[r].title)}</button>`).join('')}</div></div></div>`).join('')}</div>
+    <div><div class="eyebrow">${T('Stage {0}', i + 1)}</div><h3>${esc(s.title)}</h3><p>${esc(s.desc)}</p>
+    <div class="stones">${s.topics.map(t => `<button class="stone ${S.done[t.id] ? 'done' : ''}" data-open="${t.id}"><span class="si">${ic(S.done[t.id] ? 'check' : t.icon)}</span>${esc(t.title)}</button>`).join('')}${(s.extras || []).filter(r => BYID[r]).map(r => `<button class="stone extra" data-open="${r}" title="${esc(T('Covered in {0}', BYID[r].stage.title))}"><span class="si">${ic('chain')}</span>${esc(BYID[r].title)}</button>`).join('')}</div></div></div>`).join('')}</div>
 
-  <div class="section-head"><div><h2>Badges</h2><p>Finish every topic in a stage to earn its badge.</p></div></div>
-  <div class="badges">${BADGES.map((b, i) => `<div class="medal ${stageDone(D.stages[i]) ? 'on' : ''}"><span class="m">${ic(b.icon)}</span><div><b>${esc(b.name)}</b><span>${esc(b.how)}</span></div></div>`).join('')}</div>
+  <div class="section-head"><div><h2>${T('Badges')}</h2><p>${T('Finish every topic in a stage to earn its badge.')}</p></div></div>
+  <div class="badges">${D.stages.map(s => { const b = badge(s); return `<div class="medal ${stageDone(s) ? 'on' : ''}"><span class="m">${ic(b.icon)}</span><div><b>${esc(b.name)}</b><span>${esc(b.how)}</span></div></div>`; }).join('')}</div>
 
-  <div class="section-head"><div><h2>Myth or fact?</h2><p>Common beliefs, checked against the text. Tap a card to flip it.</p></div><button class="btn" id="moreMyths">${ic('wave')}Shuffle</button></div>
+  <div class="section-head"><div><h2>${T('Myth or fact?')}</h2><p>${T('Common beliefs, checked against the text. Tap a card to flip it.')}</p></div><button class="btn" id="moreMyths">${ic('wave')}${T('Shuffle')}</button></div>
   <div class="flips" id="homeMyths"></div>
 
-  <div class="section-head"><div><h2>Tough questions</h2><p>The hardest objections to this view, each with a short answer. Open one to read the full reply.</p></div><button class="btn" id="moreObj">${ic('wave')}Shuffle</button></div>
+  <div class="section-head"><div><h2>${T('Tough questions')}</h2><p>${T('The hardest objections to this view, each with a short answer. Open one to read the full reply.')}</p></div><button class="btn" id="moreObj">${ic('wave')}${T('Shuffle')}</button></div>
   <div class="objs" id="homeObj"></div>`;
   embers.attach($('#v-home canvas')); embers.recolor();
   $('#cta').onclick = () => openTopic(next.id);
@@ -688,17 +706,17 @@ function renderHome() {
   bindIllus($('#v-home'));
   const shuffleMyths = () => { const all = TOPICS.flatMap(t => t.mythfact.map(m => ({ ...m, t }))); const pick = all.sort(() => Math.random() - .5).slice(0, 6); $('#homeMyths').innerHTML = flips(pick, true); bindFlips($('#homeMyths')); };
   shuffleMyths(); $('#moreMyths').onclick = shuffleMyths;
-  const shuffleObj = () => { const all = TOPICS.filter(t => t.kind === 'objection').flatMap(t => t.objections.map(o => ({ ...o, t }))); $('#homeObj').innerHTML = all.sort(() => Math.random() - .5).slice(0, 4).map(o => `<details class="obj"><summary><span class="kind ${o.kind}">${o.kind}</span><span class="q">${esc(o.claim)}</span>${ic('arrow', 'ic chev')}</summary><div class="ob-body"><div class="resp"><b>The answer</b>${esc(o.response)}</div><div class="foot2"><button class="chip" data-open="${o.t.id}">${ic('shield')}${esc(o.t.title)}</button></div></div></details>`).join('') || '<p class="muted">Objection topics are being added.</p>'; $$('#homeObj [data-open]').forEach(b => b.onclick = () => openTopic(b.dataset.open)); };
+  const shuffleObj = () => { const all = TOPICS.filter(t => t.kind === 'objection').flatMap(t => t.objections.map(o => ({ ...o, t }))); $('#homeObj').innerHTML = all.sort(() => Math.random() - .5).slice(0, 4).map(o => `<details class="obj"><summary><span class="kind ${o.kind}">${T(o.kind)}</span><span class="q">${esc(o.claim)}</span>${ic('arrow', 'ic chev')}</summary><div class="ob-body"><div class="resp"><b>${T('The answer')}</b>${esc(o.response)}</div><div class="foot2"><button class="chip" data-open="${o.t.id}">${ic('shield')}${esc(o.t.title)}</button></div></div></details>`).join('') || `<p class="muted">${T('Objection topics are being added.')}</p>`; $$('#homeObj [data-open]').forEach(b => b.onclick = () => openTopic(b.dataset.open)); };
   shuffleObj(); $('#moreObj').onclick = shuffleObj;
   $('#mythBtn').onclick = () => $('#homeMyths').scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
 // ---------- shared renderers ----------
-function vchips(vs) { return (vs || []).map(v => `<button class="vchip" data-verse="${esc(v)}">${esc(v)}</button>`).join(''); }
+function vchips(vs) { return (vs || []).map(v => `<button class="vchip" data-verse="${esc(v)}">${esc(vr(v))}</button>`).join(''); }
 function flips(items, showTopic) {
-  return items.map(m => `<button class="flip" aria-label="Myth: ${esc(m.myth)}. Tap to see what the text shows."><span class="in">
-    <span class="f"><span class="tag">${ic('cross-x')}Common belief</span><p>${esc(m.myth)}</p><span class="hint">Tap to flip${showTopic ? ' · ' + esc(m.t.title) : ''}</span></span>
-    <span class="b"><span class="tag">${ic('check')}What the text shows</span><p>${esc(m.fact)}</p>${showTopic ? `<span class="hint" data-open="${m.t.id}">Open “${esc(m.t.title)}” →</span>` : '<span class="hint">Tap to flip back</span>'}</span></span></button>`).join('');
+  return items.map(m => `<button class="flip" aria-label="${esc(T('Myth: {0}. Tap to see what the text shows.', m.myth))}"><span class="in">
+    <span class="f"><span class="tag">${ic('cross-x')}${T('Common belief')}</span><p>${esc(m.myth)}</p><span class="hint">${T('Tap to flip')}${showTopic ? ' · ' + esc(m.t.title) : ''}</span></span>
+    <span class="b"><span class="tag">${ic('check')}${T('What the text shows')}</span><p>${esc(m.fact)}</p>${showTopic ? `<span class="hint" data-open="${m.t.id}">${T('Open “{0}” →', esc(m.t.title))}</span>` : `<span class="hint">${T('Tap to flip back')}</span>`}</span></span></button>`).join('');
 }
 function bindFlips(root) {
   $$('.flip', root).forEach(f => f.onclick = e => { const o = e.target.closest('[data-open]'); if (o && f.classList.contains('on')) { openTopic(o.dataset.open); return; } f.classList.toggle('on'); if (f.classList.contains('on') && !f.dataset.x) { f.dataset.x = 1; addXP(2, f); } });
@@ -727,19 +745,19 @@ function viz(v, i) {
   const head = `<h3>${ic({ flow: 'arrow', compare: 'scale', timeline: 'hourglass', tree: 'tree', cycle: 'wave', scale: 'scale', spectrum: 'path', stats: 'star', decision: 'question', words: 'speech', verse: 'scroll' }[v.type] || 'puzzle')}${esc(v.title)}</h3>${v.caption ? `<p class="cap">${esc(v.caption)}</p>` : ''}`;
   let body = '';
   if (v.type === 'flow') body = `<div class="flow">${v.steps.map((s, k) => `<div class="st"><div class="box"><span class="k">${k + 1}</span><b>${esc(s.label)}</b><span>${esc(s.note)}</span></div></div>`).join('')}</div>`;
-  if (v.type === 'compare') body = `<div class="compare"><div class="col l"><h4>${esc(v.left.label)}</h4><ul>${v.left.items.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div><div class="vs">VS</div><div class="col r"><h4>${esc(v.right.label)}</h4><ul>${v.right.items.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div></div>`;
+  if (v.type === 'compare') body = `<div class="compare"><div class="col l"><h4>${esc(v.left.label)}</h4><ul>${v.left.items.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div><div class="vs">${T('VS')}</div><div class="col r"><h4>${esc(v.right.label)}</h4><ul>${v.right.items.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div></div>`;
   if (v.type === 'timeline') body = `<div class="timeline">${v.events.map(e => `<div class="ev"><span class="d">${esc(e.date)}</span><b>${esc(e.label)}</b><span>${esc(e.note)}</span></div>`).join('')}</div>`;
   if (v.type === 'tree') body = `<div class="tree"><div class="root">${esc(v.root)}</div><div class="kids">${v.children.map(c => `<div class="kid"><b>${esc(c.label)}</b>${c.note ? `<span>${esc(c.note)}</span>` : ''}${c.children && c.children.length ? `<ul>${c.children.map(g => `<li><b>${esc(g.label)}</b>${g.note ? ': ' + esc(g.note) : ''}</li>`).join('')}</ul>` : ''}</div>`).join('')}</div></div>`;
   if (v.type === 'cycle') body = cycleSVG(v);
   if (v.type === 'scale') body = scaleSVG(v);
-  if (v.type === 'spectrum') body = `<div class="spectrum"><div class="bar">${v.marks.map((m, k) => `<button class="mk" style="left:${m.pos}%" data-k="${k}" aria-label="${esc(m.label)}"><i style="${m.pos > 75 ? 'left:auto;right:-6px;transform:none' : m.pos < 25 ? 'left:-6px;transform:none' : ''}${k % 2 ? ';bottom:auto;top:26px' : ''}">${esc(m.label)}</i></button>`).join('')}</div><div class="ends"><span>${esc(v.left)}</span><span>${esc(v.right)}</span></div><div class="detail">Tap a marker to read about it.</div></div>`;
+  if (v.type === 'spectrum') body = `<div class="spectrum"><div class="bar">${v.marks.map((m, k) => `<button class="mk" style="left:${m.pos}%" data-k="${k}" aria-label="${esc(m.label)}"><i style="${m.pos > 75 ? 'left:auto;right:-6px;transform:none' : m.pos < 25 ? 'left:-6px;transform:none' : ''}${k % 2 ? ';bottom:auto;top:26px' : ''}">${esc(m.label)}</i></button>`).join('')}</div><div class="ends"><span>${esc(v.left)}</span><span>${esc(v.right)}</span></div><div class="detail">${T('Tap a marker to read about it.')}</div></div>`;
   if (v.type === 'stats') body = `<div class="stats">${v.items.map(s => `<div class="stat"><b data-count="${esc(s.value)}">${esc(s.value)}</b><span>${esc(s.label)}</span></div>`).join('')}</div>`;
-  if (v.type === 'decision') body = `<div class="decision"><div class="q">${esc(v.question)}</div><div class="opt yes"><span class="y">If yes</span><b>${esc(v.yes.label)}</b><span>${esc(v.yes.note)}</span></div><div class="opt no"><span class="y">If no</span><b>${esc(v.no.label)}</b><span>${esc(v.no.note)}</span></div></div>`;
+  if (v.type === 'decision') body = `<div class="decision"><div class="q">${esc(v.question)}</div><div class="opt yes"><span class="y">${T('If yes')}</span><b>${esc(v.yes.label)}</b><span>${esc(v.yes.note)}</span></div><div class="opt no"><span class="y">${T('If no')}</span><b>${esc(v.no.label)}</b><span>${esc(v.no.note)}</span></div></div>`;
   if (v.type === 'words') body = `<div class="words">${v.items.map(w => `<div class="wordc"><span class="lang">${esc(w.lang)}</span><span class="w">${esc(w.word)}</span>${w.literal ? `<span class="lit">“${esc(w.literal)}”</span>` : ''}<span>${esc(w.meaning)}</span></div>`).join('')}</div>`;
   if (v.type === 'verse') {
     let t = esc(v.text);
     (v.notes || []).forEach((n, k) => { const p = esc(n.phrase); const at = t.indexOf(p); if (at >= 0 && p) t = t.slice(0, at) + `<mark data-k="${k}" tabindex="0" role="button">${p}</mark>` + t.slice(at + p.length); });
-    body = `<div class="versecard"><blockquote>${t}</blockquote><div class="vref">${esc(v.ref)}</div><div class="note">Tap a highlighted phrase to see what it means.</div></div>`;
+    body = `<div class="versecard"><blockquote>${t}</blockquote><div class="vref">${esc(vr(v.ref))}</div><div class="note">${T('Tap a highlighted phrase to see what it means.')}</div></div>`;
   }
   return `<div class="panel viz" data-vi="${i}">${head}<div class="body">${body}</div></div>`;
 }
@@ -764,7 +782,7 @@ function cycleSVG(v) {
     const lines = wrapText(s.label, 12).slice(0, 3);
     svg += `<g data-ck="${k}" style="cursor:pointer"><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="40" style="fill:var(--surface);stroke:var(--accent);stroke-width:3"/>${lines.map((l, j) => `<text x="${x.toFixed(1)}" y="${(y + (j - (lines.length - 1) / 2) * 13 + 4).toFixed(1)}" text-anchor="middle" style="fill:var(--ink);font:800 11px var(--font)">${esc(l)}</text>`).join('')}</g>`;
   });
-  svg += `<text x="${cx}" y="${cy + 5}" text-anchor="middle" style="fill:var(--muted);font:800 12px var(--font);letter-spacing:.1em">CYCLE</text></svg>`;
+  svg += `<text x="${cx}" y="${cy + 5}" text-anchor="middle" style="fill:var(--muted);font:800 12px var(--font);letter-spacing:.1em">${T('CYCLE')}</text></svg>`;
   return `<div class="cycle-wrap">${svg}<ol>${v.steps.map(s => `<li><b>${esc(s.label)}</b><span>${esc(s.note)}</span></li>`).join('')}</ol></div>`;
 }
 function scaleSVG(v) {
@@ -785,8 +803,9 @@ function skeleton() {
   return `<div class="topic-head"><div class="sk-grid"><div class="sk" style="height:14px;width:30%"></div><div class="sk" style="height:46px;width:85%"></div><div class="sk" style="height:22px;width:60%"></div></div><div class="sk" style="aspect-ratio:4/3"></div></div>
   <div class="sk" style="height:110px;margin-top:26px"></div><div class="points" style="margin-top:20px">${'<div class="sk" style="height:170px"></div>'.repeat(4)}</div>`;
 }
+let lastTopic = null;
 function openTopic(id, opts = {}) {
-  const t = BYID[id]; if (!t) return;
+  const t = BYID[id]; if (!t) return; lastTopic = id;
   show('topic', 't-' + id);
   const root = $('#v-topic'); root.innerHTML = skeleton();
   if (!S.seen[id]) { S.seen[id] = 1; save(); addXP(5); }
@@ -797,66 +816,66 @@ function renderTopic(t) {
   const quizState = S.quiz[t.id] || {};
   const words = t.srcs.reduce((a, [b, ci]) => a + BOOKS[b].chapters[ci].words, 0);
   const prev = TOPICS[t.idx - 1], next = TOPICS[t.idx + 1];
-  const srcLabel = ([b, ci]) => { const c = BOOKS[b].chapters[ci]; return `${BOOKS[b].short}${c.num ? ', ch. ' + c.num : ''}: ${c.title}`; };
+  const srcLabel = ([b, ci]) => { const c = BOOKS[b].chapters[ci]; return `${BOOKS[b].short}${c.num ? ', ' + T('ch. {0}', c.num) : ''}: ${c.title}`; };
   root.innerHTML = `
   <div class="topic-head"><div>
-    <div class="eyebrow">Stage ${t.si + 1} · ${esc(t.stage.title)} · Topic ${t.idx + 1} of ${TOPICS.length}</div>
+    <div class="eyebrow">${T('Stage {0} · {1} · Topic {2} of {3}', t.si + 1, esc(t.stage.title), t.idx + 1, TOPICS.length)}</div>
     <h1>${esc(t.title)}</h1>
     <p class="hook">${esc(t.hook)}</p>
-    <div class="meta-row"><span class="chip">${ic('clock')}${Math.max(3, Math.round((t.points.length + t.sections.length) * .6))} min to explore</span>${t.srcs.length ? `<span class="chip">${ic('book')}Condenses ${fmt(words)} words</span>` : `<span class="chip">${ic('globe')}Draws on ${t.sources.length} sources</span>`}
-      <button class="chip" id="listen">${ic('ear')}<span>Listen</span></button><button class="chip" id="shareT">${ic('chain')}Copy link</button></div>
+    <div class="meta-row"><span class="chip">${ic('clock')}${T('{0} min to explore', Math.max(3, Math.round((t.points.length + t.sections.length) * .6)))}</span>${t.srcs.length ? `<span class="chip">${ic('book')}${T('Condenses {0} words', fmt(words))}</span>` : `<span class="chip">${ic('globe')}${T('Draws on {0} sources', t.sources.length)}</span>`}
+      <button class="chip" id="listen">${ic('ear')}<span>${T('Listen')}</span></button><button class="chip" id="shareT">${ic('chain')}${T('Copy link')}</button></div>
   </div>
   <div>${ILL[t.id] ? '' : `<div class="emblem"><span class="num">${String(t.idx + 1).padStart(2, '0')}</span>${ic(t.icon)}</div>`}${ILL[t.id] ? `<div class="emblem" style="aspect-ratio:auto;padding:16px;background:var(--surface);border:1px solid var(--line);color:inherit;display:block">${illus(t.id)}</div>` : ''}</div></div>
 
-  <nav class="subnav" aria-label="Jump to">
-    ${[['s-answer', 'Answer'], t.parable && ['s-decoder', 'Decoder'], ['s-ideas', 'Key ideas'], ['s-diagrams', 'Diagrams'], ['s-steps', 'Step by step'], (t.perspectives || []).length && ['s-persp', 'Perspective'], t.mythfact.length && ['s-myths', 'Myths'], t.verses.length && ['s-verses', 'Verses'], (t.objections || []).length && ['s-objections', 'Objections'], ['s-quiz', 'Quiz'], t.srcs.length && ['s-full', 'Full text'], (t.sources || []).length && ['s-sources', 'Sources']].filter(Boolean).map(([h, l]) => `<button class="chip" data-jump="${h}">${l}</button>`).join('')}
+  <nav class="subnav" aria-label="${T('Jump to')}">
+    ${[['s-answer', 'Answer'], t.parable && ['s-decoder', 'Decoder'], ['s-ideas', 'Key ideas'], ['s-diagrams', 'Diagrams'], ['s-steps', 'Step by step'], (t.perspectives || []).length && ['s-persp', 'Perspective'], t.mythfact.length && ['s-myths', 'Myths'], t.verses.length && ['s-verses', 'Verses'], (t.objections || []).length && ['s-objections', 'Objections'], ['s-quiz', 'Quiz'], t.srcs.length && ['s-full', 'Full text'], (t.sources || []).length && ['s-sources', 'Sources']].filter(Boolean).map(([h, l]) => `<button class="chip" data-jump="${h}">${T(l)}</button>`).join('')}
   </nav>
 
-  <div id="s-answer" class="tldr" style="margin-top:14px"><div><div class="eyebrow" style="margin-bottom:8px">The answer in 30 seconds</div><p>${esc(t.tldr)}</p><div class="bigidea">${ic('bulb')}${esc(t.big_idea)}</div></div></div>
+  <div id="s-answer" class="tldr" style="margin-top:14px"><div><div class="eyebrow" style="margin-bottom:8px">${T('The answer in 30 seconds')}</div><p>${esc(t.tldr)}</p><div class="bigidea">${ic('bulb')}${esc(t.big_idea)}</div></div></div>
 
-  ${t.parable ? `<div class="section-head" id="s-decoder"><div><h2>Decode the parable</h2><p>${esc(t.parable.ref)}. What each image is often taken to mean, and what it meant to the first hearers.</p></div></div>
-  <div class="panel"><div class="decoder-meta"><div><b>Who was listening</b>${esc(t.parable.audience)}</div><div><b>The setting</b>${esc(t.parable.setting)}</div></div>
-  <div class="decoder"><table><thead><tr><th>Image</th><th>Often read as</th><th>Original meaning</th></tr></thead><tbody>${t.parable.decoder.map(r => `<tr><td>${esc(r.symbol)}</td><td class="trad">${esc(r.traditional)}</td><td class="orig">${esc(r.original)}</td></tr>`).join('')}</tbody></table></div></div>` : ''}
+  ${t.parable ? `<div class="section-head" id="s-decoder"><div><h2>${T('Decode the parable')}</h2><p>${T('{0}. What each image is often taken to mean, and what it meant to the first hearers.', esc(vr(t.parable.ref)))}</p></div></div>
+  <div class="panel"><div class="decoder-meta"><div><b>${T('Who was listening')}</b>${esc(t.parable.audience)}</div><div><b>${T('The setting')}</b>${esc(t.parable.setting)}</div></div>
+  <div class="decoder"><table><thead><tr><th>${T('Image')}</th><th>${T('Often read as')}</th><th>${T('Original meaning')}</th></tr></thead><tbody>${t.parable.decoder.map(r => `<tr><td>${esc(r.symbol)}</td><td class="trad">${esc(r.traditional)}</td><td class="orig">${esc(r.original)}</td></tr>`).join('')}</tbody></table></div></div>` : ''}
 
-  <div class="section-head" id="s-ideas"><div><h2>Key ideas</h2></div></div>
+  <div class="section-head" id="s-ideas"><div><h2>${T('Key ideas')}</h2></div></div>
   <div class="points">${t.points.map((p, i) => `<div class="point"><span class="n">${i + 1}</span><span class="pi">${ic(p.icon)}</span><h4>${esc(p.title)}</h4><p>${esc(p.text)}</p><div class="vs">${vchips(p.verses)}</div></div>`).join('')}</div>
 
-  <div class="section-head" id="s-diagrams"><div><h2>See it</h2><p>Diagrams that map the argument.</p></div></div>
+  <div class="section-head" id="s-diagrams"><div><h2>${T('See it')}</h2><p>${T('Diagrams that map the argument.')}</p></div></div>
   <div class="visuals">${t.visuals.map(viz).join('')}</div>
 
-  <div class="section-head" id="s-steps"><div><h2>Step by step</h2><p>${t.srcs.length ? 'The whole chapter, part by part, in plain words.' : 'The full argument, part by part.'}</p></div></div>
-  <div class="steps">${t.sections.map(s => `<div class="step"><span class="sn">${ic(s.icon)}</span><div class="sc"><h4>${esc(s.h)}</h4><p>${esc(s.summary)}</p><div class="vs">${vchips(s.verses)}${s.src !== 'web' ? `<button class="chip" data-src="${esc(s.src)}" data-h="${esc(s.h)}" style="font-size:.74rem;padding:.2em .6em">${ic('book')}Read this part in full</button>` : ''}</div></div></div>`).join('')}</div>
+  <div class="section-head" id="s-steps"><div><h2>${T('Step by step')}</h2><p>${t.srcs.length ? T('The whole chapter, part by part, in plain words.') : T('The full argument, part by part.')}</p></div></div>
+  <div class="steps">${t.sections.map(s => `<div class="step"><span class="sn">${ic(s.icon)}</span><div class="sc"><h4>${esc(s.h)}</h4><p>${esc(s.summary)}</p><div class="vs">${vchips(s.verses)}${s.src !== 'web' ? `<button class="chip" data-src="${esc(s.src)}" data-h="${esc(s.h)}" style="font-size:.74rem;padding:.2em .6em">${ic('book')}${T('Read this part in full')}</button>` : ''}</div></div></div>`).join('')}</div>
 
-  ${(t.perspectives || []).length ? `<div class="section-head" id="s-persp"><div><h2>Another perspective</h2><p>How another writer who rejects eternal torment reads this passage. Open the article for the full argument.</p></div></div>
-  <div class="persp">${t.perspectives.map(p => `<div class="pcard"><div class="who"><b>${esc(p.who)}</b><a class="chip" href="${esc(p.url)}" target="_blank" rel="noopener">${ic('arrow')}Read the article</a></div><h3>${esc(p.title)}</h3><p>${esc(p.summary)}</p><ul>${p.points.map(x => `<li>${ic('check')}<span>${esc(x)}</span></li>`).join('')}</ul>${p.quote && p.quote.text ? `<blockquote>“${esc(p.quote.text)}”</blockquote>` : ''}${p.differs ? `<div class="diff"><b>How it differs:</b> ${esc(p.differs)}</div>` : ''}</div>`).join('')}</div>` : ''}
+  ${(t.perspectives || []).length ? `<div class="section-head" id="s-persp"><div><h2>${T('Another perspective')}</h2><p>${T('How another writer who rejects eternal torment reads this passage. Open the article for the full argument.')}</p></div></div>
+  <div class="persp">${t.perspectives.map(p => `<div class="pcard"><div class="who"><b>${esc(p.who)}</b><a class="chip" href="${esc(p.url)}" target="_blank" rel="noopener">${ic('arrow')}${T('Read the article')}</a></div><h3>${esc(p.title)}</h3><p>${esc(p.summary)}</p><ul>${p.points.map(x => `<li>${ic('check')}<span>${esc(x)}</span></li>`).join('')}</ul>${p.quote && p.quote.text ? `<blockquote>“${esc(p.quote.text)}”</blockquote>` : ''}${p.differs ? `<div class="diff"><b>${T('How it differs:')}</b> ${esc(p.differs)}</div>` : ''}</div>`).join('')}</div>` : ''}
 
-  ${t.mythfact.length ? `<div class="section-head" id="s-myths"><div><h2>Myth or fact?</h2><p>Tap each card.</p></div></div><div class="flips">${flips(t.mythfact)}</div>` : ''}
+  ${t.mythfact.length ? `<div class="section-head" id="s-myths"><div><h2>${T('Myth or fact?')}</h2><p>${T('Tap each card.')}</p></div></div><div class="flips">${flips(t.mythfact)}</div>` : ''}
 
-  ${t.quotes.length ? `<div class="section-head"><div><h2>In their words</h2></div></div><div class="quotes"><div class="quote" id="quoteBox"></div>${t.quotes.length > 1 ? `<div class="quote-nav"><button class="btn icon" id="qPrev" aria-label="Previous quote">${ic('arrow')}</button><span class="dots">${t.quotes.map(() => '<i></i>').join('')}</span><button class="btn icon" id="qNext" aria-label="Next quote">${ic('arrow')}</button></div>` : ''}</div>` : ''}
+  ${t.quotes.length ? `<div class="section-head"><div><h2>${T('In their words')}</h2></div></div><div class="quotes"><div class="quote" id="quoteBox"></div>${t.quotes.length > 1 ? `<div class="quote-nav"><button class="btn icon" id="qPrev" aria-label="${T('Previous quote')}">${ic('arrow')}</button><span class="dots">${t.quotes.map(() => '<i></i>').join('')}</span><button class="btn icon" id="qNext" aria-label="${T('Next quote')}">${ic('arrow')}</button></div>` : ''}</div>` : ''}
 
-  ${t.terms.length ? `<div class="section-head"><div><h2>Terms to know</h2></div></div><div class="terms">${t.terms.map(x => `<div class="term"><b>${esc(x.term)}</b><span>${esc(x.meaning)}</span></div>`).join('')}</div>` : ''}
+  ${t.terms.length ? `<div class="section-head"><div><h2>${T('Terms to know')}</h2></div></div><div class="terms">${t.terms.map(x => `<div class="term"><b>${esc(x.term)}</b><span>${esc(x.meaning)}</span></div>`).join('')}</div>` : ''}
 
-  ${t.verses.length ? `<div class="section-head" id="s-verses"><div><h2>Key verses</h2><p>Tap a reference to see every place it is discussed.</p></div></div><div class="vlist">${t.verses.map(v => `<div class="vrow"><b data-verse="${esc(v.ref)}" role="button" tabindex="0">${esc(v.ref)}</b><span>${esc(v.role)}</span></div>`).join('')}</div>` : ''}
+  ${t.verses.length ? `<div class="section-head" id="s-verses"><div><h2>${T('Key verses')}</h2><p>${T('Tap a reference to see every place it is discussed.')}</p></div></div><div class="vlist">${t.verses.map(v => `<div class="vrow"><b data-verse="${esc(v.ref)}" role="button" tabindex="0">${esc(vr(v.ref))}</b><span>${esc(v.role)}</span></div>`).join('')}</div>` : ''}
 
-  ${(t.objections || []).length ? `<div class="section-head" id="s-objections"><div><h2>${t.kind === 'objection' ? 'The objections, answered' : 'But what about…?'}</h2><p>Each objection in its strongest form, then the answer. Tap to open.</p></div></div>
-  <div class="objs">${t.objections.map((o, k) => `<details class="obj"${k === 0 ? ' open' : ''}><summary><span class="kind ${o.kind}">${o.kind}</span><span class="q">${esc(o.claim)}</span>${ic('arrow', 'ic chev')}</summary><div class="ob-body"><div class="steel"><b>The objection at its strongest</b>${esc(o.strongest)}</div><div class="resp"><b>The answer</b>${esc(o.response)}</div><div class="foot2">${vchips(o.verses)}${(o.sources || []).map(u => { const i = t.sources.findIndex(x => x.url === u); return i < 0 ? '' : `<a class="srcref" href="#src-${i + 1}" data-srcjump="${i + 1}">[${i + 1}]</a>`; }).join('')}</div></div></details>`).join('')}</div>` : ''}
+  ${(t.objections || []).length ? `<div class="section-head" id="s-objections"><div><h2>${t.kind === 'objection' ? T('The objections, answered') : T('But what about…?')}</h2><p>${T('Each objection in its strongest form, then the answer. Tap to open.')}</p></div></div>
+  <div class="objs">${t.objections.map((o, k) => `<details class="obj"${k === 0 ? ' open' : ''}><summary><span class="kind ${o.kind}">${T(o.kind)}</span><span class="q">${esc(o.claim)}</span>${ic('arrow', 'ic chev')}</summary><div class="ob-body"><div class="steel"><b>${T('The objection at its strongest')}</b>${esc(o.strongest)}</div><div class="resp"><b>${T('The answer')}</b>${esc(o.response)}</div><div class="foot2">${vchips(o.verses)}${(o.sources || []).map(u => { const i = t.sources.findIndex(x => x.url === u); return i < 0 ? '' : `<a class="srcref" href="#src-${i + 1}" data-srcjump="${i + 1}">[${i + 1}]</a>`; }).join('')}</div></div></details>`).join('')}</div>` : ''}
 
-  <div class="section-head" id="s-quiz"><div><h2>Check yourself</h2><p>Three quick questions. Each right answer earns 10 points.</p></div></div>
+  <div class="section-head" id="s-quiz"><div><h2>${T('Check yourself')}</h2><p>${T('Three quick questions. Each right answer earns 10 points.')}</p></div></div>
   <div class="quiz">${t.quiz.map((q, qi) => qcard(q, qi, quizState[qi])).join('')}</div>
 
-  <div class="section-head"><div><h2>Think about it</h2></div></div>
-  <div class="panel reflect"><p style="font-weight:700;font-size:1.08rem">${esc(t.reflect)}</p><textarea id="reflectBox" placeholder="Write your thoughts. They stay on this device.">${esc(S.reflect[t.id] || '')}</textarea></div>
+  <div class="section-head"><div><h2>${T('Think about it')}</h2></div></div>
+  <div class="panel reflect"><p style="font-weight:700;font-size:1.08rem">${esc(t.reflect)}</p><textarea id="reflectBox" placeholder="${T('Write your thoughts. They stay on this device.')}">${esc(S.reflect[t.id] || '')}</textarea></div>
 
-  ${t.srcs.length ? `<div class="section-head" id="s-full"><div><h2>The full text</h2><p>Every word of the original chapter${t.srcs.length > 1 ? 's' : ''}, for when you want the details.</p></div></div>
-  ${t.srcs.map(([b, ci]) => `<details class="full" data-b="${b}" data-ci="${ci}"><summary>${ic('book')}<span>${esc(srcLabel([b, ci]))}</span><small>pp. ${BOOKS[b].chapters[ci].pages.join('–')}</small></summary><div class="fulltext"></div></details>`).join('')}` : ''}
+  ${t.srcs.length ? `<div class="section-head" id="s-full"><div><h2>${T('The full text')}</h2><p>${t.srcs.length > 1 ? T('Every word of the original chapters, for when you want the details. (Original English text.)') : T('Every word of the original chapter, for when you want the details. (Original English text.)')}</p></div></div>
+  ${t.srcs.map(([b, ci]) => `<details class="full" data-b="${b}" data-ci="${ci}"><summary>${ic('book')}<span>${esc(srcLabel([b, ci]))}</span><small>${T('pp. {0}', BOOKS[b].chapters[ci].pages.join('–'))}</small></summary><div class="fulltext"></div></details>`).join('')}` : ''}
 
-  ${(t.sources || []).length ? `<div class="section-head" id="s-sources"><div><h2>Sources and further reading</h2><p>Where these explanations come from, including writers who disagree.</p></div></div>
+  ${(t.sources || []).length ? `<div class="section-head" id="s-sources"><div><h2>${T('Sources and further reading')}</h2><p>${T('Where these explanations come from, including writers who disagree.')}</p></div></div>
   <div class="sources">${t.sources.map((x, i) => `<a class="src" id="src-${i + 1}" href="${esc(x.url)}" target="_blank" rel="noopener"><span class="n">${i + 1}</span><span><b>${esc(x.title)}</b><span>${esc(x.note)}</span><br><small>${esc(x.url.replace(/^https?:\/\//, '').slice(0, 70))}</small></span></a>`).join('')}</div>` : ''}
 
-  ${(t.related || []).filter(r => BYID[r]).length ? `<div class="section-head"><div><h2>Connected topics</h2></div></div><div class="stones">${t.related.filter(r => BYID[r]).map(r => `<button class="stone" data-open="${r}"><span class="si">${ic(BYID[r].icon)}</span>${esc(BYID[r].title)}</button>`).join('')}</div>` : ''}
+  ${(t.related || []).filter(r => BYID[r]).length ? `<div class="section-head"><div><h2>${T('Connected topics')}</h2></div></div><div class="stones">${t.related.filter(r => BYID[r]).map(r => `<button class="stone" data-open="${r}"><span class="si">${ic(BYID[r].icon)}</span>${esc(BYID[r].title)}</button>`).join('')}</div>` : ''}
 
-  <div style="display:flex;justify-content:center;margin-top:30px"><button class="btn ${S.done[t.id] ? 'done-btn on' : 'primary'}" id="doneBtn">${ic('check')}<span>${S.done[t.id] ? 'Completed' : 'Mark topic complete'}</span></button></div>
-  <nav class="topic-nav">${prev ? `<button data-open="${prev.id}"><small>← Previous</small><b>${esc(prev.title)}</b></button>` : '<span></span>'}${next ? `<button data-open="${next.id}"><small>Next →</small><b>${esc(next.title)}</b></button>` : `<button data-go="quiz"><small>Journey complete</small><b>Take the final challenge →</b></button>`}</nav>`;
+  <div style="display:flex;justify-content:center;margin-top:30px"><button class="btn ${S.done[t.id] ? 'done-btn on' : 'primary'}" id="doneBtn">${ic('check')}<span>${S.done[t.id] ? T('Completed') : T('Mark topic complete')}</span></button></div>
+  <nav class="topic-nav">${prev ? `<button data-open="${prev.id}"><small>${T('← Previous')}</small><b>${esc(prev.title)}</b></button>` : '<span></span>'}${next ? `<button data-open="${next.id}"><small>${T('Next →')}</small><b>${esc(next.title)}</b></button>` : `<button data-go="quiz"><small>${T('Journey complete')}</small><b>${T('Take the final challenge →')}</b></button>`}</nav>`;
 
   bindIllus(root); bindViz(root, t.visuals); bindFlips(root);
   $$('[data-open]', root).forEach(b => b.onclick = () => openTopic(b.dataset.open));
@@ -867,8 +886,8 @@ function renderTopic(t) {
   $$('[data-srcjump]', root).forEach(a => a.onclick = e => { e.preventDefault(); const el = document.getElementById('src-' + a.dataset.srcjump); scrollTo({ top: el.getBoundingClientRect().top + scrollY - 140, behavior: 'smooth' }); el.classList.add('flash'); });
   bindQuiz(root, t);
   $('#reflectBox').oninput = e => { S.reflect[t.id] = e.target.value; save(); };
-  $('#doneBtn').onclick = e => { const was = S.done[t.id]; if (was) delete S.done[t.id]; else { S.done[t.id] = 1; addXP(20, e.currentTarget); } save(); const b = $('#doneBtn'); b.className = 'btn ' + (S.done[t.id] ? 'done-btn on' : 'primary'); $('span', b).textContent = S.done[t.id] ? 'Completed' : 'Mark topic complete'; if (!was) { const st = t.stage; toast(stageDone(st) ? `Badge earned: ${BADGES[t.si].name}!` : 'Topic complete. On to the next one!'); } };
-  $('#shareT').onclick = () => copy(`${t.title}: ${t.hook}\n${location.href.split('#')[0]}#t-${t.id}`, 'Link copied');
+  $('#doneBtn').onclick = e => { const was = S.done[t.id]; if (was) delete S.done[t.id]; else { S.done[t.id] = 1; addXP(20, e.currentTarget); } save(); const b = $('#doneBtn'); b.className = 'btn ' + (S.done[t.id] ? 'done-btn on' : 'primary'); $('span', b).textContent = S.done[t.id] ? T('Completed') : T('Mark topic complete'); if (!was) { const st = t.stage; toast(stageDone(st) ? T('Badge earned: {0}!', badge(st).name) : T('Topic complete. On to the next one!')); } };
+  $('#shareT').onclick = () => copy(`${t.title}: ${t.hook}\n${location.href.split('#')[0]}#t-${t.id}`, T('Link copied'));
   $('#listen').onclick = () => speakTopic(t);
   if (t.quotes.length) {
     let qi = 0; const showQ = () => { const q = t.quotes[qi]; $('#quoteBox').innerHTML = `<p>${esc(q.text)}</p><div class="who">${esc(q.who)}</div>`; $$('.quote-nav .dots i', root).forEach((d, k) => d.classList.toggle('on', k === qi)); };
@@ -889,7 +908,7 @@ function openFull(src, heading) {
 function fullText(b, ci, term) {
   const c = BOOKS[b].chapters[ci]; let lastPg = null;
   return c.blocks.map((x, i) => {
-    const pg = x.pg !== lastPg ? `<span class="pg">p. ${x.pg}</span>` : ''; lastPg = x.pg;
+    const pg = x.pg !== lastPg ? `<span class="pg">${T('p. {0}', x.pg)}</span>` : ''; lastPg = x.pg;
     let h = esc(x.s).replace(/\u0000(\d+)\u0001/g, (_, n) => `<button class="fn" data-b="${b}" data-n="${n}" aria-label="Endnote ${n}">${n}</button>`);
     if (term) { const re = new RegExp('(' + term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi'); h = h.replace(/(<[^>]+>)|([^<]+)/g, (m, tag, txt) => tag || txt.replace(re, '<mark class="term">$1</mark>')); }
     const tag = x.t === 'h' ? 'h5' : x.t === 'q' ? 'blockquote' : 'p';
@@ -908,7 +927,7 @@ function bindQuiz(root, t) {
     if (k === q.answer) addXP(10, b);
     card.outerHTML = qcard(q, qi, k); bindQuiz(root, t);
     const all = t.quiz.every((_, i) => S.quiz[t.id][i] != null);
-    if (all && !S.done[t.id]) { S.done[t.id] = 1; save(); addXP(20); toast('Quiz finished. Topic marked complete!'); const d = $('#doneBtn'); if (d) { d.className = 'btn done-btn on'; $('span', d).textContent = 'Completed'; } }
+    if (all && !S.done[t.id]) { S.done[t.id] = 1; save(); addXP(20); toast(T('Quiz finished. Topic marked complete!')); const d = $('#doneBtn'); if (d) { d.className = 'btn done-btn on'; $('span', d).textContent = T('Completed'); } }
   }));
 }
 
@@ -924,7 +943,7 @@ function placePop(anchor, html) {
 }
 document.addEventListener('click', e => {
   const fn = e.target.closest('.fn');
-  if (fn) { e.stopPropagation(); const n = fn.dataset.n; const txt = BOOKS[fn.dataset.b].notes[n] || 'This endnote could not be read from the scan. See the original PDF.'; placePop(fn, `<div class="h">Endnote ${n}</div>${esc(txt).replace(/(https?:\/\/[^\s)]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>')}`); return; }
+  if (fn) { e.stopPropagation(); const n = fn.dataset.n; const txt = BOOKS[fn.dataset.b].notes[n] || T('This endnote could not be read from the scan. See the original PDF.'); placePop(fn, `<div class="h">${T('Endnote {0}', n)}</div>${esc(txt).replace(/(https?:\/\/[^\s)]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>')}`); return; }
   const v = e.target.closest('[data-verse]');
   if (v) { e.stopPropagation(); versePop(v, v.dataset.verse); return; }
   const row = e.target.closest('.pop [data-open-topic]');
@@ -938,23 +957,23 @@ function versePop(anchor, ref) {
   const roles = TOPICS.flatMap(t => t.verses.filter(v => normRef(v.ref).replace(/[-–]\d+$/, '') === base).map(v => ({ t, role: v.role })));
   const mentions = TOPICS.filter(t => !roles.some(r => r.t === t) && (t.points.some(p => (p.verses || []).some(x => normRef(x).replace(/[-–]\d+$/, '') === base)) || t.sections.some(s => (s.verses || []).some(x => normRef(x).replace(/[-–]\d+$/, '') === base))));
   const cites = (SCRIPT.refs[base] || []).length;
-  placePop(anchor, `<div class="h">${esc(ref)}</div>${roles.map(r => `<div class="row" data-open-topic="${r.t.id}"><b>${esc(r.t.title)}</b><br><span class="muted">${esc(r.role)}</span></div>`).join('')}${mentions.map(t => `<div class="row" data-open-topic="${t.id}"><b>${esc(t.title)}</b><br><span class="muted">Also discussed here</span></div>`).join('')}${cites ? `<p class="muted" style="margin-top:8px;font-size:.84rem">Cited ${cites} time${cites > 1 ? 's' : ''} in the full text. See the Verses tab.</p>` : ''}${!roles.length && !mentions.length && !cites ? '<p class="muted">Mentioned in this topic.</p>' : ''}`);
+  placePop(anchor, `<div class="h">${esc(vr(ref))}</div>${roles.map(r => `<div class="row" data-open-topic="${r.t.id}"><b>${esc(r.t.title)}</b><br><span class="muted">${esc(r.role)}</span></div>`).join('')}${mentions.map(t => `<div class="row" data-open-topic="${t.id}"><b>${esc(t.title)}</b><br><span class="muted">${T('Also discussed here')}</span></div>`).join('')}${cites ? `<p class="muted" style="margin-top:8px;font-size:.84rem">${T('Cited {0} time(s) in the full text. See the Verses tab.', cites)}</p>` : ''}${!roles.length && !mentions.length && !cites ? `<p class="muted">${T('Mentioned in this topic.')}</p>` : ''}`);
 }
 
 // ---------- read aloud ----------
 const synth = window.speechSynthesis; let speaking = false;
-function stopSpeech() { if (synth) synth.cancel(); speaking = false; $$('.speaking').forEach(x => x.classList.remove('speaking')); const l = $('#listen span'); if (l) l.textContent = 'Listen'; }
+function stopSpeech() { if (synth) synth.cancel(); speaking = false; $$('.speaking').forEach(x => x.classList.remove('speaking')); const l = $('#listen span'); if (l) l.textContent = T('Listen'); }
 function speakTopic(t) {
-  if (!synth) { toast('Read-aloud is not available in this browser'); return; }
+  if (!synth) { toast(T('Read-aloud is not available in this browser')); return; }
   if (speaking) { stopSpeech(); return; }
-  speaking = true; $('#listen span').textContent = 'Stop';
+  speaking = true; $('#listen span').textContent = T('Stop');
   const parts = [[$('#s-answer'), t.title + '. ' + t.hook + ' ' + t.tldr], ...$$('.point').map((el, i) => [el, t.points[i].title + '. ' + t.points[i].text]), ...$$('.step').map((el, i) => [el, t.sections[i].h + '. ' + t.sections[i].summary])];
   let i = 0;
   const next = () => {
     $$('.speaking').forEach(x => x.classList.remove('speaking'));
     if (!speaking || i >= parts.length) { stopSpeech(); return; }
     const [el, text] = parts[i++]; el.classList.add('speaking'); el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    const u = new SpeechSynthesisUtterance(text); u.lang = 'en-US'; u.onend = next; u.onerror = () => {}; synth.speak(u);
+    const u = new SpeechSynthesisUtterance(text); u.lang = LANG === 'ta' ? 'ta-IN' : 'en-US'; u.onend = next; u.onerror = () => {}; synth.speak(u);
   };
   next();
 }
@@ -966,9 +985,9 @@ addEventListener('scroll', () => { if (view !== 'topic') return; const h = docum
 let ch = null;
 function renderQuiz() {
   const stagesOpt = D.stages.map(s => `<button class="chip" data-st="${s.id}" aria-pressed="false">${esc(s.title)}</button>`).join('');
-  $('#v-quiz').innerHTML = `<div class="section-head" style="margin-top:0"><div><h2>The Challenge</h2><p>Ten questions drawn from across the journey. Pick a stage or play them all.</p></div><div class="score"><span class="muted">Best</span><b>${S.best}/10</b></div></div>
-    <div class="filters"><button class="chip" data-st="all" aria-pressed="true">All stages</button>${stagesOpt}</div>
-    <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn primary" id="startCh">${ic('flame')}Start a round</button></div><div id="chBox" style="margin-top:18px"></div>`;
+  $('#v-quiz').innerHTML = `<div class="section-head" style="margin-top:0"><div><h2>${T('The Challenge')}</h2><p>${T('Ten questions drawn from across the journey. Pick a stage or play them all.')}</p></div><div class="score"><span class="muted">${T('Best')}</span><b>${S.best}/10</b></div></div>
+    <div class="filters"><button class="chip" data-st="all" aria-pressed="true">${T('All stages')}</button>${stagesOpt}</div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn primary" id="startCh">${ic('flame')}${T('Start a round')}</button></div><div id="chBox" style="margin-top:18px"></div>`;
   let pick = 'all';
   $$('#v-quiz [data-st]').forEach(b => b.onclick = () => { pick = b.dataset.st; $$('#v-quiz [data-st]').forEach(x => x.setAttribute('aria-pressed', x === b)); });
   $('#startCh').onclick = () => {
@@ -980,16 +999,16 @@ function stepCh() {
   const box = $('#chBox');
   if (ch.i >= ch.qs.length) {
     const sc = ch.right, n = ch.qs.length; if (n === 10 && sc > S.best) { S.best = sc; save(); }
-    box.innerHTML = `<div class="panel" style="text-align:center"><div class="eyebrow">Round complete</div><div style="font-size:3.4rem;font-weight:800;color:var(--accent)">${sc}/${n}</div><p class="muted">${sc === n ? 'Perfect score. You know this material.' : sc >= n * .7 ? 'Strong result. Review the topics you missed to close the gap.' : 'Keep exploring the journey, then try again.'}</p><div style="display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap"><button class="btn primary" id="again">Play again</button></div></div>`;
+    box.innerHTML = `<div class="panel" style="text-align:center"><div class="eyebrow">${T('Round complete')}</div><div style="font-size:3.4rem;font-weight:800;color:var(--accent)">${sc}/${n}</div><p class="muted">${sc === n ? T('Perfect score. You know this material.') : sc >= n * .7 ? T('Strong result. Review the topics you missed to close the gap.') : T('Keep exploring the journey, then try again.')}</p><div style="display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap"><button class="btn primary" id="again">${T('Play again')}</button></div></div>`;
     $('#again').onclick = () => $('#startCh').click(); return;
   }
   const { q, t } = ch.qs[ch.i];
-  box.innerHTML = `<div class="panel"><div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap"><span class="eyebrow">Question ${ch.i + 1} of ${ch.qs.length} · ${esc(t.title)}</span><span class="eyebrow">Score ${ch.right}</span></div><div class="bar" style="height:6px;background:var(--surface-2);border-radius:9px;margin:10px 0 4px;overflow:hidden"><i style="display:block;height:100%;width:${ch.i / ch.qs.length * 100}%;background:var(--accent)"></i></div>${qcard(q, 0)}</div>`;
+  box.innerHTML = `<div class="panel"><div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap"><span class="eyebrow">${T('Question {0} of {1} · {2}', ch.i + 1, ch.qs.length, esc(t.title))}</span><span class="eyebrow">${T('Score {0}', ch.right)}</span></div><div class="bar" style="height:6px;background:var(--surface-2);border-radius:9px;margin:10px 0 4px;overflow:hidden"><i style="display:block;height:100%;width:${ch.i / ch.qs.length * 100}%;background:var(--accent)"></i></div>${qcard(q, 0)}</div>`;
   $$('#chBox .opt').forEach(b => b.onclick = () => {
     const k = +b.dataset.k; if (k === q.answer) { ch.right++; addXP(5, b); }
     $('#chBox .qcard').outerHTML = qcard(q, 0, k);
     const nx = document.createElement('div'); nx.style.cssText = 'display:flex;gap:10px;margin-top:12px;flex-wrap:wrap';
-    nx.innerHTML = `<button class="btn primary" id="nextQ">${ch.i + 1 < ch.qs.length ? 'Next question' : 'See result'}</button><button class="btn" data-open="${t.id}">Review this topic</button>`;
+    nx.innerHTML = `<button class="btn primary" id="nextQ">${ch.i + 1 < ch.qs.length ? T('Next question') : T('See result')}</button><button class="btn" data-open="${t.id}">${T('Review this topic')}</button>`;
     $('#chBox .panel').appendChild(nx);
     $('#nextQ').onclick = () => { ch.i++; stepCh(); };
     $('#chBox [data-open]').onclick = () => openTopic(t.id);
@@ -1000,14 +1019,14 @@ function stepCh() {
 function renderGlossary() {
   const map = {};
   TOPICS.forEach(t => t.terms.forEach(x => { const k = x.term.trim(); (map[k.toLowerCase()] = map[k.toLowerCase()] || { term: k, meaning: x.meaning, topics: [] }).topics.push(t); }));
-  const list = Object.values(map).sort((a, b) => a.term.localeCompare(b.term, 'en', { sensitivity: 'base' }));
-  const letters = [...new Set(list.map(x => x.term.replace(/^[^A-Za-z]+/, '')[0].toUpperCase()))];
-  $('#v-glossary').innerHTML = `<div class="section-head" style="margin-top:0"><div><h2>Glossary</h2><p>${list.length} words and ideas explained across the journey.</p></div></div>
-    <div class="searchbox"><svg class="ic"><use href="#ic-eye"/></svg><input id="gq" type="search" placeholder="Filter terms" aria-label="Filter terms"></div>
+  const list = Object.values(map).sort((a, b) => a.term.localeCompare(b.term, LANG, { sensitivity: 'base' }));
+  const letters = [...new Set(list.map(x => firstLetter(x.term)))];
+  $('#v-glossary').innerHTML = `<div class="section-head" style="margin-top:0"><div><h2>${T('Glossary')}</h2><p>${T('{0} words and ideas explained across the journey.', list.length)}</p></div></div>
+    <div class="searchbox"><svg class="ic"><use href="#ic-eye"/></svg><input id="gq" type="search" placeholder="${T('Filter terms')}" aria-label="${T('Filter terms')}"></div>
     <div class="alpha">${letters.map(l => `<button data-l="${l}">${l}</button>`).join('')}</div><div class="gl" id="gl"></div>`;
   const draw = q => {
     const f = list.filter(x => !q || (x.term + ' ' + x.meaning).toLowerCase().includes(q));
-    $('#gl').innerHTML = f.map(x => `<div class="term" data-letter="${x.term.replace(/^[^A-Za-z]+/, '')[0].toUpperCase()}"><b>${esc(x.term)}</b><span>${esc(x.meaning)}</span><div style="display:flex;flex-wrap:wrap;gap:6px">${x.topics.map(t => `<button class="chip" data-open="${t.id}" style="font-size:.74rem;padding:.2em .6em">${esc(t.title)}</button>`).join('')}</div></div>`).join('') || '<p class="muted">No terms match.</p>';
+    $('#gl').innerHTML = f.map(x => `<div class="term" data-letter="${firstLetter(x.term)}"><b>${esc(x.term)}</b><span>${esc(x.meaning)}</span><div style="display:flex;flex-wrap:wrap;gap:6px">${x.topics.map(t => `<button class="chip" data-open="${t.id}" style="font-size:.74rem;padding:.2em .6em">${esc(t.title)}</button>`).join('')}</div></div>`).join('') || `<p class="muted">${T('No terms match.')}</p>`;
     $$('#gl [data-open]').forEach(b => b.onclick = () => openTopic(b.dataset.open));
   };
   draw(''); $('#gq').oninput = e => draw(e.target.value.trim().toLowerCase());
@@ -1039,9 +1058,9 @@ function renderVerses() {
   const rows = Object.entries(SCRIPT.byBook).map(([bk, ks]) => [bk, ks.reduce((a, k) => a + SCRIPT.refs[k].length, 0)]).sort((a, b) => b[1] - a[1]).slice(0, 18);
   const max = rows[0][1]; bibleSel = bibleSel || rows[0][0];
   const total = Object.values(SCRIPT.refs).reduce((a, r) => a + r.length, 0);
-  $('#v-verses').innerHTML = `<div class="section-head" style="margin-top:0"><div><h2>Verse explorer</h2><p>${fmt(total)} Bible references across both books. Pick a book of the Bible, then a verse, to see which topics discuss it.</p></div></div>
-    <div class="explore-grid"><div class="panel"><h3 style="margin-bottom:10px">Most-cited books</h3><div class="bars">${rows.map(([bk, n]) => `<button class="brow" data-bk="${bk}" aria-pressed="${bk === bibleSel}"><span>${bk}</span><span class="track"><i style="width:${n / max * 100}%"></i></span><span class="v">${n}</span></button>`).join('')}</div></div>
-    <div class="panel"><h3 id="refTitle"></h3><p class="muted" id="refSub" style="margin:4px 0 12px"></p><div class="searchbox" style="padding:2px 2px 2px 14px;margin-bottom:12px"><input id="refQ" type="search" placeholder="Find a verse, e.g. 25:46" aria-label="Find a verse"></div><div class="refs" id="refs"></div><div id="reflist" class="results" style="margin-top:14px"></div></div></div>`;
+  $('#v-verses').innerHTML = `<div class="section-head" style="margin-top:0"><div><h2>${T('Verse explorer')}</h2><p>${T('{0} Bible references across both books. Pick a book of the Bible, then a verse, to see which topics discuss it.', fmt(total))}</p></div></div>
+    <div class="explore-grid"><div class="panel"><h3 style="margin-bottom:10px">${T('Most-cited books')}</h3><div class="bars">${rows.map(([bk, n]) => `<button class="brow" data-bk="${bk}" aria-pressed="${bk === bibleSel}"><span>${vr(bk)}</span><span class="track"><i style="width:${n / max * 100}%"></i></span><span class="v">${n}</span></button>`).join('')}</div></div>
+    <div class="panel"><h3 id="refTitle"></h3><p class="muted" id="refSub" style="margin:4px 0 12px"></p><div class="searchbox" style="padding:2px 2px 2px 14px;margin-bottom:12px"><input id="refQ" type="search" placeholder="${T('Find a verse, e.g. 25:46')}" aria-label="${T('Find a verse, e.g. 25:46')}"></div><div class="refs" id="refs"></div><div id="reflist" class="results" style="margin-top:14px"></div></div></div>`;
   $$('#v-verses .brow').forEach(b => b.onclick = () => { bibleSel = b.dataset.bk; renderVerses(); });
   $('#refQ').oninput = () => drawRefs();
   drawRefs();
@@ -1050,26 +1069,27 @@ function drawRefs(sel) {
   const q = $('#refQ').value.trim().toLowerCase();
   const sortK = (a, b) => { const pa = a.match(/(\d+):(\d+)$/), pb = b.match(/(\d+):(\d+)$/); return CANON.indexOf(a.replace(/ \d+:\d+$/, '')) - CANON.indexOf(b.replace(/ \d+:\d+$/, '')) || pa[1] - pb[1] || pa[2] - pb[2]; };
   const keys = (q ? Object.keys(SCRIPT.refs).filter(k => k.toLowerCase().includes(q)) : SCRIPT.byBook[bibleSel] || []).sort(sortK);
-  $('#refTitle').textContent = q ? `Verses matching "${$('#refQ').value.trim()}"` : bibleSel;
-  $('#refSub').textContent = keys.length ? `${keys.length} verses. The small number shows how often each is cited.` : 'No verses match.';
-  $('#refs').innerHTML = keys.slice(0, 400).map(k => `<button class="ref" data-k="${k}" aria-pressed="${k === sel}">${q ? k : k.replace(/^.* /, '')}${SCRIPT.refs[k].length > 1 ? `<sup>${SCRIPT.refs[k].length}</sup>` : ''}</button>`).join('');
+  $('#refTitle').textContent = q ? T('Verses matching "{0}"', $('#refQ').value.trim()) : vr(bibleSel);
+  $('#refSub').textContent = keys.length ? T('{0} verses. The small number shows how often each is cited.', keys.length) : T('No verses match.');
+  $('#refs').innerHTML = keys.slice(0, 400).map(k => `<button class="ref" data-k="${k}" aria-pressed="${k === sel}">${q ? vr(k) : k.replace(/^.* /, '')}${SCRIPT.refs[k].length > 1 ? `<sup>${SCRIPT.refs[k].length}</sup>` : ''}</button>`).join('');
   $$('#refs .ref').forEach(b => b.onclick = () => { drawRefs(b.dataset.k); showRef(b.dataset.k); });
   if (!sel) $('#reflist').innerHTML = '';
 }
 function showRef(k) {
   const hits = SCRIPT.refs[k]; const tids = [...new Set(hits.map(h => topicOfChapter[h.b + ':' + h.ci]).filter(Boolean))];
   const roles = TOPICS.flatMap(t => t.verses.filter(v => normRef(v.ref).replace(/[-–]\d+$/, '') === k).map(v => ({ t, role: v.role })));
-  $('#reflist').innerHTML = `<div class="eyebrow">${k}</div>` + roles.map(r => `<button class="res" data-open="${r.t.id}"><div class="where"><b>${esc(r.t.title)}</b><span>Key verse</span></div><div class="txt">${esc(r.role)}</div></button>`).join('') +
+  $('#reflist').innerHTML = `<div class="eyebrow">${vr(k)}</div>` + roles.map(r => `<button class="res" data-open="${r.t.id}"><div class="where"><b>${esc(r.t.title)}</b><span>${T('Key verse')}</span></div><div class="txt">${esc(r.role)}</div></button>`).join('') +
     tids.filter(id => !roles.some(r => r.t.id === id)).map(id => `<button class="res" data-open="${id}"><div class="where"><b>${esc(BYID[id].title)}</b><span>${esc(BYID[id].stage.title)}</span></div><div class="txt">${esc(BYID[id].hook)}</div></button>`).join('');
   $$('#reflist [data-open]').forEach(b => b.onclick = () => openTopic(b.dataset.open));
 }
 
 // ---------- search ----------
-const TINDEX = TOPICS.map(t => ({ t, text: [t.title, t.hook, t.tldr, ...t.points.flatMap(p => [p.title, p.text]), ...t.sections.flatMap(s => [s.h, s.summary]), ...t.terms.flatMap(x => [x.term, x.meaning]), ...t.mythfact.flatMap(m => [m.myth, m.fact]), ...(t.objections || []).flatMap(o => [o.claim, o.strongest, o.response]), ...(t.perspectives || []).flatMap(p => [p.title, p.summary, ...p.points]), ...((t.parable && t.parable.decoder) || []).flatMap(r => [r.symbol, r.original])].join(' ') }));
+let TINDEX = [];
+const buildIndex = () => { TINDEX = TOPICS.map(t => ({ t, text: [t.title, t.hook, t.tldr, ...t.points.flatMap(p => [p.title, p.text]), ...t.sections.flatMap(s => [s.h, s.summary]), ...t.terms.flatMap(x => [x.term, x.meaning]), ...t.mythfact.flatMap(m => [m.myth, m.fact]), ...(t.objections || []).flatMap(o => [o.claim, o.strongest, o.response]), ...(t.perspectives || []).flatMap(p => [p.title, p.summary, ...p.points]), ...((t.parable && t.parable.decoder) || []).flatMap(r => [r.symbol, r.original])].join(' ') })); };
 function renderSearch() {
-  $('#v-search').innerHTML = `<div class="section-head" style="margin-top:0"><div><h2>Search</h2><p>Find any idea in the topics, or any word in the full text of both books.</p></div></div>
-    <form class="searchbox" id="sForm" role="search"><svg class="ic"><use href="#ic-eye"/></svg><input id="q" type="search" placeholder="Try Gehenna, kolasis, Origen, Lazarus…" autocomplete="off" aria-label="Search"><button class="btn primary" type="submit">Search</button></form>
-    <div class="filters">${['Gehenna', 'aionios', 'kolasis', 'Origen', 'Augustine', 'Sheol', 'outer darkness', 'lake of fire', 'annihilation', 'restoration'].map(x => `<button class="chip" data-s="${x}">${x}</button>`).join('')}</div>
+  $('#v-search').innerHTML = `<div class="section-head" style="margin-top:0"><div><h2>${T('Search')}</h2><p>${T('Find any idea in the topics, or any word in the full text of both books.')}</p></div></div>
+    <form class="searchbox" id="sForm" role="search"><svg class="ic"><use href="#ic-eye"/></svg><input id="q" type="search" placeholder="${T('Try Gehenna, kolasis, Origen, Lazarus…')}" autocomplete="off" aria-label="${T('Search')}"><button class="btn primary" type="submit">${T('Search')}</button></form>
+    <div class="filters">${(LANG === 'ta' ? ['கெஹென்னா', 'கொலாசிஸ்', 'அயோனியோஸ்', 'ஷியோல்', 'புறம்பான இருள்', 'அக்கினிக் கடல்', 'லாசரு', 'உவமை', 'Gehenna', 'Origen'] : ['Gehenna', 'aionios', 'kolasis', 'Origen', 'Augustine', 'Sheol', 'outer darkness', 'lake of fire', 'annihilation', 'restoration']).map(x => `<button class="chip" data-s="${x}">${x}</button>`).join('')}</div>
     <div id="sOut"></div>`;
   const run = () => {
     const raw = $('#q').value.trim(); if (raw.length < 2) { $('#sOut').innerHTML = ''; return; }
@@ -1077,8 +1097,8 @@ function renderSearch() {
     const tops = TINDEX.filter(x => terms.every(t => x.text.toLowerCase().includes(t)));
     const full = ALLTEXT.filter(x => terms.every(t => x.low.includes(t)));
     const snip = (s, at) => { const st = Math.max(0, at - 120); return (st ? '…' : '') + s.slice(st, st + 300) + (st + 300 < s.length ? '…' : ''); };
-    $('#sOut').innerHTML = `<h3 style="margin:18px 0 10px">Topics (${tops.length})</h3><div class="results">${tops.map(x => { const at = x.text.toLowerCase().indexOf(terms[0]); return `<button class="res" data-open="${x.t.id}"><div class="where"><b>${esc(x.t.title)}</b><span>${esc(x.t.stage.title)}</span></div><div class="txt">${esc(snip(x.text, at)).replace(re, '<mark>$1</mark>')}</div></button>`; }).join('') || '<p class="muted">No topics mention this.</p>'}</div>
-      <h3 style="margin:26px 0 10px">In the full text (${fmt(full.length)} paragraphs${full.length > 100 ? ', first 100 shown' : ''})</h3><div class="results">${full.slice(0, 100).map((h, i) => { const c = BOOKS[h.b].chapters[h.ci]; const tid = topicOfChapter[h.b + ':' + h.ci]; return `<button class="res" data-i="${i}"><div class="where"><b>${esc(tid ? BYID[tid].title : c.title)}</b><span>${esc(BOOKS[h.b].short)} · p. ${c.blocks[h.bi].pg}</span></div><div class="txt">${esc(snip(h.t, h.low.indexOf(terms[0]))).replace(re, '<mark>$1</mark>')}</div></button>`; }).join('')}</div>`;
+    $('#sOut').innerHTML = `<h3 style="margin:18px 0 10px">${T('Topics ({0})', tops.length)}</h3><div class="results">${tops.map(x => { const at = x.text.toLowerCase().indexOf(terms[0]); return `<button class="res" data-open="${x.t.id}"><div class="where"><b>${esc(x.t.title)}</b><span>${esc(x.t.stage.title)}</span></div><div class="txt">${esc(snip(x.text, at)).replace(re, '<mark>$1</mark>')}</div></button>`; }).join('') || `<p class="muted">${T('No topics mention this.')}</p>`}</div>
+      <h3 style="margin:26px 0 10px">${full.length > 100 ? T('In the full text ({0} paragraphs, first 100 shown)', fmt(full.length)) : T('In the full text ({0} paragraphs)', fmt(full.length))}</h3><div class="results">${full.slice(0, 100).map((h, i) => { const c = BOOKS[h.b].chapters[h.ci]; const tid = topicOfChapter[h.b + ':' + h.ci]; return `<button class="res" data-i="${i}"><div class="where"><b>${esc(tid ? BYID[tid].title : c.title)}</b><span>${esc(BOOKS[h.b].short)} · ${T('p. {0}', c.blocks[h.bi].pg)}</span></div><div class="txt">${esc(snip(h.t, h.low.indexOf(terms[0]))).replace(re, '<mark>$1</mark>')}</div></button>`; }).join('')}</div>`;
     $$('#sOut [data-open]').forEach(b => b.onclick = () => openTopic(b.dataset.open));
     $$('#sOut [data-i]').forEach(b => b.onclick = () => { const h = full[+b.dataset.i]; const tid = topicOfChapter[h.b + ':' + h.ci]; if (tid) openTopic(tid, { fast: true, after: () => jumpToBlock(h, terms[0]) }); else showNotes(h, terms[0]); });
   };
@@ -1095,12 +1115,56 @@ function jumpToBlock(h, term) {
 function showNotes(h, term) { const c = BOOKS[h.b].chapters[h.ci]; placePop($('#sOut'), `<div class="h">${esc(BOOKS[h.b].short)} · ${esc(c.title)}</div>${esc(h.t)}`); }
 
 // ---------- boot ----------
-$('#pdfLinks').innerHTML = Object.values(BOOKS).map(b => `<a href="${REPO + encodeURI(b.pdf)}" target="_blank" rel="noopener">${esc(b.short)} (PDF)</a>`).join(' · ');
+// ---------- language ----------
+const CONTENT_KEYS = ['hook', 'tldr', 'big_idea', 'points', 'sections', 'visuals', 'mythfact', 'terms', 'quotes', 'verses', 'quiz', 'reflect', 'parable', 'objections', 'sources'];
+TOPICS.forEach(t => { t._en = { title: t.title }; CONTENT_KEYS.forEach(k => { if (k in t) t._en[k] = t[k]; }); t._en.perspectives = t.perspectives; });
+D.stages.forEach(s => { s._en = { title: s.title, desc: s.desc }; });
+Object.values(BOOKS).forEach(b => { b._en = { short: b.short, title: b.title }; });
+Object.entries(ILL).forEach(([id, il]) => { il._en = { title: il.title, caption: il.caption, svg: il.svg, hotspots: il.hotspots }; });
+function setLang(l) {
+  LANG = l === 'ta' ? 'ta' : 'en'; S.lang = LANG; save();
+  document.documentElement.lang = LANG;
+  TOPICS.forEach(t => {
+    const tr = LANG === 'ta' && TA.topics && TA.topics[t.id];
+    Object.assign(t, t._en);
+    if (tr) { CONTENT_KEYS.forEach(k => { if (k in tr) t[k] = tr[k]; }); if (TA.titles && TA.titles[t.id]) t.title = TA.titles[t.id]; }
+    if (LANG === 'ta' && TA.persp && TA.persp[t.id]) t.perspectives = TA.persp[t.id];
+  });
+  D.stages.forEach(s => { Object.assign(s, s._en); const st = LANG === 'ta' && TA.stages && TA.stages[s.id]; if (st) Object.assign(s, st); });
+  Object.entries(BOOKS).forEach(([id, b]) => { Object.assign(b, b._en); const tb = LANG === 'ta' && TA.books && TA.books[id]; if (tb) Object.assign(b, tb); });
+  Object.entries(ILL).forEach(([id, il]) => {
+    Object.assign(il, il._en); const ti = LANG === 'ta' && TA.illus && TA.illus[id]; if (!ti) return;
+    il.title = ti.title; il.caption = ti.caption; il.hotspots = il._en.hotspots.map((h, i) => ({ ...h, label: ti.hotspots[i].label, text: ti.hotspots[i].text }));
+    let svg = il._en.svg; Object.entries(ti.svg_labels || {}).sort((a, b) => b[0].length - a[0].length).forEach(([en, ta]) => { svg = svg.split('>' + en + '</text>').join('>' + ta + '</text>'); }); il.svg = svg;
+  });
+  buildIndex();
+  $$('[data-i18n]').forEach(el => { el.textContent = T(el.dataset.i18n); });
+  $$('[data-i18n-title]').forEach(el => { el.title = T(el.dataset.i18nTitle); });
+  $$('[data-i18n-aria]').forEach(el => { el.setAttribute('aria-label', T(el.dataset.i18nAria)); });
+  $$('.langsw button').forEach(b => b.setAttribute('aria-pressed', b.dataset.lang === LANG));
+  $('.langsw').setAttribute('aria-label', T('Language'));
+  $('#footText').innerHTML = T('Based on {0} (2024) and {1} (2nd ed., 2026). Summaries and diagrams condense the books; the full text of every chapter is included in each topic. The Parables and Objections stages draw on outside sources, listed in each topic.', '<i>Hell: A Jewish Perspective on a Christian Doctrine</i>', '<i>Hellfire Deconstructed</i>');
+  $('#pdfLinks').innerHTML = Object.values(BOOKS).map(b => `<a href="${REPO + encodeURI(b.pdf)}" target="_blank" rel="noopener">${esc(b.short)} (PDF)</a>`).join(' · ');
+  document.title = T('Beyond the Fire');
+  drawSwatches();
+}
+function rerender() {
+  if (view === 'topic') { const id = (location.hash || '').replace('#t-', ''); if (BYID[id]) { const y = scrollY; openTopic(id, { fast: true, after: () => scrollTo({ top: y }) }); } }
+  else go(view);
+}
+$$('.langsw button').forEach(b => b.onclick = () => { if (b.dataset.lang === LANG) return; setLang(b.dataset.lang); rerender(); });
+
+// ---------- boot ----------
 $('#xp span').textContent = fmt(S.xp);
+setLang(S.lang || 'en');
 applyLook();
-const h = (location.hash || '').slice(1);
-if (h.startsWith('t-') && BYID[h.slice(2)]) openTopic(h.slice(2), { fast: true });
-else if (['quiz', 'glossary', 'verses', 'search'].includes(h)) go(h);
-else { show('home'); renderHome(); }
+function route() {
+  const h = (location.hash || '').slice(1);
+  if (h.startsWith('t-') && BYID[h.slice(2)]) { if (!(view === 'topic' && $('#v-topic h1') && lastTopic === h.slice(2))) openTopic(h.slice(2), { fast: true }); }
+  else if (['quiz', 'glossary', 'verses', 'search'].includes(h)) { if (view !== h) go(h); }
+  else if (view !== 'home' || !$('#v-home .hero')) { show('home'); renderHome(); }
+}
+addEventListener('hashchange', route);
+route();
 })();
 </script>

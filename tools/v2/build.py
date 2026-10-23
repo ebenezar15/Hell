@@ -67,7 +67,28 @@ for st in STAGES:
         continue
     stages.append(dict(id=sid, title=title, desc=desc, icon=STAGE_ICON[sid], topics=ts, extras=extras))
 
-data = dict(stages=stages, books=books, iconAlias={k: 1 for k in ALIAS})
+TA_DIR = os.path.join(D, 'ta')
+ta = {'ui': json.load(open(os.path.join(D, 'ui_ta.json'))), 'bible': json.load(open(os.path.join(D, 'glossary_ta.json')))['bible_books'],
+      'topics': {}, 'persp': {}, 'titles': {}, 'stages': {}, 'books': {}, 'illus': {}}
+if os.path.isdir(TA_DIR):
+    ids = {t['id'] for s in stages for t in s['topics']}
+    for f in sorted(os.listdir(os.path.join(TA_DIR, 'topics'))):
+        tid = f[:-5]
+        if tid in ids:
+            ta['topics'][tid] = json.load(open(os.path.join(TA_DIR, 'topics', f)))
+    for f in sorted(os.listdir(TA_DIR)):
+        if f.startswith('persp_') and f.endswith('.json'):
+            for k, v in json.load(open(os.path.join(TA_DIR, f))).items():
+                ta['persp'].setdefault(k, []).extend(v)
+    st = os.path.join(TA_DIR, 'stages_ta.json')
+    if os.path.exists(st):
+        st = json.load(open(st)); ta['titles'] = st.get('topics', {}); ta['stages'] = st.get('stages', {}); ta['books'] = st.get('books', {})
+    il = os.path.join(TA_DIR, 'illustrations_ta.json')
+    if os.path.exists(il):
+        ta['illus'] = json.load(open(il))
+    missing = sorted(ids - set(ta['topics']))
+    print('  tamil topics', len(ta['topics']), 'missing', missing)
+data = dict(stages=stages, books=books, iconAlias={k: 1 for k in ALIAS}, ta=ta)
 js = json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
 assert 'Eitan' not in js, 'author name leaked'
 illus = open(os.path.join(D, 'illustrations.js')).read()
