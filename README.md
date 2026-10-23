@@ -14,8 +14,10 @@ A visual, interactive guide to what the Bible says about hell. It is built from 
 
 ## What's inside
 
-- A 9-stage journey of 72 topics: The Words, How We Got Here, The Theology Behind Hellfire, The Verses One by One, The Parables Decoded, God's Character on Trial, An Alternative View, and Objections Answered.
+- A 9-stage journey of 75 topics: The Words, How We Got Here, The Theology Behind Hellfire, The Verses One by One, The Parables Decoded, God's Character on Trial, An Alternative View, and Objections Answered.
 - The Parables Decoded: 12 parables often cited for hell (wheat and weeds, dragnet, wedding feast, ten virgins, talents and minas, faithful and wicked servant, unforgiving servant, wicked tenants, barren fig tree, vine, rich fool, Luke 15), each with a "decode the parable" table of what each image meant to its first hearers. The wheat and weeds includes the reading of Matthew 13:40-42 from Redeeming God (Jeremy Myers).
+- How to Read a Parable, and two more passages: Isaiah 33:10-16 ("everlasting burnings") and James 3:6 (the tongue "set on fire by Gehenna").
+- "Another perspective" panels on 20 topics, summarising Jeremy Myers' Redeeming God "What is Hell?" series with links to each article (`tools/v2/perspectives/`, spec in `SPEC-perspective.md`).
 - Objections Answered: 8 topics and about 60 objections (scriptural, cultural, historical, philosophical and pastoral), each stated in its strongest form and then answered, with sources from both sides.
 - Each topic gives:
   - a 30-second answer and key-idea cards
