@@ -1,0 +1,114 @@
+{
+  "id": "tenvirgins",
+  "title": "The Ten Virgins",
+  "kind": "parable",
+  "hook": "Does a shut wedding door really describe endless torment in fire?",
+  "tldr": "Ten young women wait at night to escort a bridegroom with oil torches. He is late, five run out of oil, and while they buy more the door to the feast is shut. The loss is missing the wedding. There is no fire, no worm and no torment in the story.",
+  "big_idea": "Be ready for the bridegroom; the cost of unreadiness is missing the feast.",
+  "points": [
+    {"icon": "lamp", "title": "Torches, not table lamps", "text": "Joachim Jeremias argued lampades here means torches: sticks wrapped in oil-soaked rags. Gundry notes they burned about fifteen minutes before needing more oil, so each bearer had to carry a supply.", "verses": ["Matthew 25:1", "Matthew 25:3-4"]},
+    {"icon": "people", "title": "A night procession", "text": "The bridegroom came at night and the party escorted him with lights to the feast. D. A. Carson notes anyone without a torch could be taken for a party crasher.", "verses": ["Matthew 25:6", "Matthew 25:10"]},
+    {"icon": "temple", "title": "Answering a question about the temple", "text": "The parable belongs to Jesus' answer on the Mount of Olives to the disciples' question about when the temple would fall and the sign of his coming.", "verses": ["Matthew 24:1-3", "Matthew 24:34"]},
+    {"icon": "door", "title": "Shut out of a feast", "text": "The foolish arrive late, the door is shut, and the bridegroom says he does not know them. The penalty pictured is exclusion from the celebration, not punishment.", "verses": ["Matthew 25:10-12"]},
+    {"icon": "cross-x", "title": "No fire in the story", "text": "Unlike the servant parable before it and the sheep and goats after it, this parable has no fire, darkness, weeping or torment. It ends simply: keep watch.", "verses": ["Matthew 25:13", "Matthew 24:51", "Matthew 25:41"]},
+    {"icon": "clock", "title": "All ten fell asleep", "text": "Wise and foolish alike slept while the bridegroom delayed. The difference was not staying awake but having oil ready when the cry came at midnight.", "verses": ["Matthew 25:5-7"]}
+  ],
+  "sections": [
+    {"h": "The story", "icon": "lamp", "summary": "Ten virgins take torches to meet the bridegroom. Five foolish bring no extra oil; five wise bring flasks. He is delayed and all sleep. At midnight comes the cry to go out and meet him. The foolish ask to borrow oil, are told to buy it, and while they are gone he arrives. The ready go in, the door is shut, and he says, I do not know you.", "verses": ["Matthew 25:1-13"], "src": "web"},
+    {"h": "Where the parable sits", "icon": "temple", "summary": "As they leave the temple, Jesus says not one stone will be left on another. On the Mount of Olives the disciples ask when this will happen and what the sign of his coming and of the end of the age will be. He warns that this generation will not pass away before all these things happen, then tells three watchfulness parables.", "verses": ["Matthew 24:1-3", "Matthew 24:34", "Matthew 24:36"], "src": "web"},
+    {"h": "A first-century wedding night", "icon": "people", "summary": "The bridegroom fetched his bride and led a night procession to the feast. Carson suggests the virgins were bridesmaids meeting him on the way. Lights were required in dark streets. Some commentators report Talmudic remarks that ten lamps were usual in a bridal procession. Records are limited and later rabbinic sources do not fix every first-century detail, so specifics remain debated.", "verses": ["Matthew 25:1", "Matthew 25:6"], "src": "web"},
+    {"h": "Torches and oil", "icon": "flame", "summary": "Jeremias argued the lampades were torches: long sticks topped with rags soaked in olive oil. Gundry adds they resist wind, burn bright, last about fifteen minutes and must be re-soaked. A long delay meant spare oil was essential. The foolish say their torches are going out, and with shops shut at midnight there is no quick fix.", "verses": ["Matthew 25:3-4", "Matthew 25:8-9"], "src": "web"},
+    {"h": "Going out to meet him", "icon": "path", "summary": "Go out to meet him uses apantesis, a meeting, a word found also in Acts 28:15 and 1 Thessalonians 4:17. Many read it as a welcoming party that goes out and escorts an arriving dignitary in. Others caution the escort meaning is an inference, not fixed by the word itself. Either way the virgins' job is to welcome and accompany.", "verses": ["Matthew 25:6", "Acts 28:15", "1 Thessalonians 4:17"], "src": "web"},
+    {"h": "The shut door and I do not know you", "icon": "lock", "summary": "Commentators link the refusal to Matthew 7:23 and read it as not acknowledging the foolish as true members of the party. Meyer saw it as a conclusion from absence: those outside cannot belong to the bridal procession. The Pulpit Commentary says this sentence is not the same as verse 41's everlasting fire. Some see final judgment; the Grace Evangelical Society doubts it means losing the kingdom.", "verses": ["Matthew 25:10-12", "Matthew 7:21-23", "Luke 13:25"], "src": "web"},
+    {"h": "AD 70 or the final coming?", "icon": "hourglass", "summary": "Preterist writers such as Gary DeMar read Matthew 24:36 to 25:30 as looking ahead to AD 70; Mike Rogers sees all ten virgins as Israelites, wise believers and foolish rejecters of Jesus. Futurists like Stanley Toussaint argue that day in 24:36 shifts to a later event. Others see both: the visible church at Jerusalem's fall and at the judgment.", "verses": ["Matthew 24:34", "Matthew 24:36", "Matthew 25:13"], "src": "web"},
+    {"h": "Why no fire?", "icon": "cross-x", "summary": "The parable's whole loss is a closed door on a party. Unlike the wicked servant cut to pieces with the hypocrites, or the goats sent to the eternal fire, nothing here is burned, chained or tormented. Readers who reject eternal torment say a story about missing a feast should not be loaded with images it never uses.", "verses": ["Matthew 24:51", "Matthew 25:30", "Matthew 25:41", "Matthew 25:10"], "src": "web"},
+    {"h": "Grace and the delayed bridegroom", "icon": "heart", "summary": "Aidan Kimel, following Robert Farrar Capon, reads the parable as a krisis built into the story and notes it is the bridegroom's delay that exposes everyone's lack. He treats the shut door as God's answer to worldly wisdom, a statement about those who never bothered to know Christ, not proof that God never loved them.", "verses": ["Matthew 25:5", "Matthew 25:12"], "src": "web"},
+    {"h": "The traditional reading", "icon": "alert", "summary": "Traditional commentators see the wise as genuine believers and the foolish as mere professors, oil as true faith or the Spirit that cannot be borrowed, the bridegroom as Christ at his return, and the shut door as final judgment with no second chance. R. T. France reads it as a warning to the professing church not to assume its future is assured.", "verses": ["Matthew 25:9", "Matthew 25:12", "Matthew 25:13"], "src": "web"}
+  ],
+  "parable": {
+    "ref": "Matthew 25:1-13",
+    "audience": "The disciples, privately on the Mount of Olives, after asking about the temple's destruction.",
+    "setting": "The middle of three watchfulness parables in the Olivet Discourse, after Jesus foretold the temple's fall within this generation. It pictures a village wedding at night, with torch-bearing attendants waiting to escort a delayed bridegroom.",
+    "decoder": [
+      {"symbol": "The ten virgins", "traditional": "Professing Christians, true and false, awaiting the Second Coming.", "original": "Bridal attendants; Mike Rogers reads them as Israel, with prophets calling Israel a virgin, split over Jesus."},
+      {"symbol": "The bridegroom", "traditional": "Christ returning at the end of the world.", "original": "The Son of Man coming in judgment; Jesus already called himself the bridegroom, and the prophets pictured God as Israel's husband."},
+      {"symbol": "The delay", "traditional": "The long church age before the Second Coming.", "original": "A real wedding custom; the coming would be later than some expected, yet within the warnings of Matthew 24."},
+      {"symbol": "The oil", "traditional": "Saving faith or the Holy Spirit, which no one can lend.", "original": "Practical readiness: torches burned out in minutes, so each bearer needed a personal supply."},
+      {"symbol": "The shut door", "traditional": "Final, irreversible exclusion into hell.", "original": "Closing a house when the procession arrived; those outside miss the feast. Its scope is debated."},
+      {"symbol": "I do not know you", "traditional": "Eternal rejection by Christ.", "original": "Refusal to acknowledge latecomers as part of the party, echoing Matthew 7:23."}
+    ]
+  },
+  "visuals": [
+    {"type": "flow", "title": "A wedding night in Galilee", "steps": [
+      {"label": "Attendants take torches", "note": "Oil-soaked rag torches; wise bearers also carry flasks of oil."},
+      {"label": "The bridegroom is delayed", "note": "All ten, wise and foolish, fall asleep."},
+      {"label": "Midnight cry", "note": "Go out to meet him: the escort begins."},
+      {"label": "Torches going out", "note": "Each torch lasts minutes; the foolish have no refill."},
+      {"label": "Off to buy oil", "note": "The wise have only enough for their own torches."},
+      {"label": "Procession enters, door shut", "note": "Latecomers knock, but the host does not recognize them."}
+    ], "caption": "The whole drama is a real village wedding; its only penalty is missing the feast."},
+    {"type": "verse", "title": "The ending, read closely", "ref": "Matthew 25:10-13 (ESV)", "text": "And while they were going to buy, the bridegroom came, and those who were ready went in with him to the marriage feast, and the door was shut. Afterward the other virgins came also, saying, 'Lord, lord, open to us.' But he answered, 'Truly, I say to you, I do not know you.' Watch therefore, for you know neither the day nor the hour.", "notes": [
+      {"phrase": "those who were ready", "note": "Readiness, not wakefulness, is the dividing line; all ten had slept."},
+      {"phrase": "the marriage feast", "note": "What is at stake is a celebration, not a place of punishment."},
+      {"phrase": "the door was shut", "note": "A house closed after the procession. Traditional readers see final exclusion; others debate its scope."},
+      {"phrase": "I do not know you", "note": "Echoes Matthew 7:23; a refusal of recognition, with no fire attached."},
+      {"phrase": "you know neither the day nor the hour", "note": "Ties back to Matthew 24:36 and the disciples' question about the temple."}
+    ]},
+    {"type": "compare", "title": "Two ways to read the coming", "left": {"label": "AD 70 reading", "items": ["Answers the temple question of Matthew 24:3", "This generation sets the time frame", "Virgins are Israel, split over Jesus", "Shut door: exclusion from the kingdom feast", "No fire: loss, not torment"]}, "right": {"label": "Final-coming reading", "items": ["That day in 24:36 shifts to a later event", "The bridegroom is Christ returning", "Virgins are professing Christians", "Shut door: final judgment, no second chance", "Fire is supplied from Matthew 25:41"]}, "caption": "Some readers hold both: a near fulfillment at Jerusalem's fall and a final one at the judgment."}
+  ],
+  "mythfact": [
+    {"myth": "The ten virgins parable describes people burning in hell.", "fact": "The parable has no fire, darkness, worm or torment. The foolish simply arrive late and find the wedding door shut."},
+    {"myth": "The wise virgins were selfish for refusing to share oil.", "fact": "Torches burned for minutes. Splitting the oil risked every light going out mid-procession, so sharing would have failed both."},
+    {"myth": "The foolish virgins failed because they fell asleep.", "fact": "All ten slept. The wise were ready because they brought oil, not because they stayed awake."},
+    {"myth": "The parable floats free of history.", "fact": "It answers the disciples' question about the temple's fall, given right after Jesus said this generation would see all these things."}
+  ],
+  "terms": [
+    {"term": "Lampas", "meaning": "Lamp or torch; Jeremias argued it means a torch here, a stick wrapped in oil-soaked rags."},
+    {"term": "Apantesis", "meaning": "A meeting; going out to welcome an arriving person, also in Acts 28:15 and 1 Thessalonians 4:17."},
+    {"term": "Olivet Discourse", "meaning": "Jesus' teaching on the Mount of Olives in Matthew 24-25, prompted by the question about the temple."},
+    {"term": "Sunteleia tou aionos", "meaning": "Completion of the age, the phrase in the disciples' question in Matthew 24:3."},
+    {"term": "Preterism", "meaning": "The view that much or all of the Olivet Discourse was fulfilled in the Roman destruction of Jerusalem in AD 70."}
+  ],
+  "quotes": [
+    {"text": "Everyone in the procession was expected to carry his or her own torch. Those without a torch would be assumed to be party crashers or even brigands.", "who": "D. A. Carson, Expositor's Bible Commentary"},
+    {"text": "But he answered, 'Truly, I say to you, I do not know you.' Watch therefore, for you know neither the day nor the hour.", "who": "Matthew 25:12-13 (ESV)"},
+    {"text": "Truly, I say to you, this generation will not pass away until all these things take place.", "who": "Matthew 24:34 (ESV)"}
+  ],
+  "verses": [
+    {"ref": "Matthew 24:1-3", "role": "The temple prophecy and the disciples' question that the whole discourse answers."},
+    {"ref": "Matthew 24:34", "role": "This generation: the time frame preterists apply to the parables."},
+    {"ref": "Matthew 24:36", "role": "No one knows the day or hour; futurists see a shift to a later event."},
+    {"ref": "Matthew 25:5", "role": "All ten slept; the difference was oil, not wakefulness."},
+    {"ref": "Matthew 25:8-9", "role": "Torches going out; oil cannot be split without failing everyone."},
+    {"ref": "Matthew 25:10", "role": "The shut door: loss of the wedding feast, nothing more is pictured."},
+    {"ref": "Matthew 25:12", "role": "I do not know you: refusal of recognition, echoing Matthew 7:23."},
+    {"ref": "Matthew 25:13", "role": "The moral: keep watch. Not a description of punishment."},
+    {"ref": "Matthew 7:23", "role": "Parallel words of non-recognition to false followers."},
+    {"ref": "Luke 13:25", "role": "Another shut door; the master does not know where they come from."}
+  ],
+  "quiz": [
+    {"q": "What were the virgins most likely carrying?", "options": ["Clay table lamps", "Torches of oil-soaked rags", "Candles"], "answer": 1, "why": "Jeremias argued lampades means torches, which burned briefly and needed constant re-soaking in oil."},
+    {"q": "What question prompted the discourse containing this parable?", "options": ["How to pray", "When the temple would be destroyed", "Who is the greatest"], "answer": 1, "why": "In Matthew 24:1-3 the disciples ask when the temple would fall and what the sign of his coming would be."},
+    {"q": "What happens to the foolish virgins in the story?", "options": ["They are burned", "They are thrown into darkness", "They miss the feast behind a shut door"], "answer": 2, "why": "The parable ends with a shut door and I do not know you. No fire or torment appears."}
+  ],
+  "reflect": "If the worst thing in this story is missing a feast, what does that suggest about what Jesus most wants you to gain?",
+  "related": ["awayfromme", "narrow", "sheepgoats", "darkness", "eternal", "destruction"],
+  "sources": [
+    {"title": "What is the meaning of the Parable of the Ten Virgins? (GotQuestions)", "url": "https://www.gotquestions.org/parable-ten-virgins.html", "note": "Traditional evangelical reading; cites Carson on the night procession and torches."},
+    {"title": "The Parable of the Ten Virgins (Thirdmill, Chamblin)", "url": "https://thirdmill.org/magazine/article.asp/link/kno_chamblin%5ENT.Chamblin.Matt.25.1-13.html/at/The%20Parable%20of%20the%20Ten%20Virgins", "note": "Jeremias and Gundry on torches, oil-soaked rags and fifteen-minute burn time."},
+    {"title": "Why does the parable of the ten virgins assume an unfamiliar wedding custom? (Bible Hub)", "url": "https://biblehub.com/q/why_is_the_ten_virgins_parable_unclear.htm", "note": "Limits of the evidence for first-century wedding customs."},
+    {"title": "Matthew 25:12 Commentaries (Bible Hub)", "url": "https://biblehub.com/commentaries/matthew/25-12.htm", "note": "Ellicott, Meyer, Pulpit Commentary on I do not know you."},
+    {"title": "The Ten Virgins (Grace Evangelical Society)", "url": "https://faithalone.org/grace-in-focus-articles/the-ten-virgins/", "note": "Doubts the foolish virgins lose the kingdom itself."},
+    {"title": "Parable of the Ten Virgins (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Parable_of_the_Ten_Virgins", "note": "Overview; cites R. T. France's warning-to-the-church reading."},
+    {"title": "Parables of Watchfulness (Mike Rogers)", "url": "https://www.mikerogersad70.com/parables-of-watchfulness/", "note": "Preterist: virgins as Israel between the discourse and AD 70."},
+    {"title": "Critique of The Preterist View of the Olivet Discourse (Toussaint)", "url": "https://evidenceandanswers.org/article/critique-preterist-view-olivet-discourse/", "note": "Futurist critique of DeMar and Gentry's AD 70 reading."},
+    {"title": "The Krisis of the Bridegroom (Eclectic Orthodoxy)", "url": "https://afkimel.wordpress.com/2022/02/27/the-krisis-of-the-bridegroom/", "note": "Aidan Kimel, following Capon: grace-centered, hopeful reading of the shut door."},
+    {"title": "Strong's Greek 529: apantesis", "url": "https://biblehub.com/greek/529.htm", "note": "Meeting; occurrences in Matthew 25:6, Acts 28:15, 1 Thessalonians 4:17."}
+  ],
+  "objections": [
+    {"claim": "The shut door means a final, eternal exclusion: once it closes, the foolish are locked out of salvation forever.", "kind": "scriptural", "strongest": "No appeal opens the door, and Lord, lord meets only I do not know you. Commentators note no appeal can change that reality. A door that never reopens is the clearest picture of irreversible, eternal loss.", "response": "The story does picture a decisive, painful loss, and that should be taken seriously. But what is lost is a feast; the door closes a house after a procession, exactly as at real weddings. The parable says nothing about where the foolish go next, how long, or what they suffer. Readers who reject torment differ: AD 70 readers see exclusion from the kingdom's arrival, conditionalists see final loss of life, and Kimel sees God's verdict on worldly wisdom rather than proof God never loved them. None of them finds torment in a closed door.", "verses": ["Matthew 25:10-12", "Luke 13:25"], "sources": ["https://biblehub.com/commentaries/matthew/25-12.htm", "https://afkimel.wordpress.com/2022/02/27/the-krisis-of-the-bridegroom/", "https://www.mikerogersad70.com/parables-of-watchfulness/"]},
+    {"claim": "Matthew 25 must be read whole: the foolish virgins end up with the goats in the everlasting fire of verse 41.", "kind": "scriptural", "strongest": "The three parables of Matthew 25 build to the sheep and goats, where the rejected depart into eternal fire. I do not know you echoes Matthew 7:23's depart from me. Context fills in what the short parable leaves implicit.", "response": "Context matters, but so do differences. Even the Pulpit Commentary says I do not know you is not equivalent to verse 41's sentence to everlasting fire. Matthew can add fire, darkness or weeping when he means to, and he does so in 24:51 and 25:30, yet not here. Importing verse 41 into this parable also imports its own debated words, eternal and punishment, which other topics in this app examine. This parable's own picture is a missed celebration.", "verses": ["Matthew 25:41", "Matthew 7:23", "Matthew 24:51", "Matthew 25:30"], "sources": ["https://biblehub.com/commentaries/matthew/25-12.htm", "https://www.gotquestions.org/parable-ten-virgins.html"]},
+    {"claim": "The AD 70 reading fails: Matthew 24:36 turns from Jerusalem's fall to the Second Coming, so the virgins await Christ's final return.", "kind": "historical", "strongest": "Futurists like Stanley Toussaint argue that the shift from this generation to that day marks a change of time. The bridegroom's coming, the parousia, did not visibly happen in AD 70, so the parable must point beyond the first century.", "response": "This is a real exegetical debate. Preterists such as Gary DeMar answer that the whole of 24:36 to 25:30 still answers the disciples' single question about the temple, and that the servants and virgins live to see the master's return. Others hold a double fulfillment: Jerusalem's fall and the final judgment. On any of these timings the parable's content is unchanged: unready people miss a feast. Settling the date does not add torment to it.", "verses": ["Matthew 24:3", "Matthew 24:34", "Matthew 24:36"], "sources": ["https://evidenceandanswers.org/article/critique-preterist-view-olivet-discourse/", "https://www.mikerogersad70.com/parables-of-watchfulness/"]},
+    {"claim": "An argument from silence proves nothing: parables teach one point, and the fire of hell is taught elsewhere.", "kind": "philosophical", "strongest": "No parable gives a full doctrine of judgment. The ten virgins teach readiness; other passages teach the nature of punishment. Absence of fire here no more denies hell than absence of the cross denies atonement.", "response": "Agreed: this parable alone cannot settle the doctrine of hell. That is exactly the point. It is often cited as a picture of eternal torment, and it is not one. Its one image of loss is a shut door on a feast, and its one command is watch. Whatever one concludes about final judgment must be argued from texts that actually address it, read in their own setting, not drawn from a wedding story that never mentions fire.", "verses": ["Matthew 25:13"], "sources": ["https://en.wikipedia.org/wiki/Parable_of_the_Ten_Virgins", "https://faithalone.org/grace-in-focus-articles/the-ten-virgins/"]}
+  ]
+}

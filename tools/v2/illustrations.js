@@ -31,7 +31,7 @@ window.ILLUSTRATIONS = {
   },
   gehenna: {
     title: 'Jerusalem and the Valley of Hinnom',
-    caption: 'Schematic map, not to scale. Gehenna was a real valley outside the city walls: once a site of child sacrifice, later linked with the city dump and its fires.',
+    caption: 'Schematic map, not to scale. Gehenna was a real valley outside the city walls, once a site of child sacrifice. Its later link with a burning city dump is debated by scholars (see Straw Men and Quick Replies).',
     hotspots: [
       { id: 'hinnom', label: 'Valley of Hinnom', text: 'Gey Hinnom, "Gehenna". Site of Topheth, where children were sacrificed by fire (2 Kings 23:10; Jeremiah 19:6). A symbol of shame and judgment.' },
       { id: 'kidron', label: 'Kidron Valley', text: 'The Kidron Valley encompasses the Valley of Hinnom. An Early Roman (1st century CE) city dump has been excavated in the Kidron area.' },

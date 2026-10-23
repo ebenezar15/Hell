@@ -14,7 +14,9 @@ A visual, interactive guide to what the Bible says about hell. It is built from 
 
 ## What's inside
 
-- A 7-stage journey of 52 topics: The Words, How We Got Here, The Theology Behind Hellfire, The Verses One by One, God's Character on Trial, and An Alternative View.
+- A 9-stage journey of 72 topics: The Words, How We Got Here, The Theology Behind Hellfire, The Verses One by One, The Parables Decoded, God's Character on Trial, An Alternative View, and Objections Answered.
+- The Parables Decoded: 12 parables often cited for hell (wheat and weeds, dragnet, wedding feast, ten virgins, talents and minas, faithful and wicked servant, unforgiving servant, wicked tenants, barren fig tree, vine, rich fool, Luke 15), each with a "decode the parable" table of what each image meant to its first hearers. The wheat and weeds includes the reading of Matthew 13:40-42 from Redeeming God (Jeremy Myers).
+- Objections Answered: 8 topics and about 60 objections (scriptural, cultural, historical, philosophical and pastoral), each stated in its strongest form and then answered, with sources from both sides.
 - Each topic gives:
   - a 30-second answer and key-idea cards
   - diagrams: flowcharts, timelines, comparisons, trees, cycles, balance scales, spectrums and annotated verses
@@ -34,4 +36,4 @@ A visual, interactive guide to what the Bible says about hell. It is built from 
 
 `tools/` holds the pipeline. The scanned PDFs were OCR'd with Tesseract (`hocr2txt.py`, then `extract.py` → `books.json`). Each topic in `tools/v2/topics/` condenses its source chapters following `tools/v2/SPEC.md` and is checked by `validate.py`. `tools/v2/build.py` assembles `index.html`. Icons are from Lucide (ISC licence).
 
-Summaries condense the books; the original PDFs remain the authoritative text.
+The Parables and Objections topics were researched online (`tools/v2/SPEC-research.md`, `validate_research.py`) and list their sources in the app. Summaries condense the books; the original PDFs remain the authoritative text.
