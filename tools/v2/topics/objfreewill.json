@@ -1,0 +1,109 @@
+{
+  "id": "objfreewill",
+  "title": "Objection: 'The Doors of Hell Are Locked From the Inside'",
+  "kind": "objection",
+  "hook": "If people freely choose hell, is God off the hook?",
+  "tldr": "C.S. Lewis and Jerry Walls argue God respects freedom, so some may forever refuse him. Critics answer that a fully informed person has no motive to reject the Good, that freedom grows as we see clearly, and that Scripture says God wants all saved and will be all in all.",
+  "big_idea": "Freedom is the power to come home, not a life sentence.",
+  "points": [
+    {"icon": "lock", "title": "Lewis: locked from the inside", "text": "In The Problem of Pain, Lewis wrote that the damned are, in one sense, successful rebels, and that hell's doors are locked from within. Hell is not God's cruelty but a person's own choice.", "verses": []},
+    {"icon": "door", "title": "Yet Lewis left the bus running", "text": "In The Great Divorce, ghosts take a bus from the grey town to heaven's edge and may stay if they will. Lewis's guide there is George MacDonald, a believer in final restoration.", "verses": ["Revelation 21:25"]},
+    {"icon": "bulb", "title": "Talbott: no motive to refuse", "text": "Thomas Talbott argues that a fully informed choice rests on no ignorance or deception. Anyone who truly saw God and hell clearly would have every motive to choose God and none to reject him.", "verses": ["John 8:32", "2 Corinthians 4:4"]},
+    {"icon": "chain", "title": "Sin is slavery, not freedom", "text": "Jesus calls sin bondage. A will chained by lies and wounds is not exercising freedom when it says no. Freeing it is not forcing it, any more than healing an addict violates his liberty.", "verses": ["John 8:34-36", "Romans 6:17-18"]},
+    {"icon": "heart", "title": "God wants all, and persists", "text": "Paul says God wants all people to be saved, that every knee will bow and every tongue confess, and that in Christ all will be made alive so God may be all in all.", "verses": ["1 Timothy 2:4", "Philippians 2:10-11", "1 Corinthians 15:22-28"]},
+    {"icon": "path", "title": "Non-ECT readers differ here", "text": "Universalists say God's patient love will win every will. Annihilationists accept that some may finally refuse, but say the result is destruction, not endless torment. Both deny that free choice justifies eternal suffering.", "verses": []}
+  ],
+  "sections": [
+    {"h": "The free-will defense of hell", "icon": "lock", "summary": "Many Christians defend hell by appeal to freedom: love cannot be coerced, so God lets people refuse him. Norman Geisler put it that forced love is impossible. Jerry Walls's Hell: The Logic of Damnation argues a decisive choice of evil is coherent, even when God gives everyone optimal grace, because people can deceive themselves that hell is better.", "verses": ["Deuteronomy 30:19", "Matthew 23:37"], "src": "web"},
+    {"h": "Lewis: The Problem of Pain", "icon": "book", "summary": "Lewis wrote that he willingly believed the damned are, in one sense, successful, rebels to the end, and that hell's doors are locked on the inside. Gavin Ortlund notes Lewis saw this self-exile as part of God's judgment, not a replacement for it.", "verses": [], "src": "web"},
+    {"h": "Lewis: The Great Divorce", "icon": "door", "summary": "In this dream-story, ghosts from a grey town ride a bus to heaven's foothills. They may stay, yet most choose to return, clinging to grudges, pride or self-pity. The guide, George MacDonald, mentions the ancient idea of refrigerium, holidays from hell. Lewis concludes: all in hell choose it. Lewis was not a universalist, but MacDonald was.", "verses": [], "src": "web"},
+    {"h": "Talbott: the fully informed choice", "icon": "bulb", "summary": "Thomas Talbott, in The Inescapable Love of God, argues that rejecting God forever cannot be a fully informed, rational choice. A fully informed decision rests on no ignorance, misinformation or deception. Once someone sees God as he is and evil as it is, there is no intelligible motive left for refusing. William Lane Craig answers that a person might refuse out of sheer perversity or desire for autonomy.", "verses": ["1 Timothy 2:4"], "src": "web"},
+    {"h": "Hart: freedom means flourishing", "icon": "sun", "summary": "David Bentley Hart argues freedom is not neutral choosing between options but a will reaching its true end, the Good. Every act of will seeks some good, so no fully free rational will could resist God, the Good itself, forever. Reviewers ask whether that leaves room for real freedom; Hart says freedom is a thing's ability to flourish as what it is.", "verses": ["John 8:36"], "src": "web"},
+    {"h": "Self-chosen misery is still misery", "icon": "alert", "summary": "Randal Rauser argues that calling hell self-imposed does not remove the moral problem. He faults The Great Divorce for depersonalizing the damned, and presses a choice: either accept that your beloved child may suffer endlessly and call that good, or reject endless torment outright.", "verses": ["Luke 15:4"], "src": "web"},
+    {"h": "Paul on God's will and final victory", "icon": "crown", "summary": "Paul says God wants all people saved, that in Christ all will be made alive, each in its own order, until God is all in all, and that every knee will bow and tongue confess Jesus as Lord. Universalists read these as promises; traditionalists and annihilationists read them as forced submission or as limited to believers.", "verses": ["1 Timothy 2:4-6", "1 Corinthians 15:22-28", "Philippians 2:10-11"], "src": "web"}
+  ],
+  "visuals": [
+    {"type": "compare", "title": "Two pictures of freedom", "left": {"label": "Freedom as bare choice", "items": ["Freedom is choosing between options", "Refusing God can be fully free", "God must let the refusal stand forever", "Hell is locked from the inside"]}, "right": {"label": "Freedom as reaching the Good", "items": ["Freedom is a will reaching its true end", "Refusing God comes from ignorance or bondage", "God keeps freeing the will by truth", "The gates are never shut"]}, "caption": "Lewis and Walls on the left; Talbott and Hart on the right."},
+    {"type": "decision", "title": "Talbott's question", "question": "Could a fully informed person reject God forever?", "yes": {"label": "Then freedom can damn", "note": "Walls and Craig: perversity or love of autonomy could motivate refusal even with full knowledge."}, "no": {"label": "Then refusal is temporary", "note": "Talbott: once ignorance and deception are removed, no motive remains to reject the Good."}},
+    {"type": "verse", "title": "Every knee, every tongue", "ref": "Philippians 2:10-11 (NIV)", "text": "that at the name of Jesus every knee should bow, in heaven and on earth and under the earth, and every tongue acknowledge that Jesus Christ is Lord, to the glory of God the Father.", "notes": [
+      {"phrase": "every knee should bow", "note": "Echoes Isaiah 45:23, where the next line says, in the Lord alone are deliverance and strength."},
+      {"phrase": "every tongue acknowledge", "note": "Talbott notes the Greek verb often carries praise and thanksgiving in the Greek Old Testament."},
+      {"phrase": "to the glory of God the Father", "note": "Universalists ask whether forced, hateful submission would bring God glory."}
+    ]}
+  ],
+  "mythfact": [
+    {"myth": "C.S. Lewis taught that hell's doors are shut for good once you die.", "fact": "In The Great Divorce, ghosts ride a bus from hell to heaven's edge and may stay. Lewis portrayed refusal as ongoing, not as a door God slams."},
+    {"myth": "If God saves everyone, he must override their free will.", "fact": "Talbott and Hart argue that removing ignorance and bondage frees the will rather than forcing it, just as truth sets people free."},
+    {"myth": "The free-will defense requires eternal torment.", "fact": "Even granting final refusal, annihilationists say the result is destruction. Walls himself pairs his view with purgatory and grace after death."}
+  ],
+  "terms": [
+    {"term": "Free-will theodicy", "meaning": "Defending God's goodness by saying evil, or hell, results from creatures' free choices, not God's will."},
+    {"term": "Fully informed choice", "meaning": "Talbott's term: a decision not resting on ignorance, misinformation or deception of any kind."},
+    {"term": "Optimal grace", "meaning": "Walls's idea that God gives everyone the best possible opportunity to respond, so any final refusal is truly theirs."},
+    {"term": "Refrigerium", "meaning": "An ancient idea, used by Lewis, of damned souls receiving holidays or respite from hell."}
+  ],
+  "quotes": [
+    {"text": "the damned are, in one sense, successful, rebels to the end; that the doors of hell are locked on the inside", "who": "C.S. Lewis, The Problem of Pain"},
+    {"text": "There are only two kinds of people in the end: those who say to God, 'Thy will be done,' and those to whom God says, in the end, 'Thy will be done.'", "who": "C.S. Lewis, The Great Divorce"},
+    {"text": "who wants all people to be saved and to come to a knowledge of the truth.", "who": "1 Timothy 2:4 (NIV)"}
+  ],
+  "verses": [
+    {"ref": "1 Timothy 2:4", "role": "God wants all people saved; universalists ask whether God's will is ultimately defeated."},
+    {"ref": "Philippians 2:10-11", "role": "Every knee bows and every tongue confesses: worship or forced surrender?"},
+    {"ref": "1 Corinthians 15:22-28", "role": "As in Adam all die, so in Christ all made alive, until God is all in all."},
+    {"ref": "John 8:34-36", "role": "Sin is slavery; the Son sets people truly free."},
+    {"ref": "Matthew 23:37", "role": "Jesus longed to gather Jerusalem but they were not willing; cited for real refusal."},
+    {"ref": "Revelation 21:25", "role": "The city's gates are never shut, cited by those who see an open door."},
+    {"ref": "Romans 1:24", "role": "God gave them over to their desires: judgment as letting people have their choice."},
+    {"ref": "Isaiah 45:23-24", "role": "Background of Philippians 2: every knee bows and confesses righteousness in the Lord."}
+  ],
+  "quiz": [
+    {"q": "In The Great Divorce, who guides the narrator in heaven's foothills?", "options": ["Augustine", "George MacDonald", "John Bunyan"], "answer": 1, "why": "Lewis chose George MacDonald, who held that God's fire refines all souls, though Lewis himself stopped short of universalism."},
+    {"q": "What does Talbott mean by a 'fully informed' choice?", "options": ["A choice made after reading Scripture", "A choice resting on no ignorance, misinformation or deception", "A choice made at the moment of death"], "answer": 1, "why": "He argues such a choice could never be to reject God, since no motive for refusal would remain."},
+    {"q": "Which view accepts final refusal but rejects endless torment?", "options": ["Annihilationism", "Calvinism", "Pelagianism"], "answer": 0, "why": "Annihilationists hold that those who finally refuse God are destroyed, not kept alive in endless suffering."}
+  ],
+  "reflect": "Is a choice made in darkness, fear or bondage truly free? What would it take for you to choose freely?",
+  "related": ["freewill", "everyknee", "lovefear", "augustine", "wrath"],
+  "sources": [
+    {"title": "C.S. Lewis on Heaven and Hell (C.S. Lewis Institute)", "url": "https://www.cslewisinstitute.org/resources/c-s-lewis-on-heaven-and-hell/", "note": "Traditional summary of Lewis's self-chosen hell and the locked-doors image."},
+    {"title": "The Great Divorce (1946) and the Eschatology of C. S. Lewis (Dallas Baptist University)", "url": "https://www.dbu.edu/mitchell/c-s-lewis-resources/_documents/thegreatdivorceandtheeschatologyoflewis.doc", "note": "MacDonald's universalism, refrigerium, and why Lewis was not a universalist."},
+    {"title": "Jerry Leroy Walls, The Logic of Damnation (PhilPapers)", "url": "https://philpapers.org/rec/WALTLO-22", "note": "Defends a decisive choice of evil even under optimal grace."},
+    {"title": "Jerry Walls: Hell is a Hell of a Choice (Eclectic Orthodoxy)", "url": "https://afkimel.wordpress.com/2015/08/04/jerry-walls-hell-is-a-hell-of-a-choice/", "note": "Universalist engagement with Walls's free-will model of damnation."},
+    {"title": "Talbott's Universalism (William Lane Craig, Reasonable Faith)", "url": "https://www.reasonablefaith.org/writings/scholarly-writings/christian-particularism/talbotts-universalism", "note": "Critic: argues people could freely reject God; Molinist reply to Talbott."},
+    {"title": "Philosophical Arguments for Biblical Universalism (LearnTheology)", "url": "https://learntheology.com/philosophical-arguments-for-biblical-universalism.html", "note": "Summarizes Talbott's fully informed choice argument and his three propositions."},
+    {"title": "Review: That All Shall Be Saved (St Andrews)", "url": "https://theology.wp.st-andrews.ac.uk/2020/01/29/review-that-all-shall-be-saved/", "note": "Explains Hart's view of freedom as the will drawn to the Good."},
+    {"title": "Is the misery of hell self-imposed? (Randal Rauser)", "url": "https://www.goodreads.com/author_blog_posts/19707394-is-the-misery-of-hell-self-imposed", "note": "Argues self-chosen hell does not lessen the moral problem."},
+    {"title": "A Primer on Philippians 2:9-11 (Rethinking Hell)", "url": "https://rethinkinghell.com/2024/11/04/a-primer-on-philippians-29-11/", "note": "Annihilationist reading; engages Talbott on the verb for confess."},
+    {"title": "Why I am a Universalist, Interlude: A Reading of I Corinthians 15 (Richard Beck)", "url": "https://richardbeck.substack.com/p/why-i-am-a-universalist-interlude-06-10-30", "note": "Reads the Adam-Christ 'all' as inclusive on both sides."}
+  ],
+  "objections": [
+    {"claim": "Love cannot be forced. God respects our freedom too much to override a person who refuses him.", "kind": "philosophical",
+     "strongest": "Jerry Walls argues love can be invited and won but never coerced. Even with optimal grace, some may decisively choose evil, deceiving themselves that hell is better. A God who guaranteed every yes would be programming robots, not loving persons.",
+     "response": "No one asks God to force love. The question is whether a refusal born of ignorance, wounds and lies is the final word. Talbott argues that a fully informed choice rests on no deception, and that such a choice could never be for misery. God persuades with truth, discipline and patience over as long as it takes. Healing an addict or freeing a slave does not violate their freedom. Walls himself allows grace after death, which already concedes the door is not shut at death.",
+     "verses": ["John 8:32-36", "2 Corinthians 4:4"], "sources": ["https://philpapers.org/rec/WALTLO-22", "https://afkimel.wordpress.com/2015/08/04/jerry-walls-hell-is-a-hell-of-a-choice/", "https://learntheology.com/philosophical-arguments-for-biblical-universalism.html"]},
+    {"claim": "The doors of hell are locked on the inside. The damned prefer hell and would hate heaven.", "kind": "philosophical",
+     "strongest": "C.S. Lewis: the damned are successful rebels to the end. A proud soul would find God's presence unbearable. Hell is not God's torture chamber but the natural home of a self that has finally said 'my will be done'.",
+     "response": "Lewis's own image cuts the other way. If the lock is on the inside, God has not locked it, and the door can open. In The Great Divorce the bus keeps running and ghosts may stay; Lewis placed MacDonald, who believed God's fire refines all souls, as the guide. Revelation says the city's gates are never shut. And as Randal Rauser notes, calling misery self-imposed does not explain why a loving Father would leave his child in it forever.",
+     "verses": ["Revelation 21:25", "Luke 15:20"], "sources": ["https://www.cslewisinstitute.org/resources/c-s-lewis-on-heaven-and-hell/", "https://www.dbu.edu/mitchell/c-s-lewis-resources/_documents/thegreatdivorceandtheeschatologyoflewis.doc", "https://www.goodreads.com/author_blog_posts/19707394-is-the-misery-of-hell-self-imposed"]},
+    {"claim": "A fully informed person can still reject God, out of pride, perversity or love of autonomy.", "kind": "philosophical",
+     "strongest": "William Lane Craig answers Talbott: people sometimes refuse even what would make them happiest, just to remain their own masters. Lucifer, in the traditional story, saw God clearly and still rebelled. Knowledge does not guarantee surrender.",
+     "response": "David Bentley Hart argues every act of will seeks some good; a will choosing evil does so because it mistakes it for good. Wanting autonomy against the Source of all being is itself a confusion, a form of ignorance Talbott says God can remove. Even if refusal persisted, it is a further step to say God would keep the person alive in torment forever. Annihilationists stop there; universalists trust that God's patience outlasts every no.",
+     "verses": ["Romans 11:32", "Lamentations 3:31-33"], "sources": ["https://www.reasonablefaith.org/writings/scholarly-writings/christian-particularism/talbotts-universalism", "https://theology.wp.st-andrews.ac.uk/2020/01/29/review-that-all-shall-be-saved/"]},
+    {"claim": "1 Timothy 2:4 expresses God's wish, not his decree. God wants many things that do not happen.", "kind": "scriptural",
+     "strongest": "God wishes no one to sin, yet people sin. Theologians distinguish God's desire from his decree. Paul's statement shows God's sincere goodwill, not a guarantee that every person will be saved.",
+     "response": "True, God's desires are resisted for a time. But Talbott notes the tension: if God sincerely wills all saved and his will cannot finally be defeated, then the claim that some are lost forever must give way. Paul immediately grounds the wish in Christ, who gave himself as a ransom for all. Calvinists solve the tension by narrowing 'all'; Arminians by letting God lose some. Universalists keep both 'all' and God's victory.",
+     "verses": ["1 Timothy 2:4-6", "Isaiah 46:10", "Ephesians 1:11"], "sources": ["https://learntheology.com/philosophical-arguments-for-biblical-universalism.html"]},
+    {"claim": "Every knee will bow, but some will bow in defeat, like conquered enemies, not in worship.", "kind": "scriptural",
+     "strongest": "Conditionalists and traditionalists read Philippians 2 against Old Testament warfare imagery: defeated kings bow to the victor. Paul elsewhere speaks of enemies of the cross whose end is destruction, so universal confession need not mean universal salvation.",
+     "response": "Paul quotes Isaiah 45:23, where the next line says, in the Lord alone are deliverance and strength. Talbott notes that the verb for confess often implies praise and thanksgiving in the Greek Old Testament. Paul says the confession is to the glory of the Father, and forced, hateful words hardly glorify him. Annihilationists, as Rethinking Hell shows, read it as submission before destruction, so readers who reject endless torment differ here.",
+     "verses": ["Philippians 2:10-11", "Isaiah 45:22-24", "Philippians 3:18-19"], "sources": ["https://rethinkinghell.com/2024/11/04/a-primer-on-philippians-29-11/"]},
+    {"claim": "In 1 Corinthians 15, 'all made alive' means all who are in Christ, not all people.", "kind": "scriptural",
+     "strongest": "Paul elsewhere ties being 'in Christ' to faith. Many commentators read 15:22 as resurrection of believers, or as resurrection of all to judgment, and 'God all in all' as God ruling directly once enemies are subdued.",
+     "response": "Richard Beck notes the parallel: as in Adam all die, so in Christ all will be made alive. If the first 'all' is everyone, the natural reading of the second is everyone too. Paul adds 'each in its own order', a sequence, not an exclusion. Christ reigns until every enemy is defeated, and the last enemy, death, is destroyed. Early church writers often cited 'all in all' for universal restoration.",
+     "verses": ["1 Corinthians 15:22-28", "Romans 5:18"], "sources": ["https://richardbeck.substack.com/p/why-i-am-a-universalist-interlude-06-10-30"]},
+    {"claim": "Universal salvation would make God a tyrant who saves people whether they like it or not.", "kind": "pastoral",
+     "strongest": "Lewis himself rejected universalism partly because it seemed to take free will away. A heaven filled with people dragged there would not be a home of love but a prison with better weather.",
+     "response": "Scripture shows God changing hearts without violating them. Paul was stopped on the Damascus road and later called it grace, not coercion. God promises to give a new heart and draw all people to Christ. Universalists do not picture anyone dragged in, but every person finally seeing truly and coming willingly, as the prodigal 'came to himself'. Talbott and Hart argue that is what freedom fully realized looks like.",
+     "verses": ["Ezekiel 36:26", "John 12:32", "Luke 15:17"], "sources": ["https://www.dbu.edu/mitchell/c-s-lewis-resources/_documents/thegreatdivorceandtheeschatologyoflewis.doc", "https://theology.wp.st-andrews.ac.uk/2020/01/29/review-that-all-shall-be-saved/"]}
+  ]
+}

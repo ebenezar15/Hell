@@ -1,0 +1,102 @@
+{
+  "id": "servants",
+  "title": "The Faithful and the Wicked Servant",
+  "kind": "parable",
+  "hook": "If punishment comes in 'few stripes' and 'many stripes', can it be infinite?",
+  "tldr": "A steward left in charge either feeds the household or abuses it while the master is away. Matthew's wicked servant is 'cut in pieces' and placed with the hypocrites. Luke adds that servants are beaten with few or many stripes depending on what they knew. Counted, proportional stripes picture limited justice, not endless torment.",
+  "big_idea": "Punishment measured in stripes is measured, and what is measured ends.",
+  "points": [
+    {"icon": "people", "title": "A steward over the household", "text": "The servant's job is to give the household food at the right time. The test is how he treats fellow servants while the master seems delayed.", "verses": ["Matthew 24:45", "Luke 12:42"]},
+    {"icon": "alert", "title": "Abuse of power is the sin", "text": "The wicked servant says 'my lord delays', beats his fellow servants and feasts with drunkards. Jesus aims this at leaders who exploit the people in their care.", "verses": ["Matthew 24:48-49", "Luke 12:45"]},
+    {"icon": "sword", "title": "'Cut in pieces' is not literal", "text": "The rare verb means cut in two, but the servant is still alive in the next clause. Commentators read it as a severe flogging or as being cut off from the household.", "verses": ["Matthew 24:51", "Luke 12:46"]},
+    {"icon": "mask", "title": "With the hypocrites", "text": "In Matthew 'hypocrites' is Jesus' repeated name for scribes and Pharisees. The unfaithful servant shares the fate of the leaders Jesus denounced in the same week.", "verses": ["Matthew 23:13", "Matthew 24:51"]},
+    {"icon": "scale", "title": "Few stripes, many stripes", "text": "Luke says the servant who knew and disobeyed gets many stripes, the one who did not know gets few. Punishment is counted and matched to knowledge.", "verses": ["Luke 12:47-48"]},
+    {"icon": "infinity", "title": "Degrees clash with infinity", "text": "Torment that never ends is infinite for everyone, so 'few' and 'many' lose their meaning. Proportional, finite stripes fit either an end in destruction or a restoring discipline.", "verses": ["Luke 12:48", "Deuteronomy 25:2-3"]}
+  ],
+  "sections": [
+    {"h": "The Olivet discourse setting", "icon": "mountain", "summary": "In Matthew the parable closes Jesus' answer on the Mount of Olives to the disciples' question about when the Temple would be thrown down. Jesus says 'this generation' will not pass until these things happen. Preterist readers apply much of the discourse to AD 70; others see the master's return as the second coming. Either way, the parable's demand is readiness and faithfulness now.", "verses": ["Matthew 24:1-3", "Matthew 24:34", "Matthew 24:45-51"], "src": "web"},
+    {"h": "The story in Matthew", "icon": "book", "summary": "A master puts a servant over his household to feed them. If found faithful, he is promoted over all the master's goods. If he thinks the master is delayed, beats fellow servants and drinks with drunkards, the master returns unexpectedly, 'cuts him in pieces', and assigns him a place with the hypocrites, where there is weeping and gnashing of teeth.", "verses": ["Matthew 24:45-51"], "src": "web"},
+    {"h": "What 'cut in pieces' means", "icon": "sword", "summary": "The Greek dichotomeo appears only here and in Luke 12:46 and means cut in two. Ellicott doubts it is literal. The Expositor's Greek Testament notes the man is still alive in the next clause, so it reads a severe thrashing. Beza and Grotius took it as dividing him from the household, dismissal. Precept Austin applies it mainly to the life to come.", "verses": ["Matthew 24:51", "Luke 12:46"], "src": "web"},
+    {"h": "Hypocrites and unbelievers", "icon": "mask", "summary": "Matthew places the servant with the hypocrites, the word Jesus hurls repeatedly at scribes and Pharisees in chapter 23. Luke says with the unfaithful (KJV: unbelievers). Matthew alone adds weeping and gnashing of teeth. The fate is to be classed with corrupt leaders who failed God's household, a judgment Jesus ties to that generation.", "verses": ["Matthew 23:13-36", "Matthew 24:51", "Luke 12:46"], "src": "web"},
+    {"h": "Luke's version: Peter's question", "icon": "speech", "summary": "Only Luke records Peter asking whether the parable is for the disciples or for everyone. Jesus answers with the steward story, aimed at those given responsibility over others. Commentators apply it to the apostles and church leaders; in its first setting it also mirrors Israel's leaders, entrusted with God's people.", "verses": ["Luke 12:41-42", "Luke 12:48"], "src": "web"},
+    {"h": "Few stripes and many stripes", "icon": "scale", "summary": "The servant who knew his master's will and did not do it is beaten with many stripes; the one who did not know but did wrong, with few. To whom much is given, much is required. The image recalls Deuteronomy 25, where a judge set the number of lashes according to the fault, with forty as the limit.", "verses": ["Luke 12:47-48", "Deuteronomy 25:2-3"], "src": "web"},
+    {"h": "Why proportion argues against infinite punishment", "icon": "infinity", "summary": "Traditionalists like Craig Blomberg and The Gospel Coalition use this text for degrees of punishment in hell. But if torment never ends, every sentence is infinite; as one essay puts it, anything times infinity is infinity. Rethinking Hell notes the stripes are finite by nature. Annihilationists read proportionate punishment followed by destruction; universalists read corrective discipline that ends.", "verses": ["Luke 12:47-48", "Matthew 24:51"], "src": "web"}
+  ],
+  "visuals": [
+    {"type": "verse", "title": "Counting the stripes", "ref": "Luke 12:47-48 (KJV)", "text": "And that servant, which knew his lord's will, and prepared not himself, neither did according to his will, shall be beaten with many stripes. But he that knew not, and did commit things worthy of stripes, shall be beaten with few stripes. For unto whomsoever much is given, of him shall be much required.", "notes": [
+      {"phrase": "knew his lord's will", "note": "Guilt is measured by knowledge. The more you knew, the heavier the sentence."},
+      {"phrase": "beaten with many stripes", "note": "Stripes are counted lashes. Under Deuteronomy 25 a judge set their number, never above forty."},
+      {"phrase": "beaten with few stripes", "note": "A light, limited sentence. 'Few' only makes sense if punishment has a size and an end."},
+      {"phrase": "much is given", "note": "Responsibility scales with privilege, the principle of proportional justice."}
+    ]},
+    {"type": "scale", "title": "Proportion versus infinity", "left": {"label": "Finite stripes", "items": ["Few versus many really differ", "Matched to knowledge and guilt", "Counted, like Deuteronomy's lashes", "Fits destruction or restoring discipline"]}, "right": {"label": "Endless torment", "items": ["Every sentence becomes infinite", "Few and many both never end", "Differences shrink to nothing over eternity", "Needs intensity to carry all degrees"]}, "tilt": "left", "caption": "Luke's language of counted stripes sits more naturally with limited punishment."},
+    {"type": "tree", "title": "Three ways to read the stripes", "root": "Few and many stripes", "children": [
+      {"label": "Eternal torment (ECT)", "note": "Degrees of intensity within an endless hell", "children": [{"label": "Blomberg, Gospel Coalition", "note": "Clearest Bible text for degrees in hell"}]},
+      {"label": "Conditional immortality", "note": "Proportionate suffering, then final destruction", "children": [{"label": "Edward Fudge", "note": "Some get few stripes, others many, then perish"}]},
+      {"label": "Restoration", "note": "Corrective discipline that ends when its purpose is met", "children": [{"label": "Universalist readers", "note": "Measured stripes imply a finished sentence"}]}
+    ]}
+  ],
+  "mythfact": [
+    {"myth": "'Cut him in pieces' describes a soul being torn apart forever.", "fact": "The servant is still alive in the next clause. Commentators read severe flogging or being cut off from the household."},
+    {"myth": "Luke 12 proves there are levels of eternal torment in hell.", "fact": "It describes counted stripes matched to knowledge. Endless torment makes every sentence infinite, which undercuts real degrees."},
+    {"myth": "The parable is mainly about ordinary unbelievers.", "fact": "It targets stewards placed over others who abuse them, and Matthew sets their fate with the hypocrites, Jesus' name for corrupt religious leaders."}
+  ],
+  "terms": [
+    {"term": "Dichotomeo", "meaning": "Greek 'cut in two'; used only in Matthew 24:51 and Luke 12:46, read as severe punishment or dismissal."},
+    {"term": "Hypocrites", "meaning": "Greek for actors; Matthew's repeated label for the scribes and Pharisees."},
+    {"term": "Stripes", "meaning": "Lashes with a whip, counted out by a judge in proportion to the fault."},
+    {"term": "Olivet discourse", "meaning": "Jesus' teaching on the Mount of Olives about the Temple's fall and his coming, Matthew 24-25."}
+  ],
+  "quotes": [
+    {"text": "But he that knew not, and did commit things worthy of stripes, shall be beaten with few stripes.", "who": "Luke 12:48 (KJV)"},
+    {"text": "it seems odd to describe infinite punishment with something that not only is finite, but where the very difference lies in its finite nature", "who": "Rethinking Hell"},
+    {"text": "Forty stripes he may give him, and not exceed", "who": "Deuteronomy 25:3 (KJV)"}
+  ],
+  "verses": [
+    {"ref": "Matthew 24:45-51", "role": "The faithful and wicked servant in the Olivet discourse."},
+    {"ref": "Matthew 24:51", "role": "Cut in pieces and placed with the hypocrites: severe judgment shared with corrupt leaders."},
+    {"ref": "Luke 12:41-48", "role": "Luke's version, prompted by Peter, adding proportional stripes."},
+    {"ref": "Luke 12:47-48", "role": "Few or many stripes by knowledge: proportional, limited punishment."},
+    {"ref": "Deuteronomy 25:2-3", "role": "Lashes counted by the fault, capped at forty: the background image."},
+    {"ref": "Matthew 23:13", "role": "'Woe unto you, scribes and Pharisees, hypocrites': who the hypocrites are."},
+    {"ref": "Matthew 24:34", "role": "'This generation': the time frame AD 70 readers stress."},
+    {"ref": "Matthew 24:2", "role": "The Temple's destruction, the question that starts the discourse."}
+  ],
+  "quiz": [
+    {"q": "In Luke, who receives few stripes?", "options": ["The servant who knew and disobeyed", "The servant who did not know but did wrong", "The faithful servant"], "answer": 1, "why": "Punishment is matched to knowledge: less knowledge, fewer stripes."},
+    {"q": "Why do many commentators doubt 'cut in pieces' is literal?", "options": ["The servant is still alive in the next clause", "The Greek word means 'reward'", "Luke leaves it out"], "answer": 0, "why": "After being 'cut in two' he is assigned a place with the hypocrites, so the phrase means severe punishment or dismissal."},
+    {"q": "Why does proportional punishment challenge eternal torment?", "options": ["Stripes were always painless", "Endless punishment makes every sentence infinite", "Luke denies any punishment"], "answer": 1, "why": "If all punishment lasts forever, few and many stripes amount to the same infinite total."}
+  ],
+  "reflect": "Who has been entrusted to your care, and how does Jesus' warning about 'fellow servants' apply to you?",
+  "related": ["infinite", "justice", "hellfirejustice", "darkness", "sheepgoats"],
+  "parable": {
+    "ref": "Matthew 24:45-51; Luke 12:41-48",
+    "audience": "Disciples on the Mount of Olives (Matthew); Peter and disciples amid crowds (Luke).",
+    "setting": "Matthew: days before the cross, answering when the Temple would fall, after denouncing the scribes and Pharisees as hypocrites. Luke: on the journey to Jerusalem, Peter asks whether the warning is for the disciples or everyone.",
+    "decoder": [
+      {"symbol": "The master", "traditional": "Christ returning at the end of history.", "original": "The returning Lord; in Matthew's discourse tied to judgment within 'this generation' and the Temple's fall."},
+      {"symbol": "The steward", "traditional": "Every individual soul.", "original": "Those given authority over God's people: Israel's leaders then, apostles and church leaders after."},
+      {"symbol": "Beating fellow servants", "traditional": "General sinfulness.", "original": "Leaders abusing those in their care while assuming judgment is far off."},
+      {"symbol": "Cut in pieces", "traditional": "Body and soul destroyed in hell.", "original": "Severe punishment or being cut off from the household; he remains alive in the next clause."},
+      {"symbol": "Portion with the hypocrites", "traditional": "Eternal torment with all the damned.", "original": "Sharing the fate Jesus pronounced on the scribes and Pharisees in Matthew 23."},
+      {"symbol": "Few or many stripes", "traditional": "Degrees of torment within an endless hell.", "original": "Counted lashes set by a judge according to the fault: proportional and limited."}
+    ]
+  },
+  "sources": [
+    {"title": "Evangelical Conditionalism and Degrees of Punishment in Hell, Part 1", "url": "https://rethinkinghell.com/2020/06/02/evangelical-conditionalism-and-degrees-of-punishment-in-hell-part-1/", "note": "Conditionalist: finite stripes picture finite punishment."},
+    {"title": "Degrees of Punishment in Hell (The Gospel Coalition)", "url": "https://www.thegospelcoalition.org/essay/degrees-punishment-hell/", "note": "Traditional ECT view: degrees of suffering within an eternal hell."},
+    {"title": "The Mathematical Impossibility of Degrees of Punishment in an Eternal Hell", "url": "https://labornotinvain.com/2020/07/14/the-mathematical-impossibility-of-degrees-of-punishment-in-an-eternal-hell/", "note": "Argues anything times infinity is infinity, so degrees collapse."},
+    {"title": "Are there degrees of hell? (Afterlife)", "url": "https://www.afterlife.co.nz/articles/degrees-of-hell/", "note": "Surveys traditionalist use of Luke 12, including Blomberg, and argues against it."},
+    {"title": "Eternal Conscious Torment, Degrees of Suffering, and Infinite Punishment", "url": "https://jwwartick.com/2021/08/02/infiniteect/", "note": "Argues eternity leaves no room for proportionate degrees."},
+    {"title": "Q-n-A: Does Luke 12:41-48 Teach Different Degrees of Punishment in Hell?", "url": "https://truthmagazine.com/kindle/2018/2018-12-dec/06_QnA.htm", "note": "Reads 'stripes' first as temporal punishment of a servant."},
+    {"title": "Matthew 24 (Expositor's Greek Testament, StudyLight)", "url": "https://www.studylight.org/commentaries/eng/egt/matthew-24.html", "note": "'Cut in pieces' not literal: the man is still alive afterwards."},
+    {"title": "Matthew 24:43-51 Commentary (Precept Austin)", "url": "https://www.preceptaustin.org/matthew_2443-51_commentary", "note": "Traditional: severe punishment in this life and especially the next."},
+    {"title": "Deuteronomy 25:3 Commentaries (Bible Hub)", "url": "https://biblehub.com/commentaries/deuteronomy/25-3.htm", "note": "Background on counted lashes limited to forty."},
+    {"title": "Critique of the Preterist View of the Olivet Discourse (Toussaint)", "url": "https://evidenceandanswers.org/article/critique-preterist-view-olivet-discourse/", "note": "Futurist critique; reports preterist AD 70 reading of the servant parable."}
+  ],
+  "objections": [
+    {"claim": "Luke 12 proves degrees of punishment in hell, not limited punishment.", "kind": "scriptural", "strongest": "Blomberg calls these verses among the clearest in the Bible for degrees of punishment in hell. Degrees can be in intensity, not duration, so eternal torment and proportional justice are compatible.", "response": "The text speaks of counted stripes, a finite sentence set by a judge, as in Deuteronomy 25. Moving the degrees into intensity concedes that duration cannot carry them, yet an endless sentence of 'few stripes' still totals infinity. Finite, measured punishment fits conditionalism, where suffering is proportionate and then ends in destruction, or restoration, where discipline ends when it has done its work. The verse never mentions eternity.", "verses": ["Luke 12:47-48", "Deuteronomy 25:2-3"], "sources": ["https://www.thegospelcoalition.org/essay/degrees-punishment-hell/", "https://rethinkinghell.com/2020/06/02/evangelical-conditionalism-and-degrees-of-punishment-in-hell-part-1/", "https://labornotinvain.com/2020/07/14/the-mathematical-impossibility-of-degrees-of-punishment-in-an-eternal-hell/"]},
+    {"claim": "Jonathan Edwards: degrees of punishment rule out annihilation, so only eternal torment fits.", "kind": "philosophical", "strongest": "If the wicked are simply annihilated, everyone gets the same end: nonexistence. Only conscious, ongoing punishment can be heavier for some and lighter for others, so Luke 12 supports ECT.", "response": "Conditionalists like Edward Fudge answer that the lost suffer in proportion to their sins before they perish; the process differs even if the end is the same. Universalists read the stripes as discipline whose length and severity fit each person. ECT is actually the view with the problem: when every sentence is unending, the difference between few and many shrinks toward nothing compared with eternity.", "verses": ["Luke 12:47-48", "Matthew 10:28"], "sources": ["https://www.afterlife.co.nz/articles/degrees-of-hell/", "https://jwwartick.com/2021/08/02/infiniteect/"]},
+    {"claim": "Weeping and gnashing of teeth with the hypocrites describes hell's eternal torment.", "kind": "scriptural", "strongest": "Matthew 24:51 uses Jesus' recurring formula for final judgment, and the Olivet discourse leads into Matthew 25:46 and eternal punishment. Being cut asunder pictures total, final ruin.", "response": "The servant is placed with the hypocrites, a group Jesus has just named in Matthew 23 and whose judgment he ties to 'this generation'. The cutting cannot be literal, since he lives on. Weeping and gnashing of teeth express grief and bitter frustration. Luke's parallel, the same story, explains the punishment as counted stripes, which is the opposite of infinite.", "verses": ["Matthew 24:51", "Matthew 23:36", "Luke 12:46-48"], "sources": ["https://www.studylight.org/commentaries/eng/egt/matthew-24.html", "https://www.preceptaustin.org/matthew_2443-51_commentary"]}
+  ]
+}

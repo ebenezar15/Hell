@@ -1,0 +1,106 @@
+{
+  "id": "unforgiving",
+  "title": "The Unforgiving Servant",
+  "kind": "parable",
+  "hook": "Handed to the 'tormentors' until he pays: is that a picture of endless hell?",
+  "tldr": "A servant forgiven an unpayable debt of 10,000 talents chokes a fellow servant over 100 denarii. The king hands him to the jailers 'until he should pay all'. The story is about forgiveness, drawn from real debt-prison practice. Its punishment has a stated limit, 'until', and says nothing about eternity.",
+  "big_idea": "Forgiven people forgive; the prison image has an 'until', not a forever.",
+  "points": [
+    {"icon": "coin", "title": "An impossible debt", "text": "Ten thousand was the largest Greek number and the talent the largest unit of money. The debt was about 60 million days' wages, far beyond Herod Antipas' yearly taxes from Galilee and Perea.", "verses": ["Matthew 18:24"]},
+    {"icon": "unlock", "title": "Forgiven completely", "text": "The servant begs for patience and promises to repay. The king, moved with compassion, releases him and forgives the entire debt.", "verses": ["Matthew 18:26-27"]},
+    {"icon": "hand", "title": "Choking over pocket change", "text": "The same man seizes a fellow servant owing 100 denarii, a sliver of his own debt, refuses his identical plea, and throws him into prison.", "verses": ["Matthew 18:28-30"]},
+    {"icon": "lock", "title": "Jailers, not demons", "text": "The basanistai were officials who held and pressured debtors, sometimes harshly, to force payment. The NIV renders them 'jailers'. Debt prison was a real Roman-world practice.", "verses": ["Matthew 18:34"]},
+    {"icon": "hourglass", "title": "'Until' marks a limit", "text": "He is held 'until he should pay all that was due'. The sentence is defined by an end point. Readers differ on whether it can be reached, but the image is not endless by design.", "verses": ["Matthew 18:34", "Matthew 5:25-26"]},
+    {"icon": "heart", "title": "The point is forgiveness", "text": "The parable answers Peter's question about how often to forgive. Jesus warns that those who refuse mercy cut themselves off from the mercy they received.", "verses": ["Matthew 18:21-22", "Matthew 18:35"]}
+  ],
+  "sections": [
+    {"h": "Peter's question", "icon": "speech", "summary": "Peter asks whether forgiving a brother seven times is enough. Jesus answers seventy-seven times (or seventy times seven). The Greek matches the Greek Old Testament of Genesis 4:24, where Lamech boasts of seventy-sevenfold vengeance. Jesus reverses limitless revenge into limitless forgiveness, then tells the parable to show why.", "verses": ["Matthew 18:21-22", "Genesis 4:24"], "src": "web"},
+    {"h": "Ten thousand talents", "icon": "coin", "summary": "A king settling accounts finds a servant owing ten thousand talents. A myriad was the highest Greek numeral; a talent was about 6,000 denarii, so the debt equals some 60 million days' wages. By one estimate it was about fifty times the 200 talents Herod Antipas collected yearly from Galilee and Perea. The sum is meant to be unpayable.", "verses": ["Matthew 18:23-24"], "src": "web"},
+    {"h": "Sold with wife and children", "icon": "chain", "summary": "The king orders the man, his wife, children and goods sold to pay. Debt slavery was real; 2 Kings 4:1 shows a creditor coming for a widow's sons. Several commentators note Jewish law forbade selling a wife, suggesting a Gentile king setting meant to shock. The sale would barely dent the debt.", "verses": ["Matthew 18:25", "2 Kings 4:1", "Leviticus 25:39"], "src": "web"},
+    {"h": "Mercy, then cruelty", "icon": "hand", "summary": "The servant begs, 'have patience with me, and I will pay thee all', an impossible promise. The king forgives everything. The servant then finds a fellow servant who owes 100 denarii, about a hundred days' wages, seizes him by the throat, hears the same plea, and has him imprisoned until he pays. Fellow servants report it to the king.", "verses": ["Matthew 18:26-31"], "src": "web"},
+    {"h": "The tormentors: debt prison", "icon": "lock", "summary": "The angry king delivers him to the basanistai until he pays all. The word occurs only here in the New Testament. Lexicons give 'tormentor' or 'inquisitor', and in this verse 'jailer'. Under Roman practice creditors could bind and imprison debtors, sometimes with beatings, to pressure relatives to pay. Barnes argued the servant was imprisoned until the debt was paid.", "verses": ["Matthew 18:34", "Matthew 18:30"], "src": "web"},
+    {"h": "'Until he should pay all'", "icon": "hourglass", "summary": "The sentence has a stated end: until. Universalists read it, with George MacDonald's 'last farthing', as a prison that lasts until repentance. Catholic readers saw purgatory. Protestant commentators answered that so vast a debt can never be paid, so 'until' means never. Annihilationists note the parable describes neither eternity nor death.", "verses": ["Matthew 18:34", "Matthew 5:26"], "src": "web"},
+    {"h": "'So likewise shall my heavenly Father do'", "icon": "father", "summary": "Jesus applies it: the Father will do the same to anyone who does not forgive a brother from the heart. Some commentators read eternal punishment here; others, like Grace Communion International, a warning in terms fitting the parable. If read as literal doctrine, it would also teach that God revokes forgiveness already given, which most ECT readers reject.", "verses": ["Matthew 18:35", "Matthew 6:14-15"], "src": "web"}
+  ],
+  "visuals": [
+    {"type": "scale", "title": "Two debts compared", "left": {"label": "Owed to the king", "items": ["10,000 talents", "About 60 million denarii", "Unpayable in many lifetimes", "Forgiven completely"]}, "right": {"label": "Owed to the servant", "items": ["100 denarii", "About 100 days' wages", "Payable with time", "Refused, debtor jailed"]}, "tilt": "left", "caption": "The forgiven debt is roughly 600,000 times larger than the one he would not forgive."},
+    {"type": "flow", "title": "How the story unfolds", "steps": [
+      {"label": "Peter asks: seven times?", "note": "Jesus answers seventy-seven, reversing Lamech's boast of vengeance."},
+      {"label": "Debt of 10,000 talents", "note": "Sale of the man and family ordered; he begs for patience."},
+      {"label": "King forgives everything", "note": "Moved with compassion, he releases him and cancels the debt."},
+      {"label": "Servant chokes a debtor", "note": "Over 100 denarii he refuses the same plea and jails him."},
+      {"label": "Handed to the jailers", "note": "Until he pays all: the debt-prison sentence returns on him."},
+      {"label": "Lesson: forgive from the heart", "note": "Mercy received must become mercy given."}
+    ]},
+    {"type": "spectrum", "title": "How readers take 'until he pays all'", "left": "Punishment ends", "right": "Punishment never ends", "marks": [
+      {"pos": 10, "label": "Restoration", "note": "Prison lasts until repentance, the last farthing paid; then release."},
+      {"pos": 30, "label": "Purgatory reading", "note": "Medieval Catholic use: temporary cleansing after death."},
+      {"pos": 50, "label": "Parable detail only", "note": "A warning about forgiveness, not a description of the afterlife."},
+      {"pos": 65, "label": "Annihilation", "note": "Final judgment ends in destruction; the parable describes neither eternity nor torment."},
+      {"pos": 90, "label": "Eternal torment", "note": "The debt is unpayable, so 'until' means never; hell is endless."}
+    ]}
+  ],
+  "mythfact": [
+    {"myth": "The 'tormentors' are demons torturing souls in hell.", "fact": "Basanistai were officials who held and pressured debtors. The NIV calls them jailers. The scene is drawn from real debt-prison practice."},
+    {"myth": "The parable describes a punishment with no end.", "fact": "It says 'until he should pay all'. The sentence is framed by an end point, whatever one concludes about whether it is reached."},
+    {"myth": "10,000 talents is a realistic business debt.", "fact": "Ten thousand was the highest Greek numeral and the talent the biggest unit: the largest sum a listener could name, deliberately unpayable."}
+  ],
+  "terms": [
+    {"term": "Basanistes", "meaning": "Greek 'tormentor, inquisitor'; in Matthew 18:34 the jailers who held and pressured a debtor. Used only here in the New Testament."},
+    {"term": "Talent", "meaning": "About 6,000 denarii; ten thousand of them was an unimaginable fortune."},
+    {"term": "Denarius", "meaning": "A silver coin, a laborer's daily wage."},
+    {"term": "Debt prison", "meaning": "Holding a debtor in custody, sometimes harshly, until he or his family paid."}
+  ],
+  "quotes": [
+    {"text": "And his lord was wroth, and delivered him to the tormentors, till he should pay all that was due unto him.", "who": "Matthew 18:34 (KJV)"},
+    {"text": "Shouldest not thou also have had compassion on thy fellowservant, even as I had pity on thee?", "who": "Matthew 18:33 (KJV)"}
+  ],
+  "verses": [
+    {"ref": "Matthew 18:21-22", "role": "Peter's question about forgiving seven times; Jesus' seventy-seven."},
+    {"ref": "Genesis 4:24", "role": "Lamech's seventy-sevenfold vengeance, which Jesus turns into forgiveness."},
+    {"ref": "Matthew 18:24", "role": "Ten thousand talents: a deliberately unpayable debt."},
+    {"ref": "Matthew 18:25", "role": "Debt slavery of the man and family, a real ancient practice."},
+    {"ref": "Matthew 18:28", "role": "A hundred denarii: a tiny debt by comparison."},
+    {"ref": "Matthew 18:34", "role": "Handed to jailers until he pays all: a punishment framed by 'until'."},
+    {"ref": "Matthew 18:35", "role": "The Father will do likewise to the unforgiving: a warning about mercy."},
+    {"ref": "Matthew 5:25-26", "role": "Prison until the last penny is paid: the same 'until' image."},
+    {"ref": "2 Kings 4:1", "role": "A creditor taking children as slaves for debt."}
+  ],
+  "quiz": [
+    {"q": "Why was 10,000 talents so shocking?", "options": ["It was the largest number and largest money unit combined", "It was a normal royal loan", "It was a debt in grain"], "answer": 0, "why": "A myriad was the top Greek numeral and the talent the largest unit, about 60 million days' wages."},
+    {"q": "What did the basanistai most likely do in this setting?", "options": ["Torture souls after death", "Hold and pressure a debtor in prison", "Collect temple taxes"], "answer": 1, "why": "The word is used here for jailers in a debt-prison scene, which matches Roman-world practice."},
+    {"q": "What word frames the servant's punishment?", "options": ["Forever", "Until", "Never"], "answer": 1, "why": "He is held until he should pay all that was due, a punishment defined by an end point."}
+  ],
+  "reflect": "Is there a 'hundred denarii' debt you are holding against someone that looks different next to what you have been forgiven?",
+  "related": ["justice", "infinite", "hellfirejustice", "wrath", "lovefear"],
+  "parable": {
+    "ref": "Matthew 18:21-35",
+    "audience": "Peter and the disciples, after Jesus' teaching on restoring a brother who sins.",
+    "setting": "Matthew 18 is Jesus' teaching on life in the community of disciples: humility, lost sheep, correcting a brother. Peter asks how often to forgive. The story borrows a royal court, debt slavery and Roman-style debt prison.",
+    "decoder": [
+      {"symbol": "The king", "traditional": "God as the judge who damns the unforgiving.", "original": "God, whose mercy is immense and freely given, and who expects that mercy to be passed on."},
+      {"symbol": "10,000 talents", "traditional": "Infinite sin requiring infinite punishment.", "original": "A deliberately unpayable sum: our debt to God, cancelled entirely by grace."},
+      {"symbol": "100 denarii", "traditional": "Minor wrongs others do to us.", "original": "Real but small debts between people, tiny next to what God forgives."},
+      {"symbol": "The tormentors", "traditional": "Demons torturing souls forever in hell.", "original": "Jailers in a debt prison who held and pressured debtors until the debt was paid."},
+      {"symbol": "Until he pays all", "traditional": "Never, since the debt is infinite.", "original": "A sentence framed by an end; universalists see release upon repentance, others a parable detail."},
+      {"symbol": "So shall my Father do", "traditional": "Eternal conscious torment for the unforgiving.", "original": "A sober warning: refusing mercy cuts us off from mercy, stated in the parable's own terms."}
+    ]
+  },
+  "sources": [
+    {"title": "Parable of the Unforgiving Servant (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Parable_of_the_Unforgiving_Servant", "note": "Roman debt law background, Lapide on tormentors, Remigius on a limited term."},
+    {"title": "basanistes (Bill Mounce Greek Dictionary)", "url": "https://www.billmounce.com/greek-dictionary/basanistes", "note": "Lexical meaning: tormentor, inquisitor; jailer in Matthew 18:34."},
+    {"title": "The Parable of the Unforgiving Slave (Studia Antiqua, BYU)", "url": "https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=1198&context=studiaantiqua", "note": "Scholarly study of the debt's size and Derrett's tax-farming view."},
+    {"title": "Matthew 18:34 Commentaries (Bible Hub)", "url": "https://biblehub.com/commentaries/matthew/18-34.htm", "note": "Classic commentators split: jailers versus torturers, debt prison practice."},
+    {"title": "basanistes: A Word Study on this Greek Term for Torture (CARM)", "url": "https://carm.org/annihilationism/word-study-on-torment-basanistes/", "note": "Traditionalist word study used against annihilationism."},
+    {"title": "The Last Farthing (Works of George MacDonald)", "url": "https://www.worksofmacdonald.com/consuming-fire-daily-devotional/2017/5/27/the-last-farthing", "note": "Universalist: the prison lasts until the last farthing, repentance, is paid."},
+    {"title": "Matthew 18:35 Commentary (StudyLight)", "url": "https://www.studylight.org/commentary/matthew/18-35.html", "note": "Traditional readings taking the verse as eternal punishment."},
+    {"title": "Matthew 18: Parable of the Unforgiving Servant (Grace Communion International)", "url": "https://www.gci.org/articles/matthew-18-parable-of-the-unforgiving-servant/", "note": "Reads the ending as a warning in terms appropriate to the parable."},
+    {"title": "Reversing Lamech's Vengeance (Aaron Downs)", "url": "https://aarondowns.substack.com/p/reversing-lamechs-vengeance", "note": "Seventy-seven echoes Genesis 4:24 in the Greek Old Testament."},
+    {"title": "Matthew 18:30 Commentary (StudyLight)", "url": "https://www.studylight.org/commentary/matthew/18-30.html", "note": "Protestant reply to the purgatory reading: 'till' never comes."}
+  ],
+  "objections": [
+    {"claim": "The debt is infinite and unpayable, so 'until he pays all' means the punishment never ends.", "kind": "scriptural", "strongest": "No servant could ever repay 10,000 talents. Jesus chose that number so 'until' would mean 'never'. Sin against an infinite God is an infinite debt, so the prison is everlasting.", "response": "The parable assigns the unpayable sum to the debt God forgives, not to the punishment. Once the servant is handed over, 'until' still frames the sentence by an end. A debtor's prison existed to extract payment, often from relatives, not to hold people forever. Universalists, following MacDonald, see the 'payment' as repentance. Others say the detail serves the warning, not afterlife mechanics. None of these make the story define hell as endless conscious torment.", "verses": ["Matthew 18:34", "Matthew 5:26"], "sources": ["https://www.studylight.org/commentary/matthew/18-30.html", "https://www.worksofmacdonald.com/consuming-fire-daily-devotional/2017/5/27/the-last-farthing"]},
+    {"claim": "Basanistai means torturers; this pictures conscious torment after judgment.", "kind": "scriptural", "strongest": "The basan- word group is used for torment in Revelation 14:11 and Luke 16. The Pulpit Commentary insists these were real torturers. Jesus applies it directly to his Father's treatment of the unforgiving.", "response": "The noun appears only here, in a debt-prison scene. Lexicons note it was used of jailers, and the NIV translates it that way. Lapide reports Roman creditors handing debtors to such officers who imprisoned and scourged them. That describes earthly coercion to recover money, the parable's picture world. Turning a story's realistic detail into a doctrine of eternal torment would also force us to say God revokes forgiveness already granted.", "verses": ["Matthew 18:34", "Matthew 18:27"], "sources": ["https://carm.org/annihilationism/word-study-on-torment-basanistes/", "https://www.billmounce.com/greek-dictionary/basanistes", "https://en.wikipedia.org/wiki/Parable_of_the_Unforgiving_Servant"]},
+    {"claim": "Verse 35 makes it explicit: God will do this to the unforgiving, meaning hell.", "kind": "pastoral", "strongest": "Jesus' application is not part of the story but a direct statement. Commentators like Coffman conclude that the impenitent must go to eternal punishment.", "response": "Verse 35 says the Father will do 'likewise', that is, what the king did in the story: hold the unforgiving accountable until the debt is settled. It does not add 'forever' or fire. The warning is serious and personal, but it is about forgiving from the heart. Grace Communion International reads it as a warning in terms fitting the parable, and the parable's terms include 'until'.", "verses": ["Matthew 18:35", "Matthew 6:14-15"], "sources": ["https://www.studylight.org/commentary/matthew/18-35.html", "https://www.gci.org/articles/matthew-18-parable-of-the-unforgiving-servant/"]}
+  ]
+}

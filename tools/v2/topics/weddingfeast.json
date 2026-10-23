@@ -1,0 +1,111 @@
+{
+  "id": "weddingfeast",
+  "title": "The Wedding Feast and the Missing Garment",
+  "kind": "parable",
+  "hook": "Is a guest thrown out of a party a picture of eternal torment?",
+  "tldr": "Told to Jerusalem's leaders days before the cross, the parable pictures Israel's invited guests refusing the Messiah's wedding feast, a king who burns their city, and outsiders filling the hall. The underdressed guest is thrown out into the night. The darkness is outside a lit banquet hall: exclusion from the celebration, not a torture chamber.",
+  "big_idea": "The feast is open to all; refusing it means missing it.",
+  "points": [
+    {"icon": "people", "title": "Aimed at Jerusalem's leaders", "text": "It is the last of three judgment parables told in the temple to the chief priests and Pharisees, who knew Jesus was speaking about them.", "verses": ["Matthew 21:45", "Matthew 22:1"]},
+    {"icon": "fire", "title": "A burned city", "text": "The king's troops destroy the murderers and burn their city. Many scholars see Jerusalem's fall in AD 70; others call it standard language for punishing a rebel city. Either way, it is history, not hell.", "verses": ["Matthew 22:7", "Luke 21:20"]},
+    {"icon": "bread", "title": "Everyone is invited", "text": "The servants gather everyone they find, bad and good. Luke's version brings in the poor, crippled, blind and lame, echoing Isaiah's feast for all peoples.", "verses": ["Matthew 22:10", "Luke 14:21-23", "Isaiah 25:6"]},
+    {"icon": "lamp", "title": "Darkness outside a lit hall", "text": "Banquets were held in the evening. Being thrown into the outer darkness means being put outside the lit hall, which Jeremy Myers (Redeeming God) reads as exclusion from the feast, not hell.", "verses": ["Matthew 22:13", "Matthew 8:11-12"]},
+    {"icon": "mask", "title": "The garment is the response", "text": "Accepting the invitation includes honoring the occasion. Commentators debate whether the king supplied garments; the guest is speechless because he has no excuse.", "verses": ["Matthew 22:11-12", "Zephaniah 1:7-8"]},
+    {"icon": "question", "title": "Called and chosen", "text": "Myers argues 'many are called, few are chosen' concerns God's invitation to share his rule on earth, not a secret decree sending most people to hell.", "verses": ["Matthew 22:14", "Matthew 20:16"]}
+  ],
+  "sections": [
+    {"h": "The setting: parables of judgment", "icon": "temple", "summary": "In the temple during Jesus' last week, the chief priests and elders challenge his authority. He answers with three parables: the two sons, the wicked tenants and the wedding feast. After the tenants, the leaders realize he is speaking about them and want to arrest him. Commentator Knox Chamblin calls the wedding feast the last of three judgment parables against Israel, especially her leadership.", "verses": ["Matthew 21:23", "Matthew 21:28-46", "Matthew 22:15"], "src": "web"},
+    {"h": "The story", "icon": "crown", "summary": "A king gives a wedding feast for his son. The invited guests refuse to come. He sends more servants: the meal is ready. Some ignore them and go to farm or business; others seize, mistreat and kill the servants. The king, enraged, sends troops, destroys the murderers and burns their city. Then servants gather everyone from the roads, bad and good, and the hall fills.", "verses": ["Matthew 22:1-10"], "src": "web"},
+    {"h": "The burned city and AD 70", "icon": "fire", "summary": "Verse 7 interrupts the story: the dinner is ready, yet the king wages war first. Many interpreters, including Wikipedia's summary of scholarship and Working Preacher commentary, see the fall of Jerusalem in AD 70, carried out unwittingly by Rome. D.A. Carson and Douglas Moo note the wording is standard language for punishing rebellious cities. Both readings point to judgment in history.", "verses": ["Matthew 22:7", "Matthew 23:37-38", "Luke 21:20-22"], "src": "web"},
+    {"h": "Luke's great banquet", "icon": "bread", "summary": "Luke's version follows a guest's remark: blessed is everyone who eats bread in God's kingdom. The invited make excuses: a field, oxen, a marriage. The angry host sends his servant for the poor, crippled, blind and lame, then to the highways and hedges. None of those first invited will taste the dinner. There is no burned city, garment, darkness or fire.", "verses": ["Luke 14:15-24"], "src": "web"},
+    {"h": "Isaiah's feast for all peoples", "icon": "mountain", "summary": "The parable draws on the hope of a messianic banquet rooted in Isaiah 25:6, a feast of rich food and aged wine for all peoples on God's mountain, where death is swallowed up. By Jesus' day many expected only the worthy of Israel to attend. Jesus fills the hall with the very outsiders some groups said could never be invited.", "verses": ["Isaiah 25:6-8", "Matthew 8:11"], "src": "web"},
+    {"h": "The guest without a garment", "icon": "mask", "summary": "The king inspects the guests and finds a man without wedding clothes. 'Friend, how did you get in here?' The man is speechless. Older commentators say hosts often gave guests garments; others note no verse says so, though context implies it. Zephaniah 1:7-8 also pictures God consecrating guests and punishing those dressed in foreign apparel. The point: accepting the invitation means honoring the host.", "verses": ["Matthew 22:11-12", "Zephaniah 1:7-8"], "src": "web"},
+    {"h": "Bound and thrown outside", "icon": "lamp", "summary": "The king has the man tied hand and foot and thrown into the outer darkness, where there will be weeping and gnashing of teeth. Ancient banquets ran into the night in lit halls. Ministry Magazine argues the outer darkness describes conditions outside the banqueting hall, not hell. Jeremy Myers reads it as exclusion from the wedding feast. The phrase appears only in Matthew 8:12, 22:13 and 25:30, never with fire.", "verses": ["Matthew 22:13", "Matthew 8:12", "Matthew 25:30"], "src": "web"},
+    {"h": "Weeping and gnashing", "icon": "speech", "summary": "The same phrase closes the weeds and dragnet parables. Here it fits a man dragged from a celebration he could have enjoyed: regret, shame and anger at being shut out. In Matthew 8:11-12 the weeping happens as outsiders feast with Abraham, Isaac and Jacob while the sons of the kingdom are thrown out. The tears come from loss, not from a flame.", "verses": ["Matthew 8:11-12", "Luke 13:28"], "src": "web"},
+    {"h": "Many called, few chosen", "icon": "question", "summary": "The closing proverb is often read as a decree: few are saved. Jeremy Myers argues Jesus says nothing here about God choosing some for heaven and others for hell. God invites all, without favoritism, to share his rule on earth; the chosen are those who respond and take part. Traditional readers like GotQuestions stress that God must draw those who come.", "verses": ["Matthew 22:14", "Matthew 20:16", "John 6:44"], "src": "web"},
+    {"h": "The traditional reading", "icon": "alert", "summary": "Traditional commentators read the garment as Christ's righteousness and the outer darkness as eternal separation in hell, with weeping as unending anguish. But the story's own logic is a feast: those who refuse miss it, and the improperly dressed guest is removed from it. Nothing says he is kept alive in torment, and Luke's version ends simply with exclusion.", "verses": ["Matthew 22:13", "Luke 14:24"], "src": "web"}
+  ],
+  "parable": {
+    "ref": "Matthew 22:1-14; Luke 14:15-24",
+    "audience": "Matthew: chief priests and Pharisees in the temple. Luke: guests at a Pharisee leader's Sabbath meal.",
+    "setting": "Matthew places it in Jesus' final week, the third of three judgment parables against Jerusalem's leaders, after they challenged his authority. Luke sets a simpler version at a dinner, answering a guest's hope of eating in God's kingdom.",
+    "decoder": [
+      {"symbol": "The king and his son", "traditional": "God the Father and Christ.", "original": "God and his Messiah, whose wedding feast is the long-awaited messianic banquet of Isaiah 25:6."},
+      {"symbol": "The invited guests who refuse", "traditional": "Unbelievers headed for hell.", "original": "Israel's leaders and those who followed them, refusing Jesus' invitation despite the prophets' calls."},
+      {"symbol": "The burned city", "traditional": "Often skipped, or read as final judgment.", "original": "Jerusalem, destroyed by Rome in AD 70, as many scholars read verse 7; judgment in history."},
+      {"symbol": "Guests from the roads", "traditional": "The saved church.", "original": "Outsiders, bad and good: sinners, the poor, the lame, and in time the Gentiles."},
+      {"symbol": "The wedding garment", "traditional": "Imputed righteousness, without which one is damned.", "original": "Fitting response to the invitation; honoring the host. Its exact meaning is debated."},
+      {"symbol": "Outer darkness", "traditional": "Hell, eternal separation from God.", "original": "Night outside the lit banquet hall; exclusion from the celebration (Myers, Ministry Magazine)."},
+      {"symbol": "Many called, few chosen", "traditional": "Few are elected to salvation.", "original": "Myers: God invites all without favoritism to share his rule; those who respond take part."}
+    ]
+  },
+  "visuals": [
+    {"type": "flow", "title": "How the story unfolds", "steps": [
+      {"label": "Invitation to the wedding", "note": "The king's servants call the invited guests to his son's feast."},
+      {"label": "Guests refuse, servants killed", "note": "Some go to farm and business; others abuse and kill the servants."},
+      {"label": "City burned", "note": "Troops destroy the murderers; widely read as Jerusalem in AD 70."},
+      {"label": "Hall filled with outsiders", "note": "Everyone from the roads, bad and good, is brought in."},
+      {"label": "Underdressed guest removed", "note": "Bound and put out into the dark outside the lit hall."}
+    ], "caption": "Each stage happens in history and at a party. None takes place in an afterlife torture chamber."},
+    {"type": "compare", "title": "Matthew and Luke side by side", "left": {"label": "Matthew 22:1-14", "items": ["A king's wedding feast for his son", "Servants mistreated and killed", "City burned by the king's troops", "Bad and good gathered from roads", "Guest without garment thrown out", "Ends: many called, few chosen"]}, "right": {"label": "Luke 14:15-24", "items": ["A man's great dinner", "Polite excuses: field, oxen, marriage", "No violence, no city", "Poor, crippled, blind, lame brought in", "No garment scene", "Ends: none of the invited will taste it"]}, "caption": "Luke's version has no darkness, fire or weeping: the penalty is missing the dinner."},
+    {"type": "verse", "title": "Reading the ending closely", "ref": "Matthew 22:13-14 (BSB)", "text": "Then the king told the servants, 'Tie him hand and foot, and throw him into the outer darkness, where there will be weeping and gnashing of teeth.' For many are called, but few are chosen.", "notes": [
+      {"phrase": "Tie him hand and foot", "note": "Removal from the hall, like a bouncer ejecting a guest; the story stays at the party."},
+      {"phrase": "the outer darkness", "note": "Banquets ran at night; outside the lit hall was darkness. Found only in Matthew 8:12, 22:13, 25:30."},
+      {"phrase": "weeping and gnashing of teeth", "note": "Regret and anger at missing the feast; no fire is mentioned."},
+      {"phrase": "many are called, but few are chosen", "note": "Myers: an invitation to share God's rule, not a decree assigning most to hell."}
+    ]}
+  ],
+  "mythfact": [
+    {"myth": "The outer darkness is a name for hell.", "fact": "In the story it is the night outside a lit banquet hall. Jeremy Myers and Ministry Magazine read it as exclusion from the wedding feast."},
+    {"myth": "The burning in this parable is hellfire.", "fact": "The only fire burns a city (Matthew 22:7), widely read as Jerusalem in AD 70. No one is thrown into fire."},
+    {"myth": "Many called, few chosen means most people are destined for eternal torment.", "fact": "Myers argues the saying concerns God's impartial invitation to join his kingdom work, not who goes to heaven or hell."}
+  ],
+  "terms": [
+    {"term": "Messianic banquet", "meaning": "The hoped-for feast of the age to come, rooted in Isaiah 25:6, for all peoples."},
+    {"term": "Outer darkness", "meaning": "Darkness outside the lit hall; used only in Matthew 8:12, 22:13 and 25:30."},
+    {"term": "Wedding garment", "meaning": "Clothing fit for the feast; read variously as righteousness, a fitting response, or honoring the host."},
+    {"term": "Called and chosen", "meaning": "Klētoi and eklektoi: invited ones and chosen ones."}
+  ],
+  "quotes": [
+    {"text": "The king was enraged. He sent his army and destroyed those murderers and burned their city.", "who": "Matthew 22:7 (NIV)"},
+    {"text": "Then the king told the servants, 'Tie him hand and foot, and throw him into the outer darkness, where there will be weeping and gnashing of teeth.'", "who": "Matthew 22:13 (BSB)"},
+    {"text": "For many are called, but few are chosen.", "who": "Matthew 22:14 (BSB)"}
+  ],
+  "verses": [
+    {"ref": "Matthew 21:45", "role": "The leaders know the parables are about them."},
+    {"ref": "Matthew 22:7", "role": "The king burns their city: widely read as Jerusalem in AD 70."},
+    {"ref": "Matthew 22:10", "role": "Bad and good gathered: the feast opens to outsiders."},
+    {"ref": "Matthew 22:11-12", "role": "The garment: fitting response to the king's invitation."},
+    {"ref": "Matthew 22:13", "role": "Outer darkness: put out of the lit hall, excluded from the feast."},
+    {"ref": "Matthew 22:14", "role": "Called and chosen: an invitation, not a decree of damnation."},
+    {"ref": "Luke 14:24", "role": "Luke's ending: the refusers simply miss the dinner."},
+    {"ref": "Isaiah 25:6-8", "role": "God's feast for all peoples, where death is swallowed up."},
+    {"ref": "Zephaniah 1:7-8", "role": "God consecrates guests and judges those in foreign apparel."},
+    {"ref": "Matthew 8:11-12", "role": "Outsiders feast with Abraham; sons of the kingdom thrown into darkness."}
+  ],
+  "quiz": [
+    {"q": "What does the king burn in the parable?", "options": ["The guest without a garment", "The murderers' city", "The banquet hall"], "answer": 1, "why": "Matthew 22:7: the king's troops burn the city, widely read as Jerusalem in AD 70. No person is thrown into fire."},
+    {"q": "Why is the outer darkness dark?", "options": ["It is the underworld", "The banquet hall was lit and outside was night", "It is a lake of fire"], "answer": 1, "why": "Banquets ran into the evening; being thrown out meant being put into the night outside, excluded from the celebration."},
+    {"q": "What is missing from Luke's version?", "options": ["The invitation", "The poor and lame guests", "The garment, darkness and weeping"], "answer": 2, "why": "Luke's great banquet ends only with the refusers missing the dinner (Luke 14:24)."}
+  ],
+  "reflect": "If the worst outcome in this story is missing the party, what does that say about what God is inviting you to?",
+  "related": ["darkness", "awayfromme", "narrow", "sheepgoats", "freewill", "gehenna"],
+  "sources": [
+    {"title": "Parable of the Wedding Feast (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Parable_of_the_Wedding_Feast", "note": "Overview of the parable, its parallels and interpretations."},
+    {"title": "Parable of the Great Banquet (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Parable_of_the_Great_Banquet", "note": "Luke's version; notes the burning city likely refers to Jerusalem in AD 70."},
+    {"title": "Was Matthew Written AFTER A.D. 70? (Jimmy Akin)", "url": "https://jimmyakin.com/2018/11/was-matthew-written-after-a-d-70.html", "note": "Carson and Moo: Matthew 22:7 uses standard language for punishing rebel cities."},
+    {"title": "Commentary on Matthew 22:1-14 (Working Preacher)", "url": "https://www.workingpreacher.org/commentaries/narrative-lectionary/wedding-banquet-2/commentary-on-matthew-221-14-8", "note": "Allegorical reading: rejected prophets and the king's response as Jerusalem's fall."},
+    {"title": "Matthew 22:13 Archives - Redeeming God", "url": "https://redeeminggod.com/bible-theology-topics/matthew-2213/", "note": "Jeremy Myers: outer darkness means exclusion from the wedding feast, not hell."},
+    {"title": "What does 'Many are called, but few are chosen' mean in Matthew 22:14? (Redeeming God)", "url": "https://redeeminggod.com/called-chosen-matthew-22-14/", "note": "Myers: an impartial invitation to God's rule on earth, not heaven-or-hell election."},
+    {"title": "Shedding Light on the Outer Darkness (Ministry Magazine)", "url": "https://www.ministrymagazine.org/archive/2012/09/shedding-light-on-the-outer-darkness", "note": "Evening banquets: outer darkness describes conditions outside the hall, not hell."},
+    {"title": "Matthew 22:12, REV Bible and Commentary", "url": "https://revbible.com/comm/Matthew/22/12", "note": "No verse says garments were handed out, though context implies clothing was offered."},
+    {"title": "What is the meaning of the wedding garments in Matthew 22:11-12? (GotQuestions)", "url": "https://www.gotquestions.org/wedding-garments.html", "note": "Traditional: garment is Christ's righteousness; outer darkness is judgment."},
+    {"title": "What does it mean to be cast into the outer darkness? (Compelling Truth)", "url": "https://www.compellingtruth.org/outer-darkness.html", "note": "Traditional: outer darkness as eternal separation from God."}
+  ],
+  "objections": [
+    {"claim": "Outer darkness with weeping and gnashing of teeth is Jesus' description of hell, eternal separation from God.", "kind": "scriptural", "strongest": "Matthew uses the outer darkness three times, each time for final rejection with weeping and gnashing. Binding hand and foot shows there is no escape. This is the fate of those without Christ's righteousness, forever.", "response": "The image belongs to the story's setting: an evening feast in a lit hall, with night outside. Ministry Magazine and Jeremy Myers both read it as exclusion from the celebration. The three uses are all banquet or household scenes and none mentions fire, so darkness and flames cannot both be literal. Weeping fits someone who has lost a joy he was offered. The text says he is put out; it never says he is kept alive in agony forever.", "verses": ["Matthew 22:13", "Matthew 8:11-12", "Matthew 25:30"], "sources": ["https://www.compellingtruth.org/outer-darkness.html", "https://www.ministrymagazine.org/archive/2012/09/shedding-light-on-the-outer-darkness", "https://redeeminggod.com/bible-theology-topics/matthew-2213/"]},
+    {"claim": "Reading AD 70 into verse 7 is speculation; it is conventional war language, and the parable as a whole points to the final judgment.", "kind": "historical", "strongest": "Carson and Moo show the wording is standard for punishing rebel cities, so it need not be Jerusalem. And even granting AD 70, the garment scene moves from a nation to an individual at the final reckoning.", "response": "Carson and Moo themselves say Jesus foresaw Jerusalem's destruction, as prophets before him did; they only deny the wording depends on knowing the details of AD 70. Told in the temple to leaders plotting his death, the burned city most naturally points there. The garment scene continues the same feast and still ends with removal. Readers who see a final judgment here still meet exclusion, not a description of endless torment.", "verses": ["Matthew 22:7", "Matthew 23:37-38", "Matthew 24:1-2"], "sources": ["https://jimmyakin.com/2018/11/was-matthew-written-after-a-d-70.html", "https://en.wikipedia.org/wiki/Parable_of_the_Great_Banquet", "https://www.workingpreacher.org/commentaries/narrative-lectionary/wedding-banquet-2/commentary-on-matthew-221-14-8"]},
+    {"claim": "Many are called but few are chosen means most people will be lost forever.", "kind": "scriptural", "strongest": "Jesus' summary says the invitation is wide but salvation is narrow. God must draw those who come (John 6:44); the rest remain outside, and outside is the darkness just described.", "response": "Jeremy Myers argues the saying says nothing about God choosing some for heaven and others for hell. In the story the call goes to everyone, bad and good, without favoritism; the chosen are those who respond and take part. Even on the traditional reading, the few and many describe who enjoys the feast, not how long the rest suffer. The proverb sets out a contrast in response, not a sentence of eternal torment.", "verses": ["Matthew 22:14", "Matthew 22:9-10", "John 6:44"], "sources": ["https://redeeminggod.com/called-chosen-matthew-22-14/", "https://www.gotquestions.org/wedding-garments.html"]},
+    {"claim": "The wedding garment is Christ's imputed righteousness; anyone lacking it is condemned, so the parable is about salvation and damnation.", "kind": "cultural", "strongest": "Kings supplied wedding garments, so the man refused a free gift, a picture of rejecting Christ's righteousness. His silence shows guilt, and his expulsion pictures damnation.", "response": "The garment's meaning is debated: older commentators cite customs of hosts providing clothes, while REV Bible notes no verse says garments were handed out. Either way, the guest accepted the invitation but refused to honor the host. Zephaniah 1:8 uses a similar image for unfaithful Judah. Taking the garment as righteousness still leaves the penalty the story gives: removal from the feast. Salvation is about joining the celebration; the parable never adds endless pain.", "verses": ["Matthew 22:11-12", "Zephaniah 1:7-8"], "sources": ["https://www.gotquestions.org/wedding-garments.html", "https://revbible.com/comm/Matthew/22/12"]}
+  ]
+}

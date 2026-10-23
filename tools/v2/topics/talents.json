@@ -1,0 +1,102 @@
+{
+  "id": "talents",
+  "title": "The Talents and the Minas",
+  "kind": "parable",
+  "hook": "Is the servant thrown into outer darkness a picture of souls burning forever?",
+  "tldr": "Both parables are about a master who leaves and returns to settle accounts with servants and enemies. A talent was a fortune, a mina a modest sum. Luke's version echoes a real prince, Archelaus, and points to Jerusalem's coming judgment. Outer darkness pictures being shut out of the master's feast, not endless torture.",
+  "big_idea": "A story about faithfulness and a returning king, not a map of hell.",
+  "points": [
+    {"icon": "coin", "title": "A talent was a fortune", "text": "A talent was about 6,000 denarii, and a denarius was a day's wage, so one talent was roughly 16 to 20 years of a laborer's pay. Even the one-talent servant held enormous trust.", "verses": ["Matthew 25:15", "Matthew 20:2"]},
+    {"icon": "crown", "title": "A nobleman everyone recognized", "text": "Luke's nobleman travels to a far country to receive a kingdom while citizens send a delegation against him. Herod's son Archelaus did exactly that in Rome, and many commentators see the echo.", "verses": ["Luke 19:12", "Luke 19:14"]},
+    {"icon": "temple", "title": "Told on the road to Jerusalem", "text": "Luke says Jesus told it because he was near Jerusalem and people thought the kingdom would appear immediately. Days later he weeps over the city and predicts its destruction.", "verses": ["Luke 19:11", "Luke 19:41-44"]},
+    {"icon": "lamp", "title": "Outer darkness is outside the feast", "text": "The faithful enter the master's joy, a celebration. The worthless servant is put outside, into the night beyond the lit hall. The image is exclusion and loss, not a torture chamber.", "verses": ["Matthew 25:21", "Matthew 25:30"]},
+    {"icon": "sword", "title": "Slain, not tormented forever", "text": "The harshest line, 'slay them before me', describes death for the king's enemies. Many readers link it to Jerusalem's fall in AD 70. Either way, death is not endless conscious pain.", "verses": ["Luke 19:27"]},
+    {"icon": "scale", "title": "The parable has other jobs", "text": "Its point is faithfulness while the master is away and a warning about a coming reckoning. Building a doctrine of eternal torment from one story detail stretches the parable past its purpose.", "verses": ["Matthew 25:29", "Luke 19:26"]}
+  ],
+  "sections": [
+    {"h": "Two similar stories", "icon": "book", "summary": "Matthew tells of a man who gives five, two and one talents to three servants, then returns to settle accounts. Luke tells of a nobleman who gives ten servants one mina each, goes to receive a kingdom, and faces hostile citizens. Both reward the faithful and strip the fearful servant of what he had. Luke adds the enemies who are slain.", "verses": ["Matthew 25:14-30", "Luke 19:11-27"], "src": "web"},
+    {"icon": "coin", "h": "What a talent and a mina were", "summary": "A talent was a unit of weight, roughly 75 to 80 pounds of silver, worth about 6,000 denarii. With a denarius as a day's wage, that is about 16 to 20 years of work. A mina was far smaller, about 100 denarii. The English sense of talent as a natural gift comes from this parable, not the other way round.", "verses": ["Matthew 25:15", "Luke 19:13"], "src": "web"},
+    {"h": "Archelaus: the prince who went to Rome", "icon": "crown", "summary": "After Herod the Great died, his son Archelaus went to Rome to have Augustus confirm him as king. A delegation of Jews followed to oppose him. Augustus made him only ethnarch over Judea, Samaria and Idumea. He had massacred about 3,000 people at the Temple at Passover, built a palace at Jericho, and was deposed and banished in AD 6. Jesus told the parable near Jericho.", "verses": ["Luke 19:1", "Luke 19:12-14", "Matthew 2:22"], "src": "web"},
+    {"h": "The setting: near Jerusalem", "icon": "temple", "summary": "Luke frames the story as a correction: the crowd expected the kingdom to appear at once. N.T. Wright reads it as Jesus' own journey to Jerusalem, the return of Israel's God to Zion, bringing mercy and judgment. Right after it, Jesus weeps over Jerusalem and foretells enemies encircling it, which happened in AD 70. John Gill already tied 'slay them' to that slaughter.", "verses": ["Luke 19:11", "Luke 19:27", "Luke 19:41-44"], "src": "web"},
+    {"h": "The third servant", "icon": "person", "summary": "The one-talent servant buries the money out of fear and calls his master hard. Later rabbinic law (Shmuel, in the Talmud) called burying coins the safest way to guard a deposit, so his act was cautious, not criminal. William Herzog and Richard Rohrbaugh even read him as a whistleblower against an exploitive master, a reading others reject for ignoring the Gospel context.", "verses": ["Matthew 25:18", "Matthew 25:24-25", "Luke 19:20-21"], "src": "web"},
+    {"h": "Outer darkness and gnashing teeth", "icon": "lamp", "summary": "Matthew ends with the worthless servant thrown into outer darkness with weeping and gnashing of teeth. Thayer's lexicon describes the phrase as the darkness outside a lighted palace. The faithful are invited into the master's joy, a feast; the unfaithful is left outside it. Some readers see hell here; others see loss of reward and honor, as even Free Grace writers argue.", "verses": ["Matthew 25:30", "Matthew 8:12", "Matthew 22:13"], "src": "web"},
+    {"h": "Why this is not about endless torment", "icon": "check", "summary": "Nothing in either story mentions fire, souls, or forever. One servant is excluded, the enemies are killed. The images are exclusion, shame, loss and death. Universalists read the exclusion as a painful but corrective outcome; annihilationists stress that the enemies die; AD 70 readers point to Jerusalem's fall. None of these requires eternal conscious torment.", "verses": ["Luke 19:27", "Matthew 25:46"], "src": "web"}
+  ],
+  "visuals": [
+    {"type": "stats", "title": "The money in the stories", "items": [
+      {"value": "6,000", "label": "denarii in one talent"},
+      {"value": "16-20", "label": "years of a laborer's wages per talent"},
+      {"value": "100", "label": "denarii in one mina"},
+      {"value": "8", "label": "talents entrusted in Matthew's story"}
+    ], "caption": "Even the 'one-talent' servant was trusted with years of income."},
+    {"type": "compare", "title": "Archelaus and Luke's nobleman", "left": {"label": "Archelaus (Josephus)", "items": ["Son of Herod, sails to Rome for a crown", "Jewish delegation follows to oppose him", "Given rule over Judea, title ethnarch", "Known for slaughtering 3,000 at Passover", "Had a palace at Jericho"]}, "right": {"label": "Luke 19 nobleman", "items": ["Goes to a far country to receive a kingdom", "Citizens send word: we will not have him", "Returns having received the kingdom", "Orders enemies slain before him", "Story told as Jesus leaves Jericho"]}, "caption": "Many commentators see the parable borrowing a story every Judean knew."},
+    {"type": "verse", "title": "Reading Matthew 25:30 closely", "ref": "Matthew 25:30 (KJV)", "text": "And cast ye the unprofitable servant into outer darkness: there shall be weeping and gnashing of teeth.", "notes": [
+      {"phrase": "unprofitable servant", "note": "The charge is uselessness and fear, not a list of crimes."},
+      {"phrase": "outer darkness", "note": "The night outside the lit hall where the master's joy is being celebrated."},
+      {"phrase": "weeping and gnashing of teeth", "note": "Grief and bitter frustration at missing out; nothing here says forever or fire."}
+    ]}
+  ],
+  "mythfact": [
+    {"myth": "The worthless servant is thrown into eternal hellfire.", "fact": "The text says outer darkness, outside the master's celebration. No fire, no duration, no soul in torment is mentioned."},
+    {"myth": "A talent is a natural ability.", "fact": "A talent was a huge sum of money, about 6,000 denarii. The modern meaning of 'talent' grew out of this parable."},
+    {"myth": "The cruel king slaying enemies is a picture of God torturing people forever.", "fact": "The scene matches the politics of Archelaus, and the enemies die. Many link it to Jerusalem's destruction in AD 70."}
+  ],
+  "terms": [
+    {"term": "Talent", "meaning": "A weight of silver worth about 6,000 denarii, roughly 16 to 20 years of wages."},
+    {"term": "Mina", "meaning": "A smaller unit of money, about 100 denarii, given to each of Luke's ten servants."},
+    {"term": "Ethnarch", "meaning": "'Ruler of a people', the lesser title Augustus gave Archelaus instead of king."},
+    {"term": "Outer darkness", "meaning": "The dark outside a lit feast hall; an image of exclusion from the master's joy."}
+  ],
+  "quotes": [
+    {"text": "But those mine enemies, which would not that I should reign over them, bring hither, and slay them before me.", "who": "Luke 19:27 (KJV)"},
+    {"text": "Well done, thou good and faithful servant… enter thou into the joy of thy lord.", "who": "Matthew 25:21 (KJV)"},
+    {"text": "having spoken the truth, the servant must be vilified, shamed, and humiliated so that his words will carry no weight", "who": "William Herzog, Parables as Subversive Speech"}
+  ],
+  "verses": [
+    {"ref": "Matthew 25:14-30", "role": "The talents: faithful servants rewarded, the fearful servant excluded."},
+    {"ref": "Luke 19:11", "role": "Told near Jerusalem to correct hopes of an immediate kingdom."},
+    {"ref": "Luke 19:12-14", "role": "Nobleman seeking a kingdom while citizens protest, echoing Archelaus."},
+    {"ref": "Luke 19:27", "role": "Enemies slain: death, linked by many to Jerusalem's fall."},
+    {"ref": "Luke 19:41-44", "role": "Jesus weeps and predicts the city's destruction right after the parable."},
+    {"ref": "Matthew 25:21", "role": "Entering the master's joy: the feast the third servant misses."},
+    {"ref": "Matthew 25:30", "role": "Outer darkness and gnashing teeth: exclusion and regret, not fire."},
+    {"ref": "Matthew 2:22", "role": "Archelaus named in the Gospels as ruler of Judea."}
+  ],
+  "quiz": [
+    {"q": "About how much was one talent worth?", "options": ["A day's wage", "About 16 to 20 years of wages", "A natural skill"], "answer": 1, "why": "A talent was about 6,000 denarii, and a denarius was a laborer's daily pay."},
+    {"q": "Which real ruler does Luke's nobleman resemble?", "options": ["Archelaus, son of Herod", "Pontius Pilate", "Caesar Augustus"], "answer": 0, "why": "Archelaus went to Rome to receive a kingdom while a Jewish delegation opposed him."},
+    {"q": "What happens to the king's enemies in Luke 19:27?", "options": ["They are tormented forever", "They are slain", "They are forgiven"], "answer": 1, "why": "The text says slay them. Death, often linked to AD 70, is not endless conscious torment."}
+  ],
+  "reflect": "If you had been the third servant, what would fear of the master have made you do with his money?",
+  "related": ["darkness", "sheepgoats", "gehenna", "justice", "destruction"],
+  "parable": {
+    "ref": "Matthew 25:14-30; Luke 19:11-27",
+    "audience": "Disciples on the Mount of Olives (Matthew); crowds near Jericho and Jerusalem (Luke).",
+    "setting": "Matthew places it in the Olivet discourse after Jesus predicts the Temple's fall. Luke sets it on the way up to Jerusalem, after Zacchaeus at Jericho, where Archelaus had a palace, to correct hopes of an immediate kingdom.",
+    "decoder": [
+      {"symbol": "The master / nobleman", "traditional": "Christ at his second coming judging every soul.", "original": "A returning king; Wright sees Jesus coming to Jerusalem as God's return to Zion, with judgment for the city."},
+      {"symbol": "Talents and minas", "traditional": "Personal gifts one must use or be damned.", "original": "Large sums entrusted to servants: the responsibility given to Israel and Jesus' followers while the master is away."},
+      {"symbol": "The buried talent", "traditional": "Proof of an unsaved, faithless soul.", "original": "A fearful, safe choice; later rabbinic law even called burial the safest guard for money."},
+      {"symbol": "Outer darkness", "traditional": "Hell, the place of eternal conscious torment.", "original": "The night outside the master's lit feast: exclusion from joy and honor."},
+      {"symbol": "Citizens who reject the king", "traditional": "All unbelievers at the last judgment.", "original": "Those who said 'we will not have him', echoing the delegation against Archelaus and Jerusalem's leaders."},
+      {"symbol": "Slay them before me", "traditional": "Eternal punishment in hell.", "original": "Death, which many readers since John Gill connect to Jerusalem's destruction in AD 70."}
+    ]
+  },
+  "sources": [
+    {"title": "Parable of the Talents (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Parable_of_the_Talents", "note": "Overview, talent value, and possible Archelaus allusion in Luke's version."},
+    {"title": "Herod Archelaus (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Herod_Archelaus", "note": "Archelaus' trip to Rome, ethnarch title, rule c. 4 BC to AD 6."},
+    {"title": "Parables of the Talents and the Minas: Background", "url": "https://www.pas.rochester.edu/~tim/study/Talents%20and%20the%20Minas.pdf", "note": "Study notes on Archelaus, the Jericho palace and Wright on the parousia."},
+    {"title": "Faithful to the Absent King (Phillip Martin)", "url": "https://www.phillipwmartin.net/p/faithful-to-the-absent-king", "note": "Summarizes N.T. Wright: Jesus' journey to Jerusalem as God's return, with judgment."},
+    {"title": "The parable of the 'talents' in Matthew 25 (Psephizo)", "url": "https://www.psephizo.com/biblical-studies/the-parable-of-the-talents-in-matthew-25/", "note": "Ian Paul surveys readings, including Herzog's, and the servant's fear."},
+    {"title": "Redeeming Refusal (Political Theology)", "url": "https://politicaltheology.com/redeeming-refusal/", "note": "Presents Herzog's whistleblower reading of the third servant."},
+    {"title": "Bava Metzia 42a-b: Safeguarding One's Money", "url": "https://steinsaltz.org/daf/bavametzia42/", "note": "Talmud: Shmuel says burying coins is the proper way to guard money."},
+    {"title": "Outside the Feast (Kendall Meek)", "url": "https://kendallmeek.substack.com/p/outside-the-feast", "note": "Reads outer darkness as exclusion from a lit banquet."},
+    {"title": "What does 'outer darkness' in Matthew 25:30 symbolize?", "url": "https://biblehub.com/q/Meaning_of_outer_darkness_in_Matt_25_30.htm", "note": "Traditional view: a real post-mortem state outside God's kingdom."},
+    {"title": "Luke 19:27 Commentaries (Bible Hub)", "url": "https://biblehub.com/commentaries/luke/19-27.htm", "note": "Older commentators split between AD 70 slaughter and final judgment."}
+  ],
+  "objections": [
+    {"claim": "Weeping and gnashing of teeth in outer darkness is Jesus' standard description of hell.", "kind": "scriptural", "strongest": "Matthew uses the same formula in 8:12, 13:42, 22:13 and 24:51, and chapter 25 ends with eternal punishment. Read together, outer darkness must be the final state of the lost.", "response": "The formula belongs to banquet and household scenes: people outside a feast, a guest thrown out of a wedding. Darkness and fire cannot both be literal. Gnashing teeth in Scripture expresses rage and regret, not pain. Matthew 25:46 is a separate scene about the nations, treated in its own topic; borrowing its 'eternal' to define this parable assumes the conclusion. In the parable itself, the servant is simply put outside the master's joy.", "verses": ["Matthew 25:30", "Matthew 22:13", "Matthew 8:11-12"], "sources": ["https://biblehub.com/q/Meaning_of_outer_darkness_in_Matt_25_30.htm", "https://kendallmeek.substack.com/p/outside-the-feast"]},
+    {"claim": "Luke 19:27 shows Christ will personally execute his enemies at the final judgment.", "kind": "scriptural", "strongest": "The nobleman obviously represents Jesus, who goes away and returns as king. His command to slay enemies before him pictures the judgment of all who reject his reign.", "response": "Even read that way, the image is death, not endless conscious torment, which fits annihilation better than ECT. But Luke frames the story by Jerusalem and immediately has Jesus foretell enemies leveling the city because it did not know its visitation. Commentators from John Gill on have tied the slaughter to AD 70. The nobleman also borrows features of Archelaus, a cruel ruler, so not every trait maps onto God.", "verses": ["Luke 19:27", "Luke 19:41-44"], "sources": ["https://biblehub.com/commentaries/luke/19-27.htm", "https://www.phillipwmartin.net/p/faithful-to-the-absent-king"]},
+    {"claim": "The parable proves salvation can be lost, or that fruitless professing believers go to hell.", "kind": "pastoral", "strongest": "The third servant belongs to the master's household, yet is cast out. If outer darkness is hell, unfaithful church members face eternal torment, so the warning must be heard at full strength.", "response": "Readers who take outer darkness as hell end up debating whether he was ever saved. Free Grace writers instead read it as a believer losing reward, and banquet-reading interpreters see exclusion from honor. The parable's own logic is stewardship and accountability: what you have is taken and given to the faithful. That is a serious warning without importing a doctrine of endless torture the story never mentions.", "verses": ["Matthew 25:28-29", "Luke 19:24-26"], "sources": ["https://www.psephizo.com/biblical-studies/the-parable-of-the-talents-in-matthew-25/", "https://kendallmeek.substack.com/p/outside-the-feast"]}
+  ]
+}

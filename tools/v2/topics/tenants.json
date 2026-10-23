@@ -1,0 +1,107 @@
+{
+  "id": "tenants",
+  "title": "The Wicked Tenants",
+  "kind": "parable",
+  "hook": "When the owner 'miserably destroys' the tenants, is Jesus describing hell or Jerusalem?",
+  "tldr": "Jesus retells Isaiah's vineyard song in the Temple, aiming it at the chief priests and Pharisees, who knew he meant them. Tenants kill the servants and the son, so the owner destroys them and gives the vineyard to others. The judgment is death and loss of stewardship, widely read as fulfilled in AD 70, not endless torment.",
+  "big_idea": "The tenants lose the vineyard and their lives, not their souls forever.",
+  "points": [
+    {"icon": "tree", "title": "Isaiah's vineyard retold", "text": "Hedge, winepress and tower come straight from Isaiah 5, where the vineyard is the house of Israel. Jewish tradition read the tower and winepress as the Temple and altar.", "verses": ["Isaiah 5:1-7", "Matthew 21:33"]},
+    {"icon": "people", "title": "The leaders knew he meant them", "text": "The chief priests and Pharisees perceived the parable was about them. In Jesus' version the vineyard is fine; the tenants, Israel's leaders, are the problem.", "verses": ["Matthew 21:45", "Mark 12:12"]},
+    {"icon": "speech", "title": "The listeners pronounce the sentence", "text": "In Matthew the leaders themselves answer: 'He will miserably destroy those wicked men.' The Greek repeats one word: bad men, badly destroyed.", "verses": ["Matthew 21:41"]},
+    {"icon": "temple", "title": "A judgment on the Temple", "text": "Jesus tells it in the Temple days after overturning tables. Within a generation Rome destroyed Jerusalem and the Temple, and the priestly leadership ended.", "verses": ["Matthew 21:12-13", "Matthew 21:23", "Matthew 22:7"]},
+    {"icon": "key", "title": "Stewardship taken away", "text": "'The kingdom of God shall be taken from you.' The penalty is losing the vineyard to tenants who bear fruit, a transfer of responsibility, not a torture sentence.", "verses": ["Matthew 21:43"]},
+    {"icon": "mountain", "title": "The crushing stone", "text": "Psalm 118's rejected stone becomes the cornerstone; falling on it breaks, and being fallen on crushes. Crushing pictures destruction, not ongoing conscious pain.", "verses": ["Psalm 118:22-23", "Matthew 21:42-44", "Daniel 2:34-35"]}
+  ],
+  "sections": [
+    {"h": "Setting: Holy Week in the Temple", "icon": "temple", "summary": "Jesus has entered Jerusalem, cleansed the Temple, and been challenged by the chief priests and elders about his authority. He answers with three parables: the two sons, the wicked tenants, and the wedding feast. All three target the Temple leadership. In the third, the king sends armies and burns the murderers' city.", "verses": ["Matthew 21:12-13", "Matthew 21:23", "Matthew 22:7"], "src": "web"},
+    {"h": "Isaiah's song of the vineyard", "icon": "tree", "summary": "Isaiah 5 sings of a beloved who plants a choice vineyard, digs a winepress, builds a tower, and gets wild grapes; the vineyard is the house of Israel and it will be laid waste. The Aramaic Targum reads the tower as the sanctuary and the winepress as the altar, and a Dead Sea fragment (4Q500) seems to link the vineyard to the Temple.", "verses": ["Isaiah 5:1-7", "Matthew 21:33"], "src": "web"},
+    {"h": "Jesus' twist: blame the tenants", "icon": "people", "summary": "In Isaiah the vineyard fails. In Jesus' story the vineyard is fine and the tenants refuse to hand over the fruit. They beat, kill and stone servants, the prophets, then kill the owner's son and cast him out. Andrew Perriman and Enter the Bible stress the target is Israel's leaders, not Israel as a whole.", "verses": ["Matthew 21:34-39", "Mark 12:6-8"], "src": "web"},
+    {"h": "A familiar world of tenants", "icon": "wheat", "summary": "Absentee landlords leased estates to tenant farmers, and C.H. Dodd and Joachim Jeremias saw the story as a realistic picture of tension between Galilean peasants and foreign owners. The hearers knew the story's world, and the tenants' hope of seizing the inheritance by killing the heir.", "verses": ["Mark 12:1-7"], "src": "web"},
+    {"h": "'He will miserably destroy those wicked men'", "icon": "sword", "summary": "Jesus asks what the owner will do. In Matthew the leaders answer, condemning themselves: kakous kakos apolesei, 'bad men he will badly destroy'. In Mark, Jesus says the owner will come and destroy the tenants. In Luke the crowd gasps 'God forbid'. The verb apollumi means destroy or kill, an image of death.", "verses": ["Matthew 21:41", "Mark 12:9", "Luke 20:16"], "src": "web"},
+    {"h": "The stone and the kingdom taken", "icon": "mountain", "summary": "Jesus quotes Psalm 118: the builders' rejected stone becomes the head of the corner. The kingdom will be taken from them and given to a nation bearing its fruit. Whoever falls on the stone is broken; whomever it falls on is ground to powder, echoing Isaiah 8 and Daniel 2. Some manuscripts omit verse 44.", "verses": ["Matthew 21:42-44", "Psalm 118:22-23", "Isaiah 8:14-15", "Daniel 2:34-35"], "src": "web"},
+    {"h": "AD 70 and what the judgment means", "icon": "fire", "summary": "N.T. Wright sees the parable as the key to Jesus' Temple action: judgment on the Temple and its hierarchy. Perriman ties it to the war with Rome in 66-70. Many sermons and commentaries say it was fulfilled when Jerusalem fell. Others add a final judgment, but the images are death, loss and crushing, never endless torment.", "verses": ["Matthew 21:43", "Matthew 23:36-38", "Luke 19:43-44"], "src": "web"}
+  ],
+  "visuals": [
+    {"type": "compare", "title": "Isaiah's song and Jesus' parable", "left": {"label": "Isaiah 5", "items": ["Owner plants vineyard, hedge, winepress, tower", "The vineyard yields wild grapes", "Vineyard = the house of Israel", "Hearers asked to judge between owner and vineyard", "Vineyard laid waste"]}, "right": {"label": "Matthew 21", "items": ["Same vineyard, same hedge, winepress, tower", "Tenants withhold fruit and kill servants and son", "Tenants = chief priests and Pharisees", "Hearers judge the tenants, condemning themselves", "Tenants destroyed, vineyard given to others"]}, "caption": "Jesus moves the blame from the vineyard to its managers."},
+    {"type": "timeline", "title": "From parable to fulfillment", "events": [
+      {"date": "c. 740-700 BC", "label": "Isaiah's vineyard song", "note": "Israel pictured as God's vineyard that bore wild grapes."},
+      {"date": "c. AD 30", "label": "Jesus tells the parable", "note": "In the Temple, to chief priests and Pharisees during his last week."},
+      {"date": "c. AD 30", "label": "The son is killed", "note": "Jesus is crucified outside the city, like the son cast out of the vineyard."},
+      {"date": "AD 66", "label": "War with Rome begins", "note": "Revolt leads Roman legions to Judea."},
+      {"date": "AD 70", "label": "Temple and city destroyed", "note": "The priestly leadership's power ends, read by many as the tenants' destruction."}
+    ]},
+    {"type": "verse", "title": "Who pronounces the sentence", "ref": "Matthew 21:41-43 (KJV)", "text": "They say unto him, He will miserably destroy those wicked men, and will let out his vineyard unto other husbandmen, which shall render him the fruits in their seasons. Therefore say I unto you, The kingdom of God shall be taken from you, and given to a nation bringing forth the fruits thereof.", "notes": [
+      {"phrase": "They say unto him", "note": "The leaders themselves give the verdict before realizing it is about them."},
+      {"phrase": "miserably destroy those wicked men", "note": "Greek wordplay: bad men, badly destroyed. Destroy (apollumi) means kill or ruin, not torment forever."},
+      {"phrase": "other husbandmen", "note": "The vineyard survives; only its management changes hands."},
+      {"phrase": "taken from you", "note": "The penalty named is loss of the kingdom stewardship, addressed to 'you', the leaders present."}
+    ]}
+  ],
+  "mythfact": [
+    {"myth": "The parable condemns the Jewish people as a whole.", "fact": "The tenants are the leaders; the chief priests and Pharisees recognized themselves. The vineyard, Israel, is not destroyed but given new tenants."},
+    {"myth": "'Miserable death' describes eternal conscious torment.", "fact": "Apollumi means destroy or kill. The scene is a landowner executing murderous tenants, which many read as fulfilled in Jerusalem's fall in AD 70."},
+    {"myth": "Jesus himself coined 'miserably destroy' in every Gospel.", "fact": "In Matthew the listeners say it; in Mark Jesus says the owner will destroy them; in Luke the crowd answers 'God forbid'."}
+  ],
+  "terms": [
+    {"term": "Husbandmen", "meaning": "Old English for tenant farmers who worked a vineyard and owed the owner a share of the fruit."},
+    {"term": "Kakous kakos apolesei", "meaning": "Matthew 21:41 Greek: 'bad men he will badly destroy', a deliberate wordplay."},
+    {"term": "Cornerstone", "meaning": "Head of the corner in Psalm 118: the rejected stone God makes foundational, applied to Jesus."},
+    {"term": "Targum", "meaning": "Aramaic paraphrase of Scripture; on Isaiah 5 it reads the tower as the Temple and winepress as the altar."},
+    {"term": "4Q500", "meaning": "A Dead Sea Scrolls fragment that appears to link Isaiah's vineyard to Jerusalem's Temple and altar."}
+  ],
+  "quotes": [
+    {"text": "And when the chief priests and Pharisees had heard his parables, they perceived that he spake of them.", "who": "Matthew 21:45 (KJV)"},
+    {"text": "The stone which the builders rejected, the same is become the head of the corner", "who": "Matthew 21:42 (KJV)"}
+  ],
+  "verses": [
+    {"ref": "Isaiah 5:1-7", "role": "The vineyard song Jesus retells; Israel as God's vineyard."},
+    {"ref": "Matthew 21:33-46", "role": "The parable aimed at the Temple leaders during Holy Week."},
+    {"ref": "Matthew 21:41", "role": "Leaders pronounce the tenants' destruction: death, not endless torment."},
+    {"ref": "Matthew 21:43", "role": "Kingdom stewardship taken from the leaders and given to fruitful others."},
+    {"ref": "Matthew 21:44", "role": "The crushing stone: destruction imagery drawn from Isaiah 8 and Daniel 2."},
+    {"ref": "Matthew 21:45", "role": "The chief priests and Pharisees knew he meant them."},
+    {"ref": "Psalm 118:22-23", "role": "The rejected stone made cornerstone: Jesus vindicated."},
+    {"ref": "Mark 12:1-12", "role": "Mark's version: Jesus himself says the owner will destroy the tenants."},
+    {"ref": "Luke 20:9-19", "role": "Luke's version: the crowd recoils, 'God forbid'."},
+    {"ref": "Matthew 22:7", "role": "Next parable: the king burns the murderers' city, an AD 70 echo."}
+  ],
+  "quiz": [
+    {"q": "Who are the tenants in the parable?", "options": ["The Jewish people as a whole", "Israel's leaders, the chief priests and Pharisees", "The Romans"], "answer": 1, "why": "Matthew 21:45 says the chief priests and Pharisees perceived he spoke of them."},
+    {"q": "Which Old Testament passage does the parable retell?", "options": ["Isaiah 5", "Ezekiel 37", "Psalm 23"], "answer": 0, "why": "The hedge, winepress and tower come from Isaiah's song of the vineyard."},
+    {"q": "What does the owner do to the tenants?", "options": ["Torments them forever", "Destroys them and gives the vineyard to others", "Forgives them"], "answer": 1, "why": "The image is death and loss of the vineyard, which many read as fulfilled in AD 70."}
+  ],
+  "reflect": "What 'fruit' has God entrusted you to give back, and what would it look like to withhold it?",
+  "related": ["destruction", "gehenna", "wrath", "fearwhom", "unquenchable"],
+  "parable": {
+    "ref": "Matthew 21:33-46; Mark 12:1-12; Luke 20:9-19",
+    "audience": "Chief priests, elders and Pharisees in the Temple, with crowds listening.",
+    "setting": "Jesus' final week in Jerusalem, in the Temple courts, after he overturned the money-changers' tables and was asked by what authority he acted. It is the second of three parables against the Temple leadership.",
+    "decoder": [
+      {"symbol": "The vineyard", "traditional": "The kingdom or the church.", "original": "Israel, God's vineyard in Isaiah 5, with its Temple and altar; it survives under new tenants."},
+      {"symbol": "The tenants", "traditional": "All sinners or all Jews.", "original": "The chief priests and Pharisees, Israel's leaders, who knew he meant them."},
+      {"symbol": "The servants", "traditional": "Preachers of the gospel.", "original": "The prophets God sent to Israel, many of whom were rejected and killed."},
+      {"symbol": "The son", "traditional": "Christ.", "original": "Jesus himself, the beloved son, soon to be killed outside the city."},
+      {"symbol": "Miserably destroyed", "traditional": "Eternal conscious torment in hell.", "original": "Death and ruin, widely read as Jerusalem's destruction and the end of the priestly regime in AD 70."},
+      {"symbol": "Other tenants", "traditional": "The Gentile church replacing Israel.", "original": "New leadership that bears fruit: the apostles and Jesus' community, Jewish and Gentile."},
+      {"symbol": "The crushing stone", "traditional": "The damned crushed under eternal wrath.", "original": "The rejected Messiah as cornerstone; opposing him brings destruction, echoing Daniel's kingdom-crushing stone."}
+    ]
+  },
+  "sources": [
+    {"title": "Parable of the Wicked Husbandmen (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Parable_of_the_Wicked_Husbandmen", "note": "Overview, Isaiah 5 link, and debate over the tenants' identity."},
+    {"title": "Jesus' parable of the wicked tenants (Andrew Perriman, PostOst)", "url": "https://www.postost.net/2017/11/jesus-parable-wicked-tenants-exercise-narrative-historical-hermeneutics", "note": "Narrative-historical reading: critique of Israel's leaders, judgment in the war with Rome."},
+    {"title": "Commentary on Mark 12:1-12 (Working Preacher)", "url": "https://www.workingpreacher.org/commentaries/narrative-lectionary/parable-of-the-tenants/commentary-on-mark-121-12", "note": "Ronald Allen: parable explains the Temple's destruction as judgment."},
+    {"title": "Luke 20:9-19 (Enter the Bible)", "url": "https://enterthebible.org/passage/luke-209-19-a-vineyards-murderous-tenants/", "note": "Target is the Temple leadership, not Israel as a whole; recalls AD 70."},
+    {"title": "Commentary on Mark 12:1-12 (Biblical Scholarship)", "url": "https://biblicalscholarship.wordpress.com/2026/06/18/commentary-on-mark-121-12/", "note": "Lists 4Q500, Targum and others reading tower and winepress as Temple and altar."},
+    {"title": "The original spoken Aramaic or written Greek? (Evangelical Textual Criticism)", "url": "http://evangelicaltextualcriticism.blogspot.com/2009/02/original-spoken-aramaic-or-written.html", "note": "On the kakous kakos wordplay in Matthew 21:41."},
+    {"title": "The Parable of the Wicked Tenants: Questions (Rochester study)", "url": "https://www.pas.rochester.edu/~tim/study/Wicked%20Tenants%20Questions.pdf", "note": "Temple cleansing and AD 70 destruction at the heart of the passage."},
+    {"title": "The tenants in the vineyard (HTS Teologiese Studies, 2007)", "url": "https://pdfs.semanticscholar.org/51e0/d5ef1d18f0a0e32f65ba2a705fc488ad55c4.pdf", "note": "Academic: Dodd and Jeremias on Galilean tenants and absentee landlords."},
+    {"title": "The Parable of the Tenants, Matthew 21:33-46 (Gospel Light)", "url": "https://gospellight.sg/sermons/the-parable-of-the-tenants-matthew-2133-46/", "note": "Traditional sermon: rejecting the King's Son brings certain judgment."},
+    {"title": "Matthew 21:44 Commentary (StudyLight)", "url": "https://www.studylight.org/commentary/matthew/21-44.html", "note": "Notes manuscripts omitting verse 44 and composite Old Testament imagery."}
+  ],
+  "objections": [
+    {"claim": "'Miserable death' and being 'ground to powder' describe the final judgment of all who reject Christ.", "kind": "scriptural", "strongest": "The son is Christ and the stone is Christ, so the judgment falls on everyone who rejects him, not just one generation. Preachers rightly warn that rejecting the King's Son brings certain judgment.", "response": "Even granting a wider application, the images are death and crushing: a destroyed person, ground to dust, is the language of annihilation, not of someone kept alive in torment. In context the tenants are the leaders in front of Jesus, who 'perceived that he spake of them', and the next parable has the king burn their city, matching AD 70. Nothing in the text mentions fire after death, souls or eternity.", "verses": ["Matthew 21:41", "Matthew 21:44-45", "Matthew 22:7"], "sources": ["https://gospellight.sg/sermons/the-parable-of-the-tenants-matthew-2133-46/", "https://www.postost.net/2017/11/jesus-parable-wicked-tenants-exercise-narrative-historical-hermeneutics"]},
+    {"claim": "The AD 70 reading is too narrow; Jesus' words are timeless and apply to the last judgment.", "kind": "historical", "strongest": "Matthew may have been written after AD 70, but Jesus is the eternal Judge. Limiting the parable to one war ignores that the stone falls on 'whomsoever', a universal statement.", "response": "The AD 70 reading does not deny lasting lessons; it identifies what Jesus was predicting to that audience. Wright, Perriman, Allen and Enter the Bible all see the Temple's destruction in view. If someone extends the principle to a final judgment, the parable still supplies only the categories of death, loss and crushing. So the timeless application supports judgment, possibly destruction, but gives no support for endless conscious torment.", "verses": ["Matthew 21:43-44", "Matthew 23:36-38"], "sources": ["https://www.workingpreacher.org/commentaries/narrative-lectionary/parable-of-the-tenants/commentary-on-mark-121-12", "https://enterthebible.org/passage/luke-209-19-a-vineyards-murderous-tenants/", "https://www.pas.rochester.edu/~tim/study/Wicked%20Tenants%20Questions.pdf"]},
+    {"claim": "Reading it as judgment on Jerusalem fuels the idea that God rejected the Jewish people.", "kind": "cultural", "strongest": "Historically, Christians used 'the kingdom shall be taken from you' to claim the church replaced Israel, with terrible consequences. An AD 70 reading can sound like gloating over Jewish suffering.", "response": "This is a serious pastoral concern, and the text itself answers it. The tenants are the leaders, not the vineyard; the vineyard stays and gets new stewards. Jesus, his apostles and the first fruitful 'tenants' were Jewish. In Luke the crowd recoils, 'God forbid', and Jesus weeps over the city. The parable is a prophet's grief-filled warning to corrupt leaders, not a verdict on a people.", "verses": ["Matthew 21:45", "Luke 20:16", "Luke 19:41-44"], "sources": ["https://en.wikipedia.org/wiki/Parable_of_the_Wicked_Husbandmen", "https://enterthebible.org/passage/luke-209-19-a-vineyards-murderous-tenants/"]}
+  ]
+}

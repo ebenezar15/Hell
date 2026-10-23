@@ -229,10 +229,10 @@ p { margin: 0; }
 .scale-lists { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 .scale-lists h4 { font-size: .95rem; margin-bottom: 6px; }
 .scale-lists ul { margin: 0; padding-left: 1.1em; font-size: .9rem; display: flex; flex-direction: column; gap: 4px; }
-.spectrum .bar { height: 14px; border-radius: 99px; background: linear-gradient(90deg, var(--bad), var(--warn), var(--good)); position: relative; margin: 46px 8px 12px; }
+.spectrum .bar { height: 14px; border-radius: 99px; background: linear-gradient(90deg, var(--bad), var(--warn), var(--good)); position: relative; margin: 46px 8px 46px; }
 .spectrum .mk { position: absolute; top: 50%; transform: translate(-50%, -50%); width: 22px; height: 22px; border-radius: 50%; background: var(--surface); border: 3px solid var(--ink); cursor: pointer; padding: 0; }
 .spectrum .mk[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); transform: translate(-50%, -50%) scale(1.25); }
-.spectrum .mk i { position: absolute; bottom: 26px; left: 50%; transform: translateX(-50%); white-space: nowrap; font-style: normal; font-size: .72rem; font-weight: 800; color: var(--ink); }
+.spectrum .mk i { position: absolute; bottom: 26px; left: 50%; transform: translateX(-50%); white-space: nowrap; max-width: 40vw; overflow: hidden; text-overflow: ellipsis; font-style: normal; font-size: .72rem; font-weight: 800; color: var(--ink); }
 .spectrum .ends { display: flex; justify-content: space-between; font-size: .8rem; font-weight: 800; color: var(--muted); }
 .spectrum .detail { margin-top: 12px; padding: 12px 14px; border-radius: 12px; background: var(--bg); border: 1px solid var(--line); min-height: 3em; }
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); gap: 12px; }
@@ -720,7 +720,7 @@ function viz(v, i) {
   if (v.type === 'tree') body = `<div class="tree"><div class="root">${esc(v.root)}</div><div class="kids">${v.children.map(c => `<div class="kid"><b>${esc(c.label)}</b>${c.note ? `<span>${esc(c.note)}</span>` : ''}${c.children && c.children.length ? `<ul>${c.children.map(g => `<li><b>${esc(g.label)}</b>${g.note ? ': ' + esc(g.note) : ''}</li>`).join('')}</ul>` : ''}</div>`).join('')}</div></div>`;
   if (v.type === 'cycle') body = cycleSVG(v);
   if (v.type === 'scale') body = scaleSVG(v);
-  if (v.type === 'spectrum') body = `<div class="spectrum"><div class="bar">${v.marks.map((m, k) => `<button class="mk" style="left:${m.pos}%" data-k="${k}" aria-label="${esc(m.label)}"><i>${esc(m.label)}</i></button>`).join('')}</div><div class="ends"><span>${esc(v.left)}</span><span>${esc(v.right)}</span></div><div class="detail">Tap a marker to read about it.</div></div>`;
+  if (v.type === 'spectrum') body = `<div class="spectrum"><div class="bar">${v.marks.map((m, k) => `<button class="mk" style="left:${m.pos}%" data-k="${k}" aria-label="${esc(m.label)}"><i style="${m.pos > 75 ? 'left:auto;right:-6px;transform:none' : m.pos < 25 ? 'left:-6px;transform:none' : ''}${k % 2 ? ';bottom:auto;top:26px' : ''}">${esc(m.label)}</i></button>`).join('')}</div><div class="ends"><span>${esc(v.left)}</span><span>${esc(v.right)}</span></div><div class="detail">Tap a marker to read about it.</div></div>`;
   if (v.type === 'stats') body = `<div class="stats">${v.items.map(s => `<div class="stat"><b data-count="${esc(s.value)}">${esc(s.value)}</b><span>${esc(s.label)}</span></div>`).join('')}</div>`;
   if (v.type === 'decision') body = `<div class="decision"><div class="q">${esc(v.question)}</div><div class="opt yes"><span class="y">If yes</span><b>${esc(v.yes.label)}</b><span>${esc(v.yes.note)}</span></div><div class="opt no"><span class="y">If no</span><b>${esc(v.no.label)}</b><span>${esc(v.no.note)}</span></div></div>`;
   if (v.type === 'words') body = `<div class="words">${v.items.map(w => `<div class="wordc"><span class="lang">${esc(w.lang)}</span><span class="w">${esc(w.word)}</span>${w.literal ? `<span class="lit">“${esc(w.literal)}”</span>` : ''}<span>${esc(w.meaning)}</span></div>`).join('')}</div>`;

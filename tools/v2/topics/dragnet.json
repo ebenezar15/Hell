@@ -1,0 +1,104 @@
+{
+  "id": "dragnet",
+  "title": "The Dragnet",
+  "kind": "parable",
+  "hook": "When fishermen threw out the bad fish, were they picturing eternal torture?",
+  "tldr": "Galilean fishermen dragged a huge seine net, then sat on shore and sorted the catch, throwing out worthless fish such as scaleless catfish that the Law called unclean. Jesus uses that everyday scene, a twin of the wheat and weeds, for a separation at the end of the age. Bad fish are discarded, not kept alive forever.",
+  "big_idea": "The net gathers everyone; the sorting is God's, and the discarded are discarded.",
+  "points": [
+    {"icon": "wave", "title": "A real Galilee seine net", "text": "The sagene, used only here in the New Testament, was a large dragnet spread in the water and hauled to shore, catching fish of every kind without choosing.", "verses": ["Matthew 13:47"]},
+    {"icon": "check", "title": "Sorting by the Law", "text": "Fisherman and historian Mendel Nun said the bad fish were mainly scaleless catfish, forbidden by Leviticus 11 and not even offered for sale. Clean fish went into baskets.", "verses": ["Leviticus 11:9-12", "Matthew 13:48"]},
+    {"icon": "wheat", "title": "Twin of the weeds parable", "text": "Same lesson, same ending: good and bad mix until the end of the age, angels separate, the furnace and weeping follow. The dragnet focuses on the sorting moment itself.", "verses": ["Matthew 13:40-42", "Matthew 13:49-50"]},
+    {"icon": "hourglass", "title": "End of the age again", "text": "The separation happens at the sunteleia tou aionos, the completion of the age. Jeremy Myers (Redeeming God) asks how a sorting thousands of years away would help the disciples.", "verses": ["Matthew 13:49", "Matthew 24:3"]},
+    {"icon": "fire", "title": "Thrown out, not kept", "text": "Worthless fish are thrown away. Even sympathetic commentary calls the furnace a means to destroy. Nothing in the picture preserves the bad fish forever.", "verses": ["Matthew 13:48", "Matthew 13:50"]}
+  ],
+  "sections": [
+    {"h": "The story", "icon": "wave", "summary": "The kingdom of heaven is like a net cast into the sea that gathers fish of every kind. When it is full, the fishermen haul it ashore, sit down, collect the good fish into containers and throw the bad away. So it will be at the end of the age: angels separate the wicked from the righteous and throw them into the furnace of fire.", "verses": ["Matthew 13:47-50"], "src": "web"},
+    {"h": "The seine on the Sea of Galilee", "icon": "globe", "summary": "The Greek sagene was a large dragnet, weighted at the bottom and floated at the top, spread from boats and pulled to shore. According to Mendel Nun, a lifelong Galilee fisherman, a single haul could take an hour or more; afterwards the catch was sorted, the net rearranged, and the work begun again elsewhere. Jesus' fishermen disciples knew this routine well.", "verses": ["Matthew 13:47", "Matthew 4:18-21"], "src": "web"},
+    {"h": "Clean and unclean fish", "icon": "check", "summary": "Leviticus 11 permits only water creatures with fins and scales; the rest are detestable. Nun identified the parable's bad fish as scaleless catfish, forbidden in Scripture and therefore not even offered for sale. Others add eels, undersized fish and species with no market value. The Greek sapros means rotten or worthless, unfit for use. Sorting was routine quality control, not cruelty.", "verses": ["Leviticus 11:9-12", "Matthew 13:48"], "src": "web"},
+    {"h": "Net imagery in the prophets", "icon": "scroll", "summary": "The Old Testament uses nets both for judgment and for blessing. In Jeremiah 16:16 God sends fishermen and hunters against Judah, and in Habakkuk 1:14-15 the Babylonians drag nations into their net. In Ezekiel 47:10 the healed Dead Sea teems with fish of many kinds, which some read as the nations gathered in. Jesus' disciples become fishers of people.", "verses": ["Jeremiah 16:16", "Habakkuk 1:14-15", "Ezekiel 47:10", "Mark 1:17"], "src": "web"},
+    {"h": "Twin of the wheat and weeds", "icon": "wheat", "summary": "The dragnet closes the Matthew 13 series and mirrors the wheat and weeds. Both show good and bad mixed together until the end of the age, angels doing the separating, the furnace of fire, and weeping and gnashing of teeth. The weeds parable stresses patience in the meantime; the dragnet stresses the moment of sorting itself.", "verses": ["Matthew 13:30", "Matthew 13:40-43", "Matthew 13:49-50"], "src": "web"},
+    {"h": "Which end of which age?", "icon": "hourglass", "summary": "Verse 49 repeats sunteleia tou aionos, completion of the age, the phrase the disciples later use about the temple's fall. Jeremy Myers (Redeeming God) argues the parables of Matthew 13 concern the kingdom on earth and that a separation thousands of years in the future would not have helped the disciples. He reads the furnace as judgment that fell with Jerusalem, not everlasting hell.", "verses": ["Matthew 13:49", "Matthew 24:3", "Hebrews 9:26"], "src": "web"},
+    {"h": "Furnace and weeping", "icon": "fire", "summary": "Verse 50 repeats verse 42 word for word: the furnace of fire, where there will be weeping and gnashing of teeth. The furnace (kaminos) recalls Daniel 3 and Malachi 4:1. Myers reads the weeping as profound regret and shame. Conditionalists note bad fish are thrown out and the fire destroys; restorationists read the furnace as a smelter's refining fire.", "verses": ["Matthew 13:50", "Daniel 3:6", "Malachi 4:1"], "src": "web"},
+    {"h": "Scribes trained for the kingdom", "icon": "key", "summary": "Right after the dragnet Jesus asks if the disciples understand, and calls every scribe trained for the kingdom a householder bringing out treasures new and old. The chapter ends not with a description of hell but with a call to understand and teach. The sorting belongs to the angels; the disciples' job is to cast the net and share the treasure.", "verses": ["Matthew 13:51-52"], "src": "web"},
+    {"h": "The traditional reading", "icon": "alert", "summary": "Traditional commentators see the dragnet as focused on the final judgment of the wicked, the furnace as the everlasting fire of Matthew 25:41, and weeping as constant torment. The parable itself never says everlasting. Its own picture, worthless fish thrown away, points to rejection and loss, and the furnace in Malachi leaves neither root nor branch.", "verses": ["Matthew 25:41", "Matthew 13:50", "Malachi 4:1"], "src": "web"}
+  ],
+  "parable": {
+    "ref": "Matthew 13:47-50",
+    "audience": "The disciples in the house, many of them Galilean fishermen, after the crowds had left.",
+    "setting": "The last of seven kingdom parables in Matthew 13, told beside the Sea of Galilee where seine nets were hauled ashore and sorted daily. It mirrors the wheat and weeds and ends with the scribe trained for the kingdom.",
+    "decoder": [
+      {"symbol": "The sea", "traditional": "The world of lost humanity.", "original": "The world, or Israel and the nations, where the kingdom's message is cast widely."},
+      {"symbol": "The dragnet (sagene)", "traditional": "The gospel or the church gathering before Judgment Day.", "original": "A Galilee seine that catches indiscriminately; the kingdom's message reaches every kind of person."},
+      {"symbol": "Fish of every kind", "traditional": "All people, saved and damned.", "original": "A mixed catch; possibly echoing Ezekiel 47:10's fish of many kinds in the healed sea."},
+      {"symbol": "Sorting on shore", "traditional": "The Last Judgment at the end of the world.", "original": "A routine separation at the completion of an age; Myers reads it as near, for the disciples' generation."},
+      {"symbol": "Bad fish (sapra)", "traditional": "The wicked bound for eternal torment.", "original": "Worthless or unclean fish, such as scaleless catfish forbidden by Leviticus 11, simply thrown away."},
+      {"symbol": "Furnace of fire", "traditional": "Hell's everlasting fire.", "original": "Prophetic judgment imagery from Daniel 3 and Malachi 4:1; destruction, refining, or AD 70 judgment depending on the reader."}
+    ]
+  },
+  "visuals": [
+    {"type": "flow", "title": "A day's work on the Galilee seine", "steps": [
+      {"label": "Net spread from boats", "note": "Weighted below, floated above, the sagene forms a wall in the water."},
+      {"label": "Hauled to shore", "note": "It sweeps up fish of every kind, choosing nothing."},
+      {"label": "Fishermen sit and sort", "note": "The haul could take an hour or more before sorting began."},
+      {"label": "Clean fish into baskets", "note": "Fish with fins and scales, per Leviticus 11, were kept for market."},
+      {"label": "Bad fish thrown away", "note": "Scaleless catfish and worthless fish were discarded, not kept."}
+    ], "caption": "Jesus pictures a scene his fishermen disciples repeated many times a day."},
+    {"type": "verse", "title": "Reading the dragnet closely", "ref": "Matthew 13:48-50 (NIV)", "text": "When it was full, the fishermen pulled it up on the shore. Then they sat down and collected the good fish in baskets, but threw the bad away. This is how it will be at the end of the age. The angels will come and separate the wicked from the righteous and throw them into the blazing furnace, where there will be weeping and gnashing of teeth.", "notes": [
+      {"phrase": "threw the bad away", "note": "Sapra: worthless, unfit for use. Bad fish are discarded, not stored and tortured."},
+      {"phrase": "the end of the age", "note": "Sunteleia tou aionos, completion of an age, the same phrase as Matthew 24:3."},
+      {"phrase": "separate the wicked from the righteous", "note": "The point is separation; angels, not disciples, do it."},
+      {"phrase": "blazing furnace", "note": "Repeats Matthew 13:42; echoes Daniel 3 and Malachi 4:1."},
+      {"phrase": "weeping and gnashing of teeth", "note": "Regret, shame or rage at exclusion; no duration given."}
+    ]},
+    {"type": "compare", "title": "Wheat and weeds vs the dragnet", "left": {"label": "Wheat and weeds", "items": ["Farm field, sown seed", "Enemy sows look-alike darnel", "Focus: patience until harvest", "Reapers are angels", "Weeds bundled and burned up"]}, "right": {"label": "The dragnet", "items": ["Lake, cast net", "Net gathers every kind of fish", "Focus: the sorting moment", "Angels separate", "Bad fish thrown away"]}, "caption": "Both end with the furnace and weeping at the completion of the age."}
+  ],
+  "mythfact": [
+    {"myth": "The bad fish represent people God keeps alive to torment forever.", "fact": "In the picture, worthless fish are thrown away. Sapros means worthless or unfit, and discarding is the opposite of preserving."},
+    {"myth": "Good and bad fish is just an abstract moral label.", "fact": "Galilee fishermen sorted by Leviticus 11: fish without fins and scales, like catfish, were unclean and not even sold."},
+    {"myth": "The dragnet tells Christians to sort who is in and who is out.", "fact": "The angels do the sorting. The disciples cast the net and, as scribes of the kingdom, share treasures new and old."}
+  ],
+  "terms": [
+    {"term": "Sagene", "meaning": "A large seine or dragnet, weighted and floated, hauled to shore; used only in Matthew 13:47."},
+    {"term": "Sapros", "meaning": "Rotten, worthless, unfit for use; describes the bad fish thrown away."},
+    {"term": "Clean fish", "meaning": "Water creatures with fins and scales, permitted as food by Leviticus 11:9-12."},
+    {"term": "Sunteleia tou aionos", "meaning": "Completion of the age; Matthew's phrase for the time of separation."}
+  ],
+  "quotes": [
+    {"text": "When it was full, the men pulled it ashore. Then they sat down and sorted the good fish into containers, but threw the bad away.", "who": "Matthew 13:48 (BSB)"},
+    {"text": "Once again, the kingdom of heaven is like a net that was cast into the sea and caught all kinds of fish.", "who": "Matthew 13:47 (BSB)"}
+  ],
+  "verses": [
+    {"ref": "Matthew 13:47", "role": "The net gathers every kind: the kingdom's reach is indiscriminate."},
+    {"ref": "Matthew 13:48", "role": "Worthless fish thrown away: rejection, not preservation."},
+    {"ref": "Matthew 13:49", "role": "Separation at the completion of the age, done by angels."},
+    {"ref": "Matthew 13:50", "role": "Repeats the furnace and weeping of Matthew 13:42."},
+    {"ref": "Leviticus 11:9-12", "role": "Fins and scales: the Law behind good and bad fish."},
+    {"ref": "Ezekiel 47:10", "role": "Fish of many kinds in the healed sea; nets as blessing."},
+    {"ref": "Jeremiah 16:16", "role": "God's fishermen as agents of judgment on Judah."},
+    {"ref": "Matthew 13:52", "role": "The chapter ends with disciples as teaching scribes, not with hell."}
+  ],
+  "quiz": [
+    {"q": "Which fish did Galilean fishermen typically throw away?", "options": ["Tilapia", "Scaleless catfish", "Sardines"], "answer": 1, "why": "Leviticus 11 forbids water creatures without fins and scales; Mendel Nun said catfish were not even offered for sale."},
+    {"q": "Who does the sorting in Jesus' explanation?", "options": ["The disciples", "The Pharisees", "The angels"], "answer": 2, "why": "Matthew 13:49: the angels separate the wicked from the righteous. Sorting is not the disciples' job."},
+    {"q": "What does sapros, used of the bad fish, mean?", "options": ["Worthless, unfit for use", "Eternally suffering", "Large"], "answer": 0, "why": "Lexicons give rotten or worthless. The bad fish are discarded as useless."}
+  ],
+  "reflect": "If the net catches every kind of fish, who are you tempted to exclude before God has done any sorting?",
+  "related": ["unquenchable", "darkness", "sheepgoats", "destruction", "eternal", "gehenna"],
+  "sources": [
+    {"title": "The Kingdom of Heaven is Like a Seine by Mendel Nun (Torah Class)", "url": "https://www.torahclass.com/archived-articles/1990-the-kingdom-of-heaven-is-like-a-seine-by-mendel-nun/", "note": "Galilee fisherman-scholar: how the seine worked; bad fish were scaleless catfish."},
+    {"title": "The Good and Bad Fish in the Sea of Galilee (Saxum)", "url": "https://www.saxum.org/the-good-and-bad-fish-in-the-sea-of-galilee/", "note": "Native catfish, eels and worthless fish discarded under Leviticus 11."},
+    {"title": "Parable of Drawing in the Net (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Parable_of_Drawing_in_the_Net", "note": "Overview; probably a seine net; sorting edible from inedible fish."},
+    {"title": "Strong's Greek 4550: sapros", "url": "https://biblehub.com/greek/4550.htm", "note": "Lexical meaning of the bad fish: rotten, worthless."},
+    {"title": "Matthew 13:50 Archives - Redeeming God", "url": "https://redeeminggod.com/bible-theology-topics/matthew-1350/", "note": "Jeremy Myers: furnace not hell; end of this age near for the disciples."},
+    {"title": "The Parable of the Dragnet - Matthew 13:47-50 (Reading Acts)", "url": "https://readingacts.com/2021/06/08/the-parable-of-the-dragnet-matthew-1347-50/", "note": "Ezekiel 47 fish of many kinds; furnace as a means to destroy."},
+    {"title": "Parable of the Dragnet Teaching Outline (Reformed Baptist Blog)", "url": "https://reformedbaptistblog.com/2014/01/03/parable-of-the-dragnet-matthew-1347-50-teaching-outline/", "note": "Traditional: future final judgment; furnace as everlasting fire."},
+    {"title": "What is the meaning of the Parable of the Dragnet? (GotQuestions)", "url": "https://www.gotquestions.org/parable-dragnet.html", "note": "Traditional evangelical reading of the end-time separation."},
+    {"title": "Is the furnace of fire in Matthew 13:40-42 a reference to hell?", "url": "https://redeeminggod.com/matthew_13_40-42/", "note": "Myers' fuller argument on the shared furnace and weeping language."}
+  ],
+  "objections": [
+    {"claim": "The dragnet gathers every kind of fish, so it pictures universal final judgment, not a first-century event.", "kind": "scriptural", "strongest": "Unlike the weeds parable, the net is cast over the whole sea and gathers all kinds. Angels separate all the wicked from all the righteous. That universality fits only the Last Judgment of all humanity.", "response": "Universality is fair; a universal judgment does not require endless torment. The image itself is fish thrown away as worthless. Readers differ: Myers (Redeeming God) reads the end of the age as near for the disciples, tied to Jerusalem's fall; others see a final judgment where the rejected are destroyed or refined. Each takes the separation seriously. None reads a basket of discarded catfish as fish kept alive forever.", "verses": ["Matthew 13:47-49", "Ezekiel 47:10"], "sources": ["https://reformedbaptistblog.com/2014/01/03/parable-of-the-dragnet-matthew-1347-50-teaching-outline/", "https://redeeminggod.com/bible-theology-topics/matthew-1350/", "https://readingacts.com/2021/06/08/the-parable-of-the-dragnet-matthew-1347-50/"]},
+    {"claim": "Jesus repeats the furnace and weeping twice in one chapter; such emphasis shows he was teaching about hell as a real place of suffering.", "kind": "scriptural", "strongest": "Repetition is how Jesus underlines. Verses 42 and 50 match word for word, and weeping requires conscious persons. Commentators conclude hell is a place of constant torment, misery and pain.", "response": "The repetition ties the two parables together; it does not add duration. The furnace is drawn from Daniel 3 and Malachi 4:1, where fire either spares the faithful or leaves the wicked neither root nor branch. Weeping and gnashing marks the reaction of those excluded, which Myers reads as profound regret and shame. Neither verse says forever, and the chapter ends by calling disciples to understand and teach, not by describing a torture chamber.", "verses": ["Matthew 13:42", "Matthew 13:50", "Malachi 4:1", "Matthew 13:51-52"], "sources": ["https://www.gotquestions.org/parable-dragnet.html", "https://redeeminggod.com/matthew_13_40-42/"]},
+    {"claim": "The good and bad fish are moral categories; reading Leviticus 11 into it is a modern guess.", "kind": "cultural", "strongest": "Jesus explains the bad fish as the wicked, not the unclean. Catfish identification rests on one scholar, Mendel Nun, and the Greek sapros can simply mean rotten fish.", "response": "Jesus does apply the picture morally; the background explains why sorting was ordinary and why bad fish were discarded. Nun's account comes from a lifetime fishing the lake and studying ancient methods, and lexicons note sapros came to mean worthless or unfit, which fits fish with no market. Whatever the precise species, the image is the same: unwanted fish thrown away. That supports separation and rejection, not preservation for endless pain.", "verses": ["Leviticus 11:9-12", "Matthew 13:48"], "sources": ["https://www.torahclass.com/archived-articles/1990-the-kingdom-of-heaven-is-like-a-seine-by-mendel-nun/", "https://biblehub.com/greek/4550.htm", "https://www.saxum.org/the-good-and-bad-fish-in-the-sea-of-galilee/"]}
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "objjustice",
+  "title": "Objection: 'God's Holiness Demands Infinite Punishment'",
+  "kind": "objection",
+  "hook": "Does sin against an infinite God really deserve punishment without end?",
+  "tldr": "The strongest case for endless hell says guilt scales with the dignity of the one offended, so sin against an infinitely holy God is infinite. But Scripture measures punishment by deeds and knowledge, caps it with proportion, and aims God's wrath at setting things right, not at suffering that never ends.",
+  "big_idea": "Holy justice is proportionate and purposeful, not infinite and pointless.",
+  "points": [
+    {"icon": "crown", "title": "The status principle", "text": "Anselm argued that guilt grows with the rank of the one wronged. Jonathan Edwards added that we owe an infinitely worthy God infinite obligation, so any sin is infinitely evil and deserves endless punishment.", "verses": []},
+    {"icon": "scale", "title": "Scripture weighs deeds, not rank", "text": "Jesus says the servant who knew more gets many blows and the one who knew less gets few. Every judgment scene judges people by what they did, which only makes sense if sins differ in weight.", "verses": ["Luke 12:47-48", "Revelation 20:12", "Romans 2:6"]},
+    {"icon": "hand", "title": "Eye for eye was a limit", "text": "The law of retaliation capped punishment at the size of the harm. It was a fence against excess, the opposite of an unlimited penalty for a single offense.", "verses": ["Exodus 21:24", "Deuteronomy 25:3"]},
+    {"icon": "heart", "title": "Holiness heals as well as judges", "text": "God's holiness burns against evil, yet Scripture says he does not afflict willingly and does not cast off forever. His wrath serves his purpose to restore and make all things right.", "verses": ["Lamentations 3:31-33", "Ezekiel 33:11"]},
+    {"icon": "people", "title": "Victims deserve real justice", "text": "Leaving vengeance to God protects victims from personal revenge. But justice for victims means truth, exposure, repair and an end to evil, which endless torment of the offender does not supply.", "verses": ["Romans 12:19"]},
+    {"icon": "path", "title": "Non-ECT views differ", "text": "Annihilationists say the proportionate penalty is final destruction. Universalists say judgment is real, measured, and corrective, ending in reconciliation. Both reject the infinite-offense argument.", "verses": []}
+  ],
+  "sections": [
+    {"h": "The argument in its strongest form", "icon": "crown", "summary": "Anselm, in Cur Deus Homo, reasoned that a wrong against a king weighs more than the same wrong against a serf. Apply that to God and even one sin carries infinite guilt. Edwards sharpened it: the fault of disobeying grows with our obligation, we owe God infinite love, so sin is an infinite evil, and endless punishment is exactly proportionate.", "verses": [], "src": "web"},
+    {"h": "Modern defenders", "icon": "shield", "summary": "Denny Burk, defending eternal conscious torment in Four Views on Hell, argues hell's infinite torments reflect God's infinite holiness and the heinousness of sinning against him. John Piper adds that the damned keep sinning, and that blame is measured by the dignity offended, not by how long the offense lasted.", "verses": ["Habakkuk 1:13", "Isaiah 6:3"], "src": "web"},
+    {"h": "Why critics find the logic broken", "icon": "puzzle", "summary": "Philosophers such as Stephen Kershnar argue no human can cause infinite harm or has an infinitely bad character, so none deserves infinite punishment. Critics also note the principle makes a child's first lie as guilty as genocide, erasing the degrees of sin Scripture teaches. Some add that a finite creature cannot actually damage God's honor.", "verses": [], "src": "web"},
+    {"h": "Proportion runs through Scripture", "icon": "scale", "summary": "The law of retaliation, eye for eye, limited punishment to the harm done and gave it to judges, not avengers. Floggings were capped at forty blows. Jesus said servants are beaten with many or few blows depending on what they knew. Judgment is by works, which presumes sins differ.", "verses": ["Exodus 21:24", "Deuteronomy 25:3", "Luke 12:47-48", "Romans 2:6"], "src": "web"},
+    {"h": "Holiness, wrath, and purpose", "icon": "flame", "summary": "God's eyes are too pure to approve evil, and his wrath is real. But the prophets pair wrath with compassion: he does not cast off forever and takes no pleasure in the death of the wicked. On restorative readings, holiness is a consuming fire that removes evil rather than preserving it forever.", "verses": ["Habakkuk 1:13", "Lamentations 3:31-33", "Ezekiel 33:11", "Hebrews 12:29"], "src": "web"},
+    {"h": "What about Hitler and his victims?", "icon": "people", "summary": "Miroslav Volf, writing after the Balkan wars, argued that renouncing revenge depends on trusting God's final judgment. That is a serious point. Richard Beck answers that eternal torment cannot be what victims need: no amount of endless pain makes things right, while exposure, truth and repair can.", "verses": ["Romans 12:19"], "src": "web"},
+    {"h": "Retributive or restorative justice?", "icon": "compass", "summary": "Christopher Marshall's Beyond Retribution argues that biblical righteousness and justice are relational and covenantal, aiming to restore. Critics answer that retribution is also biblical. Non-ECT readers differ: annihilationists accept retribution but say its proportionate end is destruction, while universalists see judgment as corrective and ending in reconciliation.", "verses": ["Romans 3:26", "Colossians 1:20"], "src": "web"}
+  ],
+  "visuals": [
+    {"type": "flow", "title": "The infinite-offense argument and its weak link", "steps": [
+      {"label": "God is infinitely worthy", "note": "Agreed by all sides: God's holiness and greatness have no limit."},
+      {"label": "Guilt scales with status", "note": "Anselm and Edwards: wronging a higher being is a greater wrong."},
+      {"label": "So every sin is infinite", "note": "Even the smallest fault against God gains infinite weight."},
+      {"label": "So punishment must be endless", "note": "Only endless suffering matches an infinite crime."},
+      {"label": "The weak link", "note": "Step two erases degrees of sin, which Jesus and the Torah clearly teach."}
+    ], "caption": "Critics accept the first step and reject the second: Scripture grades guilt by deeds and knowledge."},
+    {"type": "scale", "title": "What Scripture weighs in judgment", "left": {"label": "Infinite-offense view", "items": ["The rank of the one offended", "Any single sin is infinite", "All sinners deserve the same endless penalty", "Punishment has no goal beyond itself"]}, "right": {"label": "Biblical proportion", "items": ["What the person actually did", "Knowledge: many blows or few", "Eye for eye caps the penalty", "Wrath aims to end evil and restore"]}, "tilt": "right"},
+    {"type": "verse", "title": "Many blows, few blows", "ref": "Luke 12:47-48 (NIV)", "text": "The servant who knows the master's will and does not get ready or does not do what the master wants will be beaten with many blows. But the one who does not know and does things deserving punishment will be beaten with few blows.", "notes": [
+      {"phrase": "many blows", "note": "Punishment grows with knowledge and responsibility, not with the infinite rank of the master."},
+      {"phrase": "few blows", "note": "A limited number. If every sin were infinite, there could be no 'few'."}
+    ]}
+  ],
+  "mythfact": [
+    {"myth": "Eye for an eye means God's justice is harsh and unlimited.", "fact": "The law of retaliation limited punishment to the size of the harm and placed it with judges, restraining private revenge."},
+    {"myth": "Rejecting endless hell means rejecting God's wrath.", "fact": "Annihilationists and universalists both affirm real wrath and judgment. They dispute only that it is endless conscious suffering."},
+    {"myth": "The infinite-offense argument comes straight from the Bible.", "fact": "It is a philosophical argument that took its classic form with Anselm around 1100, built partly on feudal ideas of honor and rank."}
+  ],
+  "terms": [
+    {"term": "Status principle", "meaning": "The idea that the greater the dignity of the one wronged, the greater the guilt, with no upper limit."},
+    {"term": "Lex talionis", "meaning": "The law of retaliation, eye for eye, which set punishment equal to, and no greater than, the harm."},
+    {"term": "Retributive justice", "meaning": "Justice as giving wrongdoers the penalty they deserve."},
+    {"term": "Restorative justice", "meaning": "Justice aimed at repairing harm, restoring relationships, and healing both victim and community."}
+  ],
+  "quotes": [
+    {"text": "the infinite torments of hell reflect the infinite holiness and greatness of God himself and of the incalculable heinousness of sinning against such a Being", "who": "Denny Burk, defending eternal conscious torment"},
+    {"text": "For no one is cast off by the Lord forever. Though he brings grief, he will show compassion, so great is his unfailing love.", "who": "Lamentations 3:31-32 (NIV)"},
+    {"text": "Do not take revenge, my dear friends, but leave room for God's wrath, for it is written: 'It is mine to avenge; I will repay,' says the Lord.", "who": "Romans 12:19 (NIV)"}
+  ],
+  "verses": [
+    {"ref": "Luke 12:47-48", "role": "Punishment is graded by knowledge: many blows or few, not infinite for all."},
+    {"ref": "Exodus 21:24", "role": "Eye for eye limits punishment to the size of the harm."},
+    {"ref": "Deuteronomy 25:3", "role": "Even lawful flogging was capped at forty blows to protect the offender's dignity."},
+    {"ref": "Romans 12:19", "role": "Vengeance belongs to God, protecting victims from revenge; it does not specify endless torment."},
+    {"ref": "Habakkuk 1:13", "role": "God's purity cannot approve evil; cited for holiness demanding wrath."},
+    {"ref": "Lamentations 3:31-33", "role": "God does not cast off forever or afflict willingly; wrath serves compassion."},
+    {"ref": "Ezekiel 33:11", "role": "God takes no pleasure in the death of the wicked but wants them to turn and live."},
+    {"ref": "Romans 2:6", "role": "God repays each person according to what they have done."}
+  ],
+  "quiz": [
+    {"q": "Who gave the 'infinite offense' argument its classic medieval form?", "options": ["Anselm of Canterbury", "Origen", "Martin Luther"], "answer": 0, "why": "Anselm's Cur Deus Homo argued that guilt grows with the rank of the one offended, so sin against God carries infinite guilt."},
+    {"q": "What does Luke 12:47-48 suggest about divine punishment?", "options": ["It is identical for everyone", "It is graded by knowledge and responsibility", "It applies only to unbelievers"], "answer": 1, "why": "Jesus distinguishes many blows from few blows, which assumes sins differ in weight."},
+    {"q": "What was the original function of 'eye for an eye'?", "options": ["To encourage personal revenge", "To limit punishment to the harm done", "To make every crime a capital crime"], "answer": 1, "why": "Lex talionis set a ceiling: the penalty could not exceed the injury, and judges, not avengers, applied it."}
+  ],
+  "reflect": "If you were the victim, what would truly make things right: endless pain for the offender, or truth, repair and an end to evil?",
+  "related": ["infinite", "justice", "hellfirejustice", "wrath", "augustine"],
+  "sources": [
+    {"title": "The Justice of God in the Damnation of Sinners (Jonathan Edwards sermon)", "url": "https://www.biblebb.com/files/edwards/je-justice.htm", "note": "Classic statement: infinite obligation to God makes sin infinitely evil and endless punishment just."},
+    {"title": "Is Hell real? Did God really make a place in which to punish sinners forever? (Denny Burk)", "url": "https://www.dennyburk.com/is-hell-real-did-god-really-make-a-place-in-which-to-punish-sinners-forever/", "note": "ECT defender: hell's infinite torments reflect God's infinite holiness."},
+    {"title": "Will Hell Really Last Forever? Answering Objections to Eternal Punishment (Desiring God)", "url": "https://www.desiringgod.org/articles/will-hell-really-last-forever", "note": "ECT-leaning: dignity offended, not duration, sets guilt; the damned keep sinning."},
+    {"title": "The Injustice of Hell (Stephen Kershnar, PhilPapers)", "url": "https://philpapers.org/rec/KERTIO-12", "note": "Philosophical critique: no human deserves infinite punishment."},
+    {"title": "Book Review: Four Views on Hell, 2nd edition (Afterlife)", "url": "https://www.afterlife.co.nz/2021/02/book-review-four-views-on-hell-2nd-edition/", "note": "Summarizes the status principle debate among Burk, Stackhouse, Parry and Walls."},
+    {"title": "Debunking a Bad Argument for ECT (Reformed Apologist)", "url": "https://reformedapologist.substack.com/p/debunking-a-bad-argument-for-ect", "note": "Critiques the 'damned keep sinning forever' argument; we are judged once for earthly deeds."},
+    {"title": "Musings about Universalism, Part 7: Why Only Universalists Believe in God's Justice (Richard Beck)", "url": "https://richardbeck.substack.com/p/musings-about-universalism-part-7-11-03-23", "note": "Universalist: endless torment cannot satisfy victims or proportional justice."},
+    {"title": "Exclusion and Embrace: Reconciliation with Enemies Two Decades Later (Kurt Willems)", "url": "https://www.kurtwillems.com/blog/exclusion-embrace-two-decades-later", "note": "On Volf: renouncing violence rests on trust in God's final judgment."},
+    {"title": "Beyond Retribution (Christopher D. Marshall, Eerdmans)", "url": "https://www.eerdmans.com/9780802847973/beyond-retribution/", "note": "Argues New Testament justice is fundamentally restorative."},
+    {"title": "Evangelical Conditionalism and Degrees of Punishment in Hell, Part 2 (Rethinking Hell)", "url": "https://rethinkinghell.com/2020/06/02/evangelical-conditionalism-and-degrees-of-punishment-in-hell-part-2/", "note": "Annihilationist view of how degrees of punishment fit final destruction."}
+  ],
+  "objections": [
+    {"claim": "Sin against an infinitely holy God is an infinite offense, so it deserves infinite punishment.", "kind": "philosophical",
+     "strongest": "Guilt depends on whom you wrong, not just what you do: striking a king is worse than striking a stranger. We owe God infinite love and obedience, so every sin breaks an infinite obligation and deserves a penalty without end.",
+     "response": "The premise proves too much. If rank alone sets guilt, a toddler's first lie equals genocide, yet Jesus says some get many blows and some few, and God judges each by deeds. Philosophers like Kershnar note humans cannot cause infinite harm or have infinitely evil characters. The 'king versus serf' scale also reflects feudal honor codes more than Torah, where penalties track the harm done. God's greatness raises the seriousness of sin, but Scripture never turns that into infinite guilt.",
+     "verses": ["Luke 12:47-48", "Romans 2:6", "Exodus 21:24"], "sources": ["https://www.biblebb.com/files/edwards/je-justice.htm", "https://philpapers.org/rec/KERTIO-12", "https://www.afterlife.co.nz/2021/02/book-review-four-views-on-hell-2nd-edition/"]},
+    {"claim": "God is too holy to tolerate sin. A temporary punishment would make light of his holiness.", "kind": "scriptural",
+     "strongest": "Isaiah saw the thrice-holy God and was undone. Habakkuk says God's eyes are too pure to look on evil. Burk argues hell's infinite torments mirror God's infinite holiness; anything less treats sin as a manageable debt rather than cosmic treason.",
+     "response": "Holiness means God will not leave evil standing, which every view affirms. But endless torment keeps sin and sinners in existence forever, inside God's creation. Annihilationists say holiness ends evil by destroying it; universalists say holiness purifies until evil is gone. Isaiah himself was not destroyed by holiness but cleansed with a coal from the altar. Habakkuk 1:13 is a prophet's complaint about God tolerating the wicked, not a teaching about hell's duration.",
+     "verses": ["Isaiah 6:5-7", "Habakkuk 1:13", "Hebrews 12:29"], "sources": ["https://www.dennyburk.com/is-hell-real-did-god-really-make-a-place-in-which-to-punish-sinners-forever/"]},
+    {"claim": "Hell is endless because the damned never stop sinning and so keep earning more punishment.", "kind": "philosophical",
+     "strongest": "Punishment can be finite per sin yet endless overall: the lost remain rebels, keep hating God, and so keep incurring just penalties. On this view, God never punishes beyond what is deserved at any moment.",
+     "response": "Scripture places judgment once, at the end, for deeds done in the body. It never says people are punished in hell for sins committed there. Critics also note the argument concedes that earthly sins alone do not merit endless punishment. And it raises a hard question: if God's judgment leaves people sinning forever, evil is never actually defeated. Restoration readings hold that judgment is meant to end rebellion, not sustain it.",
+     "verses": ["2 Corinthians 5:10", "1 Corinthians 15:28"], "sources": ["https://reformedapologist.substack.com/p/debunking-a-bad-argument-for-ect", "https://www.desiringgod.org/articles/will-hell-really-last-forever"]},
+    {"claim": "If hell is not eternal, what about Hitler? His victims deserve justice, not a cosmic pardon.", "kind": "pastoral",
+     "strongest": "Miroslav Volf, who lived through the Balkan wars, argued that victims can only renounce revenge if they trust God to judge. A universe where mass murderers simply get off would betray the slaughtered and mock their suffering.",
+     "response": "Volf is right that victims need God's judgment, and no non-ECT view lets Hitler off. Annihilationists say he faces a just sentence and final destruction; universalists say he must face the full truth of every life he destroyed before any reconciliation. Richard Beck asks what amount of endless torment would make things right for a victim. None would. Justice for victims means exposure, vindication, repair and the end of evil, not pain without purpose.",
+     "verses": ["Romans 12:19", "Revelation 21:4"], "sources": ["https://www.kurtwillems.com/blog/exclusion-embrace-two-decades-later", "https://richardbeck.substack.com/p/musings-about-universalism-part-7-11-03-23"]},
+    {"claim": "Romans 12:19 says vengeance belongs to God. Divine vengeance must be total and final.", "kind": "scriptural",
+     "strongest": "Paul forbids personal revenge precisely because God will repay in full. Divine vengeance is not softened human justice; it is the ultimate settling of accounts, and its finality is what lets believers forgive now.",
+     "response": "Paul quotes Deuteronomy 32:35, where the same song ends with God making atonement for his land and people. The point of Romans 12:19 is who judges, not how long punishment lasts. Paul's next words tell believers to feed their enemies and overcome evil with good. God's 'repaying' is repayment, measured to deeds, which is the language of proportion. Trusting God's justice is fully compatible with believing it is limited and purposeful.",
+     "verses": ["Romans 12:19-21", "Deuteronomy 32:35", "Deuteronomy 32:43"], "sources": ["https://www.kurtwillems.com/blog/exclusion-embrace-two-decades-later"]},
+    {"claim": "Restorative justice is a modern, sentimental idea. Biblical justice is retributive: people get what they deserve.", "kind": "historical",
+     "strongest": "The Bible is full of punishment, death penalties and wrath. Reading it as only restorative imports therapeutic modern values and empties sin of guilt. Reviewers of Christopher Marshall's Beyond Retribution press exactly this point.",
+     "response": "Restorative readers do not deny retribution; they ask what it is for. Marshall argues the Bible's justice words are relational and covenantal, aiming at restored relationships, and he admits interpreters can read modern ideas in. But even strictly retributive justice must be proportionate, which is the heart of eye for eye. So whether one stresses retribution with annihilationists or restoration with universalists, infinite penalty for finite deeds fails the Bible's own standard.",
+     "verses": ["Exodus 21:24", "Isaiah 1:17", "Colossians 1:20"], "sources": ["https://www.eerdmans.com/9780802847973/beyond-retribution/"]},
+    {"claim": "Degrees of punishment fit eternal hell fine: some suffer more intensely, but all suffer forever.", "kind": "scriptural",
+     "strongest": "Luke 12 teaches degrees, but degrees can be in intensity, not duration. Hell can be graded, a lighter torment for the ignorant and a heavier one for the hypocrite, yet still endless because all sin is against an infinite God.",
+     "response": "Any endless suffering, however mild per moment, adds up to infinite total suffering, so the few-blows servant ends up with infinitely more than any earthly penalty. That collapses the very distinction Jesus draws. Conditionalists place degrees in the suffering before final destruction; universalists place them in the length and depth of correction. Both keep Jesus' 'few blows' actually few.",
+     "verses": ["Luke 12:47-48", "Matthew 11:22"], "sources": ["https://rethinkinghell.com/2020/06/02/evangelical-conditionalism-and-degrees-of-punishment-in-hell-part-2/"]}
+  ]
+}
