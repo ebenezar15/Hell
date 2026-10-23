@@ -8,7 +8,7 @@ def W(s, n, where):
     if not isinstance(s, str) or not s.strip(): errs.append(f'{where}: missing'); return
     if len(s.split()) > n * 1.25: errs.append(f'{where}: {len(s.split())} words (limit {n})')
 k = d.get('kind')
-if k not in ('parable', 'objection'): errs.append('kind must be parable or objection')
+if k not in ('parable', 'objection', 'passage'): errs.append('kind must be parable, objection or passage')
 for i, s in enumerate(d.get('sections', [])):
     if s.get('src') != 'web': errs.append(f'sections[{i}].src must be "web"')
 src = d.get('sources', [])
@@ -18,7 +18,7 @@ for i, s in enumerate(src):
     if not re.match(r'^https?://\S+\.\S+', s.get('url', '')): errs.append(f'sources[{i}].url invalid')
     urls.add(s.get('url')); W(s.get('title'), 25, f'sources[{i}].title'); W(s.get('note'), 20, f'sources[{i}].note')
 ob = d.get('objections', [])
-lo, hi = (2, 4) if k == 'parable' else (5, 9)
+lo, hi = (2, 4) if k in ('parable', 'passage') else (5, 9)
 if not lo <= len(ob) <= hi: errs.append(f'objections must be {lo}-{hi}')
 for i, o in enumerate(ob):
     W(o.get('claim'), 25, f'objections[{i}].claim'); W(o.get('strongest'), 45, f'objections[{i}].strongest'); W(o.get('response'), 100, f'objections[{i}].response')

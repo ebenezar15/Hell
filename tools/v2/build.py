@@ -43,6 +43,10 @@ for bid, b in books_raw.items():
     notes = {k: v.replace('Eitan Bar', 'the author') for k, v in b['notes'].items()}
     books[bid] = dict(title=b['title'], subtitle=b['subtitle'], short=SHORT[bid], pdf=b['pdf'], pages=b['pages'], chapters=chs, notes=notes)
 
+PERSP = {}
+for f in sorted(os.listdir(os.path.join(D, 'perspectives'))) if os.path.isdir(os.path.join(D, 'perspectives')) else []:
+    for k, v in json.load(open(os.path.join(D, 'perspectives', f))).items():
+        PERSP.setdefault(k, []).extend(v)
 STAGE_ICON = {'parables': 'seed', 'objections': 'shield', 'start': 'compass', 'words': 'speech', 'history': 'hourglass', 'theology': 'puzzle', 'verses': 'scroll', 'character': 'scale', 'alternative': 'dove'}
 stages = []
 for st in STAGES:
@@ -57,6 +61,7 @@ for st in STAGES:
         t['title'] = ttitle
         t['srcs'] = [list(s) for s in srcs]
         t['icon'] = t['points'][0]['icon'] if t['points'] else 'book'
+        t['perspectives'] = PERSP.get(tid, [])
         ts.append(t)
     if not ts:
         continue

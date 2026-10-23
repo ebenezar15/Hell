@@ -45,9 +45,12 @@ STAGES = [
    ("jude", "Jude: Sodom and Eternal Fire", [("jew",35),("hfd",25)]),
    ("bookoflife", "The Book of Life", [("jew",36),("hfd",26)]),
    ("lakeoffire", "The Lake of Fire", [("jew",37),("hfd",27)]),
+   ("isaiah33", "Who Can Dwell With Everlasting Burnings?", []),
+   ("james36", "A Tongue Set on Fire by Gehenna", []),
    ("verdict", "What the Verses Add Up To", [("jew",38)]),
  ]),
  ("parables", "The Parables Decoded", "Every parable used to prove hell, read in its first-century setting", [
+   ("readparables", "How to Read a Parable", []),
    ("wheattares", "The Wheat and the Weeds", []),
    ("dragnet", "The Dragnet", []),
    ("weddingfeast", "The Wedding Feast and the Missing Garment", []),

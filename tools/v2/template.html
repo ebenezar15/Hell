@@ -344,6 +344,18 @@ details.obj[open] summary .chev { transform: rotate(90deg); }
 .sources a.src span { color: var(--muted); font-size: .86rem; }
 .sources a.src small { color: var(--accent); font-size: .74rem; overflow-wrap: anywhere; }
 .stone.extra { border-style: dashed; }
+.persp { display: flex; flex-direction: column; gap: 14px; }
+.pcard { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: clamp(16px, 3vw, 24px); display: grid; gap: 12px; position: relative; overflow: hidden; }
+.pcard::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 5px; background: var(--water); }
+.pcard .who { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; justify-content: space-between; }
+.pcard .who b { font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--water); }
+.pcard h3 { font-size: var(--step-1); font-weight: 800; }
+.pcard ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.pcard li { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 8px; font-size: .94rem; line-height: 1.5; }
+.pcard li .ic { color: var(--water); margin-top: 2px; }
+.pcard .diff { background: color-mix(in srgb, var(--warn) 14%, var(--bg)); border-radius: 10px; padding: 10px 12px; font-size: .9rem; }
+.pcard .diff b { color: color-mix(in srgb, var(--warn) 70%, var(--ink)); }
+.pcard blockquote { margin: 0; padding: 4px 0 4px 14px; border-left: 3px solid var(--water); font-style: italic; font-weight: 600; }
 .research-note { display: flex; gap: 10px; align-items: flex-start; padding: 12px 14px; border-radius: 12px; background: var(--accent-soft); font-size: .9rem; margin-top: 12px; }
 
 /* step-by-step sections */
@@ -797,7 +809,7 @@ function renderTopic(t) {
   <div>${ILL[t.id] ? '' : `<div class="emblem"><span class="num">${String(t.idx + 1).padStart(2, '0')}</span>${ic(t.icon)}</div>`}${ILL[t.id] ? `<div class="emblem" style="aspect-ratio:auto;padding:16px;background:var(--surface);border:1px solid var(--line);color:inherit;display:block">${illus(t.id)}</div>` : ''}</div></div>
 
   <nav class="subnav" aria-label="Jump to">
-    ${[['s-answer', 'Answer'], t.parable && ['s-decoder', 'Decoder'], ['s-ideas', 'Key ideas'], ['s-diagrams', 'Diagrams'], ['s-steps', 'Step by step'], t.mythfact.length && ['s-myths', 'Myths'], t.verses.length && ['s-verses', 'Verses'], (t.objections || []).length && ['s-objections', 'Objections'], ['s-quiz', 'Quiz'], t.srcs.length && ['s-full', 'Full text'], (t.sources || []).length && ['s-sources', 'Sources']].filter(Boolean).map(([h, l]) => `<button class="chip" data-jump="${h}">${l}</button>`).join('')}
+    ${[['s-answer', 'Answer'], t.parable && ['s-decoder', 'Decoder'], ['s-ideas', 'Key ideas'], ['s-diagrams', 'Diagrams'], ['s-steps', 'Step by step'], (t.perspectives || []).length && ['s-persp', 'Perspective'], t.mythfact.length && ['s-myths', 'Myths'], t.verses.length && ['s-verses', 'Verses'], (t.objections || []).length && ['s-objections', 'Objections'], ['s-quiz', 'Quiz'], t.srcs.length && ['s-full', 'Full text'], (t.sources || []).length && ['s-sources', 'Sources']].filter(Boolean).map(([h, l]) => `<button class="chip" data-jump="${h}">${l}</button>`).join('')}
   </nav>
 
   <div id="s-answer" class="tldr" style="margin-top:14px"><div><div class="eyebrow" style="margin-bottom:8px">The answer in 30 seconds</div><p>${esc(t.tldr)}</p><div class="bigidea">${ic('bulb')}${esc(t.big_idea)}</div></div></div>
@@ -814,6 +826,9 @@ function renderTopic(t) {
 
   <div class="section-head" id="s-steps"><div><h2>Step by step</h2><p>${t.srcs.length ? 'The whole chapter, part by part, in plain words.' : 'The full argument, part by part.'}</p></div></div>
   <div class="steps">${t.sections.map(s => `<div class="step"><span class="sn">${ic(s.icon)}</span><div class="sc"><h4>${esc(s.h)}</h4><p>${esc(s.summary)}</p><div class="vs">${vchips(s.verses)}${s.src !== 'web' ? `<button class="chip" data-src="${esc(s.src)}" data-h="${esc(s.h)}" style="font-size:.74rem;padding:.2em .6em">${ic('book')}Read this part in full</button>` : ''}</div></div></div>`).join('')}</div>
+
+  ${(t.perspectives || []).length ? `<div class="section-head" id="s-persp"><div><h2>Another perspective</h2><p>How another writer who rejects eternal torment reads this passage. Open the article for the full argument.</p></div></div>
+  <div class="persp">${t.perspectives.map(p => `<div class="pcard"><div class="who"><b>${esc(p.who)}</b><a class="chip" href="${esc(p.url)}" target="_blank" rel="noopener">${ic('arrow')}Read the article</a></div><h3>${esc(p.title)}</h3><p>${esc(p.summary)}</p><ul>${p.points.map(x => `<li>${ic('check')}<span>${esc(x)}</span></li>`).join('')}</ul>${p.quote && p.quote.text ? `<blockquote>“${esc(p.quote.text)}”</blockquote>` : ''}${p.differs ? `<div class="diff"><b>How it differs:</b> ${esc(p.differs)}</div>` : ''}</div>`).join('')}</div>` : ''}
 
   ${t.mythfact.length ? `<div class="section-head" id="s-myths"><div><h2>Myth or fact?</h2><p>Tap each card.</p></div></div><div class="flips">${flips(t.mythfact)}</div>` : ''}
 
@@ -1050,7 +1065,7 @@ function showRef(k) {
 }
 
 // ---------- search ----------
-const TINDEX = TOPICS.map(t => ({ t, text: [t.title, t.hook, t.tldr, ...t.points.flatMap(p => [p.title, p.text]), ...t.sections.flatMap(s => [s.h, s.summary]), ...t.terms.flatMap(x => [x.term, x.meaning]), ...t.mythfact.flatMap(m => [m.myth, m.fact]), ...(t.objections || []).flatMap(o => [o.claim, o.strongest, o.response]), ...((t.parable && t.parable.decoder) || []).flatMap(r => [r.symbol, r.original])].join(' ') }));
+const TINDEX = TOPICS.map(t => ({ t, text: [t.title, t.hook, t.tldr, ...t.points.flatMap(p => [p.title, p.text]), ...t.sections.flatMap(s => [s.h, s.summary]), ...t.terms.flatMap(x => [x.term, x.meaning]), ...t.mythfact.flatMap(m => [m.myth, m.fact]), ...(t.objections || []).flatMap(o => [o.claim, o.strongest, o.response]), ...(t.perspectives || []).flatMap(p => [p.title, p.summary, ...p.points]), ...((t.parable && t.parable.decoder) || []).flatMap(r => [r.symbol, r.original])].join(' ') }));
 function renderSearch() {
   $('#v-search').innerHTML = `<div class="section-head" style="margin-top:0"><div><h2>Search</h2><p>Find any idea in the topics, or any word in the full text of both books.</p></div></div>
     <form class="searchbox" id="sForm" role="search"><svg class="ic"><use href="#ic-eye"/></svg><input id="q" type="search" placeholder="Try Gehenna, kolasis, Origen, Lazarus…" autocomplete="off" aria-label="Search"><button class="btn primary" type="submit">Search</button></form>
