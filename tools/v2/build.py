@@ -43,17 +43,24 @@ for bid, b in books_raw.items():
     notes = {k: v.replace('Eitan Bar', 'the author') for k, v in b['notes'].items()}
     books[bid] = dict(title=b['title'], subtitle=b['subtitle'], short=SHORT[bid], pdf=b['pdf'], pages=b['pages'], chapters=chs, notes=notes)
 
-STAGE_ICON = {'start': 'compass', 'words': 'speech', 'history': 'hourglass', 'theology': 'puzzle', 'verses': 'scroll', 'character': 'scale', 'alternative': 'dove'}
+STAGE_ICON = {'parables': 'seed', 'objections': 'shield', 'start': 'compass', 'words': 'speech', 'history': 'hourglass', 'theology': 'puzzle', 'verses': 'scroll', 'character': 'scale', 'alternative': 'dove'}
 stages = []
-for sid, title, desc, tops in STAGES:
+for st in STAGES:
+    sid, title, desc, tops = st[:4]
+    extras = st[4] if len(st) > 4 else []
     ts = []
     for tid, ttitle, srcs in tops:
-        t = json.load(open(os.path.join(D, 'topics', tid + '.json')))
+        path = os.path.join(D, 'topics', tid + '.json')
+        if not os.path.exists(path):
+            print('  missing topic', tid); continue
+        t = json.load(open(path))
         t['title'] = ttitle
         t['srcs'] = [list(s) for s in srcs]
         t['icon'] = t['points'][0]['icon'] if t['points'] else 'book'
         ts.append(t)
-    stages.append(dict(id=sid, title=title, desc=desc, icon=STAGE_ICON[sid], topics=ts))
+    if not ts:
+        continue
+    stages.append(dict(id=sid, title=title, desc=desc, icon=STAGE_ICON[sid], topics=ts, extras=extras))
 
 data = dict(stages=stages, books=books, iconAlias={k: 1 for k in ALIAS})
 js = json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')

@@ -184,4 +184,21 @@ window.ILLUSTRATIONS = {
       <g data-hot="goats" class="hot">${[0,1,2,3,4].map(i => `<g transform="translate(${100 + (i % 3) * 56} ${150 + Math.floor(i / 3) * 60})"><ellipse rx="20" ry="13" class="i-goat"/><circle cx="-18" cy="-8" r="7" class="i-goat"/><path d="M-20 -14 l-6 -12 M-15 -14 l2 -12" class="i-horn"/><rect x="-12" y="9" width="4" height="14" class="i-goat"/><rect x="8" y="9" width="4" height="14" class="i-goat"/></g>`).join('')}<text x="160" y="280" class="i-lbl" text-anchor="middle">goats · left</text></g>
     </svg>`
   },
+  wheattares: {
+    title: 'Wheat and darnel: hard to tell apart',
+    caption: 'Darnel (Greek zizania) looks almost exactly like wheat while it grows. The difference shows when the ears form, which is why the farmer says to let both grow until the harvest (Matthew 13:29-30).',
+    hotspots: [
+      { id: 'wheat', label: 'Wheat', text: 'The good seed: the "children of the kingdom" (Matthew 13:38). Its full ears appear at harvest.' },
+      { id: 'darnel', label: 'Darnel', text: 'A weed that mimics wheat in the field. Its grain is harmful to eat, so it was separated out at harvest and burned.' },
+      { id: 'harvest', label: 'The harvest', text: 'Jesus calls it "the end of the age" (Matthew 13:39-40). Readers differ on whether this is the close of the old-covenant age or the end of history.' },
+    ],
+    svg: `<svg viewBox="0 0 640 340" role="img" aria-label="Wheat stalks with drooping full ears beside darnel stalks with thin upright ears">
+      <rect width="640" height="340" class="i-sky"/><rect y="290" width="640" height="50" class="i-soil"/>
+      <g data-hot="wheat" class="hot">${[60,120,180,240].map(x => `<g transform="translate(${x} 0)"><path d="M0 290 C0 220 4 150 18 112" class="i-stem"/><g transform="translate(18 112) rotate(28)">${[0,1,2,3,4,5].map(k => `<ellipse cx="${k % 2 ? 5 : -5}" cy="${k * 9}" rx="6" ry="9" class="i-grain"/>`).join('')}</g><path d="M2 240 C-20 230 -30 210 -34 196" class="i-stem"/></g>`).join('')}
+        <text x="150" y="324" class="i-lbl i-on-dark" text-anchor="middle">wheat · heavy ears bow</text></g>
+      <g data-hot="darnel" class="hot">${[400,460,520,580].map(x => `<g transform="translate(${x} 0)"><path d="M0 290 C0 220 0 150 0 96" class="i-stem"/>${[0,1,2,3,4].map(k => `<ellipse cx="${k % 2 ? 4 : -4}" cy="${100 + k * 14}" rx="3" ry="6" class="i-darnel"/>`).join('')}<path d="M0 230 C16 220 26 200 30 186" class="i-stem"/></g>`).join('')}
+        <text x="490" y="324" class="i-lbl i-on-dark" text-anchor="middle">darnel · thin ears stand up</text></g>
+      <g data-hot="harvest" class="hot"><path d="M300 60 q20 -40 40 0" class="i-sickle"/><text x="320" y="88" class="i-sub" text-anchor="middle">harvest</text></g>
+    </svg>`
+  },
 };

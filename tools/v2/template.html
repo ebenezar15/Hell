@@ -300,7 +300,51 @@ p { margin: 0; }
 .i-cliff { fill: var(--surface-2); } .i-cliff2 { fill: color-mix(in srgb, var(--accent) 22%, var(--surface-2)); }
 .i-gulf { fill: var(--cover-a); } .i-person { fill: var(--ink); }
 .i-road { fill: var(--surface-2); } .i-gate { fill: var(--cover-a); } .i-path { fill: var(--accent-soft); } .i-gate-n { fill: var(--accent); }
+.i-stem { fill: none; stroke: color-mix(in srgb, var(--good) 70%, var(--ink)); stroke-width: 3; stroke-linecap: round; } .i-grain { fill: var(--warn); } .i-darnel { fill: color-mix(in srgb, var(--good) 55%, var(--ink)); } .i-sickle { fill: none; stroke: var(--muted); stroke-width: 5; stroke-linecap: round; }
 .i-wool { fill: #f4f1ea; stroke: #b8ad98; } .i-face { fill: #3a3330; } .i-goat { fill: #6b5a4a; } .i-horn { stroke: #6b5a4a; stroke-width: 3; stroke-linecap: round; }
+
+/* parable decoder, objections, sources */
+.decoder { overflow-x: auto; }
+.decoder table { width: 100%; border-collapse: separate; border-spacing: 0; min-width: 520px; }
+.decoder th { text-align: left; font-size: .74rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding: 8px 12px; }
+.decoder td { padding: 12px; border-top: 1px solid var(--line); vertical-align: top; font-size: .93rem; }
+.decoder td:first-child { font-weight: 800; white-space: nowrap; }
+.decoder td.trad { color: var(--muted); text-decoration: line-through; text-decoration-color: color-mix(in srgb, var(--bad) 60%, transparent); }
+.decoder td.orig { background: color-mix(in srgb, var(--good) 9%, transparent); }
+.decoder-meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 12px; margin-bottom: 14px; }
+.decoder-meta div { background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+.decoder-meta b { display: block; font-size: .74rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: 4px; }
+.objs { display: flex; flex-direction: column; gap: 10px; }
+details.obj { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+details.obj[open] { border-color: var(--accent); }
+details.obj summary { list-style: none; cursor: pointer; padding: 16px 18px; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 12px; align-items: center; }
+details.obj summary::-webkit-details-marker { display: none; }
+details.obj summary .q { font-weight: 800; font-size: 1.02rem; }
+details.obj summary .chev { transition: transform .2s; color: var(--muted); }
+details.obj[open] summary .chev { transform: rotate(90deg); }
+.kind { font-size: .66rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; padding: .3em .6em; border-radius: 6px; white-space: nowrap; }
+.kind.scriptural { background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--accent); }
+.kind.cultural { background: color-mix(in srgb, var(--water) 20%, transparent); color: var(--water); }
+.kind.historical { background: color-mix(in srgb, var(--warn) 22%, transparent); color: color-mix(in srgb, var(--warn) 70%, var(--ink)); }
+.kind.philosophical { background: color-mix(in srgb, var(--muted) 20%, transparent); color: var(--ink); }
+.kind.pastoral { background: color-mix(in srgb, var(--good) 20%, transparent); color: var(--good); }
+.obj .ob-body { padding: 0 18px 18px; display: grid; gap: 12px; }
+.obj .steel, .obj .resp { border-radius: 12px; padding: 12px 14px; }
+.obj .steel { background: color-mix(in srgb, var(--bad) 8%, var(--bg)); border-left: 4px solid var(--bad); }
+.obj .resp { background: color-mix(in srgb, var(--good) 9%, var(--bg)); border-left: 4px solid var(--good); }
+.obj .steel b, .obj .resp b { display: block; font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 4px; }
+.obj .steel b { color: var(--bad); } .obj .resp b { color: var(--good); }
+.obj .foot2 { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.srcref { font-size: .74rem; font-weight: 800; color: var(--accent); text-decoration: none; border: 1px solid var(--line); border-radius: 6px; padding: .1em .45em; }
+.sources { counter-reset: s; display: flex; flex-direction: column; gap: 8px; }
+.sources a.src { display: grid; grid-template-columns: 2em minmax(0, 1fr); gap: 10px; text-decoration: none; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+.sources a.src:hover { border-color: var(--accent); }
+.sources a.src .n { width: 2em; height: 2em; border-radius: 50%; background: var(--accent-soft); color: var(--accent); display: grid; place-items: center; font-weight: 800; font-size: .8rem; }
+.sources a.src b { display: block; overflow-wrap: anywhere; }
+.sources a.src span { color: var(--muted); font-size: .86rem; }
+.sources a.src small { color: var(--accent); font-size: .74rem; overflow-wrap: anywhere; }
+.stone.extra { border-style: dashed; }
+.research-note { display: flex; gap: 10px; align-items: flex-start; padding: 12px 14px; border-radius: 12px; background: var(--accent-soft); font-size: .9rem; margin-top: 12px; }
 
 /* step-by-step sections */
 .steps { position: relative; display: flex; flex-direction: column; gap: 4px; }
@@ -468,7 +512,7 @@ __ICONS__
 </main>
 
 <footer class="foot"><div class="wrap">
-  <span>Based on <i>Hell: A Jewish Perspective on a Christian Doctrine</i> (2024) and <i>Hellfire Deconstructed</i> (2nd ed., 2026). Summaries and diagrams condense the books; the full text of every chapter is included in each topic.</span>
+  <span>Based on <i>Hell: A Jewish Perspective on a Christian Doctrine</i> (2024) and <i>Hellfire Deconstructed</i> (2nd ed., 2026). Summaries and diagrams condense the books; the full text of every chapter is included in each topic. The Parables and Objections stages draw on outside sources, listed in each topic.</span>
   <span id="pdfLinks"></span>
 </div></footer>
 
@@ -590,7 +634,7 @@ function go(v) {
 }
 
 // ---------- home ----------
-const BADGES = D.stages.map(s => ({ id: s.id, name: { start: 'First Steps', words: 'Word Detective', history: 'Historian', theology: 'Theologian', verses: 'Bible Explorer', character: 'Advocate', alternative: 'Peacemaker' }[s.id] || s.title, how: `Complete every topic in "${s.title}"`, icon: s.icon }));
+const BADGES = D.stages.map(s => ({ id: s.id, name: { parables: 'Parable Decoder', objections: 'Defender', start: 'First Steps', words: 'Word Detective', history: 'Historian', theology: 'Theologian', verses: 'Bible Explorer', character: 'Advocate', alternative: 'Peacemaker' }[s.id] || s.title, how: `Complete every topic in "${s.title}"`, icon: s.icon }));
 const stageDone = s => s.topics.every(t => S.done[t.id]);
 function renderHome() {
   const done = TOPICS.filter(t => S.done[t.id]).length, pct = done / TOPICS.length;
@@ -615,13 +659,16 @@ function renderHome() {
   <div class="section-head"><div><h2>Your journey</h2><p>Every topic condenses one or more chapters into diagrams, key ideas and a short quiz. Completed topics turn green.</p></div></div>
   <div class="journey">${D.stages.map((s, i) => `<div class="stage ${stageDone(s) ? 'complete' : ''}"><div class="badge">${ic(s.icon)}<small>${s.topics.filter(t => S.done[t.id]).length}/${s.topics.length}</small></div>
     <div><div class="eyebrow">Stage ${i + 1}</div><h3>${esc(s.title)}</h3><p>${esc(s.desc)}</p>
-    <div class="stones">${s.topics.map(t => `<button class="stone ${S.done[t.id] ? 'done' : ''}" data-open="${t.id}"><span class="si">${ic(S.done[t.id] ? 'check' : t.icon)}</span>${esc(t.title)}</button>`).join('')}</div></div></div>`).join('')}</div>
+    <div class="stones">${s.topics.map(t => `<button class="stone ${S.done[t.id] ? 'done' : ''}" data-open="${t.id}"><span class="si">${ic(S.done[t.id] ? 'check' : t.icon)}</span>${esc(t.title)}</button>`).join('')}${(s.extras || []).filter(r => BYID[r]).map(r => `<button class="stone extra" data-open="${r}" title="Covered in ${esc(BYID[r].stage.title)}"><span class="si">${ic('chain')}</span>${esc(BYID[r].title)}</button>`).join('')}</div></div></div>`).join('')}</div>
 
   <div class="section-head"><div><h2>Badges</h2><p>Finish every topic in a stage to earn its badge.</p></div></div>
   <div class="badges">${BADGES.map((b, i) => `<div class="medal ${stageDone(D.stages[i]) ? 'on' : ''}"><span class="m">${ic(b.icon)}</span><div><b>${esc(b.name)}</b><span>${esc(b.how)}</span></div></div>`).join('')}</div>
 
   <div class="section-head"><div><h2>Myth or fact?</h2><p>Common beliefs, checked against the text. Tap a card to flip it.</p></div><button class="btn" id="moreMyths">${ic('wave')}Shuffle</button></div>
-  <div class="flips" id="homeMyths"></div>`;
+  <div class="flips" id="homeMyths"></div>
+
+  <div class="section-head"><div><h2>Tough questions</h2><p>The hardest objections to this view, each with a short answer. Open one to read the full reply.</p></div><button class="btn" id="moreObj">${ic('wave')}Shuffle</button></div>
+  <div class="objs" id="homeObj"></div>`;
   embers.attach($('#v-home canvas')); embers.recolor();
   $('#cta').onclick = () => openTopic(next.id);
   $$('#v-home [data-open]').forEach(b => b.onclick = () => openTopic(b.dataset.open));
@@ -629,6 +676,8 @@ function renderHome() {
   bindIllus($('#v-home'));
   const shuffleMyths = () => { const all = TOPICS.flatMap(t => t.mythfact.map(m => ({ ...m, t }))); const pick = all.sort(() => Math.random() - .5).slice(0, 6); $('#homeMyths').innerHTML = flips(pick, true); bindFlips($('#homeMyths')); };
   shuffleMyths(); $('#moreMyths').onclick = shuffleMyths;
+  const shuffleObj = () => { const all = TOPICS.filter(t => t.kind === 'objection').flatMap(t => t.objections.map(o => ({ ...o, t }))); $('#homeObj').innerHTML = all.sort(() => Math.random() - .5).slice(0, 4).map(o => `<details class="obj"><summary><span class="kind ${o.kind}">${o.kind}</span><span class="q">${esc(o.claim)}</span>${ic('arrow', 'ic chev')}</summary><div class="ob-body"><div class="resp"><b>The answer</b>${esc(o.response)}</div><div class="foot2"><button class="chip" data-open="${o.t.id}">${ic('shield')}${esc(o.t.title)}</button></div></div></details>`).join('') || '<p class="muted">Objection topics are being added.</p>'; $$('#homeObj [data-open]').forEach(b => b.onclick = () => openTopic(b.dataset.open)); };
+  shuffleObj(); $('#moreObj').onclick = shuffleObj;
   $('#mythBtn').onclick = () => $('#homeMyths').scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
@@ -742,16 +791,20 @@ function renderTopic(t) {
     <div class="eyebrow">Stage ${t.si + 1} · ${esc(t.stage.title)} · Topic ${t.idx + 1} of ${TOPICS.length}</div>
     <h1>${esc(t.title)}</h1>
     <p class="hook">${esc(t.hook)}</p>
-    <div class="meta-row"><span class="chip">${ic('clock')}${Math.max(3, Math.round((t.points.length + t.sections.length) * .6))} min to explore</span><span class="chip">${ic('book')}Condenses ${fmt(words)} words</span>
+    <div class="meta-row"><span class="chip">${ic('clock')}${Math.max(3, Math.round((t.points.length + t.sections.length) * .6))} min to explore</span>${t.srcs.length ? `<span class="chip">${ic('book')}Condenses ${fmt(words)} words</span>` : `<span class="chip">${ic('globe')}Draws on ${t.sources.length} sources</span>`}
       <button class="chip" id="listen">${ic('ear')}<span>Listen</span></button><button class="chip" id="shareT">${ic('chain')}Copy link</button></div>
   </div>
   <div>${ILL[t.id] ? '' : `<div class="emblem"><span class="num">${String(t.idx + 1).padStart(2, '0')}</span>${ic(t.icon)}</div>`}${ILL[t.id] ? `<div class="emblem" style="aspect-ratio:auto;padding:16px;background:var(--surface);border:1px solid var(--line);color:inherit;display:block">${illus(t.id)}</div>` : ''}</div></div>
 
   <nav class="subnav" aria-label="Jump to">
-    ${[['s-answer', 'Answer'], ['s-ideas', 'Key ideas'], ['s-diagrams', 'Diagrams'], ['s-steps', 'Step by step'], t.mythfact.length && ['s-myths', 'Myths'], t.verses.length && ['s-verses', 'Verses'], ['s-quiz', 'Quiz'], ['s-full', 'Full text']].filter(Boolean).map(([h, l]) => `<button class="chip" data-jump="${h}">${l}</button>`).join('')}
+    ${[['s-answer', 'Answer'], t.parable && ['s-decoder', 'Decoder'], ['s-ideas', 'Key ideas'], ['s-diagrams', 'Diagrams'], ['s-steps', 'Step by step'], t.mythfact.length && ['s-myths', 'Myths'], t.verses.length && ['s-verses', 'Verses'], (t.objections || []).length && ['s-objections', 'Objections'], ['s-quiz', 'Quiz'], t.srcs.length && ['s-full', 'Full text'], (t.sources || []).length && ['s-sources', 'Sources']].filter(Boolean).map(([h, l]) => `<button class="chip" data-jump="${h}">${l}</button>`).join('')}
   </nav>
 
   <div id="s-answer" class="tldr" style="margin-top:14px"><div><div class="eyebrow" style="margin-bottom:8px">The answer in 30 seconds</div><p>${esc(t.tldr)}</p><div class="bigidea">${ic('bulb')}${esc(t.big_idea)}</div></div></div>
+
+  ${t.parable ? `<div class="section-head" id="s-decoder"><div><h2>Decode the parable</h2><p>${esc(t.parable.ref)}. What each image is often taken to mean, and what it meant to the first hearers.</p></div></div>
+  <div class="panel"><div class="decoder-meta"><div><b>Who was listening</b>${esc(t.parable.audience)}</div><div><b>The setting</b>${esc(t.parable.setting)}</div></div>
+  <div class="decoder"><table><thead><tr><th>Image</th><th>Often read as</th><th>Original meaning</th></tr></thead><tbody>${t.parable.decoder.map(r => `<tr><td>${esc(r.symbol)}</td><td class="trad">${esc(r.traditional)}</td><td class="orig">${esc(r.original)}</td></tr>`).join('')}</tbody></table></div></div>` : ''}
 
   <div class="section-head" id="s-ideas"><div><h2>Key ideas</h2></div></div>
   <div class="points">${t.points.map((p, i) => `<div class="point"><span class="n">${i + 1}</span><span class="pi">${ic(p.icon)}</span><h4>${esc(p.title)}</h4><p>${esc(p.text)}</p><div class="vs">${vchips(p.verses)}</div></div>`).join('')}</div>
@@ -759,8 +812,8 @@ function renderTopic(t) {
   <div class="section-head" id="s-diagrams"><div><h2>See it</h2><p>Diagrams that map the argument.</p></div></div>
   <div class="visuals">${t.visuals.map(viz).join('')}</div>
 
-  <div class="section-head" id="s-steps"><div><h2>Step by step</h2><p>The whole chapter, part by part, in plain words.</p></div></div>
-  <div class="steps">${t.sections.map(s => `<div class="step"><span class="sn">${ic(s.icon)}</span><div class="sc"><h4>${esc(s.h)}</h4><p>${esc(s.summary)}</p><div class="vs">${vchips(s.verses)}<button class="chip" data-src="${esc(s.src)}" data-h="${esc(s.h)}" style="font-size:.74rem;padding:.2em .6em">${ic('book')}Read this part in full</button></div></div></div>`).join('')}</div>
+  <div class="section-head" id="s-steps"><div><h2>Step by step</h2><p>${t.srcs.length ? 'The whole chapter, part by part, in plain words.' : 'The full argument, part by part.'}</p></div></div>
+  <div class="steps">${t.sections.map(s => `<div class="step"><span class="sn">${ic(s.icon)}</span><div class="sc"><h4>${esc(s.h)}</h4><p>${esc(s.summary)}</p><div class="vs">${vchips(s.verses)}${s.src !== 'web' ? `<button class="chip" data-src="${esc(s.src)}" data-h="${esc(s.h)}" style="font-size:.74rem;padding:.2em .6em">${ic('book')}Read this part in full</button>` : ''}</div></div></div>`).join('')}</div>
 
   ${t.mythfact.length ? `<div class="section-head" id="s-myths"><div><h2>Myth or fact?</h2><p>Tap each card.</p></div></div><div class="flips">${flips(t.mythfact)}</div>` : ''}
 
@@ -770,14 +823,22 @@ function renderTopic(t) {
 
   ${t.verses.length ? `<div class="section-head" id="s-verses"><div><h2>Key verses</h2><p>Tap a reference to see every place it is discussed.</p></div></div><div class="vlist">${t.verses.map(v => `<div class="vrow"><b data-verse="${esc(v.ref)}" role="button" tabindex="0">${esc(v.ref)}</b><span>${esc(v.role)}</span></div>`).join('')}</div>` : ''}
 
+  ${(t.objections || []).length ? `<div class="section-head" id="s-objections"><div><h2>${t.kind === 'objection' ? 'The objections, answered' : 'But what about…?'}</h2><p>Each objection in its strongest form, then the answer. Tap to open.</p></div></div>
+  <div class="objs">${t.objections.map((o, k) => `<details class="obj"${k === 0 ? ' open' : ''}><summary><span class="kind ${o.kind}">${o.kind}</span><span class="q">${esc(o.claim)}</span>${ic('arrow', 'ic chev')}</summary><div class="ob-body"><div class="steel"><b>The objection at its strongest</b>${esc(o.strongest)}</div><div class="resp"><b>The answer</b>${esc(o.response)}</div><div class="foot2">${vchips(o.verses)}${(o.sources || []).map(u => { const i = t.sources.findIndex(x => x.url === u); return i < 0 ? '' : `<a class="srcref" href="#src-${i + 1}" data-srcjump="${i + 1}">[${i + 1}]</a>`; }).join('')}</div></div></details>`).join('')}</div>` : ''}
+
   <div class="section-head" id="s-quiz"><div><h2>Check yourself</h2><p>Three quick questions. Each right answer earns 10 points.</p></div></div>
   <div class="quiz">${t.quiz.map((q, qi) => qcard(q, qi, quizState[qi])).join('')}</div>
 
   <div class="section-head"><div><h2>Think about it</h2></div></div>
   <div class="panel reflect"><p style="font-weight:700;font-size:1.08rem">${esc(t.reflect)}</p><textarea id="reflectBox" placeholder="Write your thoughts. They stay on this device.">${esc(S.reflect[t.id] || '')}</textarea></div>
 
-  <div class="section-head" id="s-full"><div><h2>The full text</h2><p>Every word of the original chapter${t.srcs.length > 1 ? 's' : ''}, for when you want the details.</p></div></div>
-  ${t.srcs.map(([b, ci]) => `<details class="full" data-b="${b}" data-ci="${ci}"><summary>${ic('book')}<span>${esc(srcLabel([b, ci]))}</span><small>pp. ${BOOKS[b].chapters[ci].pages.join('–')}</small></summary><div class="fulltext"></div></details>`).join('')}
+  ${t.srcs.length ? `<div class="section-head" id="s-full"><div><h2>The full text</h2><p>Every word of the original chapter${t.srcs.length > 1 ? 's' : ''}, for when you want the details.</p></div></div>
+  ${t.srcs.map(([b, ci]) => `<details class="full" data-b="${b}" data-ci="${ci}"><summary>${ic('book')}<span>${esc(srcLabel([b, ci]))}</span><small>pp. ${BOOKS[b].chapters[ci].pages.join('–')}</small></summary><div class="fulltext"></div></details>`).join('')}` : ''}
+
+  ${(t.sources || []).length ? `<div class="section-head" id="s-sources"><div><h2>Sources and further reading</h2><p>Where these explanations come from, including writers who disagree.</p></div></div>
+  <div class="sources">${t.sources.map((x, i) => `<a class="src" id="src-${i + 1}" href="${esc(x.url)}" target="_blank" rel="noopener"><span class="n">${i + 1}</span><span><b>${esc(x.title)}</b><span>${esc(x.note)}</span><br><small>${esc(x.url.replace(/^https?:\/\//, '').slice(0, 70))}</small></span></a>`).join('')}</div>` : ''}
+
+  ${(t.related || []).filter(r => BYID[r]).length ? `<div class="section-head"><div><h2>Connected topics</h2></div></div><div class="stones">${t.related.filter(r => BYID[r]).map(r => `<button class="stone" data-open="${r}"><span class="si">${ic(BYID[r].icon)}</span>${esc(BYID[r].title)}</button>`).join('')}</div>` : ''}
 
   <div style="display:flex;justify-content:center;margin-top:30px"><button class="btn ${S.done[t.id] ? 'done-btn on' : 'primary'}" id="doneBtn">${ic('check')}<span>${S.done[t.id] ? 'Completed' : 'Mark topic complete'}</span></button></div>
   <nav class="topic-nav">${prev ? `<button data-open="${prev.id}"><small>← Previous</small><b>${esc(prev.title)}</b></button>` : '<span></span>'}${next ? `<button data-open="${next.id}"><small>Next →</small><b>${esc(next.title)}</b></button>` : `<button data-go="quiz"><small>Journey complete</small><b>Take the final challenge →</b></button>`}</nav>`;
@@ -788,6 +849,7 @@ function renderTopic(t) {
   $$('[data-jump]', root).forEach(b => b.onclick = () => { const el = document.getElementById(b.dataset.jump); scrollTo({ top: el.getBoundingClientRect().top + scrollY - 140, behavior: 'smooth' }); });
   $$('details.full', root).forEach(d => d.addEventListener('toggle', () => { if (d.open && !d.dataset.r) { d.dataset.r = 1; $('.fulltext', d).innerHTML = fullText(d.dataset.b, +d.dataset.ci); } }));
   $$('[data-src]', root).forEach(b => b.onclick = () => openFull(b.dataset.src, b.dataset.h));
+  $$('[data-srcjump]', root).forEach(a => a.onclick = e => { e.preventDefault(); const el = document.getElementById('src-' + a.dataset.srcjump); scrollTo({ top: el.getBoundingClientRect().top + scrollY - 140, behavior: 'smooth' }); el.classList.add('flash'); });
   bindQuiz(root, t);
   $('#reflectBox').oninput = e => { S.reflect[t.id] = e.target.value; save(); };
   $('#doneBtn').onclick = e => { const was = S.done[t.id]; if (was) delete S.done[t.id]; else { S.done[t.id] = 1; addXP(20, e.currentTarget); } save(); const b = $('#doneBtn'); b.className = 'btn ' + (S.done[t.id] ? 'done-btn on' : 'primary'); $('span', b).textContent = S.done[t.id] ? 'Completed' : 'Mark topic complete'; if (!was) { const st = t.stage; toast(stageDone(st) ? `Badge earned: ${BADGES[t.si].name}!` : 'Topic complete. On to the next one!'); } };
@@ -988,7 +1050,7 @@ function showRef(k) {
 }
 
 // ---------- search ----------
-const TINDEX = TOPICS.map(t => ({ t, text: [t.title, t.hook, t.tldr, ...t.points.flatMap(p => [p.title, p.text]), ...t.sections.flatMap(s => [s.h, s.summary]), ...t.terms.flatMap(x => [x.term, x.meaning]), ...t.mythfact.flatMap(m => [m.myth, m.fact])].join(' ') }));
+const TINDEX = TOPICS.map(t => ({ t, text: [t.title, t.hook, t.tldr, ...t.points.flatMap(p => [p.title, p.text]), ...t.sections.flatMap(s => [s.h, s.summary]), ...t.terms.flatMap(x => [x.term, x.meaning]), ...t.mythfact.flatMap(m => [m.myth, m.fact]), ...(t.objections || []).flatMap(o => [o.claim, o.strongest, o.response]), ...((t.parable && t.parable.decoder) || []).flatMap(r => [r.symbol, r.original])].join(' ') }));
 function renderSearch() {
   $('#v-search').innerHTML = `<div class="section-head" style="margin-top:0"><div><h2>Search</h2><p>Find any idea in the topics, or any word in the full text of both books.</p></div></div>
     <form class="searchbox" id="sForm" role="search"><svg class="ic"><use href="#ic-eye"/></svg><input id="q" type="search" placeholder="Try Gehenna, kolasis, Origen, Lazarus…" autocomplete="off" aria-label="Search"><button class="btn primary" type="submit">Search</button></form>
