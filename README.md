@@ -14,6 +14,8 @@ A visual, interactive guide to what the Bible says about hell. It is built from 
 
 ## What's inside
 
+- **English and Tamil (தமிழ்)** in one app: switch with the EN / தமிழ் toggle at the top right. All topics, diagrams, illustrations, quizzes, objections and panels are translated; the full original text of the two books stays in English. Translations live in `tools/v2/ta/` (spec: `SPEC-translate.md`, glossary: `glossary_ta.json`).
+
 - A 9-stage journey of 75 topics: The Words, How We Got Here, The Theology Behind Hellfire, The Verses One by One, The Parables Decoded, God's Character on Trial, An Alternative View, and Objections Answered.
 - The Parables Decoded: 12 parables often cited for hell (wheat and weeds, dragnet, wedding feast, ten virgins, talents and minas, faithful and wicked servant, unforgiving servant, wicked tenants, barren fig tree, vine, rich fool, Luke 15), each with a "decode the parable" table of what each image meant to its first hearers. The wheat and weeds includes the reading of Matthew 13:40-42 from Redeeming God (Jeremy Myers).
 - How to Read a Parable, and two more passages: Isaiah 33:10-16 ("everlasting burnings") and James 3:6 (the tongue "set on fire by Gehenna").

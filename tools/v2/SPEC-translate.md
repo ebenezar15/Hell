@@ -4,7 +4,7 @@ Translate app content JSON from English into Tamil for Tamil-speaking Christian 
 
 Output: the SAME JSON structure, same keys, same list lengths and order. Translate only human-readable text.
 Keep these EXACTLY as in the English file (do not translate): id, url, icon, kind, type, src, related, pos,
-answer, tilt, every `verses` array, every `ref` field, `sources[].title`, `sources[].url`, perspective `title`,
+answer, tilt, every `verses` array of reference strings (the top-level `verses` list of {ref, role}: keep `ref`, translate `role`), every `ref` field, `sources[].title`, `sources[].url`, perspective `title`,
 perspective `url`, `who`.
 Everything else that is prose (titles, hook, tldr, points, summaries, notes, labels, decoder rows, objections,
 quiz questions/options/why, terms, quotes, captions, timeline dates like "70 AD" -> "கி.பி. 70") is translated.
