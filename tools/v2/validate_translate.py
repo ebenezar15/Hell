@@ -9,7 +9,7 @@ def walk(a, b, path, parent=''):
         if set(a) != set(b): errs.append(f'{path}: keys differ: missing {set(a)-set(b)} extra {set(b)-set(a)}')
         for k in a:
             if k not in b: continue
-            keep = k in KEEP or (parent in ('sources',) and k == 'title') or (parent == 'perspective' and k == 'title')
+            keep = (k in KEEP and not (k == 'verses' and isinstance(a[k], list) and a[k] and isinstance(a[k][0], dict))) or (parent in ('sources',) and k == 'title') or (parent == 'perspective' and k == 'title')
             if keep:
                 if a[k] != b[k]: errs.append(f'{path}.{k}: must be unchanged')
             else:
