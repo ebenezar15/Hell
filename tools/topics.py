@@ -3,13 +3,17 @@ STAGES = [
  ("start", "Start Here", "Why this question matters and how to read the Bible on its own terms", [
    ("why", "Why Rethink Hell?", [("jew",0),("jew",1),("hfd",0),("hfd",1),("hfd",2)]),
    ("genres", "Reading the Bible by Genre", [("hfd",6)]),
+   ("threeviews", "The Three Views of Hell", []),
  ]),
  ("words", "The Words", "Four different words became one English \"Hell\"", [
    ("philology", "Sheol, Hades, Gehenna, Tartarus", [("jew",3),("hfd",3)]),
+   ("hellcount", "How Often Does \"Hell\" Appear?", []),
  ]),
  ("history", "How We Got Here", "From ancient myths to modern pulpits", [
    ("pagan", "Hell Before the Bible: Pagan Views", [("jew",4)]),
+   ("origins", "Where Our Picture of Hell Came From", []),
    ("jewish", "Repentance and Salvation in Jewish Thought", [("jew",2),("jew",5)]),
+   ("secondtemple", "Hell in Second Temple Judaism", []),
    ("early", "Early Christianity's Views", [("jew",6),("hfd",4)]),
    ("late", "Augustine and Late Christianity", [("jew",7)]),
    ("augustine", "The Augustinian Fallacy", [("hfd",28)]),

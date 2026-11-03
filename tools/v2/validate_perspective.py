@@ -1,3 +1,4 @@
+import re
 import json, sys, os, re
 p, adir = sys.argv[1], sys.argv[2]
 here = os.path.dirname(os.path.abspath(__file__))
@@ -28,5 +29,5 @@ for tid, lst in d.items():
             W(q, 40, w + '.quote')
             for part in re.split(r'…|\.\.\.', q):
                 if len(norm(part)) > 10 and norm(part) not in norm(arts[x['url']]): errs.append(f'{w}: quote not verbatim in article: {part[:50]}')
-if 'Eitan' in json.dumps(d): errs.append('author name appears')
+if re.search(r'Eitan|Englehart|Jamie', json.dumps(d, ensure_ascii=False)): errs.append('author name appears')
 print('\n'.join(errs) if errs else 'OK')

@@ -34,5 +34,5 @@ if k == 'parable':
 known = set('philology gehenna eternal sheepgoats darkness lazarus unquenchable narrow awayfromme fearwhom destruction lakeoffire jude tartarus early late augustine infinite justice hellfirejustice wrath everyknee freewill evangelizing nofear testcharacter lovefear'.split())
 for r in d.get('related', []):
     if r not in known: errs.append(f'related id unknown: {r}')
-if 'Eitan' in json.dumps(d): errs.append('author name appears')
+if re.search(r'Eitan|Englehart|Jamie', json.dumps(d, ensure_ascii=False)): errs.append('author name appears')
 print('\n'.join(errs) if errs else 'OK')

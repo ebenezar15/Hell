@@ -33,5 +33,5 @@ else:
             tv = ta['visuals'][i]
             for n in tv.get('notes', []):
                 if n.get('phrase', '') not in tv.get('text', ''): errs.append(f'visuals[{i}]: phrase not in text: {n.get("phrase","")[:40]}')
-if 'Eitan' in json.dumps(ta, ensure_ascii=False): errs.append('author name appears')
+if re.search(r'Eitan|Englehart|Jamie', json.dumps(ta, ensure_ascii=False)): errs.append('author name appears')
 print('\n'.join(errs[:40]) if errs else 'OK')

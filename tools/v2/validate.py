@@ -54,5 +54,5 @@ if os.path.exists(src):
         for part in re.split(r'…|\.\.\.', x.get('text', '')):
             if len(norm(part)) > 12 and norm(part) not in S: errs.append(f'quotes[{i}] not found verbatim in source: {part[:60]}')
 txt = json.dumps(d)
-if 'Eitan' in txt: errs.append('author name appears somewhere')
+if re.search(r'Eitan|Englehart|Jamie', txt): errs.append('author name appears somewhere')
 print('\n'.join(errs) if errs else 'OK')
