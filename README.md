@@ -39,7 +39,7 @@ A visual, interactive guide to what the Bible says about hell. It is built from 
 
 ## Design and motion
 
-- MindConnect-inspired interface: deep ink-teal palette (gold = Scripture, teal = restoration, coral = torment, violet = words), Gloock headings, IBM Plex Mono labels, a left rail of numbered rooms (top scroller on phones) and a slide-out detail drawer.
+- MindConnect-inspired interface: deep ink-teal palette (gold = Scripture, teal = restoration, coral = torment, violet = words), Avenir Next for headings, labels and verse references, a left rail of numbered rooms (top scroller on phones) and a slide-out detail drawer.
 - Motion graphics: a living neural-network hero, an animated journey path, a "How four words became one" flow animation (Sheol, Hades, Gehenna, Tartarus through the Latin Vulgate into the KJV's "hell"), and a by-the-numbers ticker.
 - Living diagrams: every flowchart, timeline, tree, comparison, scale, cycle, spectrum, verse card and mind map animates in when it comes into view, with a replay button; cycles and room maps have flowing connectors.
 - Room pages for each of the 9 stages with an animated map of their topics.

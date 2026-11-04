@@ -9,15 +9,15 @@
 :root:not([data-scheme])[data-theme="light"] { --bg: #eef3f1; --surface: #ffffff; --surface-2: #e3ebe8; --ink: #10211e; --muted: #4e6560; --line: #cfdcd8;
   --accent: #a3680c; --accent-ink: #ffffff; --accent-soft: rgba(163,104,12,.10); --hl: rgba(163,104,12,.20); --cover-a: #10211e; --cover-b: #0f7a6c;
   --water: #0f7a6c; --good: #0f7a6c; --warn: #a3680c; --bad: #c2452c; --violet: #5a48c4; color-scheme: light; }
-:root { --violet: #8f7fe0; --f-display: "Gloock", Georgia, "Times New Roman", serif; --f-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+:root { --violet: #8f7fe0; --f-display: "Avenir Next", "Avenir", "Figtree", "Nunito Sans", system-ui, sans-serif; --f-mono: "Avenir Next", "Avenir", "Figtree", "Nunito Sans", system-ui, sans-serif;
   --font: "Avenir Next", "Avenir", "Figtree", "Nunito Sans", system-ui, -apple-system, sans-serif; }
 html[lang="ta"] { --f-display: "Noto Sans Tamil", "Avenir Next", sans-serif; }
-h1, h2, h3, .sl h2, .sl h3 { font-family: var(--f-display); font-weight: 400; letter-spacing: -.005em; }
+h1, h2, h3, .sl h2, .sl h3 { font-family: var(--f-display); font-weight: 800; letter-spacing: -.015em; }
 html[lang="ta"] h1, html[lang="ta"] h2, html[lang="ta"] h3 { font-weight: 800; }
-.eyebrow, .kind, .vref, .timeline .d, .tl-ev .y, .sl-kicker, .sl-num, .bsec, .tag3 { font-family: var(--f-mono); letter-spacing: .08em; }
+.eyebrow, .kind, .vref, .timeline .d, .tl-ev .y, .sl-kicker, .sl-num, .bsec, .tag3 { font-family: var(--f-mono); font-weight: 700; letter-spacing: .08em; }
 html[lang="ta"] .eyebrow, html[lang="ta"] .kind, html[lang="ta"] .sl-kicker { font-family: var(--font); letter-spacing: .02em; }
-.vchip { font-family: var(--f-mono); font-size: .74rem; border-style: solid; border-color: color-mix(in srgb, var(--accent) 45%, transparent); color: var(--accent); background: var(--accent-soft); }
-.versecard blockquote, .quote p { font-family: var(--f-display); font-weight: 400; }
+.vchip { font-family: var(--f-mono); font-weight: 700; font-size: .76rem; border-style: solid; border-color: color-mix(in srgb, var(--accent) 45%, transparent); color: var(--accent); background: var(--accent-soft); }
+.versecard blockquote, .quote p { font-family: var(--f-display); font-weight: 600; }
 html[lang="ta"] .versecard blockquote, html[lang="ta"] .quote p { font-family: var(--font); font-weight: 600; }
 .compare .col.l h4 { background: color-mix(in srgb, var(--bad) 18%, transparent); color: var(--bad); }
 .compare .col.r h4 { background: color-mix(in srgb, var(--good) 18%, transparent); color: var(--good); }
@@ -53,7 +53,7 @@ body { background:
   .top { position: fixed; top: 0; bottom: 0; left: 0; width: var(--sidebar); border-bottom: 0; border-right: 1px solid var(--line); overflow-y: auto; }
   .top .wrap { flex-direction: column; align-items: stretch; min-height: 100%; padding: max(22px, env(safe-area-inset-top, 0px)) 16px 22px max(16px, env(safe-area-inset-left, 0px)); gap: 10px; max-width: none; flex-wrap: nowrap; }
   .brand { white-space: normal; align-items: center; }
-  .brand > span:last-child > span { font-family: var(--f-display); font-weight: 400; font-size: 1.4rem; }
+  .brand > span:last-child > span { font-family: var(--f-display); font-weight: 800; font-size: 1.3rem; }
   html[lang="ta"] .brand > span:last-child > span { font-family: var(--font); font-weight: 800; font-size: 1.1rem; }
   .nav { order: 0; flex-direction: column; width: 100%; margin: 4px 0 0; overflow: visible; gap: 2px; }
   .nav button { justify-content: flex-start; padding: .6em .8em; font-size: .95rem; flex-direction: row; gap: .7em; color: var(--muted); }
