@@ -92,7 +92,7 @@ data = dict(stages=stages, books=books, iconAlias={k: 1 for k in ALIAS}, ta=ta)
 js = json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
 assert 'Eitan' not in js, 'author name leaked'
 illus = open(os.path.join(D, 'illustrations.js')).read()
-page = open(os.path.join(D, 'template.html')).read().replace('__ICONS__', icons).replace('__ILLUS__', illus.replace('</script', '<\\/script')).replace('__DATA__', js)
+page = open(os.path.join(D, 'template.html')).read().replace('/*__UI3_CSS__*/', open(os.path.join(D, 'ui3.css')).read()).replace('/*__UI3_JS__*/', open(os.path.join(D, 'ui3.js')).read()).replace('__ICONS__', icons).replace('__ILLUS__', illus.replace('</script', '<\\/script')).replace('__DATA__', js)
 out = os.environ.get('OUT', D)
 open(os.path.join(out, 'artifact.html'), 'w').write(page)
 head, rest = page.split('<style>', 1)

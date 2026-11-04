@@ -3,7 +3,7 @@
 <meta name="description" content="A visual, interactive guide to what the Bible says about hell: words, history, theology and every key verse.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300..900;1,6..12,300..900&family=Noto+Sans+Tamil:wght@400..800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300..900;1,6..12,300..900&family=Noto+Sans+Tamil:wght@400..800&family=Gloock&family=Figtree:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: app shell with a sticky top bar and six views. Topic pages read top to bottom as a
    visual lesson: question → 30-second answer → key ideas → diagrams → step-by-step → myths → quiz → full text. */
@@ -579,6 +579,7 @@ html[lang="ta"] .hero h1 { font-size: clamp(1.8rem, 5vw, 2.9rem); }
 .langsw { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; background: var(--surface); flex: none; }
 .langsw button { border: 0; background: none; border-radius: 999px; padding: .35em .75em; font-weight: 800; font-size: .82rem; cursor: pointer; color: var(--muted); font-family: "Noto Sans Tamil", var(--font); }
 .langsw button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+/*__UI3_CSS__*/
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
 </style>
 
@@ -591,17 +592,23 @@ __ICONS__
       <span><span data-i18n="Beyond the Fire">Beyond the Fire</span><small data-i18n="A visual guide to what the Bible says about hell">A visual guide to what the Bible says about hell</small></span>
     </button>
     <nav class="nav" aria-label="Sections">
+      <div class="grp" data-i18n="Explore">Explore</div>
       <button data-view="home" aria-current="page"><svg class="ic"><use href="#ic-compass"/></svg><span data-i18n="Journey">Journey</span></button>
       <button data-view="map"><svg class="ic"><use href="#ic-globe"/></svg><span data-i18n="Map">Map</span></button>
       <button data-view="study"><svg class="ic"><use href="#ic-bulb"/></svg><span data-i18n="Study">Study</span></button>
       <button data-view="quiz"><svg class="ic"><use href="#ic-puzzle"/></svg><span data-i18n="Challenge">Challenge</span></button>
+      <div class="grp" data-i18n="Library">Library</div>
       <button data-view="glossary"><svg class="ic"><use href="#ic-book"/></svg><span data-i18n="Glossary">Glossary</span></button>
       <button data-view="verses"><svg class="ic"><use href="#ic-scroll"/></svg><span data-i18n="Verses">Verses</span></button>
       <button data-view="search"><svg class="ic"><use href="#ic-eye"/></svg><span data-i18n="Search">Search</span></button>
+      <div class="grp" data-i18n="Rooms">Rooms</div>
+      <div id="railStages"></div>
     </nav>
+    <div class="rail-foot">
     <span class="xp" id="xp" data-i18n-title="Points earned by exploring topics and answering questions" title="Points earned by exploring topics and answering questions"><svg class="ic"><use href="#ic-star"/></svg><span>0</span></span>
     <button class="btn icon" id="schemeBtn" data-i18n-aria="Colour scheme and text size" aria-label="Colour scheme and text size" aria-expanded="false"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="8" cy="10" r="1.3" fill="currentColor"/><circle cx="12" cy="7.5" r="1.3" fill="currentColor"/><circle cx="16" cy="10" r="1.3" fill="currentColor"/><path d="M12 21a3 3 0 0 1 0-6h1"/></svg></button>
     <div class="langsw" role="group" aria-label="Language"><button data-lang="en" aria-pressed="true" lang="en">EN</button><button data-lang="ta" aria-pressed="false" lang="ta">தமிழ்</button></div>
+    </div>
   </div>
   <div class="progress-line" id="progressLine"></div>
 </header>
@@ -614,6 +621,7 @@ __ICONS__
   <section class="view wrap" id="v-verses" hidden></section>
   <section class="view wrap" id="v-search" hidden></section>
   <section class="view wrap" id="v-map" hidden></section>
+  <section class="view wrap" id="v-stage" hidden></section>
   <section class="view wrap" id="v-study" hidden></section>
 </main>
 
@@ -629,6 +637,8 @@ __ICONS__
   <div class="ctrl"><label for="lhR" data-i18n="Line spacing">Line spacing</label><input id="lhR" type="range" min="1.4" max="2.2" step="0.05"><span id="lhV"></span></div>
 </div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Details"><button class="x" id="drawerX" type="button" aria-label="Close">×</button><div id="drawerBody" style="display:flex;flex-direction:column;gap:12px"></div></aside>
 
 <script id="appdata" type="application/json">__DATA__</script>
 <script>__ILLUS__</script>
@@ -705,27 +715,9 @@ $('#schemeBtn').onclick = e => { e.stopPropagation(); const p = $('#schemes'); p
 document.addEventListener('click', e => { if (!$('#schemes').hidden && !e.target.closest('#schemes')) { $('#schemes').hidden = true; $('#schemeBtn').setAttribute('aria-expanded', 'false'); } });
 
 // ---------- embers ----------
-const embers = (() => {
-  let cv, ctx, W = 0, H = 0, parts = [], col = '#ff7f45', raf = null;
-  const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const spawn = y => ({ x: Math.random() * W, y: y ?? H + 10, r: Math.random() * 2.4 + .6, v: Math.random() * .6 + .25, w: Math.random() * 6.28, a: Math.random() * .6 + .3 });
-  function size() { if (!cv) return; const r = cv.getBoundingClientRect(), d = Math.min(devicePixelRatio || 1, 2); W = r.width; H = r.height; cv.width = W * d; cv.height = H * d; ctx.setTransform(d, 0, 0, d, 0, 0); }
-  function draw() {
-    if (!cv || !cv.isConnected) { raf = null; return; }
-    ctx.clearRect(0, 0, W, H);
-    const g = ctx.createRadialGradient(W * .8, H * 1.1, 0, W * .8, H * 1.1, H * 1.2); g.addColorStop(0, col + '66'); g.addColorStop(1, col + '00'); ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
-    for (const p of parts) { if (!still) { p.y -= p.v; p.w += .02; p.x += Math.sin(p.w) * .35; } if (p.y < -10) Object.assign(p, spawn()); ctx.globalAlpha = p.a * Math.max(0, Math.min(1, p.y / H)); ctx.fillStyle = col; ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 6.28); ctx.fill(); }
-    ctx.globalAlpha = 1;
-    raf = !still && !document.hidden ? requestAnimationFrame(draw) : null;
-  }
-  return {
-    attach(c) { cv = c; ctx = c.getContext('2d'); size(); parts = Array.from({ length: Math.max(20, Math.round(W / 9)) }, () => spawn(Math.random() * H)); if (!raf) raf = requestAnimationFrame(draw); },
-    recolor() { const c = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim(); col = /^#[0-9a-f]{6}$/i.test(c) ? c : '#ff7f45'; if (still && cv) draw(); },
-    resize() { size(); if (!raf && cv) raf = requestAnimationFrame(draw); },
-  };
-})();
+const embers = { attach() {}, recolor() { if (typeof homeNet !== 'undefined' && homeNet) homeNet.recolor(); }, resize() { if (typeof homeNet !== 'undefined' && homeNet) homeNet.resize(); } };
 addEventListener('resize', () => embers.resize());
-const setHH = () => document.documentElement.style.setProperty('--hh', ($('.top').offsetHeight - 1) + 'px');
+const setHH = () => document.documentElement.style.setProperty('--hh', (innerWidth >= 1000 ? 0 : $('.top').offsetHeight - 1) + 'px');
 addEventListener('resize', setHH); new ResizeObserver(setHH).observe(document.querySelector('.top'));
 document.addEventListener('visibilitychange', () => embers.resize());
 
@@ -738,6 +730,7 @@ function show(v, hash) {
   $('#progressLine').style.width = '0';
   try { history.replaceState(null, '', hash ? '#' + hash : location.pathname + location.search); } catch (e) {}
   scrollTo({ top: 0 });
+  if (typeof markRail === 'function') markRail();
 }
 $$('.nav button').forEach(b => b.onclick = () => go(b.dataset.view));
 $('#brand').onclick = () => go('home');
@@ -755,7 +748,7 @@ function go(v) {
 const BADGE_NAMES = { parables: 'Parable Decoder', objections: 'Defender', start: 'First Steps', words: 'Word Detective', history: 'Historian', theology: 'Theologian', verses: 'Bible Explorer', character: 'Advocate', alternative: 'Peacemaker' };
 const badge = s => ({ name: BADGE_NAMES[s.id] ? T(BADGE_NAMES[s.id]) : s.title, how: T('Complete every topic in "{0}"', s.title), icon: s.icon });
 const stageDone = s => s.topics.every(t => S.done[t.id]);
-function renderHome() {
+function renderHomeOld() {
   const done = TOPICS.filter(t => S.done[t.id]).length, pct = done / TOPICS.length;
   const next = TOPICS.find(t => !S.done[t.id]) || TOPICS[0];
   const C = 2 * Math.PI * 70;
@@ -840,21 +833,21 @@ function bindIllus(root) {
 
 // diagrams
 function viz(v, i) {
-  const head = `<h3>${ic({ flow: 'arrow', compare: 'scale', timeline: 'hourglass', tree: 'tree', cycle: 'wave', scale: 'scale', spectrum: 'path', stats: 'star', decision: 'question', words: 'speech', verse: 'scroll' }[v.type] || 'puzzle')}${esc(v.title)}</h3>${v.caption ? `<p class="cap">${esc(v.caption)}</p>` : ''}`;
+  const head = `<button class="replay" data-replay aria-label="${esc(T('Replay animation'))}" title="${esc(T('Replay animation'))}">${ic('wave')}</button><h3>${ic({ flow: 'arrow', compare: 'scale', timeline: 'hourglass', tree: 'tree', cycle: 'wave', scale: 'scale', spectrum: 'path', stats: 'star', decision: 'question', words: 'speech', verse: 'scroll' }[v.type] || 'puzzle')}${esc(v.title)}</h3>${v.caption ? `<p class="cap">${esc(v.caption)}</p>` : ''}`;
   let body = '';
-  if (v.type === 'flow') body = `<div class="flow">${v.steps.map((s, k) => `<div class="st"><div class="box"><span class="k">${k + 1}</span><b>${esc(s.label)}</b><span>${esc(s.note)}</span></div></div>`).join('')}</div>`;
-  if (v.type === 'compare') body = `<div class="compare"><div class="col l"><h4>${esc(v.left.label)}</h4><ul>${v.left.items.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div><div class="vs">${T('VS')}</div><div class="col r"><h4>${esc(v.right.label)}</h4><ul>${v.right.items.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div></div>`;
-  if (v.type === 'timeline') body = `<div class="timeline">${v.events.map(e => `<div class="ev"><span class="d">${esc(e.date)}</span><b>${esc(e.label)}</b><span>${esc(e.note)}</span></div>`).join('')}</div>`;
-  if (v.type === 'tree') body = `<div class="tree"><div class="root">${esc(v.root)}</div><div class="kids">${v.children.map(c => `<div class="kid"><b>${esc(c.label)}</b>${c.note ? `<span>${esc(c.note)}</span>` : ''}${c.children && c.children.length ? `<ul>${c.children.map(g => `<li><b>${esc(g.label)}</b>${g.note ? ': ' + esc(g.note) : ''}</li>`).join('')}</ul>` : ''}</div>`).join('')}</div></div>`;
+  if (v.type === 'flow') body = `<div class="flow">${v.steps.map((s, k) => `<div class="st" style="--i:${k}"><div class="box"><span class="k">${k + 1}</span><b>${esc(s.label)}</b><span>${esc(s.note)}</span></div></div>`).join('')}</div>`;
+  if (v.type === 'compare') body = `<div class="compare"><div class="col l"><h4>${esc(v.left.label)}</h4><ul>${v.left.items.map((x, k) => `<li style="--i:${k}">${esc(x)}</li>`).join('')}</ul></div><div class="vs">${T('VS')}</div><div class="col r"><h4>${esc(v.right.label)}</h4><ul>${v.right.items.map((x, k) => `<li style="--i:${k}">${esc(x)}</li>`).join('')}</ul></div></div>`;
+  if (v.type === 'timeline') body = `<div class="timeline">${v.events.map((e, k) => `<div class="ev" style="--i:${k}"><span class="d">${esc(e.date)}</span><b>${esc(e.label)}</b><span>${esc(e.note)}</span></div>`).join('')}</div>`;
+  if (v.type === 'tree') body = `<div class="tree"><div class="root">${esc(v.root)}</div><div class="kids">${v.children.map((c, k) => `<div class="kid" style="--i:${k}"><b>${esc(c.label)}</b>${c.note ? `<span>${esc(c.note)}</span>` : ''}${c.children && c.children.length ? `<ul>${c.children.map(g => `<li><b>${esc(g.label)}</b>${g.note ? ': ' + esc(g.note) : ''}</li>`).join('')}</ul>` : ''}</div>`).join('')}</div></div>`;
   if (v.type === 'cycle') body = cycleSVG(v);
   if (v.type === 'scale') body = scaleSVG(v);
-  if (v.type === 'spectrum') body = `<div class="spectrum"><div class="bar">${v.marks.map((m, k) => `<button class="mk" style="left:${m.pos}%" data-k="${k}" aria-label="${esc(m.label)}"><i style="${m.pos > 75 ? 'left:auto;right:-6px;transform:none' : m.pos < 25 ? 'left:-6px;transform:none' : ''}${k % 2 ? ';bottom:auto;top:26px' : ''}">${esc(m.label)}</i></button>`).join('')}</div><div class="ends"><span>${esc(v.left)}</span><span>${esc(v.right)}</span></div><div class="detail">${T('Tap a marker to read about it.')}</div></div>`;
-  if (v.type === 'stats') body = `<div class="stats">${v.items.map(s => `<div class="stat"><b data-count="${esc(s.value)}">${esc(s.value)}</b><span>${esc(s.label)}</span></div>`).join('')}</div>`;
+  if (v.type === 'spectrum') body = `<div class="spectrum"><div class="bar">${v.marks.map((m, k) => `<button class="mk" style="left:${m.pos}%;--i:${k}" data-k="${k}" aria-label="${esc(m.label)}"><i style="${m.pos > 75 ? 'left:auto;right:-6px;transform:none' : m.pos < 25 ? 'left:-6px;transform:none' : ''}${k % 2 ? ';bottom:auto;top:26px' : ''}">${esc(m.label)}</i></button>`).join('')}</div><div class="ends"><span>${esc(v.left)}</span><span>${esc(v.right)}</span></div><div class="detail">${T('Tap a marker to read about it.')}</div></div>`;
+  if (v.type === 'stats') body = `<div class="stats">${v.items.map((s, k) => `<div class="stat" style="--i:${k}"><b data-count="${esc(s.value)}">${esc(s.value)}</b><span>${esc(s.label)}</span></div>`).join('')}</div>`;
   if (v.type === 'decision') body = `<div class="decision"><div class="q">${esc(v.question)}</div><div class="opt yes"><span class="y">${T('If yes')}</span><b>${esc(v.yes.label)}</b><span>${esc(v.yes.note)}</span></div><div class="opt no"><span class="y">${T('If no')}</span><b>${esc(v.no.label)}</b><span>${esc(v.no.note)}</span></div></div>`;
-  if (v.type === 'words') body = `<div class="words">${v.items.map(w => `<div class="wordc"><span class="lang">${esc(w.lang)}</span><span class="w">${esc(w.word)}</span>${w.literal ? `<span class="lit">“${esc(w.literal)}”</span>` : ''}<span>${esc(w.meaning)}</span></div>`).join('')}</div>`;
+  if (v.type === 'words') body = `<div class="words">${v.items.map((w, k) => `<div class="wordc" style="--i:${k}"><span class="lang">${esc(w.lang)}</span><span class="w">${esc(w.word)}</span>${w.literal ? `<span class="lit">“${esc(w.literal)}”</span>` : ''}<span>${esc(w.meaning)}</span></div>`).join('')}</div>`;
   if (v.type === 'verse') {
     let t = esc(v.text);
-    (v.notes || []).forEach((n, k) => { const p = esc(n.phrase); const at = t.indexOf(p); if (at >= 0 && p) t = t.slice(0, at) + `<mark data-k="${k}" tabindex="0" role="button">${p}</mark>` + t.slice(at + p.length); });
+    (v.notes || []).forEach((n, k) => { const p = esc(n.phrase); const at = t.indexOf(p); if (at >= 0 && p) t = t.slice(0, at) + `<mark data-k="${k}" style="--i:${k}" tabindex="0" role="button">${p}</mark>` + t.slice(at + p.length); });
     body = `<div class="versecard"><blockquote>${t}</blockquote><div class="vref">${esc(vr(v.ref))}</div><div class="note">${T('Tap a highlighted phrase to see what it means.')}</div></div>`;
   }
   return `<div class="panel viz" data-vi="${i}">${head}<div class="body">${body}</div></div>`;
@@ -870,15 +863,15 @@ function bindViz(root, list) {
 function wrapText(t, max) { const w = t.split(' '), out = []; let cur = ''; for (const x of w) { if ((cur + ' ' + x).trim().length > max) { out.push(cur.trim()); cur = x; } else cur += ' ' + x; } if (cur.trim()) out.push(cur.trim()); return out; }
 function cycleSVG(v) {
   const n = v.steps.length, R = 118, cx = 170, cy = 170;
-  let svg = `<svg viewBox="0 0 340 340" role="img" aria-label="${esc(v.title)}"><defs><marker id="arr${n}" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--accent)"/></marker></defs><circle cx="${cx}" cy="${cy}" r="${R}" style="fill:none;stroke:var(--line);stroke-width:2;stroke-dasharray:4 6"/>`;
+  let svg = `<svg viewBox="0 0 340 340" role="img" aria-label="${esc(v.title)}"><defs><marker id="arr${n}" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--accent)"/></marker></defs><circle class="cycle-ring" cx="${cx}" cy="${cy}" r="${R}" style="fill:none;stroke:var(--line);stroke-width:2;stroke-dasharray:4 6"/>${REDUCE ? '' : `<circle r="6" style="fill:var(--accent)"><animateMotion dur="9s" repeatCount="indefinite" path="M${cx} ${cy - R} A${R} ${R} 0 1 1 ${cx - .1} ${cy - R}"/></circle>`}`;
   v.steps.forEach((s, k) => {
     const a = -Math.PI / 2 + k * 2 * Math.PI / n, a2 = a + 2 * Math.PI / n;
     const x = cx + R * Math.cos(a), y = cy + R * Math.sin(a);
     const mx = cx + R * Math.cos((a + a2) / 2), my = cy + R * Math.sin((a + a2) / 2);
     const tx = cx + (R - 6) * Math.cos((a + a2) / 2 + .05), ty = cy + (R - 6) * Math.sin((a + a2) / 2 + .05);
-    svg += `<path d="M${mx.toFixed(1)} ${my.toFixed(1)} L${tx.toFixed(1)} ${ty.toFixed(1)}" style="stroke:var(--accent);stroke-width:2" marker-end="url(#arr${n})"/>`;
+    svg += `<path d="M${mx.toFixed(1)} ${my.toFixed(1)} L${tx.toFixed(1)} ${ty.toFixed(1)}" pathLength="1" style="stroke:var(--accent);stroke-width:2;--i:${k}" marker-end="url(#arr${n})"/>`;
     const lines = wrapText(s.label, 12).slice(0, 3);
-    svg += `<g data-ck="${k}" style="cursor:pointer"><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="40" style="fill:var(--surface);stroke:var(--accent);stroke-width:3"/>${lines.map((l, j) => `<text x="${x.toFixed(1)}" y="${(y + (j - (lines.length - 1) / 2) * 13 + 4).toFixed(1)}" text-anchor="middle" style="fill:var(--ink);font:800 11px var(--font)">${esc(l)}</text>`).join('')}</g>`;
+    svg += `<g data-ck="${k}" style="cursor:pointer;--i:${k}"><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="40" style="fill:var(--surface);stroke:var(--accent);stroke-width:3"/>${lines.map((l, j) => `<text x="${x.toFixed(1)}" y="${(y + (j - (lines.length - 1) / 2) * 13 + 4).toFixed(1)}" text-anchor="middle" style="fill:var(--ink);font:800 11px var(--font)">${esc(l)}</text>`).join('')}</g>`;
   });
   svg += `<text x="${cx}" y="${cy + 5}" text-anchor="middle" style="fill:var(--muted);font:800 12px var(--font);letter-spacing:.1em">${T('CYCLE')}</text></svg>`;
   return `<div class="cycle-wrap">${svg}<ol>${v.steps.map(s => `<li><b>${esc(s.label)}</b><span>${esc(s.note)}</span></li>`).join('')}</ol></div>`;
@@ -889,10 +882,10 @@ function scaleSVG(v) {
   const pan = (x, y, label) => `<path d="M${x - 20} 70 L${x - 60} ${130 + y} M${x + 20} 70 L${x + 60} ${130 + y}" style="stroke:var(--muted);stroke-width:2"/>`;
   return `<div class="scale-wrap"><svg viewBox="0 0 520 230" role="img" aria-label="${esc(v.title)}">
     <path d="M260 50 L260 200 M200 210 L320 210" style="stroke:var(--ink);stroke-width:6;stroke-linecap:round"/>
-    <g transform="rotate(${ang} 260 56)"><rect x="110" y="52" width="300" height="8" rx="4" style="fill:var(--ink)"/></g>
+    <g class="beam" style="--ang:${ang}deg"><rect x="110" y="52" width="300" height="8" rx="4" style="fill:var(--ink)"/></g>
     <circle cx="260" cy="50" r="10" style="fill:var(--accent)"/>
-    <g transform="translate(0 ${-dy})"><path d="M${lx} ${56} L${lx - 50} 130 M${lx} 56 L${lx + 50} 130" style="stroke:var(--muted);stroke-width:2"/><path d="M${lx - 70} 130 Q${lx} 170 ${lx + 70} 130 Z" style="fill:color-mix(in srgb, var(--bad) 30%, var(--surface-2));stroke:var(--bad);stroke-width:2"/><text x="${lx}" y="190" text-anchor="middle" style="fill:var(--ink);font:800 14px var(--font)">${esc(v.left.label)}</text></g>
-    <g transform="translate(0 ${dy})"><path d="M${rx} 56 L${rx - 50} 130 M${rx} 56 L${rx + 50} 130" style="stroke:var(--muted);stroke-width:2"/><path d="M${rx - 70} 130 Q${rx} 170 ${rx + 70} 130 Z" style="fill:color-mix(in srgb, var(--good) 30%, var(--surface-2));stroke:var(--good);stroke-width:2"/><text x="${rx}" y="190" text-anchor="middle" style="fill:var(--ink);font:800 14px var(--font)">${esc(v.right.label)}</text></g>
+    <g class="pan-l" style="--dyl:${-dy}px"><path d="M${lx} ${56} L${lx - 50} 130 M${lx} 56 L${lx + 50} 130" style="stroke:var(--muted);stroke-width:2"/><path d="M${lx - 70} 130 Q${lx} 170 ${lx + 70} 130 Z" style="fill:color-mix(in srgb, var(--bad) 30%, var(--surface-2));stroke:var(--bad);stroke-width:2"/><text x="${lx}" y="190" text-anchor="middle" style="fill:var(--ink);font:800 14px var(--font)">${esc(v.left.label)}</text></g>
+    <g class="pan-r" style="--dyr:${dy}px"><path d="M${rx} 56 L${rx - 50} 130 M${rx} 56 L${rx + 50} 130" style="stroke:var(--muted);stroke-width:2"/><path d="M${rx - 70} 130 Q${rx} 170 ${rx + 70} 130 Z" style="fill:color-mix(in srgb, var(--good) 30%, var(--surface-2));stroke:var(--good);stroke-width:2"/><text x="${rx}" y="190" text-anchor="middle" style="fill:var(--ink);font:800 14px var(--font)">${esc(v.right.label)}</text></g>
   </svg><div class="scale-lists"><div><h4>${esc(v.left.label)}</h4><ul>${v.left.items.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div><div><h4>${esc(v.right.label)}</h4><ul>${v.right.items.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div></div></div>`;
 }
 
@@ -910,7 +903,7 @@ function openTopic(id, opts = {}) {
   setTimeout(() => { renderTopic(t); if (opts.after) opts.after(); }, opts.fast ? 0 : 320);
 }
 function renderTopic(t) {
-  const root = $('#v-topic');
+  const root = $('#v-topic'); root.style.setProperty('--stage', stageColor(t.si));
   const quizState = S.quiz[t.id] || {};
   const words = t.srcs.reduce((a, [b, ci]) => a + BOOKS[b].chapters[ci].words, 0);
   const prev = TOPICS[t.idx - 1], next = TOPICS[t.idx + 1];
@@ -921,7 +914,7 @@ function renderTopic(t) {
     <h1>${esc(t.title)}</h1>
     <p class="hook">${esc(t.hook)}</p>
     <div class="meta-row"><span class="chip">${ic('clock')}${T('{0} min to explore', Math.max(3, Math.round((t.points.length + t.sections.length) * .6)))}</span>${t.srcs.length ? `<span class="chip">${ic('book')}${T('Condenses {0} words', fmt(words))}</span>` : `<span class="chip">${ic('globe')}${T('Draws on {0} sources', t.sources.length)}</span>`}
-      <button class="chip" id="listen">${ic('ear')}<span>${T('Listen')}</span></button><button class="chip" id="shareT">${ic('chain')}${T('Copy link')}</button></div>
+      <button class="chip story-btn" id="storyBtn">${ic('sun')}${T('Play as a story')}</button><button class="chip" id="listen">${ic('ear')}<span>${T('Listen')}</span></button><button class="chip" id="shareT">${ic('chain')}${T('Copy link')}</button></div>
   </div>
   <div>${ILL[t.id] ? '' : `<div class="emblem"><span class="num">${String(t.idx + 1).padStart(2, '0')}</span>${ic(t.icon)}</div>`}${ILL[t.id] ? `<div class="emblem" style="aspect-ratio:auto;padding:16px;background:var(--surface);border:1px solid var(--line);color:inherit;display:block">${illus(t.id)}</div>` : ''}</div></div>
 
@@ -991,6 +984,8 @@ function renderTopic(t) {
   $('#doneBtn').onclick = e => { const was = S.done[t.id]; if (was) delete S.done[t.id]; else { S.done[t.id] = 1; addXP(20, e.currentTarget); } save(); const b = $('#doneBtn'); b.className = 'btn ' + (S.done[t.id] ? 'done-btn on' : 'primary'); $('span', b).textContent = S.done[t.id] ? T('Completed') : T('Mark topic complete'); if (!was) { const st = t.stage; toast(stageDone(st) ? T('Badge earned: {0}!', badge(st).name) : T('Topic complete. On to the next one!')); } };
   $('#shareT').onclick = () => copy(`${t.title}: ${t.hook}\n${location.href.split('#')[0]}#t-${t.id}`, T('Link copied'));
   $('#listen').onclick = () => speakTopic(t);
+  $('#storyBtn').onclick = () => playStory(t);
+  observePlay(root); markRail();
   if (t.quotes.length) {
     let qi = 0; const showQ = () => { const q = t.quotes[qi]; $('#quoteBox').innerHTML = `<p>${esc(q.text)}</p><div class="who">${esc(q.who)}</div>`; $$('.quote-nav .dots i', root).forEach((d, k) => d.classList.toggle('on', k === qi)); };
     showQ(); if ($('#qNext')) { $('#qPrev').style.transform = 'scaleX(-1)'; $('#qNext').onclick = () => { qi = (qi + 1) % t.quotes.length; showQ(); }; $('#qPrev').onclick = () => { qi = (qi + t.quotes.length - 1) % t.quotes.length; showQ(); }; }
@@ -1054,7 +1049,7 @@ document.addEventListener('click', e => {
 });
 addEventListener('scroll', () => { if (pop && !pop.matches(':hover')) closePop(); }, { passive: true });
 function normRef(r) { return r.replace(/\s+/g, ' ').replace(/^Psalm /, 'Psalms ').replace(/[,;].*$/, '').trim(); }
-function versePop(anchor, ref) {
+function versePopOld(anchor, ref) {
   const key = normRef(ref), base = key.replace(/[-–]\d+$/, '');
   const roles = TOPICS.flatMap(t => t.verses.filter(v => normRef(v.ref).replace(/[-–]\d+$/, '') === base).map(v => ({ t, role: v.role })));
   const mentions = TOPICS.filter(t => !roles.some(r => r.t === t) && (t.points.some(p => (p.verses || []).some(x => normRef(x).replace(/[-–]\d+$/, '') === base)) || t.sections.some(s => (s.verses || []).some(x => normRef(x).replace(/[-–]\d+$/, '') === base))));
@@ -1085,7 +1080,7 @@ addEventListener('scroll', () => { if (view !== 'topic') return; const h = docum
 
 // ---------- challenge ----------
 let ch = null;
-function renderQuiz() {
+function renderQuizRounds() {
   const stagesOpt = D.stages.map(s => `<button class="chip" data-st="${s.id}" aria-pressed="false">${esc(s.title)}</button>`).join('');
   $('#v-quiz').innerHTML = `<div class="section-head" style="margin-top:0"><div><h2>${T('The Challenge')}</h2><p>${T('Ten questions drawn from across the journey. Pick a stage or play them all.')}</p></div><div class="score"><span class="muted">${T('Best')}</span><b>${S.best}/10</b></div></div>
     <div class="filters"><button class="chip" data-st="all" aria-pressed="true">${T('All stages')}</button>${stagesOpt}</div>
@@ -1191,16 +1186,16 @@ function mindMap(t) {
   const tl = wrapText(t.title, 16).slice(0, 4);
   let svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(T('At a glance'))}: ${esc(t.title)}">`;
   const pos = t.points.map((p, i) => { const a = -Math.PI / 2 + i * 2 * Math.PI / n; return [cx + 270 * Math.cos(a), cy + 165 * Math.sin(a)]; });
-  pos.forEach(([x, y]) => { svg += `<path d="M${cx} ${cy} Q${(cx + x) / 2} ${cy} ${x.toFixed(1)} ${y.toFixed(1)}" style="fill:none;stroke:var(--accent);stroke-width:2.5;stroke-opacity:.45"/>`; });
+  pos.forEach(([x, y], i) => { svg += `<path class="mm-edge" pathLength="1" d="M${cx} ${cy} Q${(cx + x) / 2} ${cy} ${x.toFixed(1)} ${y.toFixed(1)}" style="fill:none;stroke:var(--stage, var(--accent));stroke-width:2.5;stroke-opacity:.55;--i:${i}"/>`; });
   t.points.forEach((p, i) => {
     const [x, y] = pos[i], lines = wrapText(p.title, 20).slice(0, 3), h = 22 + lines.length * 17, w = 200;
-    svg += `<g class="mm-node" data-mm="${i}" tabindex="0" role="button" aria-label="${esc(p.title)}"><rect x="${(x - w / 2).toFixed(1)}" y="${(y - h / 2).toFixed(1)}" width="${w}" height="${h}" rx="14"/>
+    svg += `<g class="mm-node" data-mm="${i}" style="--i:${i}" tabindex="0" role="button" aria-label="${esc(p.title)}"><rect x="${(x - w / 2).toFixed(1)}" y="${(y - h / 2).toFixed(1)}" width="${w}" height="${h}" rx="14"/>
       <circle cx="${(x - w / 2 + 4).toFixed(1)}" cy="${(y - h / 2 + 4).toFixed(1)}" r="13" style="fill:var(--accent)"/><text x="${(x - w / 2 + 4).toFixed(1)}" y="${(y - h / 2 + 8.5).toFixed(1)}" text-anchor="middle" style="fill:var(--accent-ink);font:800 12px var(--font)">${i + 1}</text>
       ${lines.map((l, j) => `<text x="${x.toFixed(1)}" y="${(y - (lines.length - 1) * 8.5 + j * 17 + 5).toFixed(1)}" text-anchor="middle" style="fill:var(--ink);font:700 13.5px var(--font)">${esc(l)}</text>`).join('')}</g>`;
   });
   const ch = 26 + tl.length * 21;
-  svg += `<rect x="${cx - 115}" y="${cy - ch / 2}" width="230" height="${ch}" rx="${Math.min(40, ch / 2)}" style="fill:var(--accent)"/>${tl.map((l, j) => `<text x="${cx}" y="${cy - (tl.length - 1) * 10.5 + j * 21 + 6}" text-anchor="middle" style="fill:var(--accent-ink);font:800 16px var(--font)">${esc(l)}</text>`).join('')}</svg>`;
-  const tree = `<div class="mm-tree"><div class="root">${esc(t.title)}</div>${t.points.map((p, i) => `<button data-mm="${i}"><span class="k">${i + 1}</span><span>${esc(p.title)}</span></button>`).join('')}</div>`;
+  svg += `<rect class="mm-center" x="${cx - 115}" y="${cy - ch / 2}" width="230" height="${ch}" rx="${Math.min(40, ch / 2)}" style="fill:var(--stage, var(--accent))"/>${tl.map((l, j) => `<text x="${cx}" y="${cy - (tl.length - 1) * 10.5 + j * 21 + 6}" text-anchor="middle" style="fill:var(--accent-ink);font:800 16px var(--font)">${esc(l)}</text>`).join('')}</svg>`;
+  const tree = `<div class="mm-tree"><div class="root">${esc(t.title)}</div>${t.points.map((p, i) => `<button data-mm="${i}" style="--i:${i}"><span class="k">${i + 1}</span><span>${esc(p.title)}</span></button>`).join('')}</div>`;
   return `<div class="mm-wrap">${svg}${tree}</div>`;
 }
 
@@ -1407,6 +1402,8 @@ function jumpToBlock(h, term) {
 function showNotes(h, term) { const c = BOOKS[h.b].chapters[h.ci]; placePop($('#sOut'), `<div class="h">${esc(BOOKS[h.b].short)} · ${esc(c.title)}</div>${esc(h.t)}`); }
 
 // ---------- boot ----------
+/*__UI3_JS__*/
+
 // ---------- language ----------
 const CONTENT_KEYS = ['hook', 'tldr', 'big_idea', 'points', 'sections', 'visuals', 'mythfact', 'terms', 'quotes', 'verses', 'quiz', 'reflect', 'parable', 'objections', 'sources'];
 TOPICS.forEach(t => { t._en = { title: t.title }; CONTENT_KEYS.forEach(k => { if (k in t) t._en[k] = t[k]; }); t._en.perspectives = t.perspectives; });
@@ -1438,7 +1435,7 @@ function setLang(l) {
   $('#footText').innerHTML = T('Based on {0} (2024) and {1} (2nd ed., 2026). Summaries and diagrams condense the books; the full text of every chapter is included in each topic. The Parables and Objections stages draw on outside sources, listed in each topic.', '<i>Hell: A Jewish Perspective on a Christian Doctrine</i>', '<i>Hellfire Deconstructed</i>');
   $('#pdfLinks').innerHTML = Object.values(BOOKS).map(b => `<a href="${REPO + encodeURI(b.pdf)}" target="_blank" rel="noopener">${esc(b.short)} (PDF)</a>`).join(' · ');
   document.title = T('Beyond the Fire');
-  drawSwatches();
+  drawSwatches(); renderRail();
 }
 function rerender() {
   if (view === 'topic') { const id = (location.hash || '').replace('#t-', ''); if (BYID[id]) { const y = scrollY; openTopic(id, { fast: true, after: () => scrollTo({ top: y }) }); } }
@@ -1452,7 +1449,8 @@ setLang(S.lang || 'en');
 applyLook();
 function route() {
   const h = (location.hash || '').slice(1);
-  if (h.startsWith('t-') && BYID[h.slice(2)]) { if (!(view === 'topic' && $('#v-topic h1') && lastTopic === h.slice(2))) openTopic(h.slice(2), { fast: true }); }
+  if (h.startsWith('stage-')) { if (view !== 'stage') openStage(h.slice(6)); }
+  else if (h.startsWith('t-') && BYID[h.slice(2)]) { if (!(view === 'topic' && $('#v-topic h1') && lastTopic === h.slice(2))) openTopic(h.slice(2), { fast: true }); }
   else if (['quiz', 'glossary', 'verses', 'search', 'map', 'study'].includes(h)) { if (view !== h) go(h); }
   else if (view !== 'home' || !$('#v-home .hero')) { show('home'); renderHome(); }
 }
